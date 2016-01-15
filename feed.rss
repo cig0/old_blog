@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>error 404</title><link>http://i90rr.github.io</link>
 <description>Not really - Welcome to my corner on the interwebs</description><language>en</language>
-<lastBuildDate>Fri, 15 Jan 2016 05:53:06 -0300</lastBuildDate>
-<pubDate>Fri, 15 Jan 2016 05:53:06 -0300</pubDate>
+<lastBuildDate>Fri, 15 Jan 2016 05:53:27 -0300</lastBuildDate>
+<pubDate>Fri, 15 Jan 2016 05:53:27 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 <h4>It's alive (finally!)</h4>
@@ -19,7 +19,7 @@
 
 <p>... and pretty much everything else that catches my attention or I consider interesting enough to publicly archive.</p>
 
-<h4>About me</h4>
+<p>About me</p>
 
 <p>n3rd. SysAdmin. Unix, F/LOSS, Emacs, tmux, fish, Arch and Fedora lover. Surf 4 life, pura vida!
 To be completed...</p>
