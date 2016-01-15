@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>error 404</title><link>http://i90rr.github.io</link>
 <description>Not really - Welcome to my corner on the interwebs</description><language>en</language>
-<lastBuildDate>Fri, 15 Jan 2016 05:43:54 -0300</lastBuildDate>
-<pubDate>Fri, 15 Jan 2016 05:43:54 -0300</pubDate>
+<lastBuildDate>Fri, 15 Jan 2016 05:44:29 -0300</lastBuildDate>
+<pubDate>Fri, 15 Jan 2016 05:44:29 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 <h4>It's alive (finally!)</h4>
@@ -26,6 +26,7 @@ To be completed...</p>
 <p>Tags: <a href='tag_about.html'>about</a>, <a href='tag_manifesto.html'>manifesto</a>, <a href='tag_first.html'>first</a></p>
 
 
+
 <!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io/h4its-alive-finallyh4.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/h4its-alive-finallyh4.html"
@@ -36,35 +37,4 @@ To be completed...</p>
 <guid>http://i90rr.github.io/./h4its-alive-finallyh4.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Fri, 15 Jan 2016 05:37:00 -0300</pubDate></item>
-<item><title>
-Title on this line
-</title><description><![CDATA[
-
-<p>It works!</p>
-
-<p>The rest of the text file is a <strong>Markdown</strong> blog post. The process will continue
-as soon as you exit your editor.</p>
-
-<p>Tags: <a href='tag_keep-this-tag-format.html'>keep-this-tag-format</a>, <a href='tag_tags-are-optional.html'>tags-are-optional</a>, <a href='tag_beware-with-underscores-in-markdown.html'>beware-with-underscores-in-markdown</a>, <a href='tag_example.html'>example</a></p>
-
-
-
-
-
-
-
-
-
-
-
-<!-- text end -->
-<p id='twitter'><a href="http://i90rr.github.io/title-on-this-line.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/title-on-this-line.html"
- data-via="_i90rr"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-]]></description><link>http://i90rr.github.io/title-on-this-line.html</link>
-<guid>http://i90rr.github.io/./title-on-this-line.html</guid>
-<dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Sat, 09 Jan 2016 22:02:00 -0300</pubDate></item>
 </channel></rss>
