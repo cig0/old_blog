@@ -11,8 +11,7 @@ Finland, Japan, surfing, Fedora, infrastructure, Emacs, Go, electronic music, sh
 ... and pretty much everything else that catches my attention or I consider interesting enough to publicly archive.
 
 
-About me
---------
+###About me
 
 n3rd. SysAdmin. Unix, F/LOSS, Emacs, tmux, fish, Arch and Fedora lover. Surf 4 life, pura vida!
 To be completed...
