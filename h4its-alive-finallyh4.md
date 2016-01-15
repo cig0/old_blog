@@ -7,7 +7,7 @@ I have to warmly thank **Ezequiel** who was the one who introduced me to BashBlo
 
 About me: n3rd. SysAdmin. Unix and F/LOSS lover. Surf 4 life, pura vida!
 
-A final note: the answer to life and everything else isn't **42** as Mr. Douglas Adams incorrectly pointed out, it is **aliens**, as everybody knows.
+A final note: the answer to life and everything else isn't 42 as Mr. Douglas Adams incorrectly pointed out, it is **aliens**, as everybody knows.
 
 
 Tags: about, manifesto, first
