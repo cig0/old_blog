@@ -13,6 +13,7 @@ Finland, Japan, surfing, Fedora, infrastructure, Emacs, Go, electronic music, sh
 
 About me
 --------
+
 n3rd. SysAdmin. Unix, F/LOSS, Emacs, tmux, fish, Arch and Fedora lover. Surf 4 life, pura vida!
 To be completed...
 
