@@ -15,7 +15,7 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 * It is hosted at GitHub Pages ([go ahead and try it by yourself](https://pages.github.com "GitHub Pages"))
 * Thanks to being a static blog and being hosted by the kind guys at GitHub it is mostly invulnerable against the dangers of the interwebs
 * It is devilish fast to load since it is made of *markdown* and *HTML*
-* Again, being light on resources as it is it won't suck your computer dry avid for CPU or GPU cycles and RAM
+* Being light on resources as it is it won't suck your computer dry avid for CPU or GPU cycles and RAM
 * I agree that my English sucks; on the bright side I'm actively working on getting better at it. If you see anything wrong please leave a comment :)
 
 **A few rules to follow** (stop complaining, *some rules* are always necessary)                                  
