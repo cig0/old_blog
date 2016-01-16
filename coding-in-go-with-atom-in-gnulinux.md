@@ -38,7 +38,7 @@ My /etc/profile.d/i90rr.sh file looks like this:
 ![](https://github.com/i90rr/i90rr.github.io/blob/master/resources/jumbo_gopher-4bf98fbc72cc188289ba2b458d4ce680_200.png?raw=true)
 <div style="text-align:left">
 
-Now you will need to log out and in again in order for the changes to be applied.
-If you launch Atom once again now all the cogs should be in motion.
+You will need to log out and in again in order for the changes to be applied. If you launch Atom now all the cogs should be in motion.
 
+---
 Tags: go, atom, spacemacs, programming, editor
