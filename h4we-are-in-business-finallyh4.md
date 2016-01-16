@@ -10,7 +10,7 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 
 **About this blog**                                                                 
 
-* This blog's focus is IT, yet don't be surprised to find entries about pretty much everything else that catches my attention
+* This blog's focus is on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention
 * It is a static blog, meaning it doesn't rely on any database or dynamic stuff like - *ughh* - JS and friends
 * It is made using *bashblog*, a static site generator written in Bash.
 * It is hosted at GitHub Pages ([go ahead and try it by yourself](https://pages.github.com "GitHub Pages"))
