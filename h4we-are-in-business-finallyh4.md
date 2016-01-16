@@ -26,6 +26,7 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 * Above all, **have phun!**
 
 ***
-Fun fact: did you know that the answer to life and everything else isn't 42 as Mr. Adams incorrectly pointed out? In case you're wondering what is, it is **aliens** - *what else?*
+Fun fact: did you know that the answer to life and everything else isn't 42 as Mr. Adams incorrectly pointed out?   
+In case you're wondering what is, it is **aliens** - *what else?*
 
 Tags: about, manifesto, aliens
