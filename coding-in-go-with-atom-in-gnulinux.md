@@ -1,4 +1,4 @@
-Go code with Atom on GNU+Linux
+Go code with Atom editor on GNU+Linux
 
 Today I will be sharing a workaround I implemented to make third-party Go packages work with an standard Atom install.
 

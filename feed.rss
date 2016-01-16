@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>V for VERBOSE</title><link>http://i90rr.github.io</link>
 <description>-v is the sexiest flag</description><language>en</language>
-<lastBuildDate>Sat, 16 Jan 2016 03:25:17 -0300</lastBuildDate>
-<pubDate>Sat, 16 Jan 2016 03:25:17 -0300</pubDate>
+<lastBuildDate>Sat, 16 Jan 2016 03:25:45 -0300</lastBuildDate>
+<pubDate>Sat, 16 Jan 2016 03:25:45 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
-Go code with Atom on GNU+Linux
+Go code with Atom editor on GNU+Linux
 </title><description><![CDATA[
 
 <p>Today I will be sharing a workaround I implemented to make third-party Go packages work with an standard Atom install.</p>
