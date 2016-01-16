@@ -10,13 +10,13 @@ Time went on and now Atom is a quite mature and feature-complete text editor. Wh
 
 Atom has a big community that continuously adds new features in the form of plugins. As with other programming languages there are some Go packages that can (and will) make a difference at the moment of diving into the editor to start hammering the keyboard. 
 
-So far I found these third-party packages quite useful:
+So far I found these third-party packages very useful:
 
-* go-config
-* go-plus
-* linter-golinter
+* go-config: detects installed Go runtime(s), tools and configurations making them available for use by other packages
+* go-plus: adds 'gocode', 'gofmt', 'goimports', 'go vet', 'golint', 'go build' and 'go test' functionality for the Go language
 
-They three installs well, but making them work is different story.
+
+They both install well, but making them work is a different story.
 
 ---
 ####  Making Go packages work *without* launching Atom from the command line
