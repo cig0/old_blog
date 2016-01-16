@@ -30,7 +30,7 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 **There's only a couple of rules to follow** (stop complaining, *some rules* are always necessary)                                  
 
 * When commenting try to not be a dick - no one likes smart-asses.                                                          
-If you're one you better be brilliant, otherwise GTFOOH
+If you're one you better be brilliant, otherwise GTFOOH - yeah, I have very little patience for BS
 * Above all, **have phun!**
 
 ***
