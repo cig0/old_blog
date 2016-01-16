@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>V for VERBOSE</title><link>http://i90rr.github.io</link>
 <description>-v is the sexiest flag</description><language>en</language>
-<lastBuildDate>Sat, 16 Jan 2016 05:08:48 -0300</lastBuildDate>
-<pubDate>Sat, 16 Jan 2016 05:08:48 -0300</pubDate>
+<lastBuildDate>Sat, 16 Jan 2016 05:09:38 -0300</lastBuildDate>
+<pubDate>Sat, 16 Jan 2016 05:09:38 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Title on this line
@@ -92,7 +92,8 @@ Among many other things I love to surf. Surfing is a state of mind - like Zen. W
 <p><strong>There's only a couple of rules to follow</strong> (stop complaining, <em>some rules</em> are always necessary)                                  </p>
 
 <ul>
-<li>When commenting try to not be a dick - no one likes smart-asses. If you're one you better be BRILLIANT, otherwise GTFOOH</li>
+<li>When commenting try to not be a dick - no one likes smart-asses. <br />
+If you're one you better be brilliant, otherwise GTFOOH</li>
 <li>Above all, <strong>have phun!</strong></li>
 </ul>
 
