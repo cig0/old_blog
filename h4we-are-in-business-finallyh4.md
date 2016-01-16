@@ -25,7 +25,7 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 * I agree that my English sucks; on the bright side I'm actively working on getting better at it. If you see anything wrong please leave a comment :)
 * Last but not least: this blog is meant to be an open hub to learn, to share, to grow and to evolve
 
-( What takes us to... )
+( What lead us to... )
 
 **There's a couple of rules to follow** (Oh, stop it, stop complaining! *Some rules* are always necessary)
 
