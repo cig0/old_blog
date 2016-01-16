@@ -18,7 +18,7 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 * Again, being light on resources as it is it won't suck your computer dry avid for CPU or GPU cycles and RAM
 * I agree that my English sucks; on the bright side I'm actively working on getting better at it. If you see anything wrong please leave a comment :)
 
-**A few rules** (stop complaining, *some rules* are always necessary)                                  
+**A few rules to follow** (stop complaining, *some rules* are always necessary)                                  
 
 * This blog is a place to learn, to share, to grow and to evolve
 * When commenting try to not be a dick - no one likes self-proclaimed smart-asses
