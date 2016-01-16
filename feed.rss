@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>V for VERBOSE</title><link>http://i90rr.github.io</link>
 <description>-v is the sexiest flag</description><language>en</language>
-<lastBuildDate>Sat, 16 Jan 2016 04:54:55 -0300</lastBuildDate>
-<pubDate>Sat, 16 Jan 2016 04:54:55 -0300</pubDate>
+<lastBuildDate>Sat, 16 Jan 2016 04:56:20 -0300</lastBuildDate>
+<pubDate>Sat, 16 Jan 2016 04:56:20 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Title on this line
@@ -73,7 +73,7 @@ Among many other things I love to surf. Surfing is a state of mind - like Zen. W
 
 <p>It certainly took me more time than I'd wished to set up this blog but finally here we are. I will permit myself a little bit of indulgence to pat my back, sip some grog and exclaim <em>good job!</em></p>
 
-<p>I have to warmly thank <a href="https://cardinali.org" title="Ezequiel Cardinali">@ezq</a> who was the one who introduced me to this little cool dude that is <a href="https://github.com/cfenollosa/bashblog">bashblog</a> last year when I attended to the <strong>FUDCon 2015</strong> (<em>Fedora Users and Developers Conference</em>) that was held in the month of September in Córdoba, Argentina. It was an extraordinary event of which I have to say this: Fedora's community is absolutely amazing.</p>
+<p>I have to warmly thank <a href="https://cardinali.org" title="Ezequiel Cardinali">@ezq</a> who was the one who introduced me to this little cool dude that is <a href="https://github.com/cfenollosa/bashblog">bashblog</a> last year when I attended to the <strong>FUDCon 2015</strong> (<em>Fedora Users and Developers Conference</em>) that was held in the month of September in Córdoba, Argentina. It was an extraordinary event where I had the chance to meet the extraordinary people that conforms the Fedora community. <em>You rock guys!</em></p>
 
 <ul>
 <li>This blog's focus is on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention</li>
