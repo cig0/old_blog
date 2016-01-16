@@ -19,7 +19,7 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 * I agree that my English sucks; on the bright side I'm actively working on getting better at it. If you see anything wrong please leave a comment :)
 * Last but not least: this blog is intended as an open hub to learn, to share, to grow and to evolve; more about this in the next section
 
-**There're only a couple of rules to follow** (stop complaining, *some rules* are always necessary)                                  
+**There's only a couple of rules to follow** (stop complaining, *some rules* are always necessary)                                  
 
 * When commenting try to not be a dick - no one likes self-proclaimed smart-asses
 * Above all, **have phun!**
