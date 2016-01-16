@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>V for VERBOSE</title><link>http://i90rr.github.io</link>
 <description>-v is the sexiest flag</description><language>en</language>
-<lastBuildDate>Sat, 16 Jan 2016 05:00:52 -0300</lastBuildDate>
-<pubDate>Sat, 16 Jan 2016 05:00:52 -0300</pubDate>
+<lastBuildDate>Sat, 16 Jan 2016 05:02:59 -0300</lastBuildDate>
+<pubDate>Sat, 16 Jan 2016 05:02:59 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Title on this line
@@ -84,10 +84,10 @@ Among many other things I love to surf. Surfing is a state of mind - like Zen. W
 <li>It is devilish fast to load since it is made of just <em>markdown</em> and <em>HTML</em></li>
 <li>Being light on resources as it is it won't suck your computer dry avid for CPU or GPU cycles and RAM</li>
 <li>I agree that my English sucks; on the bright side I'm actively working on getting better at it. If you see anything wrong please leave a comment :)</li>
-<li><p>Last but not least: this blog is intended as an open hub to learn, to share, to grow and to evolve</p>
-
-<p>... what takes us to ...</p></li>
+<li>Last but not least: this blog is intended as an open hub to learn, to share, to grow and to evolve</li>
 </ul>
+
+<p>|   ... what takes us to ...|</p>
 
 <p><strong>There's only a couple of rules to follow</strong> (stop complaining, <em>some rules</em> are always necessary)                                  </p>
 
