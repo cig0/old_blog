@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>V for VERBOSE</title><link>http://i90rr.github.io</link>
 <description>-v is the sexiest flag</description><language>en</language>
-<lastBuildDate>Sat, 16 Jan 2016 02:50:25 -0300</lastBuildDate>
-<pubDate>Sat, 16 Jan 2016 02:50:25 -0300</pubDate>
+<lastBuildDate>Sat, 16 Jan 2016 02:52:06 -0300</lastBuildDate>
+<pubDate>Sat, 16 Jan 2016 02:52:06 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Coding in Go with Atom in GNU+Linux
@@ -50,7 +50,7 @@ I'm i90rr. I'm a n3rd. I'm also a SysAdmin, a Unix(-like) and F/LOSS admirer and
 <p><strong>About this blog</strong>                                                                 </p>
 
 <ul>
-<li>An open archive about IT and pretty much everything else that catches my attention</li>
+<li>This blog is a kind of an open archive about IT and pretty much everything else that catches my attention</li>
 <li>It is a static blog, meaning it doesn't rely on any database or dynamic stuff like - <em>ughh</em> - JS and friends</li>
 <li>It is made using <em>bashblog</em>, a static site generator written in Bash and hosted at GitHub (<a href="https://pages.github.com" title="GitHub Pages">go ahead and try it by yourself</a>)</li>
 <li>Thanks to being a static blog and being hosted by the kind guys at GitHub it is mostly bulletproff against the dangers of the interwebs</li>

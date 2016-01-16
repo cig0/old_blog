@@ -9,7 +9,7 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 
 **About this blog**                                                                 
 
-* An open archive about IT and pretty much everything else that catches my attention
+* This blog is a kind of an open archive about IT and pretty much everything else that catches my attention
 * It is a static blog, meaning it doesn't rely on any database or dynamic stuff like - *ughh* - JS and friends
 * It is made using *bashblog*, a static site generator written in Bash and hosted at GitHub ([go ahead and try it by yourself](https://pages.github.com "GitHub Pages"))
 * Thanks to being a static blog and being hosted by the kind guys at GitHub it is mostly bulletproff against the dangers of the interwebs
