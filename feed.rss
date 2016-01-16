@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>V for VERBOSE</title><link>http://i90rr.github.io</link>
 <description>-v is the sexiest flag</description><language>en</language>
-<lastBuildDate>Sat, 16 Jan 2016 05:14:40 -0300</lastBuildDate>
-<pubDate>Sat, 16 Jan 2016 05:14:40 -0300</pubDate>
+<lastBuildDate>Sat, 16 Jan 2016 05:15:21 -0300</lastBuildDate>
+<pubDate>Sat, 16 Jan 2016 05:15:21 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Title on this line
@@ -67,7 +67,7 @@ We are in business (finally)
 
 <p>Hi, I'm i90rr, welcome to my little corner on the 3w. <br />
 I'm a n3rd, I'm also a Unix(-like) SysAdmin passionate about automation, optimization, hardening and F/LOSS. <br />
-Among many other things I love to surf. Surfing is a state of mind - like Zen. When you surf, you connect with the world. Pura vida!</p>
+Among many other things I love to surf. Surfing is a state of mind - like Zen. When you surf, you connect with the world. <em>Pura vida!</em></p>
 
 <p><strong>About this blog</strong>                                                                 </p>
 

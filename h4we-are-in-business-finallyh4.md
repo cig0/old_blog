@@ -7,7 +7,7 @@ We are in business (finally)
 
 Hi, I'm i90rr, welcome to my little corner on the 3w.                                                                                   
 I'm a n3rd, I'm also a Unix(-like) SysAdmin passionate about automation, optimization, hardening and F/LOSS.  
-Among many other things I love to surf. Surfing is a state of mind - like Zen. When you surf, you connect with the world. Pura vida!
+Among many other things I love to surf. Surfing is a state of mind - like Zen. When you surf, you connect with the world. *Pura vida!*
 
 **About this blog**                                                                 
 
