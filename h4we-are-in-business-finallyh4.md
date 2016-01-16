@@ -15,7 +15,7 @@ It certainly took me more time than I'd wished to set up this blog but finally h
 
 I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who was the one who introduced me to this little cool dude that is [bashblog](https://github.com/cfenollosa/bashblog) last year when I attended to the **FUDCon 2015** (*Fedora Users and Developers Conference*) that was held in the month of September in Córdoba, Argentina. It was an extraordinary event where I had the chance to meet the extraordinary people that conforms the Fedora community. *You rock guys!*
 
-* This blog's focus is on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention
+* This blog focuses on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention
 * It is a static blog, meaning it doesn't rely on any database or dynamic stuff like - *ughh* - JS and friends
 * It is made using *bashblog*, a static site generator written in Bash.
 * It is hosted at GitHub Pages ([go ahead and try it by yourself](https://pages.github.com "GitHub Pages"))
