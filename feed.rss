@@ -2,9 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>V for VERBOSE</title><link>http://i90rr.github.io</link>
 <description>-v is the sexiest flag</description><language>en</language>
-<lastBuildDate>Sat, 16 Jan 2016 01:10:16 -0300</lastBuildDate>
-<pubDate>Sat, 16 Jan 2016 01:10:16 -0300</pubDate>
+<lastBuildDate>Sat, 16 Jan 2016 02:13:52 -0300</lastBuildDate>
+<pubDate>Sat, 16 Jan 2016 02:13:52 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Coding in Go with Atom in GNU+Linux
+</title><description><![CDATA[
+
+<p>Lately I started to flirt with <a href="https://atom.io" title="A hackable text editor for the 21st Century">Atom</a> after my boss suggested me to give it a try for working with our Puppet infrastructure implementation.
+Truth is that I already tried it in the past when it was on its early stages and while I saw at the time the project had a lot of potential there were too many issues - mainly performance - that pushed me away of giving it a fair try - for the record, I'm an avid Emacs user and lately a <a href="http://spacemacs.org" title="A community-driven Emacs distribution - The best editor is neither Emacs nor Vim, it's Emacs *and* Vim!">Spacemacs</a> fan, more on it in an upcoming post. </p>
+
+<p>Time went on and now Atom is a quite mature and feature-complete text editor. While it's difficult for me to digest the idea that it is in fact a Chromium-based web browser tweaked to work as a text editor, and nontheless how bloated it 'has' to be given its foundations regardless all work put into optimizing its performance, I can understand why the developers went this way: most of them (a vast majority in fact) are web-oriented developers, so to them this is a natural direction. Now, to be truthful, Atom 1.3.2 on my Fedora 23 system works <em>incredible well</em>.
+<strong>Excellent work guys!</strong></p>
+
+<p>The rest of the text file is a <strong>Markdown</strong> blog post. The process will continue
+as soon as you exit your editor.</p>
+
+<p>Tags: <a href='tag_keep-this-tag-format.html'>keep-this-tag-format</a>, <a href='tag_tags-are-optional.html'>tags-are-optional</a>, <a href='tag_beware-with-underscores-in-markdown.html'>beware-with-underscores-in-markdown</a>, <a href='tag_example.html'>example</a></p>
+<!-- text end -->
+<p id='twitter'><a href="http://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>http://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html</link>
+<guid>http://i90rr.github.io/./coding-in-go-with-atom-in-gnulinux.html</guid>
+<dc:creator>i90rr</dc:creator>
+<pubDate>Sat, 16 Jan 2016 01:27:00 -0300</pubDate></item>
 <item><title>
 We are in business (finally)
 </title><description><![CDATA[
@@ -25,6 +49,7 @@ We are in business (finally)
 <li>It is made using <em>bashblog</em>, a static site generator written in Bash and hosted at GitHub (<a href="https://pages.github.com" title="GitHub Pages">go ahead and try it by yourself</a>)</li>
 <li>Thanks to being a static blog and being hosted by the kind guys at GitHub it is mostly bulletproff against the dangers of the interwebs</li>
 <li>It is devilish fast to load since it is made of <em>markdown</em> and <em>HTML</em></li>
+<li>I agree that my English sucks; on the bright side I'm actively working on getting better at it. If you see anything wrong please leave a comment :)</li>
 </ul>
 
 <p><strong>A few rules</strong> (stop complaining, <em>some rules</em> are always necessary)</p>
@@ -45,22 +70,4 @@ We are in business (finally)
 <guid>http://i90rr.github.io/./h4we-are-in-business-finallyh4.html</guid>
 <dc:creator>i90rr</dc:creator>
 <pubDate>Fri, 15 Jan 2016 23:11:00 -0300</pubDate></item>
-<item><title>
-Coding in Go with Atom in GNU+Linux
-</title><description><![CDATA[
-
-<p>The rest of the text file is a <strong>Markdown</strong> blog post. The process will continue
-as soon as you exit your editor.</p>
-
-<p>Tags: <a href='tag_go.html'>go</a>, <a href='tag_golang.html'>golang</a>, <a href='tag_atom.html'>atom</a>, <a href='tag_editors.html'>editors</a>, <a href='tag_programming.html'>programming</a></p>
-<!-- text end -->
-<p id='twitter'><a href="http://i90rr.github.io/go-atom-go-or-how-to-set-gos-environment-variables-system-wide-so-atoms-go-packages-work-without-running-the-editor-from-the-command-line.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/go-atom-go-or-how-to-set-gos-environment-variables-system-wide-so-atoms-go-packages-work-without-running-the-editor-from-the-command-line.html"
- data-via="_i90rr"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-]]></description><link>http://i90rr.github.io/go-atom-go-or-how-to-set-gos-environment-variables-system-wide-so-atoms-go-packages-work-without-running-the-editor-from-the-command-line.html</link>
-<guid>http://i90rr.github.io/./go-atom-go-or-how-to-set-gos-environment-variables-system-wide-so-atoms-go-packages-work-without-running-the-editor-from-the-command-line.html</guid>
-<dc:creator>i90rr</dc:creator>
-<pubDate>Fri, 15 Jan 2016 22:46:00 -0300</pubDate></item>
 </channel></rss>
