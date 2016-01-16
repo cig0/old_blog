@@ -1,4 +1,4 @@
-####We are in business (finally)
+We are in business (finally)
 
 **About me**
 
@@ -12,7 +12,7 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 
 * An open archive about IT and pretty much everything else that catches my attention
 * It is a static blog, meaning it doesn't rely on any database or dynamic stuff like - *ughh* - JS and friends
-* It is made using *bashblog*, a static site generator written in Bash and hosted at GitHub ([go ahead and try it by yourself](https://pages.github.com "GitHub Pages")
+* It is made using *bashblog*, a static site generator written in Bash and hosted at GitHub ([go ahead and try it by yourself](https://pages.github.com "GitHub Pages"))
 * Thanks to being a static blog and being hosted by the kind guys at GitHub it is mostly bulletproff against the dangers of the interwebs
 * It is devilish fast to load since it is made of *markdown* and *HTML*
 
