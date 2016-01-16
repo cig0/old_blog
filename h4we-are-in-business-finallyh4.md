@@ -30,8 +30,7 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 **There's only a couple of rules to follow** (Oh, stop it, stop complaining! *Some rules* are always necessary)                                  
 
 * When commenting try not to be a dick - no one like smart-asses.                                                          
-If you're one you better be brilliant, otherwise GTFOOH - yeah, I have very little patience for BS
-* Above all, **have fun!**
+* **Have fun!**
 
 ***
 Fun fact: did you know that the answer to life and everything else isn't 42 as Mr. Adams incorrectly pointed out?   
