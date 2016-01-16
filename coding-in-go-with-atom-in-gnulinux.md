@@ -22,7 +22,7 @@ They both install well, but making them work is a different story.
 ####  Making Go packages work *without* launching Atom from the command line
 
 <div style="text-align:center">
-![The good days...](https://github.com/i90rr/i90rr.github.io/blob/master/resources/jumbo_gopher-4bf98fbc72cc188289ba2b458d4ce680.png?raw=true)
+![](https://github.com/i90rr/i90rr.github.io/blob/master/resources/jumbo_gopher-4bf98fbc72cc188289ba2b458d4ce680.png?raw=true)
 <div style="text-align:left">
 
 Tags: go, atom, spacemacs, programming, editor
