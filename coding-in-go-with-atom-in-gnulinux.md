@@ -12,6 +12,7 @@ Time went on and now Atom is a quite mature and feature-complete text editor. Wh
 Atom has a big community that continuously adds new features in the form of plugins. As with other programming languages there are some Go packages that can (and will) make a difference at the moment of diving into the editor and start hammering the keyboard. 
 
 So far I found these third-party packages quite useful:
+
 * go-config
 * go-plus
 * linter-golinter
