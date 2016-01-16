@@ -28,9 +28,14 @@ There are two places where you can define the needed variables systemwide in ord
 
 * /etc/profile (ugly, please don't)
 * /etc/profile.d/***my systemwide shell variables***.sh
-
+</br>
+</br>
+</br>
 My /etc/profile.d/i90rr.sh file looks like this:
 ![](https://github.com/i90rr/i90rr.github.io/blob/master/resources/i90rr.sh.png?raw=true)
+
+You will nedd to log out and in again in order for the changes to be applied.
+If you launch Atom once again now all the cogs should be in motion.
 
 <div style="text-align:center">
 ![](https://github.com/i90rr/i90rr.github.io/blob/master/resources/jumbo_gopher-4bf98fbc72cc188289ba2b458d4ce680.png?raw=true)
