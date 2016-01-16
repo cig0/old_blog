@@ -30,7 +30,7 @@ There are two places where you can define the needed variables systemwide in ord
 * /etc/profile.d/***my systemwide shell variables***.sh
 
 My /etc/profile.d/i90rr.sh file looks like this:
-
+![](https://github.com/i90rr/i90rr.github.io/blob/master/resources/i90rr.sh.png?raw=true)
 
 <div style="text-align:center">
 ![](https://github.com/i90rr/i90rr.github.io/blob/master/resources/jumbo_gopher-4bf98fbc72cc188289ba2b458d4ce680.png?raw=true)
