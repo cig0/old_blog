@@ -1,5 +1,5 @@
 We are in business (finally)
-
+<div style="text-align:center" markdown="1">
 ![The good days...](https://avatars1.githubusercontent.com/u/394089?v=3&s=460 "Biking on a cold, sunny day at the oceanside. What could be better?")
 
 **About me**
