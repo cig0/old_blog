@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>V for VERBOSE</title><link>http://i90rr.github.io</link>
 <description>-v is the sexiest flag</description><language>en</language>
-<lastBuildDate>Sat, 16 Jan 2016 03:21:38 -0300</lastBuildDate>
-<pubDate>Sat, 16 Jan 2016 03:21:38 -0300</pubDate>
+<lastBuildDate>Sat, 16 Jan 2016 03:22:31 -0300</lastBuildDate>
+<pubDate>Sat, 16 Jan 2016 03:22:31 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Coding in Go with Atom in GNU+Linux
@@ -29,7 +29,7 @@ Coding in Go with Atom in GNU+Linux
 
 <p>They three installs well, but making them work is another story.</p>
 
-<h3>Making Go packages work <em>without</em> launching Atom from the command line</h3>
+<h4>Making Go packages work <em>without</em> launching Atom from the command line</h4>
 
 <p>Tags: <a href='tag_go.html'>go</a>, <a href='tag_atom.html'>atom</a>, <a href='tag_spacemacs.html'>spacemacs</a>, <a href='tag_programming.html'>programming</a>, <a href='tag_editor.html'>editor</a></p>
 <!-- text end -->
