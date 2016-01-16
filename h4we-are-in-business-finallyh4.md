@@ -13,7 +13,7 @@ Among many other things I love to surf. Surfing is a state of mind - like Zen. W
 
 It certainly took me more time than I'd wished to set up this blog but finally here we are. I will permit myself a little bit of indulgence to pat my back, sip some grog and appreciate my endeavor. Good job, me!
 
-I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who was the one who introduced me to this little cool dude that is [bashblog](https://github.com/cfenollosa/bashblog) last year when I attended to the **FUDCon 2015** (*Fedora Users and Developers Conference*) that was held in the month of September in Córdoba, Argentina. It was a fantastic event where I had the chance to meet the extraordinary people that conforms the Fedora community. *You really rock guys!*
+I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who was the one who introduced me to this little cool dude that is [bashblog](https://github.com/cfenollosa/bashblog) last year when I attended to the **FUDCon 2015** (*Fedora Users and Developers Conference*) that was held in the month of September in Córdoba, Argentina. It was a fantastic event where I had the chance to meet the extraordinary people that conforms the Fedora community. *You're awesome guys.*
 
 * This blog focuses on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention
 * It is a static blog, meaning it doesn't rely on any database or dynamic stuff like - *ughh* - JS and friends
