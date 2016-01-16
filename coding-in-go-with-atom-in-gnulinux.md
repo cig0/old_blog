@@ -39,7 +39,6 @@ My /etc/profile.d/i90rr.sh file looks like this:
 <div style="text-align:left">
 
 You will need to log out and in again in order for the changes to be applied. If you launch Atom now all the cogs should be in motion.
-</br></br>
 
 Tags: go, atom, spacemacs, programming, editor
 
