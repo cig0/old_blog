@@ -1,7 +1,8 @@
 We are in business (finally)
-<div style="text-align:center">
+<div style="text-align:right">
 ![The good days...](https://avatars1.githubusercontent.com/u/394089?v=3&s=460 "Biking on a cold, sunny day at the oceanside. What could be better?")
 <div style="text-align:left">
+
 **About me**
 
 I'm i90rr. I'm a n3rd. I'm also a SysAdmin, a Unix(-like) and F/LOSS admirer and contributor.                             
