@@ -6,14 +6,14 @@ We are in business (finally)
 **About me**
 
 Hi, I'm i90rr, welcome to my little corner on the 3w.                                                                                   
-I'm a n3rd, I'm also a SysAdmin, a Unix(-like) and F/LOSS admirer and contributor.                                                
+I'm a n3rd, I'm also a Unix(-like) SysAdmin passionate about automation, optimization, hardening and F/LOSS.  
 Among many other things I love to surf. Surfing is a state of mind - like Zen. When you surf, you connect with the world. Pura vida!
+
+**About this blog**                                                                 
 
 It certainly took me more time than I'd wished to set up this blog but finally here we are. I will permit myself a little bit of indulgence to pat my back and exclaim *well done!*
 
 I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who was the one who introduced me to this little cool dude that is [bashblog](https://github.com/cfenollosa/bashblog) last year when I attended the annual **FUDCon** (*Fedora Users and Developers Conference*) that was held in Córdoba, Argentina in the month of September.
-
-**About this blog**                                                                 
 
 * This blog's focus is on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention
 * It is a static blog, meaning it doesn't rely on any database or dynamic stuff like - *ughh* - JS and friends
