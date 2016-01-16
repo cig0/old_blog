@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>V for VERBOSE</title><link>http://i90rr.github.io</link>
 <description>-v is the sexiest flag</description><language>en</language>
-<lastBuildDate>Sat, 16 Jan 2016 04:17:25 -0300</lastBuildDate>
-<pubDate>Sat, 16 Jan 2016 04:17:25 -0300</pubDate>
+<lastBuildDate>Sat, 16 Jan 2016 04:18:29 -0300</lastBuildDate>
+<pubDate>Sat, 16 Jan 2016 04:18:29 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Title on this line
@@ -59,10 +59,10 @@ Go code with Atom editor on GNU+Linux
 <item><title>
 We are in business (finally)
 </title><description><![CDATA[
-<div style="text-align:center" markdown="1">
-<img src="https://avatars1.githubusercontent.com/u/394089?v=3&amp;s=460" alt="The good days..." title="Biking on a cold, sunny day at the oceanside. What could be better?" /></p>
-
-<p><strong>About me</strong></p>
+<div style="text-align:center">
+<img src="https://avatars1.githubusercontent.com/u/394089?v=3&amp;s=460" alt="The good days..." title="Biking on a cold, sunny day at the oceanside. What could be better?" />
+<div style="text-align:left">
+<strong>About me</strong></p>
 
 <p>I'm i90rr. I'm a n3rd. I'm also a SysAdmin, a Unix(-like) and F/LOSS admirer and contributor. <br />
 If I were a religious person my religion would be surf. Surfing is a state of mind - like Zen. When you surf, you connect with the world. Pura vida!</p>
