@@ -21,6 +21,17 @@ They both install well, but making them work is a different story.
 ---
 ####  Making Go packages work *without* launching Atom from the command line
 
+In order to make the newly installed plugins work with your Go install they need to have access to the environment variables that will be called upon their execution; for this to happen you have to define where to look for Go stuff by defining Go's bin directory and the $GOPATH variable *systemwide*.      
+Lets go ahead and try it... it didn't work, right? If you restart the Atom browser you'll see some errors messages explaining the plugins couldn't find Go on your system. Hopefully a nice tip put there to help us debug the issue suggest that we may have better luck by launching Atom from the terminal - assuming that you *indeed have your system variables already defined* (but just for your user).
+
+There are two places where you can define the needed variables systemwide in order for Atom's Go packages find what they're looking for, they are:
+
+* /etc/profile (ugly, please don't)
+* /etc/profile.d/***my systemwide shell variables***.sh
+
+My /etc/profile.d/i90rr.sh file looks like this:
+
+
 <div style="text-align:center">
 ![](https://github.com/i90rr/i90rr.github.io/blob/master/resources/jumbo_gopher-4bf98fbc72cc188289ba2b458d4ce680.png?raw=true)
 <div style="text-align:left">
