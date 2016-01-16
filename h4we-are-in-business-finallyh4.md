@@ -1,6 +1,6 @@
 We are in business (finally)
 <div style="text-align:right">
-![The good days...](https://github.com/i90rr/i90rr.github.io/blob/master/resources/me.png?raw=true "Biking on a cold, sunny day at the oceanside. What could be better?")
+![The good days...](https://avatars1.githubusercontent.com/u/394089?v=3&s=460 "Biking on a cold, sunny day at the oceanside. What could be better?")
 <div style="text-align:left">
 
 **About me**
