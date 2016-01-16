@@ -1,6 +1,6 @@
 Coding in Go with Atom in GNU+Linux
 
-Today I will be sharing a workaround I implemented to make Atom's third-party Go packages work with Atom.
+Today I will be sharing a workaround I implemented to make third-party Go packages work with an standard Atom install.
 
 Lately I started to flirt with [Atom](https://atom.io "A hackable text editor for the 21st Century") after my boss suggested me to give it a try for working with our Puppet infrastructure implementation (thanks for the tip Adam!).
 Truth is that I already tried it in the past when it was at its early stages and while I saw at the time the project had a lot of potential there were too many issues, mainly related to performance, that pushed me away thus missing the opportynity of giving it a fair try - for the record, I'm an avid Emacs user and lately a [Spacemacs](http://spacemacs.org "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim, it's Emacs *and* Vim!") fan, more on it on an upcoming post. 
