@@ -16,9 +16,9 @@ So far I found these third-party packages quite useful:
 * go-plus
 * linter-golinter
 
-They three installs well, but making them work is another story.
+They three installs well, but making them work is different story.
 
-
+---
 ####  Making Go packages work *without* launching Atom from the command line
 
 
