@@ -5,7 +5,7 @@ We are in business (finally)
 
 **About me**
 
-I'm i90rr. I'm a n3rd. I'm also a SysAdmin, a Unix(-like) and F/LOSS admirer and contributor.                             
+Hi, I'm i90rr, welcome to my little corner in th WWW. I'm a n3rd, I'm also a SysAdmin, a Unix(-like) and F/LOSS admirer and contributor.             
 If I were a religious person my religion would be surf. Surfing is a state of mind - like Zen. When you surf, you connect with the world. Pura vida!
 
 It certainly took me more time than I'd wished to set up this blog but finally here we are. I will permit myself a little bit of indulgence to pat my back and exclaim *well done!*
