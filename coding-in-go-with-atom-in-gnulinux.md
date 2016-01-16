@@ -8,7 +8,7 @@ Truth is that I already tried it in the past when it was at its early stages and
 
 Time went on and now Atom is a quite mature and feature-complete text editor. While it's difficult for me to digest the idea that it is in fact a Chromium-based web browser tweaked to work as a text editor, and nontheless how bloated it "has" to be given its foundations regardless all the work being done to optimize its performance, I can understand why the developers went this way: given its roots I suppose that most of them if not the vast majority are web-oriented developers, so to them this is a natural direction. Now, to be truthful, Atom 1.3.2 on my Fedora 23 system *runs incredible snappy*.
 
-**Getting Atom's Go packages work with your penguin**                                                                                 
+**Making Go packages work *wihtout launching Atom from the command line***                                                                                 
 Atom has a big community that continuously adds new features in the form of plugins. As with other programming languages there are some Go packages that can (and will) make a difference at the moment of diving into the editor and start hammering the keyboard. 
 
 So far I found these third-party packages quite useful:
