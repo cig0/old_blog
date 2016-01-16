@@ -19,5 +19,6 @@ So far I found these third-party packages quite useful:
 They three installs well, but making them work is another story.
 
 **Making Go packages work *without* launching Atom from the command line**                                                                                 
+----------------------------------------------------------------------
 
 Tags: go, atom, spacemacs, programming, editor
