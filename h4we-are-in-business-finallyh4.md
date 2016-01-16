@@ -27,7 +27,7 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 
 ( What takes us to... )
 
-**There's only a couple of rules to follow** (Oh, stop it, stop complaining! *Some rules* are always necessary)                                  
+**There's a couple of rules to follow** (Oh, stop it, stop complaining! *Some rules* are always necessary)                                  
 
 * When commenting try not to be a dick - no one like smart-asses.                                                          
 * Have fun!
