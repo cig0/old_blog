@@ -29,7 +29,7 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 
 **There's a couple of rules to follow** (Oh, stop it, stop complaining! *Some rules* are always necessary)
 
-* When commenting try not to be a dick - no one like smart-asses         
+* When commenting try not to be a dick - nobody likes smart-asses         
 * Have fun!
 
 ***
