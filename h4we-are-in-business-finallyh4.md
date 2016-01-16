@@ -5,9 +5,9 @@ We are in business (finally)
 
 **About me**
 
-Hi, I'm i90rr, welcome to my little corner in th 3W.                                                                                   
+Hi, I'm i90rr, welcome to my little corner on the 3w.                                                                                   
 I'm a n3rd, I'm also a SysAdmin, a Unix(-like) and F/LOSS admirer and contributor.                                                
-If I were a religious person my religion would be surf. Surfing is a state of mind - like Zen. When you surf, you connect with the world. Pura vida!
+Among many other things I love to surf. Surfing is a state of mind - like Zen. When you surf, you connect with the world. Pura vida!
 
 It certainly took me more time than I'd wished to set up this blog but finally here we are. I will permit myself a little bit of indulgence to pat my back and exclaim *well done!*
 
