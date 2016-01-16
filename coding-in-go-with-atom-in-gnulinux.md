@@ -12,8 +12,8 @@ Atom has a big community that continuously adds new features in the form of plug
 
 So far I found these third-party packages very useful:
 
-* go-config: detects installed Go runtime(s), tools and configurations making them available for use by other packages
-* go-plus: adds 'gocode', 'gofmt', 'goimports', 'go vet', 'golint', 'go build' and 'go test' functionality for the Go language
+* **go-config**: detects installed Go runtime(s), tools and configurations making them available for use by other packages
+* **go-plus**: adds 'gocode', 'gofmt', 'goimports', 'go vet', 'golint', 'go build' and 'go test' functionality for the Go language
 
 
 They both install well, but making them work is a different story.

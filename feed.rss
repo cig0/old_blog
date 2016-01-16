@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>V for VERBOSE</title><link>http://i90rr.github.io</link>
 <description>-v is the sexiest flag</description><language>en</language>
-<lastBuildDate>Sat, 16 Jan 2016 03:45:42 -0300</lastBuildDate>
-<pubDate>Sat, 16 Jan 2016 03:45:42 -0300</pubDate>
+<lastBuildDate>Sat, 16 Jan 2016 03:46:23 -0300</lastBuildDate>
+<pubDate>Sat, 16 Jan 2016 03:46:23 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Go code with Atom editor on GNU+Linux
@@ -22,8 +22,8 @@ Go code with Atom editor on GNU+Linux
 <p>So far I found these third-party packages very useful:</p>
 
 <ul>
-<li>go-config: detects installed Go runtime(s), tools and configurations making them available for use by other packages</li>
-<li>go-plus: adds 'gocode', 'gofmt', 'goimports', 'go vet', 'golint', 'go build' and 'go test' functionality for the Go language</li>
+<li><strong>go-config</strong>: detects installed Go runtime(s), tools and configurations making them available for use by other packages</li>
+<li><strong>go-plus</strong>: adds 'gocode', 'gofmt', 'goimports', 'go vet', 'golint', 'go build' and 'go test' functionality for the Go language</li>
 </ul>
 
 <p>They both install well, but making them work is a different story.</p>
