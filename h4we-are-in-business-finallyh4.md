@@ -23,7 +23,7 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 * It is devilish fast to load since it is made of just *markdown* and *HTML*
 * Being light on resources as it is it won't suck your computer dry avid for CPU or GPU cycles and RAM
 * I agree that my English sucks; on the bright side I'm actively working on getting better at it. If you see anything wrong please leave a comment :)
-* Last but not least: this blog is intended as an open hub to learn, to share, to grow and to evolve
+* Last but not least: this blog is meant to be an open hub to learn, to share, to grow and to evolve
 
 (... what takes us to...)
 
