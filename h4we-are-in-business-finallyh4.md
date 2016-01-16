@@ -9,7 +9,7 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 
 **About this blog**                                                                 
 
-* This blog is a kind of an open archive about IT and pretty much everything else that catches my attention
+* This blog's focus is IT, yet don't be surprised to find entries about pretty much everything else that catches my attention
 * It is a static blog, meaning it doesn't rely on any database or dynamic stuff like - *ughh* - JS and friends
 * It is made using *bashblog*, a static site generator written in Bash.
 * It is hosted at GitHub Pages ([go ahead and try it by yourself](https://pages.github.com "GitHub Pages"))
@@ -17,10 +17,10 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 * It is devilish fast to load since it is made of *markdown* and *HTML*
 * Being light on resources as it is it won't suck your computer dry avid for CPU or GPU cycles and RAM
 * I agree that my English sucks; on the bright side I'm actively working on getting better at it. If you see anything wrong please leave a comment :)
+* Last but not least: this blog is intended as an open hub to learn, to share, to grow and to evolve; more about this in the next section
 
-**A few rules to follow** (stop complaining, *some rules* are always necessary)                                  
+**There're only a couple of rules to follow** (stop complaining, *some rules* are always necessary)                                  
 
-* This blog is a place to learn, to share, to grow and to evolve
 * When commenting try to not be a dick - no one likes self-proclaimed smart-asses
 * Above all, **have phun!**
 
