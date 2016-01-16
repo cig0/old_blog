@@ -11,7 +11,7 @@ Among many other things I love to surf. Surfing is a state of mind - like Zen. W
 
 **About this blog**                                                                 
 
-It certainly took me more time than I'd wished to set up this blog but finally here we are. I will permit myself a little bit of indulgence to pat my back, sip some grog and exclaim *good job!*
+It certainly took me more time than I'd wished to set up this blog but finally here we are. I will permit myself a little bit of indulgence to pat my back, sip some grog and appreciate my endeavor. *Good job, me!*
 
 I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who was the one who introduced me to this little cool dude that is [bashblog](https://github.com/cfenollosa/bashblog) last year when I attended to the **FUDCon 2015** (*Fedora Users and Developers Conference*) that was held in the month of September in Córdoba, Argentina. It was an extraordinary event where I had the chance to meet the extraordinary people that conforms the Fedora community. *You rock guys!*
 
