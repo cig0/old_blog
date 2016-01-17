@@ -498,6 +498,7 @@ create_html_page() {
         [[ $index == no ]] && disqus_body
 
         # page footer
+        echo '</br>'
         google_search  # i90rr.mark
         cat .footer.html
         # close divs
