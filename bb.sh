@@ -464,9 +464,9 @@ create_html_page() {
         # blog title
         echo '<div id="title">'
         cat .title.html
+        google_search  # i90rr.mark
         echo '</div></div></div>' # title, header, headerholder
         echo '<div id="divbody"><div class="content">'
-        google_search  # i90rr.mark
         file_url=$(clean_filename "$filename")
         file_url=$(sed 's/.rebuilt//g' <<< "$file_url") # Get the correct URL when rebuilding
         # one blog entry
@@ -501,7 +501,8 @@ create_html_page() {
         # page footer
         cat .footer.html
         # close divs
-        echo '</div></div>' # divbody and divbodyholder 
+        google_search  # i90rr.mark
+        echo '</div></div>' # divbody and divbodyholder
         disqus_footer
         echo '</body></html>'
     } > "$filename"
