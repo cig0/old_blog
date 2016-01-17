@@ -464,7 +464,6 @@ create_html_page() {
         # blog title
         echo '<div id="title">'
         cat .title.html
-        google_search  # i90rr.mark
         echo '</div></div></div>' # title, header, headerholder
         echo '<div id="divbody"><div class="content">'
         file_url=$(clean_filename "$filename")
