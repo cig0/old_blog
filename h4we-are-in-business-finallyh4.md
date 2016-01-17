@@ -24,14 +24,8 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 * Being light on resources as it is it won't suck your computer dry avid for CPU or GPU cycles and RAM
 * I agree that I suck at English; on the bright side I'm actively working on getting better at it.                        
 If you see anything wrong please leave a comment :)
-* Last but not least: this blog is meant to be an open hub to learn, to share, to grow and to evolve
 
-( What lead us to... )
-
-**There's a couple of rules to follow** (Oh, stop it, stop complaining! *Some rules* are always necessary)
-
-* When commenting try not to be a dick - nobody likes smart-asses         
-* Have fun!
+***Have fun!***
 
 ***
 Fun fact: did you know that the answer to life and everything else isn't 42 as Mr. Adams incorrectly pointed out?   
