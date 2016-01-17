@@ -499,10 +499,10 @@ create_html_page() {
         [[ $index == no ]] && disqus_body
 
         # page footer
+        google_search  # i90rr.mark
         cat .footer.html
         # close divs
-        google_search  # i90rr.mark
-        echo '</div></div>' # divbody and divbodyholder
+        echo '</div></div>' # divbody and divbodyholder 
         disqus_footer
         echo '</body></html>'
     } > "$filename"
