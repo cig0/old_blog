@@ -213,6 +213,23 @@ google_analytics() {
     fi
 }
 
+google_search() {
+    echo "<script>
+    (function() {
+            var cx = '006881948616552493544:cw0mvlnw7r4';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+            '//cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+              
+        })();
+    </script>
+    <gcse:search></gcse:search>"
+}
+
 # Prints the required code for disqus comments
 disqus_body() {
     [[ -z $global_disqus_username ]] && return
@@ -444,7 +461,7 @@ create_html_page() {
         cat .title.html
         echo '</div></div></div>' # title, header, headerholder
         echo '<div id="divbody"><div class="content">'
-
+        google_search
         file_url=$(clean_filename "$filename")
         file_url=$(sed 's/.rebuilt//g' <<< "$file_url") # Get the correct URL when rebuilding
         # one blog entry
