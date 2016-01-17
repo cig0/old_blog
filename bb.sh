@@ -124,7 +124,7 @@ global_variables() {
     # "Tweet" (used as twitter text button for posting to twitter)
     template_twitter_button="Tweet"
     template_twitter_comment="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;"
-    
+
     # The locale to use for the dates displayed on screen (not for the timestamps)
     date_format="%B %d, %Y"
     date_allposts_header="%B %Y"
@@ -175,7 +175,7 @@ test_markdown() {
         rm -f "$in" "$good" "$out"
         return 1
     fi
-    
+
     rm -f "$in" "$good" "$out"
     return 0
 }
@@ -213,6 +213,7 @@ google_analytics() {
     fi
 }
 
+# i90rr.mark
 google_search() {
     echo "<script>
     (function() {
@@ -224,10 +225,14 @@ google_search() {
             '//cse.google.com/cse.js?cx=' + cx;
             var s = document.getElementsByTagName('script')[0];
             s.parentNode.insertBefore(gcse, s);
-              
         })();
     </script>
     <gcse:search></gcse:search>"
+}
+
+# i90rr.mark
+duckduckgo_search() {
+    echo '<iframe src="https://duckduckgo.com/search.html?duck=yes&site=i90rr.github.io&prefill=Search with DuckDuckGo&focus=yes" style="overflow:hidden;margin:0;padding0:;width:500px;height:60px;" frameborder="0"></iframe>'
 }
 
 # Prints the required code for disqus comments
@@ -461,7 +466,7 @@ create_html_page() {
         cat .title.html
         echo '</div></div></div>' # title, header, headerholder
         echo '<div id="divbody"><div class="content">'
-        google_search
+        google_search  # i90rr.mark
         file_url=$(clean_filename "$filename")
         file_url=$(sed 's/.rebuilt//g' <<< "$file_url") # Get the correct URL when rebuilding
         # one blog entry

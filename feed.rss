@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>V for VERBOSE</title><link>http://i90rr.github.io</link>
 <description>because -v is the sexiest flag</description><language>en</language>
-<lastBuildDate>Sat, 16 Jan 2016 23:58:56 -0300</lastBuildDate>
-<pubDate>Sat, 16 Jan 2016 23:58:56 -0300</pubDate>
+<lastBuildDate>Sun, 17 Jan 2016 00:47:23 -0300</lastBuildDate>
+<pubDate>Sun, 17 Jan 2016 00:47:23 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Coding in Go with Atom editor on GNU+Linux
@@ -64,7 +64,7 @@ Among many other things I love to surf. Surfing is a state of mind - like Zen. W
 <li>It is made using <em>bashblog</em>, a static site generator written in Bash (duh!)</li>
 <li>It is hosted at GitHub Pages (<a href="https://pages.github.com" title="GitHub Pages">go ahead and try it by yourself</a>)</li>
 <li>Thanks to being a static blog and being hosted by the kind people at GitHub it is mostly invulnerable to the dangers of the interwebs</li>
-<li>It is devilish fast to load since it is made of just <em>markdown</em>, <em>HTML</em> and a little of JS</li>
+<li>It is devilish fast to load since it is made of just <em>markdown</em>, <em>HTML</em> and a little of <em>JS</em></li>
 <li>Being light on resources as it is it won't suck your computer dry avid for CPU or GPU cycles and RAM</li>
 <li>I agree that I suck at English; on the bright side I'm actively working on getting better at it. <br />
 If you see anything wrong please leave a comment :)</li>
