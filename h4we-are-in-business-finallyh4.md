@@ -1,5 +1,5 @@
 We are in business (finally)
-<p><img src="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" alt="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" style="vertical-align:right" height="350" width="350" style="margin:5px">
+<p><img src="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" alt="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" style="vertical-align:right" height="350" width="350">
 </p>
 
 **About me**
