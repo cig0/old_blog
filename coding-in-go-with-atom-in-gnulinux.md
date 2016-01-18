@@ -15,8 +15,11 @@ So far I found these two third-party packages very useful:
 
 
 They both install well, but making them work is a different story.
-
----
+</br></br>
+<div style="display: flex; justify-content: center;">
+  <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/gopher-new_transparent_600.png" style="width: 400px; height: 252px;" />
+</div>
+</br>
 ####  Making Go packages work *without* launching Atom from the command line
 
 In order to make the newly installed plugins work with your Go install they need to have access to the environment variables that will be called upon their execution; for this to happen you have to define where to look for Go stuff by defining Go's bin directory and the $GOPATH variable *systemwide*.      
@@ -30,12 +33,9 @@ There are two places where you can define the needed variables systemwide in ord
 </br>
 </br>
 My /etc/profile.d/i90rr.sh file looks like this:
-![](https://github.com/i90rr/i90rr.github.io/blob/master/resources/i90rr.sh.png?raw=true)
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/i90rr.sh.png">
 
-<div style="text-align:center">
-![](https://github.com/i90rr/i90rr.github.io/blob/master/resources/jumbo_gopher-4bf98fbc72cc188289ba2b458d4ce680_200.png?raw=true)
-<div style="text-align:left">
-
-You will need to log out and in again in order for the changes to be applied. Next time you run Atom all the cogs should be in motion.
+You will need to log out and in again in order for the changes to be applied.</br>
+Next time you run Atom all the cogs should be in motion.
 
 Tags: go, atom, programming, editor

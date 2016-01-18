@@ -1,5 +1,5 @@
 We are in business, finally! (aka About)
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 17px" vspace="8px">
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 17px" vspace="8px">
 
 **About me**
 
