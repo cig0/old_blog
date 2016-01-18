@@ -10,13 +10,13 @@ I'm a SysAdmin passionate about Unix(-like), automation, optimization, hardening
 *I've been running [Arch Linux](https://wiki.archlinux.org/index.php/Arch_Linux#Principles) everywhere since February 2008 but in October 2014 I switched to [Fedora](https://getfedora.org) and I'm very happy with my desicion. My everyday toolkit consists of [tmux](https://tmux.github.io) + [tmuxinator](https://github.com/tmuxinator/tmuxinator), [fish](http://fishshell.com) + [autojump](https://github.com/wting/autojump) + [omf](https://github.com/oh-my-fish/oh-my-fish) and Emacs ([Spacemacs](http://spacemacs.org) - thanks E1NS!); among the GUI toolset there is FF + [DDG](https://www.duckduckgo.com), [Telegram](https://desktop.telegram.com) and [KeePass](https://keepass.info).*
 
 Among many other things I love to surf. [Surfing](http://www.surfertoday.com/surfing/8267-the-best-surfing-quotes-of-all-time) is a [state of mind](https://www.youtube.com/watch?v=ACMckXr1j4o) - surfing is Zen in movement.</br>
-When you surf, you connect with the world. **[Pura Vida](http://bestcostaricantours.com/about/puravida.html).**
+When you surf, you connect with the world. [Pura Vida](http://bestcostaricantours.com/about/puravida.html).
 
 **About this blog**                                                                 
 
 It certainly took me more time than I'd wished to set up this blog but finally here we are. Now it's time to relax - and you know what that means: a sip of grog, your favorite easy chair and of course [this album playing on YT](https://www.youtube.com/watch?v=g-BXxX1x4y8).
 
-I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who was the one who introduced me to this little cool dude that is [bashblog](https://github.com/cfenollosa/bashblog) last year when I attended to the **FUDCon 2015** (*Fedora Users and Developers Conference*) that was held in the month of September in Córdoba, Argentina. It was a fantastic event where I had the chance to meet the extraordinary people that conforms the Fedora community. *You're awesome guys.*
+I have to thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who was the one who introduced me to this little cool dude that is [bashblog](https://github.com/cfenollosa/bashblog) last year when I attended to the **FUDCon 2015** (*Fedora Users and Developers Conference*) that was held in the month of September in Córdoba, Argentina. It was a fantastic experience where I had the chance to meet the extraordinary people that conforms the Fedora community. **[You're awesome guys](https://www.youtube.com/watch?v=rPYX8o-m19s)**.
 
 * This blog focuses on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention
 * It is a [static blog](https://www.staticgen.com), meaning it doesn't rely on any database or dynamic stuff (check [this](https://davidwalsh.name/introduction-static-site-generators) good article to learn more about the difference with dynamic websites)
