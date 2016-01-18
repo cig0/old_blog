@@ -6,4 +6,6 @@ If you missed my awesome presentation in the mandatory [About](https://i90rr.git
 
 Great, you're back!
 
-Tags: bashblog, github pages
+<p align-"center"><b>Work in Progress</b></p>
+
+Tags: bashblog, github_pages, blog
