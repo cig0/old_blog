@@ -1,5 +1,5 @@
 We are in business (finally)
-<p><img src="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" alt="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" style="vertical-align:right" height="350" width="350">
+<p><img src="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" alt="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" style="vertical-align:right" height="300" width="300">
 </p>
 
 **About me**
@@ -24,6 +24,6 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 * I agree that I suck at English; on the bright side I'm actively working on getting better at it.                        
 If you see anything wrong please leave a comment :)
 
-<h4 align="center">H A V E  F U N !</h4>
+<p align="center"><b>H A V E  F U N !</b></p>
 
-Tags: about, manifesto, aliens
+Tags: about, manifesto
