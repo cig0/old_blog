@@ -5,16 +5,16 @@ We are in business, finally! (aka About)
 **About me**
 
 Welcome to my corner on the 3w.</br>
-I'm a SysAdmin passionate about Unix(-like), automation, optimization, hardening and F/LOSS. Lately I started programming in [Go](https://golang.org); someday I would love to have the time to learn [Rust](https://rust-lang.org) and [Lisp](http://www.lispmachine.net).
+I'm a [SysAdmin](https://xkcd.com/705) passionate about Unix(-like), automation, optimization, hardening and F/LOSS. Lately I started programming in [Go](https://golang.org); someday I would love to have the time to learn [Rust](https://rust-lang.org) and [Lisp](http://www.lispmachine.net).
 
-*I've been running [Arch Linux](https://wiki.archlinux.org/index.php/Arch_Linux#Principles) everywhere since February 2008 but in October 2014 I switched to [Fedora](https://getfedora.org) and I'm very happy with my desicion. My everyday toolkit consists of [tmux](https://tmux.github.io) + [tmuxinator](https://github.com/tmuxinator/tmuxinator), [fish](http://fishshell.com) + [autojump](https://github.com/wting/autojump) + [omf](https://github.com/oh-my-fish/oh-my-fish) and Emacs ([Spacemacs](http://spacemacs.org) - thanks E1NS!); among the GUI toolset there is FF + [DDG](https://www.duckduckgo.com), [Telegram](https://desktop.telegram.com) and [KeePass](https://keepass.info).*
+*I've been running [Arch Linux](https://wiki.archlinux.org/index.php/Arch_Linux#Principles) everywhere since February 2008 but in October 2014 I established with [Fedora](https://getfedora.org) & [CentOS](https://www.centos.org) and I'm very happy with my desicion. Previous to that I ran Ubuntu and later Debian for little more than a year and in between Arch and Fedora I enjoyed [Chakra](https://chakraos.org) for a few months. My everyday toolkit consists of [tmux](https://tmux.github.io) + [tmuxinator](https://github.com/tmuxinator/tmuxinator), [fish](http://fishshell.com) + [omf](https://github.com/oh-my-fish/oh-my-fish) + [autojump](https://github.com/wting/autojump) and [Spacemacs](http://spacemacs.org), an [Emacs](https://xkcd.com/378)-based editor that rocks (thanks E1NS!). Among the GUI toolset there is FF + [DDG](https://www.duckduckgo.com), [Telegram](https://desktop.telegram.com) and [KeePass](https://keepass.info). Usually you'll find me with the folks hanging out at [pwn+](http://www.pwnconf.org)*.
 
 Among many other things I love to surf. [Surfing](http://www.surfertoday.com/surfing/8267-the-best-surfing-quotes-of-all-time) is a [state of mind](https://www.youtube.com/watch?v=ACMckXr1j4o) - surfing is Zen in movement.</br>
 When you surf, you connect with the world. [Pura Vida](http://bestcostaricantours.com/about/puravida.html).
 
 **About this blog**                                                                 
 
-It certainly took me more time than I'd wished to set up this blog but finally here we are. Now it's time to relax - and you know what that means: a sip of grog, your favorite easy chair and of course [this album playing on YT](https://www.youtube.com/watch?v=g-BXxX1x4y8).
+It certainly took me more time than I'd wished to set up this blog but finally here we are. Now it's time to relax - and you know what that means: a sip of grog, our favorite easy chair and of course [this album playing on YT](https://www.youtube.com/watch?v=g-BXxX1x4y8).
 
 I have to thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who was the one who introduced me to this little cool dude that is [bashblog](https://github.com/cfenollosa/bashblog) last year when I attended to the **FUDCon 2015** (*Fedora Users and Developers Conference*) that was held in the month of September in Córdoba, Argentina. It was a fantastic experience where I had the chance to meet the extraordinary people that conforms the Fedora community. **[You're awesome guys](https://www.youtube.com/watch?v=rPYX8o-m19s)**.
 
