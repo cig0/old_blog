@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>V for VERBOSE</title><link>http://i90rr.github.io</link>
 <description>-v is the sexiest flag</description><language>en</language>
-<lastBuildDate>Sun, 17 Jan 2016 17:33:45 -0300</lastBuildDate>
-<pubDate>Sun, 17 Jan 2016 17:33:45 -0300</pubDate>
+<lastBuildDate>Mon, 18 Jan 2016 00:37:52 -0300</lastBuildDate>
+<pubDate>Mon, 18 Jan 2016 00:37:52 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Coding in Go with Atom editor on GNU+Linux
@@ -37,12 +37,12 @@ Coding in Go with Atom editor on GNU+Linux
 ]]></description><link>http://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html</link>
 <guid>http://i90rr.github.io/./coding-in-go-with-atom-in-gnulinux.html</guid>
 <dc:creator>i90rr</dc:creator>
-<pubDate>Sat, 16 Jan 2016 15:58:00 -0300</pubDate></item>
+<pubDate>Mon, 18 Jan 2016 00:32:00 -0300</pubDate></item>
 <item><title>
 We are in business (finally)
 </title><description><![CDATA[
 <div style="text-align:right">
-<img src="https://avatars1.githubusercontent.com/u/394089?v=3&amp;s=460" alt="The good days..." title="Biking on a cold, sunny day at the oceanside. What could be better?" />
+<img src="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" alt="The good days..." title="Biking on a cold, sunny saturday morning at the oceanside. What could be better?" />
 <div style="text-align:left"></p>
 
 <p><strong>About me</strong></p>
@@ -80,5 +80,5 @@ If you see anything wrong please leave a comment :)</li>
 ]]></description><link>http://i90rr.github.io/h4we-are-in-business-finallyh4.html</link>
 <guid>http://i90rr.github.io/./h4we-are-in-business-finallyh4.html</guid>
 <dc:creator>i90rr</dc:creator>
-<pubDate>Sat, 16 Jan 2016 15:58:00 -0300</pubDate></item>
+<pubDate>Mon, 18 Jan 2016 00:32:00 -0300</pubDate></item>
 </channel></rss>

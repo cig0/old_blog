@@ -1,6 +1,6 @@
 We are in business (finally)
 <div style="text-align:right">
-![The good days...](https://avatars1.githubusercontent.com/u/394089?v=3&s=460 "Biking on a cold, sunny day at the oceanside. What could be better?")
+![The good days...](https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true "Biking on a cold, sunny saturday morning at the oceanside. What could be better?")
 <div style="text-align:left">
 
 **About me**
@@ -32,14 +32,3 @@ Fun fact: did you know that the answer to life and everything else isn't 42 as M
 In case you're wondering what is, it is **aliens** - *what else?*
 
 Tags: about, manifesto, aliens
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-72527112-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
