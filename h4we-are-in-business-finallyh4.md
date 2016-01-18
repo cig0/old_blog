@@ -1,10 +1,5 @@
 We are in business (finally)
-<!--
-div style="text-align:right">
-![The good days...](https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true "Biking on a cold, sunny saturday morning at the oceanside. What could be better?")
-<div style="text-align:left">
--->
-<p><img src="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" alt="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" align="right">
+<p><img src="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" alt="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" style="vertical-align:right" height="350" width="350" style="padding:20px">
 </p>
 
 **About me**
