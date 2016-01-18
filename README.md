@@ -4,4 +4,4 @@
 "You must be," said the Cat, "or you wouldn’t have come here.”</br>
 <b>― Lewis Carroll, Alice in Wonderland</b>
 
-If you still want to go down the rabbit hole, [click me](https://i90rr.githubu.io).
+If you still want to go down the rabbit hole, [click me](https://i90rr.github.io).
