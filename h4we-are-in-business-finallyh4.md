@@ -1,5 +1,5 @@
 We are in business (finally)
-<p><img src="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" alt="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" style="vertical-align:right" height="300" width="300">
+<p><img src="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" alt="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" align="right" width="300" height="300" style="margin-left: 20px">
 </p>
 
 **About me**
@@ -26,4 +26,4 @@ If you see anything wrong please leave a comment :)
 
 <p align="center"><b>H A V E  F U N !</b></p>
 
-Tags: about, manifesto
+Tags: about
