@@ -24,6 +24,6 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 * I agree that I suck at English; on the bright side I'm actively working on getting better at it.                        
 If you see anything wrong please leave a comment :)
 
-***Have fun!***
+<div style="text-align:center">**H A V E  F U N !**<div style="text-align:left">
 
 
