@@ -6,4 +6,4 @@
 "You must be," said the Cat, "or you wouldn’t have come here.”</br>
 <b>― Lewis Carroll, Alice in Wonderland</b>
 
-If you dare go down the rabbit hole, [go on](https://i90rr.github.io).
+If you dare go down the rabbit hole, [welcome](https://i90rr.github.io).
