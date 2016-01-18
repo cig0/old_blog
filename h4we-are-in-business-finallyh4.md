@@ -23,7 +23,7 @@ I have to thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who was the o
 * It is made using *bashblog*, a static site generator written in Bash (duh!)
 * It is hosted at GitHub Pages ([go ahead and try it by yourself](https://pages.github.com "GitHub Pages"))
 * Thanks to being a static blog and being hosted by the kind people at GitHub it is mostly invulnerable to the dangers of the interwebs
-* It is devilish fast to load since it is made of just *markdown*, *HTML* and a little of *JS*
+* It is devilish fast to load since it is made of just *markdown*, *HTML* and a pinch of *JS*
 * Being light on resources as it is it won't suck your computer dry avid for CPU and GPU cycles and memory
 * I agree that I suck at English; on the bright side I'm actively working on getting better at it.                        
 If you see anything wrong please leave a comment :)
