@@ -25,4 +25,4 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 If you see anything wrong please leave a comment :)
 
 <!-- <div style="text-align:center" text="**H A V E  F U N !**"><div style="text-align:left"> -->
--> **H A V E  F U N !** <--
+-> **H A V E  F U N !** <-
