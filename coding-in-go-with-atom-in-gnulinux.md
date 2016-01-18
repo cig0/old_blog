@@ -17,8 +17,7 @@ So far I found these two third-party packages very useful:
 They both install well, but making them work is a different story.
 </br>
 <hr>
-
-</br></br>
+</br>
 <div style="display: flex; justify-content: center;">
   <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/gopher-new_transparent_600.png" style="width: 400px; height: 252px;" />
 </div>
