@@ -1,7 +1,7 @@
-We are in business (finally)
-<div style="text-align:right">
+## We are in business (finally)
+<p><img src="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" align="right">
 ![The good days...](https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true "Biking on a cold, sunny saturday morning at the oceanside. What could be better?")
-<div style="text-align:left">
+</p>
 
 **About me**
 
