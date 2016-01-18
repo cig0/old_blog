@@ -1,6 +1,5 @@
 We are in business, finally! (aka About)
-<p><img src="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" alt="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 17px" vspace="8px">
-</p>
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 17px" vspace="8px"></img>
 
 **About me**
 
@@ -28,6 +27,6 @@ I have to thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who showed me
 * I agree that I suck at English; on the bright side I'm actively working on getting better at it.                        
 If you see anything wrong please leave a comment :)
 
-<p align="center"></br><b>H 4 P P Y  N 3 R D 1 N 9 !</b></p>
+<p align="center"></br><b>H 4 P P Y  N 3 R D 1 N 9   !</b></p>
 
 Tags: sysadmin tools, cli
