@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>V for VERBOSE</title><link>http://i90rr.github.io</link>
 <description>deal with that R.</description><language>en</language>
-<lastBuildDate>Mon, 18 Jan 2016 04:38:39 -0300</lastBuildDate>
-<pubDate>Mon, 18 Jan 2016 04:38:39 -0300</pubDate>
+<lastBuildDate>Mon, 18 Jan 2016 04:49:50 -0300</lastBuildDate>
+<pubDate>Mon, 18 Jan 2016 04:49:50 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Your own beautiful, flexible and free blog with bashblog and GitHub Pages - Part I
@@ -90,6 +90,9 @@ If you see anything wrong please leave a comment :)</li>
 <p align="center"></br><b>H 4 P P Y  N 3 R D 1 N G !</b></p>
 
 <p>Tags: <a href='tag_sysadmin tools.html'>sysadmin tools</a>, <a href='tag_cli.html'>cli</a></p>
+
+
+
 <!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io/h4we-are-in-business-finallyh4.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/h4we-are-in-business-finallyh4.html"
