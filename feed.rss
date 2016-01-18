@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>V for VERBOSE</title><link>http://i90rr.github.io</link>
 <description>deal with that R.</description><language>en</language>
-<lastBuildDate>Mon, 18 Jan 2016 00:52:47 -0300</lastBuildDate>
-<pubDate>Mon, 18 Jan 2016 00:52:47 -0300</pubDate>
+<lastBuildDate>Mon, 18 Jan 2016 00:55:24 -0300</lastBuildDate>
+<pubDate>Mon, 18 Jan 2016 00:55:24 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Coding in Go with Atom editor on GNU+Linux
@@ -41,9 +41,14 @@ Coding in Go with Atom editor on GNU+Linux
 <item><title>
 We are in business (finally)
 </title><description><![CDATA[
-<div style="text-align:right">
+<!--
+div style="text-align:right">
 <img src="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" alt="The good days..." title="Biking on a cold, sunny saturday morning at the oceanside. What could be better?" />
-<div style="text-align:left"></p>
+<div style="text-align:left">
+--></p>
+
+<p><img src="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" alt="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" align="right">
+</p>
 
 <p><strong>About me</strong></p>
 
