@@ -38,4 +38,4 @@ My /etc/profile.d/i90rr.sh file looks like this:
 
 You will need to log out and in again in order for the changes to be applied. Next time you run Atom all the cogs should be in motion.
 
-Tags: go, atom, spacemacs, programming, editor
+Tags: go, atom, programming, editor
