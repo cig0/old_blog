@@ -15,7 +15,7 @@ So far I found these two third-party packages very useful:
 
 
 They both install well, but making them work is a different story.
-</br></br></br>
+</br>
 <hr>
 
 </br></br>
