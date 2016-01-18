@@ -114,32 +114,7 @@ i90rr</div>
 
 <p></br></p>
 
-<h4>Making Go packages work <em>without</em> launching Atom from the command line</h4>
-
-<p>In order to make the newly installed plugins work with your Go install they need to have access to the environment variables that will be called upon their execution; for this to happen you have to define where to look for Go stuff by defining Go's bin directory and the $GOPATH variable <em>systemwide</em>. <br />
-Lets go ahead and try it... it didn't work, right? If you restart the Atom browser you'll see some errors messages explaining the plugins couldn't find Go on your system. Hopefully a nice tip put there to help us debug the issue suggest that we may have better luck by launching Atom from the terminal - assuming that you <em>indeed have your system variables already defined</em> (but just for your user).</p>
-
-<p>There are two places where you can define the needed variables systemwide in order for Atom's Go packages find what they're looking for, they are:</p>
-
-<ul>
-<li>/etc/profile (ugly, please don't)</li>
-<li>/etc/profile.d/<strong><em>my systemwide shell variables</em></strong>.sh
-</br>
-</br>
-</br>
-My /etc/profile.d/i90rr.sh file looks like this:
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/i90rr.sh.png"></li>
-</ul>
-
-<p>You will need to log out and in again in order for the changes to be applied.</br>
-Next time you run Atom all the cogs should be in motion.</p>
-
-<p>Tags: <a href='tag_go.html'>go</a>, <a href='tag_atom.html'>atom</a>, <a href='tag_programming.html'>programming</a>, <a href='tag_editor.html'>editor</a></p>
-
-
-
-
-<!-- text end -->
+<p class="readmore"><a href="./coding-in-go-with-atom-in-gnulinux.html">Read more...</a></p>
 <p id='twitter'><a href="http://i90rr.github.io/index2.html/coding-in-go-with-atom-in-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/index2.html/coding-in-go-with-atom-in-gnulinux.html"
  data-via="_i90rr"

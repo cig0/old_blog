@@ -20,7 +20,10 @@ They both install well, but making them work is a different story.
   <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/gopher-new_transparent_600.png" style="width: 400px; height: 252px;" />
 </div>
 </br>
-####  Making Go packages work *without* launching Atom from the command line
+
+----
+
+### Making Go packages work *without* launching Atom from the command line
 
 In order to make the newly installed plugins work with your Go install they need to have access to the environment variables that will be called upon their execution; for this to happen you have to define where to look for Go stuff by defining Go's bin directory and the $GOPATH variable *systemwide*.      
 Lets go ahead and try it... it didn't work, right? If you restart the Atom browser you'll see some errors messages explaining the plugins couldn't find Go on your system. Hopefully a nice tip put there to help us debug the issue suggest that we may have better luck by launching Atom from the terminal - assuming that you *indeed have your system variables already defined* (but just for your user).
