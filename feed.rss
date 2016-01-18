@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>V for VERBOSE</title><link>http://i90rr.github.io</link>
 <description>deal with that R.</description><language>en</language>
-<lastBuildDate>Mon, 18 Jan 2016 05:37:04 -0300</lastBuildDate>
-<pubDate>Mon, 18 Jan 2016 05:37:04 -0300</pubDate>
+<lastBuildDate>Mon, 18 Jan 2016 05:41:02 -0300</lastBuildDate>
+<pubDate>Mon, 18 Jan 2016 05:41:02 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Migrating mongoDB 2.6 mmap databases to {Percona Server} mongoDB 3.0.8 wiredTiger
@@ -72,7 +72,7 @@ Coding in Go with Atom editor on GNU+Linux
 <item><title>
 We are in business, finally! (aka About)
 </title><description><![CDATA[
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 17px" vspace="8px"></img></p>
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 17px" vspace="8px"></p>
 
 <p><strong>About me</strong></p>
 
