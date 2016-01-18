@@ -22,7 +22,8 @@
 <meta name='twitter:card' content='summary' />
 <meta name='twitter:site' content='@_i90rr' />
 <meta name='twitter:title' content='V for VERBOSE' />
-<meta name='twitter:description' content="   January 18, 2016 &mdash;  i90rr    Comments? &nbsp; <a href='https://twitter.com/share' class='twitter-share-button' data-text='&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;' data-url='http://" />
+<meta name='twitter:description' content="   January 18, 2016 &mdash;  i90rr     Comments? &nbsp; <a href='https://twitter.com/share' class='twitter-share-button' data-text='&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;' data-url='http:/" />
+<meta name='twitter:image' content='https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/gopher-new_transparent_600.png' />
 </head><body>
 <div id="divbodyholder">
 <div class="headerholder"><div class="header">
@@ -37,6 +38,7 @@
 <div class="subtitle">January 18, 2016 &mdash; 
 i90rr</div>
 <!-- text begin -->
+
 
 <!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io/index2.html/index.html#disqus_thread">Comments?</a> &nbsp;
@@ -54,6 +56,7 @@ i90rr</div>
 <p align="center"><b><em>Upcoming...</em></b></p>
 
 <p>Tags: <a href='tag_mongodb.html'>mongodb</a>, <a href='tag_percona.html'>percona</a>, <a href='tag_database.html'>database</a>, <a href='tag_nosql.html'>nosql</a>, <a href='tag_bigdata.html'>bigdata</a></p>
+
 
 <!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io/index2.html/migrating-mongodb-26-mmap-databases-to-percona-server-for-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
@@ -73,6 +76,66 @@ i90rr</div>
 <p class="readmore"><a href="./your-own-beautiful-flexible-and-free-blog-with-bashblog-and-github-pages.html">Read more...</a></p>
 <p id='twitter'><a href="http://i90rr.github.io/index2.html/your-own-beautiful-flexible-and-free-blog-with-bashblog-and-github-pages.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/index2.html/your-own-beautiful-flexible-and-free-blog-with-bashblog-and-github-pages.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+<h3><a class="ablack" href="coding-in-go-with-atom-in-gnulinux.html">
+Coding in Go with Atom editor on GNU+Linux
+</a></h3>
+<div class="subtitle">January 18, 2016 &mdash; 
+i90rr</div>
+<!-- text begin -->
+
+<p>I started to flirt with <a href="https://atom.io" title="A hackable text editor for the 21st Century">Atom</a> after my boss suggested me to give it a try for working with our Puppet infrastructure implementation - thanks for the tip Adam!</p>
+
+<p>Truth is that I have tried Atom in the past when it was at its early stages and while I saw at the time the project had a lot of potential there were too many issues, mainly related to performance, that pushed me away of it thus missing the opportunity to give it a fair try - for the record, I'm an avid Emacs user and lately a <a href="http://spacemacs.org" title="A community-driven Emacs distribution - The best editor is neither Emacs nor Vim, it's Emacs *and* Vim!">Spacemacs</a> fan, more on it on an upcoming post. </p>
+
+<p>Time went on and now Atom is a quite mature and feature-complete text editor. While it's difficult for me to digest the idea that it is in fact a Chromium-based web browser tweaked to work as a text editor, and nontheless how bloated it "has" to be given its foundations and regardless all the work being done to optimize its performance, I can understand why the developers went this way: given its roots I suppose that most of them if not the vast majority are web-oriented developers, so to them this is a natural direction. Now, to be truthful, Atom 1.3.2 on my Fedora 23 system <em>runs incredible snappy</em>.</p>
+
+<p>Atom has a big community that continuously adds new features in the form of plugins. As with other programming languages there are some Go packages that can (and will) make a difference at the moment of diving into the editor to start hammering the keyboard. </p>
+
+<p>So far I found these two third-party packages very useful:</p>
+
+<ul>
+<li><strong>go-config</strong>: detects installed Go runtime(s), tools and configurations making them available for use by other packages</li>
+<li><strong>go-plus</strong>: adds 'gocode', 'gofmt', 'goimports', 'go vet', 'golint', 'go build' and 'go test' functionality for the Go language</li>
+</ul>
+
+<p>They both install well, but making them work is a different story.
+</br></br></br></p>
+
+<div style="display: flex; justify-content: center;">
+  <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/gopher-new_transparent_600.png" style="width: 400px; height: 252px;" />
+</div>
+
+<p></br></p>
+
+<h4>Making Go packages work <em>without</em> launching Atom from the command line</h4>
+
+<p>In order to make the newly installed plugins work with your Go install they need to have access to the environment variables that will be called upon their execution; for this to happen you have to define where to look for Go stuff by defining Go's bin directory and the $GOPATH variable <em>systemwide</em>. <br />
+Lets go ahead and try it... it didn't work, right? If you restart the Atom browser you'll see some errors messages explaining the plugins couldn't find Go on your system. Hopefully a nice tip put there to help us debug the issue suggest that we may have better luck by launching Atom from the terminal - assuming that you <em>indeed have your system variables already defined</em> (but just for your user).</p>
+
+<p>There are two places where you can define the needed variables systemwide in order for Atom's Go packages find what they're looking for, they are:</p>
+
+<ul>
+<li>/etc/profile (ugly, please don't)</li>
+<li>/etc/profile.d/<strong><em>my systemwide shell variables</em></strong>.sh
+</br>
+</br>
+</br>
+My /etc/profile.d/i90rr.sh file looks like this:
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/i90rr.sh.png"></li>
+</ul>
+
+<p>You will need to log out and in again in order for the changes to be applied.</br>
+Next time you run Atom all the cogs should be in motion.</p>
+
+<p>Tags: <a href='tag_go.html'>go</a>, <a href='tag_atom.html'>atom</a>, <a href='tag_programming.html'>programming</a>, <a href='tag_editor.html'>editor</a></p>
+
+
+<!-- text end -->
+<p id='twitter'><a href="http://i90rr.github.io/index2.html/coding-in-go-with-atom-in-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/index2.html/coding-in-go-with-atom-in-gnulinux.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
