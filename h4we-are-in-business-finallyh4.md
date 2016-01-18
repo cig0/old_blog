@@ -1,12 +1,15 @@
 We are in business (finally)
-<p><img src="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" alt="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" align="right" width="300" height="300" style="margin-left: 20px">
+<p><img src="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" alt="https://github.com/i90rr/i90rr.github.io/blob/master/resources/394089_ds.png?raw=true" align="right" width="300" height="300" style="margin-left: 17px" vspace="10px">
 </p>
 
 **About me**
 
-Hi, I'm i90rr, welcome to my little corner on the 3w.                                                                                   
-I'm a n3rd, I'm also a Unix(-like) SysAdmin passionate about automation, optimization, hardening and F/LOSS.  
-Among many other things I love to surf. Surfing is a state of mind - like Zen. When you surf, you connect with the world. *Pura Vida.*
+Hi, my name's Martín Cigorraga, welcome to my corner on the 3w.                                                                                   
+I'm a SysAdmin passionate about Unix(-like), automation, optimization, hardening and F/LOSS. Lately I started programming in [Go](https://golang.org); someday I would love to have the time to learn [Rust](https://rust-lang.org) and [Lisp](http://www.lispmachine.net).
+
+*Background: I've been running [Arch Linux](https://www.archlinux.com) everywhere since February 2008 but in October 2014 I switched to [Fedora](https://getfedora.org) and I'm very happy with my desicion. My everyday toolkit consists of [tmux](https://tmux.github.io) + [tmuxinator](https://github.com/tmuxinator/tmuxinator), [fish](http://fishshell.com) + [autojump](https://github.com/wting/autojump) + [omf](https://github.com/oh-my-fish/oh-my-fish) and [Spacemacs](http://spacemacs.org); among the GUI toolset there is FF + [DDG](https://www.duckduckgo.com), [Telegram](https://desktop.telegram.com) and [KeePass](https://keepass.info).*
+
+Among many other things I love to surf. [Surfing is a state of mind](http://www.surfertoday.com/surfing/8267-the-best-surfing-quotes-of-all-time) - surfing is Zen in movement. When you surf, you connect with the world. *[Pura Vida](http://bestcostaricantours.com/about/puravida.html).*
 
 **About this blog**                                                                 
 
@@ -24,6 +27,6 @@ I have to warmly thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who wa
 * I agree that I suck at English; on the bright side I'm actively working on getting better at it.                        
 If you see anything wrong please leave a comment :)
 
-<p align="center"><b>H A V E  F U N !</b></p>
+<p align="center"><b>H 4 P P Y  N 3 R D 1 N G !</b></p>
 
 Tags: about
