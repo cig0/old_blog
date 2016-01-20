@@ -2,27 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>V for VERBOSE</title><link>http://i90rr.github.io/index2.html</link>
 <description>deal with that R.</description><language>en</language>
-<lastBuildDate>Tue, 19 Jan 2016 23:00:03 -0300</lastBuildDate>
-<pubDate>Tue, 19 Jan 2016 23:00:03 -0300</pubDate>
+<lastBuildDate>Tue, 19 Jan 2016 23:01:29 -0300</lastBuildDate>
+<pubDate>Tue, 19 Jan 2016 23:01:29 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/index2.html/feed.rss" rel="self" type="application/rss+xml" />
-<item><title>
-Title on this line
-</title><description><![CDATA[
-
-<p>The rest of the text file is a <strong>Markdown</strong> blog post. The process will continue
-as soon as you exit your editor.</p>
-
-<p>Tags: <a href='tag_keep-this-tag-format.html'>keep-this-tag-format</a>, <a href='tag_tags-are-optional.html'>tags-are-optional</a>, <a href='tag_beware-with-underscores-in-markdown.html'>beware-with-underscores-in-markdown</a>, <a href='tag_example.html'>example</a></p>
-<!-- text end -->
-<p id='twitter'><a href="http://i90rr.github.io/index2.html/title-on-this-line.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/index2.html/title-on-this-line.html"
- data-via="_i90rr"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-]]></description><link>http://i90rr.github.io/index2.html/title-on-this-line.html</link>
-<guid>http://i90rr.github.io/index2.html/./title-on-this-line.html</guid>
-<dc:creator>i90rr</dc:creator>
-<pubDate>Tue, 19 Jan 2016 23:00:01 -0300</pubDate></item>
 <item><title>
 </title><description><![CDATA[
 ]]></description><link>http://i90rr.github.io/index2.html/index.html</link>
