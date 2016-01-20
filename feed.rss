@@ -2,15 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>V for VERBOSE</title><link>http://i90rr.github.io/index2.html</link>
 <description>deal with that R.</description><language>en</language>
-<lastBuildDate>Tue, 19 Jan 2016 22:29:27 -0300</lastBuildDate>
-<pubDate>Tue, 19 Jan 2016 22:29:27 -0300</pubDate>
+<lastBuildDate>Tue, 19 Jan 2016 22:40:39 -0300</lastBuildDate>
+<pubDate>Tue, 19 Jan 2016 22:40:39 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/index2.html/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
+y
 </title><description><![CDATA[
+
+<!-- text end -->
+<p id='twitter'><a href="http://i90rr.github.io/index2.html/index.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/index2.html/index.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
 ]]></description><link>http://i90rr.github.io/index2.html/index.html</link>
 <guid>http://i90rr.github.io/index2.html/./index.html</guid>
 <dc:creator>i90rr</dc:creator>
-<pubDate>Mon, 18 Jan 2016 21:59:47 -0300</pubDate></item>
+<pubDate>Tue, 19 Jan 2016 22:33:00 -0300</pubDate></item>
 <item><title>
 Migrating mongoDB 2.6 mmap databases to {Percona Server} mongoDB 3.0.8 wiredTiger
 </title><description><![CDATA[
