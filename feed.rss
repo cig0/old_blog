@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
-<channel><title>V for VERBOSE</title><link>http://i90rr.github.io/index2.html</link>
+<channel><title>V for VERBOSE</title><link>http://i90rr.github.io/index.html</link>
 <description>deal with that R.</description><language>en</language>
-<lastBuildDate>Tue, 19 Jan 2016 23:26:28 -0300</lastBuildDate>
-<pubDate>Tue, 19 Jan 2016 23:26:28 -0300</pubDate>
-<atom:link href="http://i90rr.github.io/index2.html/feed.rss" rel="self" type="application/rss+xml" />
-<item><title>
-
-</title><description><![CDATA[
-
-<!-- text end -->
-<p id='twitter'><a href="http://i90rr.github.io/index2.html/index.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/index2.html/index.html"
- data-via="_i90rr"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-]]></description><link>http://i90rr.github.io/index2.html/index.html</link>
-<guid>http://i90rr.github.io/index2.html/./index.html</guid>
-<dc:creator>i90rr</dc:creator>
-<pubDate>Tue, 19 Jan 2016 23:24:00 -0300</pubDate></item>
+<lastBuildDate>Tue, 19 Jan 2016 23:30:51 -0300</lastBuildDate>
+<pubDate>Tue, 19 Jan 2016 23:30:51 -0300</pubDate>
+<atom:link href="http://i90rr.github.io/index.html/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Migrating mongoDB 2.6 mmap databases to {Percona Server} mongoDB 3.0.8 wiredTiger
 </title><description><![CDATA[
@@ -28,14 +14,15 @@ Migrating mongoDB 2.6 mmap databases to {Percona Server} mongoDB 3.0.8 wiredTige
 <p>Tags: <a href='tag_mongodb.html'>mongodb</a>, <a href='tag_percona.html'>percona</a>, <a href='tag_database.html'>database</a>, <a href='tag_nosql.html'>nosql</a>, <a href='tag_bigdata.html'>bigdata</a></p>
 
 
+
 <!-- text end -->
-<p id='twitter'><a href="http://i90rr.github.io/index2.html/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/index2.html/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html"
+<p id='twitter'><a href="http://i90rr.github.io/index.html/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/index.html/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>http://i90rr.github.io/index2.html/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</link>
-<guid>http://i90rr.github.io/index2.html/./migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</guid>
+]]></description><link>http://i90rr.github.io/index.html/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</link>
+<guid>http://i90rr.github.io/index.html/./migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</guid>
 <dc:creator>i90rr</dc:creator>
 <pubDate>Tue, 19 Jan 2016 23:19:00 -0300</pubDate></item>
 <item><title>
@@ -67,13 +54,13 @@ Coding in Go with Atom editor on GNU+Linux
 <p></br></p>
 
 <hr />
-<p id='twitter'><a href="http://i90rr.github.io/index2.html/coding-in-go-with-atom-in-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/index2.html/coding-in-go-with-atom-in-gnulinux.html"
+<p id='twitter'><a href="http://i90rr.github.io/index.html/coding-in-go-with-atom-in-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/index.html/coding-in-go-with-atom-in-gnulinux.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>http://i90rr.github.io/index2.html/coding-in-go-with-atom-in-gnulinux.html</link>
-<guid>http://i90rr.github.io/index2.html/./coding-in-go-with-atom-in-gnulinux.html</guid>
+]]></description><link>http://i90rr.github.io/index.html/coding-in-go-with-atom-in-gnulinux.html</link>
+<guid>http://i90rr.github.io/index.html/./coding-in-go-with-atom-in-gnulinux.html</guid>
 <dc:creator>i90rr</dc:creator>
 <pubDate>Tue, 19 Jan 2016 22:54:00 -0300</pubDate></item>
 <item><title>
@@ -116,14 +103,15 @@ If you see anything wrong please leave a comment :)</li>
 
 
 
+
 <!-- text end -->
-<p id='twitter'><a href="http://i90rr.github.io/index2.html/h4we-are-in-business-finallyh4.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/index2.html/h4we-are-in-business-finallyh4.html"
+<p id='twitter'><a href="http://i90rr.github.io/index.html/h4we-are-in-business-finallyh4.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/index.html/h4we-are-in-business-finallyh4.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>http://i90rr.github.io/index2.html/h4we-are-in-business-finallyh4.html</link>
-<guid>http://i90rr.github.io/index2.html/./h4we-are-in-business-finallyh4.html</guid>
+]]></description><link>http://i90rr.github.io/index.html/h4we-are-in-business-finallyh4.html</link>
+<guid>http://i90rr.github.io/index.html/./h4we-are-in-business-finallyh4.html</guid>
 <dc:creator>i90rr</dc:creator>
 <pubDate>Tue, 19 Jan 2016 22:52:00 -0300</pubDate></item>
 </channel></rss>
