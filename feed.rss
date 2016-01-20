@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>V for VERBOSE</title><link>http://i90rr.github.io/index2.html</link>
 <description>deal with that R.</description><language>en</language>
-<lastBuildDate>Mon, 18 Jan 2016 18:46:06 -0300</lastBuildDate>
-<pubDate>Mon, 18 Jan 2016 18:46:06 -0300</pubDate>
+<lastBuildDate>Tue, 19 Jan 2016 22:29:27 -0300</lastBuildDate>
+<pubDate>Tue, 19 Jan 2016 22:29:27 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/index2.html/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 </title><description><![CDATA[
 ]]></description><link>http://i90rr.github.io/index2.html/index.html</link>
 <guid>http://i90rr.github.io/index2.html/./index.html</guid>
 <dc:creator>i90rr</dc:creator>
-<pubDate>Mon, 18 Jan 2016 18:09:58 -0300</pubDate></item>
+<pubDate>Mon, 18 Jan 2016 21:59:47 -0300</pubDate></item>
 <item><title>
 Migrating mongoDB 2.6 mmap databases to {Percona Server} mongoDB 3.0.8 wiredTiger
 </title><description><![CDATA[
