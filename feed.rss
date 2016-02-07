@@ -2,9 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>another day in the sysadmin paradise ///</title><link>http://i90rr.github.io/</link>
 <description>where the grass is gr... oh ¬¬</description><language>en</language>
-<lastBuildDate>Sun, 07 Feb 2016 07:50:03 -0300</lastBuildDate>
-<pubDate>Sun, 07 Feb 2016 07:50:03 -0300</pubDate>
+<lastBuildDate>Sun, 07 Feb 2016 09:00:42 -0300</lastBuildDate>
+<pubDate>Sun, 07 Feb 2016 09:00:42 -0300</pubDate>
 <atom:link href="http://i90rr.github.io//feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Spacemacs: a quick guide to create and manage layers
+</title><description><![CDATA[
+
+<p><em>Upcoming</em></p>
+
+<p>Tags: <a href='tag_spacemacs.html'>spacemacs</a>, <a href='tag_emacs.html'>emacs</a>, <a href='tag_editor.html'>editor</a></p>
+<!-- text end -->
+<p id='twitter'><a href="http://i90rr.github.io//spacemacs-a-quick-guide-to-create-and-manage-layers.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//spacemacs-a-quick-guide-to-create-and-manage-layers.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>http://i90rr.github.io//spacemacs-a-quick-guide-to-create-and-manage-layers.html</link>
+<guid>http://i90rr.github.io//./spacemacs-a-quick-guide-to-create-and-manage-layers.html</guid>
+<dc:creator>i90rr</dc:creator>
+<pubDate>Sun, 07 Feb 2016 08:59:56 -0300</pubDate></item>
+<item><title>
+Chat secure on IRC
+</title><description><![CDATA[
+How to register a Freenode IRC account + SSL + SASL + OTR on Weechat</p>
+
+<p>This is a hand-holding step-by-step guide to use the Freenode IRC network to chat safely out of the reach of pying eyes.</p>
+
+<p><em>Upcoming</em></p>
+
+<p>Tags: <a href='tag_irc.html'>irc</a>, <a href='tag_weechat.html'>weechat</a>, <a href='tag_privacy.html'>privacy</a>, <a href='tag_security.html'>security</a>, <a href='tag_ssl.html'>ssl</a>, <a href='tag_sasl.html'>sasl</a>, <a href='tag_otr.html'>otr</a>, <a href='tag_comms.html'>comms</a></p>
+<!-- text end -->
+<p id='twitter'><a href="http://i90rr.github.io//chat-secure-on-irc.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//chat-secure-on-irc.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>http://i90rr.github.io//chat-secure-on-irc.html</link>
+<guid>http://i90rr.github.io//./chat-secure-on-irc.html</guid>
+<dc:creator>i90rr</dc:creator>
+<pubDate>Sun, 07 Feb 2016 08:32:00 -0300</pubDate></item>
 <item><title>
 Migrating mongoDB 2.6 mmap databases to {Percona Server} mongoDB 3.0.8 wiredTiger
 </title><description><![CDATA[
