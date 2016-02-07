@@ -2,14 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>the art of CLI crafting</title><link>http://i90rr.github.io/index.html</link>
 <description>a blog about (mostly) sysadmin stuff</description><language>en</language>
-<lastBuildDate>Sun, 07 Feb 2016 02:57:45 -0300</lastBuildDate>
-<pubDate>Sun, 07 Feb 2016 02:57:45 -0300</pubDate>
+<lastBuildDate>Sun, 07 Feb 2016 03:07:20 -0300</lastBuildDate>
+<pubDate>Sun, 07 Feb 2016 03:07:20 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/index.html/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Migrating mongoDB 2.6 mmap databases to {Percona Server} mongoDB 3.0.8 wiredTiger
 </title><description><![CDATA[
 
-<p>Last month I was tasked to upgrade our mongoDB infrastructure so first thing I did was to try to import a random dump to the new database. There was when the problems started...
+<p>Last month I was tasked to upgrade our mongoDB infrastructure so first thing I did was to try to import a random dump to the new database.
+<br><br>
+There was when the problems started...
 <br><br>
 Luckily after a lot of trial and error I could finally resolve all the issues I faced; please <a href="https://www.percona.com/forums/questions-discussions/percona-server-for-mongodb/43561-mongorestore-hangs-restoring-a-mongodb-2-6-dump-to-a-ps-for-mongodb-3-0-8-wiredtiger" title="Mongorestore hangs restoring a MongoDB 2.6 dump to a PS for MongoDB 3.0.8 wiredTiger">follow this link</a> for a quick explanation of the problems encountered and how to solve them, I will update this post next week with a hand-holding step-by-step guide.</p>
 
