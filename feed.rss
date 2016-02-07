@@ -2,14 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>another day in the sysadmin paradise ///</title><link>http://i90rr.github.io/</link>
 <description>where the grass is gr... oh ¬¬</description><language>en</language>
-<lastBuildDate>Sun, 07 Feb 2016 10:06:55 -0300</lastBuildDate>
-<pubDate>Sun, 07 Feb 2016 10:06:55 -0300</pubDate>
+<lastBuildDate>Sun, 07 Feb 2016 10:20:31 -0300</lastBuildDate>
+<pubDate>Sun, 07 Feb 2016 10:20:31 -0300</pubDate>
 <atom:link href="http://i90rr.github.io//feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Spacemacs: a quick guide for creating and managing layers
 </title><description><![CDATA[
 
-<p><em>Upcoming</em></p>
+<p><br></p>
+
+<div style="margin: 0px auto; display: flex; justify-content: center;">
+     <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/spacemacs.png" border="0">
+</div>
+
+<p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: middle;">Spacemacs welcome screen</span>
+<br>
+<em>Upcoming</em></p>
 
 <p>Tags: <a href='tag_spacemacs.html'>spacemacs</a>, <a href='tag_emacs.html'>emacs</a>, <a href='tag_editors.html'>editors</a></p>
 <!-- text end -->
