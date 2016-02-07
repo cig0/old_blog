@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>another day in the sysadmin paradise ///</title><link>http://i90rr.github.io/</link>
 <description>where the grass is gr... oh ¬¬</description><language>en</language>
-<lastBuildDate>Sun, 07 Feb 2016 10:20:31 -0300</lastBuildDate>
-<pubDate>Sun, 07 Feb 2016 10:20:31 -0300</pubDate>
+<lastBuildDate>Sun, 07 Feb 2016 10:32:28 -0300</lastBuildDate>
+<pubDate>Sun, 07 Feb 2016 10:32:28 -0300</pubDate>
 <atom:link href="http://i90rr.github.io//feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Spacemacs: a quick guide for creating and managing layers
@@ -15,7 +15,7 @@ Spacemacs: a quick guide for creating and managing layers
      <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/spacemacs.png" border="0">
 </div>
 
-<p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: middle;">Spacemacs welcome screen</span>
+<p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top;">Spacemacs welcome screen</span>
 <br>
 <em>Upcoming</em></p>
 
@@ -35,9 +35,11 @@ Chat secure on IRC
 </title><description><![CDATA[
 How to register a Freenode IRC account + SSL + SASL + OTR in Weechat</p>
 
-<p>This is a hand-holding step-by-step guide to use the Freenode IRC network to chat safely out of the reach of pying eyes.</p>
+<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png" border="0"  align="right" style="margin-left: 17px" vspace="8px"></p>
 
-<p><em>Upcoming</em></p>
+<p>This is a hand-holding step-by-step guide to use the Freenode IRC network to chat safely out of the reach of pying eyes.
+<br><br>
+<em>Upcoming</em></p>
 
 <p>Tags: <a href='tag_irc.html'>irc</a>, <a href='tag_weechat.html'>weechat</a>, <a href='tag_privacy.html'>privacy</a>, <a href='tag_security.html'>security</a>, <a href='tag_ssl.html'>ssl</a>, <a href='tag_sasl.html'>sasl</a>, <a href='tag_otr.html'>otr</a>, <a href='tag_comms.html'>comms</a></p>
 <!-- text end -->
