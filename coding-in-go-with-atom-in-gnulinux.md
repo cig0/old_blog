@@ -17,7 +17,7 @@ So far I found these two third-party packages very useful:
 They both install well, but making them work is a different story.
 </br></br></br>
 <div style="display: flex; justify-content: center;">
-  <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/gopher-new_transparent_600.png" style="width: 400px; height: 252px;" />
+  <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/gopher-new_transparent_600.png" style="width: 400px; height: 252px;" />
 </div>
 </br>
 
@@ -36,7 +36,7 @@ There are two places where you can define the needed variables systemwide in ord
 </br>
 </br>
 My /etc/profile.d/i90rr.sh file looks like this:
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/i90rr.sh.png">
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/i90rr.sh.png">
 
 You will need to log out and in again in order for the changes to be applied.</br>
 Next time you run Atom all the cogs should be in motion.
