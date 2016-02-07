@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>another day in the sysadmin paradise ///</title><link>http://i90rr.github.io/</link>
 <description>where the grass is gr... oh ¬¬</description><language>en</language>
-<lastBuildDate>Sun, 07 Feb 2016 09:06:43 -0300</lastBuildDate>
-<pubDate>Sun, 07 Feb 2016 09:06:43 -0300</pubDate>
+<lastBuildDate>Sun, 07 Feb 2016 09:45:10 -0300</lastBuildDate>
+<pubDate>Sun, 07 Feb 2016 09:45:10 -0300</pubDate>
 <atom:link href="http://i90rr.github.io//feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Spacemacs: a quick guide for creating and managing layers
@@ -21,11 +21,11 @@ Spacemacs: a quick guide for creating and managing layers
 ]]></description><link>http://i90rr.github.io//spacemacs-a-quick-guide-for-creating-and-managing-layers.html</link>
 <guid>http://i90rr.github.io//./spacemacs-a-quick-guide-for-creating-and-managing-layers.html</guid>
 <dc:creator>i90rr</dc:creator>
-<pubDate>Sun, 07 Feb 2016 09:05:24 -0300</pubDate></item>
+<pubDate>Sun, 07 Feb 2016 09:05:00 -0300</pubDate></item>
 <item><title>
 Chat secure on IRC
 </title><description><![CDATA[
-How to register a Freenode IRC account + SSL + SASL + OTR on Weechat</p>
+How to register a Freenode IRC account + SSL + SASL + OTR in Weechat</p>
 
 <p>This is a hand-holding step-by-step guide to use the Freenode IRC network to chat safely out of the reach of pying eyes.</p>
 
