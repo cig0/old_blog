@@ -2,9 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>another day in the sysadmin paradise ///</title><link>http://i90rr.github.io/</link>
 <description>where the grass is gr... oh ¬¬</description><language>en</language>
-<lastBuildDate>Sun, 07 Feb 2016 09:00:42 -0300</lastBuildDate>
-<pubDate>Sun, 07 Feb 2016 09:00:42 -0300</pubDate>
+<lastBuildDate>Sun, 07 Feb 2016 09:05:28 -0300</lastBuildDate>
+<pubDate>Sun, 07 Feb 2016 09:05:28 -0300</pubDate>
 <atom:link href="http://i90rr.github.io//feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Spacemacs: a quick guide for creating and managing layers
+</title><description><![CDATA[
+
+<p><em>Upcoming</em></p>
+
+<p>Tags: <a href='tag_spacemacs.html'>spacemacs</a>, <a href='tag_emacs.html'>emacs</a>, <a href='tag_editors.html'>editors</a></p>
+<!-- text end -->
+<p id='twitter'><a href="http://i90rr.github.io//spacemacs-a-quick-guide-for-creating-and-managing-layers.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//spacemacs-a-quick-guide-for-creating-and-managing-layers.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>http://i90rr.github.io//spacemacs-a-quick-guide-for-creating-and-managing-layers.html</link>
+<guid>http://i90rr.github.io//./spacemacs-a-quick-guide-for-creating-and-managing-layers.html</guid>
+<dc:creator>i90rr</dc:creator>
+<pubDate>Sun, 07 Feb 2016 09:05:24 -0300</pubDate></item>
 <item><title>
 Spacemacs: a quick guide to create and manage layers
 </title><description><![CDATA[
