@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
-<channel><title>CLI crafting</title><link>http://i90rr.github.io/index.html</link>
-<description>a blog about {automation,Apple,Emacs,F/LOSS,Fedora,Go,Python,security}</description><language>en</language>
-<lastBuildDate>Sun, 07 Feb 2016 01:08:50 -0300</lastBuildDate>
-<pubDate>Sun, 07 Feb 2016 01:08:50 -0300</pubDate>
+<channel><title>the art of CLI crafting</title><link>http://i90rr.github.io/index.html</link>
+<description>a blog about {automation,Apple,BigData,cloud,Emacs,F/LOSS,Fedora+CentOS,Go,Python,security}</description><language>en</language>
+<lastBuildDate>Sun, 07 Feb 2016 01:30:28 -0300</lastBuildDate>
+<pubDate>Sun, 07 Feb 2016 01:30:28 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/index.html/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Migrating mongoDB 2.6 mmap databases to {Percona Server} mongoDB 3.0.8 wiredTiger
@@ -12,6 +12,7 @@ Migrating mongoDB 2.6 mmap databases to {Percona Server} mongoDB 3.0.8 wiredTige
 <p align="center"><b><em>Upcoming...</em></b></p>
 
 <p>Tags: <a href='tag_mongodb.html'>mongodb</a>, <a href='tag_percona.html'>percona</a>, <a href='tag_database.html'>database</a>, <a href='tag_nosql.html'>nosql</a>, <a href='tag_bigdata.html'>bigdata</a></p>
+
 
 
 
@@ -102,6 +103,7 @@ If you see anything wrong please leave a comment :)</li>
 <p align="center"></br><b>H 4 P P Y  N 3 R D 1 N 9   !</b></p>
 
 <p>Tags: <a href='tag_sysadmin tools.html'>sysadmin tools</a>, <a href='tag_cli.html'>cli</a></p>
+
 
 
 
