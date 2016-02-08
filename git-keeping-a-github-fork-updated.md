@@ -1,6 +1,6 @@
 Git: keeping a GitHub fork updated
 
-I keep coming back to this life-saviour post - a must when forking a project and creating pull requests - so I believe it is worth enough to have a _hard copy_ of it, just in case.
+I keep coming to this life-saviour post - a must when forking a project and creating pull requests - so I believe it is worth enough to have a _hard copy_ of it, just in case.
 
 CC of: [Keeping A GitHub Fork Updated by Dan Croak](https://robots.thoughtbot.com/keeping-a-github-fork-updated)
 
