@@ -1,4 +1,4 @@
-Chat secure on IRC
+Chat safely on IRC
 How to register a Freenode IRC account + SSL + SASL + OTR in Weechat
 
 <br>

@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>another day in the sysadmin paradise ///</title><link>http://i90rr.github.io//frontpage.html</link>
 <description>where the grass is gr... oh ¬¬</description><language>en</language>
-<lastBuildDate>Sun, 07 Feb 2016 23:56:56 -0300</lastBuildDate>
-<pubDate>Sun, 07 Feb 2016 23:56:56 -0300</pubDate>
+<lastBuildDate>Sun, 07 Feb 2016 23:58:44 -0300</lastBuildDate>
+<pubDate>Sun, 07 Feb 2016 23:58:44 -0300</pubDate>
 <atom:link href="http://i90rr.github.io//feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Git: keeping a GitHub fork updated
@@ -50,7 +50,7 @@ Spacemacs: a quick guide for creating and managing layers
 <dc:creator>i90rr</dc:creator>
 <pubDate>Fri, 05 Feb 2016 01:00:00 -0300</pubDate></item>
 <item><title>
-Chat secure on IRC
+Chat safely on IRC
 </title><description><![CDATA[
 How to register a Freenode IRC account + SSL + SASL + OTR in Weechat</p>
 
@@ -62,12 +62,6 @@ How to register a Freenode IRC account + SSL + SASL + OTR in Weechat</p>
 <em>Upcoming</em></p>
 
 <p>Tags: <a href='tag_irc.html'>irc</a>, <a href='tag_weechat.html'>weechat</a>, <a href='tag_privacy.html'>privacy</a>, <a href='tag_security.html'>security</a>, <a href='tag_ssl.html'>ssl</a>, <a href='tag_sasl.html'>sasl</a>, <a href='tag_otr.html'>otr</a>, <a href='tag_comms.html'>comms</a></p>
-
-
-
-
-
-
 <!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io//chat-secure-on-irc.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//chat-secure-on-irc.html"
