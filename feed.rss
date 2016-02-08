@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>another day in the sysadmin paradise ///</title><link>http://i90rr.github.io//frontpage.html</link>
 <description>where the grass is gr... oh ¬¬</description><language>en</language>
-<lastBuildDate>Sun, 07 Feb 2016 23:17:26 -0300</lastBuildDate>
-<pubDate>Sun, 07 Feb 2016 23:17:26 -0300</pubDate>
+<lastBuildDate>Sun, 07 Feb 2016 23:18:20 -0300</lastBuildDate>
+<pubDate>Sun, 07 Feb 2016 23:18:20 -0300</pubDate>
 <atom:link href="http://i90rr.github.io//feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Git: keeping a GitHub fork updated
 </title><description><![CDATA[
 
-<p>I keep coming to this life-saviour post - a must when forking a project and creating pull requests - so I believe it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
+<p>I keep coming to this life-saviour post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
 
 <p>CC of: <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a></p>
 
