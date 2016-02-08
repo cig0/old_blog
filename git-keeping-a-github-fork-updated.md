@@ -32,6 +32,7 @@ The goal of the rebase is to have a cleaner history if I have local changes or c
    <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/pull-rebase-vs-pull.png" border="0" />
 </a>
 </div>
+<span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top;">pull with rebase - click to open the full article</span>
 
 **Commit rights upstream**
 
