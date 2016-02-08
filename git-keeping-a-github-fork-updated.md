@@ -29,7 +29,7 @@ The goal of the rebase is to have a cleaner history if I have local changes or c
 
 <div style="margin: 0px auto; display: flex; justify-content: center;">
 <a href="http://gitready.com/advanced/2009/02/11/pull-with-rebase.html">
-   <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/pull-rebase-vs-pull.jpg" border="0" />
+   <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/pull-rebase-vs-pull.png" border="0" />
 </a>
 </div>
 
