@@ -2,33 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>another day in the sysadmin paradise ///</title><link>http://i90rr.github.io//frontpage.html</link>
 <description>where the grass is gr... oh ¬¬</description><language>en</language>
-<lastBuildDate>Sun, 07 Feb 2016 22:16:29 -0300</lastBuildDate>
-<pubDate>Sun, 07 Feb 2016 22:16:29 -0300</pubDate>
+<lastBuildDate>Sun, 07 Feb 2016 23:06:56 -0300</lastBuildDate>
+<pubDate>Sun, 07 Feb 2016 23:06:56 -0300</pubDate>
 <atom:link href="http://i90rr.github.io//feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
-New new Title on this line
+Git: keeping a GitHub fork updated
 </title><description><![CDATA[
 
-<p>The rest of the text file is a <strong>Markdown</strong> blog post. The process will continue
-as soon as you exit your editor.</p>
+<p>I keep coming back to this life-saviour post - a must when forking a project and creating pull requests - so I believe it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
 
-<p>Tags: <a href='tag_keep-this-tag-format.html'>keep-this-tag-format</a>, <a href='tag_tags-are-optional.html'>tags-are-optional</a>, <a href='tag_beware-with-underscores-in-markdown.html'>beware-with-underscores-in-markdown</a>, <a href='tag_example.html'>example</a></p>
+<p>CC of: <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a></p>
 
-
-
-
-
-
-<!-- text end -->
-<p id='twitter'><a href="http://i90rr.github.io//new-new-title-on-this-line.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//new-new-title-on-this-line.html"
+<hr />
+<p id='twitter'><a href="http://i90rr.github.io//git-keeping-a-github-fork-updated.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//git-keeping-a-github-fork-updated.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>http://i90rr.github.io//new-new-title-on-this-line.html</link>
-<guid>http://i90rr.github.io//./new-new-title-on-this-line.html</guid>
+]]></description><link>http://i90rr.github.io//git-keeping-a-github-fork-updated.html</link>
+<guid>http://i90rr.github.io//./git-keeping-a-github-fork-updated.html</guid>
 <dc:creator>i90rr</dc:creator>
-<pubDate>Sun, 07 Feb 2016 21:10:00 -0300</pubDate></item>
+<pubDate>Sun, 07 Feb 2016 23:00:00 -0300</pubDate></item>
 <item><title>
 Spacemacs: a quick guide for creating and managing layers
 </title><description><![CDATA[
@@ -41,14 +35,9 @@ Spacemacs: a quick guide for creating and managing layers
 
 <p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top;">Spacemacs welcome screen</span>
 <br>
-<em>Upcoming</em></p>
+<em>Coming soon</em></p>
 
 <p>Tags: <a href='tag_spacemacs.html'>spacemacs</a>, <a href='tag_emacs.html'>emacs</a>, <a href='tag_editors.html'>editors</a></p>
-
-
-
-
-
 <!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io//spacemacs-a-quick-guide-for-creating-and-managing-layers.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//spacemacs-a-quick-guide-for-creating-and-managing-layers.html"

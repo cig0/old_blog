@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="main.css" type="text/css" />
 <link rel="stylesheet" href="blog.css" type="text/css" />
 <link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss" />
-<title>New new Title on this line</title>
+<title>Git: keeping a GitHub fork updated</title>
 <script type="text/javascript">
 
         var _gaq = _gaq || [];
@@ -21,8 +21,9 @@
         </script>
 <meta name='twitter:card' content='summary' />
 <meta name='twitter:site' content='@_i90rr' />
-<meta name='twitter:title' content='New new Title on this line' />
-<meta name='twitter:description' content=" The rest of the text file is a Markdown blog post. The process will continue as soon as you exit your editor.       " />
+<meta name='twitter:title' content='Git: keeping a GitHub fork updated' />
+<meta name='twitter:description' content=" I keep coming back to this life-saviour post - a must when forking a project and creating pull requests - so I believe it is worth enough to have a hard copy of it, just in case.  CC of: Keeping A GitHub Fork Updated by Dan Croak    Keeping A GitHub" />
+<meta name='twitter:image' content='https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/pull-rebase-vs-pull.png' />
 </head><body>
 <div id="divbodyholder">
 <div class="headerholder"><div class="header">
@@ -32,26 +33,54 @@
 </div></div></div>
 <div id="divbody"><div class="content">
 <!-- entry begin -->
-<h3><a class="ablack" href="new-new-title-on-this-line.html">
-New new Title on this line
+<h3><a class="ablack" href="git-keeping-a-github-fork-updated.html">
+Git: keeping a GitHub fork updated
 </a></h3>
 <div class="subtitle">February 07, 2016 &mdash; 
 i90rr</div>
 <!-- text begin -->
 
-<p>The rest of the text file is a <strong>Markdown</strong> blog post. The process will continue
-as soon as you exit your editor.</p>
+<p>I keep coming back to this life-saviour post - a must when forking a project and creating pull requests - so I believe it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
 
-<p>Tags: <a href='tag_keep-this-tag-format.html'>keep-this-tag-format</a>, <a href='tag_tags-are-optional.html'>tags-are-optional</a>, <a href='tag_beware-with-underscores-in-markdown.html'>beware-with-underscores-in-markdown</a>, <a href='tag_example.html'>example</a></p>
+<p>CC of: <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a></p>
 
+<hr />
 
+<p><strong>Keeping A GitHub Fork Updated</strong> - <em>by Dan Croak</em></p>
 
+<p>I forked a GitHub repo thoughtbot/dotfiles to croaky/dotfiles and want to keep it updated.</p>
 
+<p><strong>Track</strong></p>
 
+<p>After I forked the repo to your Github account, I did this one time:</p>
 
+<p>git clone git@github.com:croaky/dotfiles.git
+<br>cd dotfiles
+<br>git remote add upstream git@github.com:thoughtbot/dotfiles.git</p>
+
+<p><strong>Update</strong></p>
+
+<p>Each time I want to update, from my local master branch:</p>
+
+<p>git fetch upstream
+<br>git rebase upstream/master</p>
+
+<p>The goal of the rebase is to have a cleaner history if I have local changes or commits on the repo. It’s the difference between the the left and the right in the image below.</p>
+
+<p><a href="http://gitready.com/advanced/2009/02/11/pull-with-rebase.html">
+   <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/pull-rebase-vs-pull.png";" />
+</a></p>
+
+<p><strong>Commit rights upstream</strong></p>
+
+<p>If I also have commit rights to the upstream repo, I can create a local upstream branch and do work that will go upstream there.</p>
+
+<p>git checkout -b upstream upstream/master</p>
+
+<p>Tags: <a href='tag_git.html'>git</a>, <a href='tag_cvs.html'>cvs</a></p>
 <!-- text end -->
-<p id='twitter'><a href="http://i90rr.github.io//new-new-title-on-this-line.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//new-new-title-on-this-line.html"
+<p id='twitter'><a href="http://i90rr.github.io//git-keeping-a-github-fork-updated.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//git-keeping-a-github-fork-updated.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>

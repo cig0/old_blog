@@ -6,6 +6,6 @@ Spacemacs: a quick guide for creating and managing layers
 </div>
 <span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top;">Spacemacs welcome screen</span>
 <br>
-*Upcoming*
+*Coming soon*
 
 Tags: spacemacs,emacs,editors
