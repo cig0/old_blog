@@ -30,4 +30,4 @@ If you see anything wrong please leave a comment :)
 
 <p align="center"></br><b>H 4 P P Y  N 3 R D 1 N 9   !</b></p>
 
-Tags: sysadmin tools, cli
+Tags: about
