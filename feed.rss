@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>another day in the sysadmin paradise ///</title><link>http://i90rr.github.io//frontpage.html</link>
 <description>where the grass is gr... oh ¬¬</description><language>en</language>
-<lastBuildDate>Mon, 08 Feb 2016 00:13:07 -0300</lastBuildDate>
-<pubDate>Mon, 08 Feb 2016 00:13:07 -0300</pubDate>
+<lastBuildDate>Mon, 08 Feb 2016 00:14:13 -0300</lastBuildDate>
+<pubDate>Mon, 08 Feb 2016 00:14:13 -0300</pubDate>
 <atom:link href="http://i90rr.github.io//feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Git: keeping a GitHub fork updated
@@ -161,7 +161,7 @@ When you surf, you connect with the world. <a href="http://bestcostaricantours.c
 
 <ul>
 <li>This blog focuses on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention</li>
-<li>It is a <a href="https://www.staticgen.com">static blog</a>, meaning it doesn't rely on any database or dynamic stuff (check <a href="https://davidwalsh.name/introduction-static-site-generators">this</a> good article to learn more about the difference with dynamic websites)</li>
+<li>It is a <a href="https://www.staticgen.com">static blog</a>, meaning it doesn't rely on any database or dynamic stuff (check <a href="https://davidwalsh.name/introduction-static-site-generators">this good article</a> to learn more about the difference with dynamic websites)</li>
 <li>It is made using <em>bashblog</em>, a static site generator written in Bash (duh!)</li>
 <li>It is hosted at GitHub Pages (<a href="https://pages.github.com" title="GitHub Pages">go ahead and try it by yourself</a>)</li>
 <li>Thanks to being a static blog and being hosted by the kind people at GitHub it is mostly invulnerable to the dangers of the interwebs</li>

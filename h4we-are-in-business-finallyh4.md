@@ -19,7 +19,7 @@ It certainly took me more time than I'd wished to set up this blog but finally h
 I have to thank [@ezq](https://cardinali.org "Ezequiel Cardinali") who showed me what this little cool dude that is [bashblog](https://github.com/cfenollosa/bashblog) can do last year when I attended to the **FUDCon 2015** (*Fedora Users and Developers Conference*) that was held in the month of September in Córdoba, Argentina. It was a fantastic experience where I had the chance to meet some of the extraordinary people that conforms the Fedora community. **[You're awesome guys](https://www.youtube.com/watch?v=rPYX8o-m19s)**.
 
 * This blog focuses on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention
-* It is a [static blog](https://www.staticgen.com), meaning it doesn't rely on any database or dynamic stuff (check [this](https://davidwalsh.name/introduction-static-site-generators) good article to learn more about the difference with dynamic websites)
+* It is a [static blog](https://www.staticgen.com), meaning it doesn't rely on any database or dynamic stuff (check [this good article](https://davidwalsh.name/introduction-static-site-generators) to learn more about the difference with dynamic websites)
 * It is made using *bashblog*, a static site generator written in Bash (duh!)
 * It is hosted at GitHub Pages ([go ahead and try it by yourself](https://pages.github.com "GitHub Pages"))
 * Thanks to being a static blog and being hosted by the kind people at GitHub it is mostly invulnerable to the dangers of the interwebs
