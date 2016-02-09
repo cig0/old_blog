@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>another day in the sysadmin paradise ///</title><link>http://i90rr.github.io//frontpage.html</link>
 <description>where the grass is gr... oh ¬¬</description><language>en</language>
-<lastBuildDate>Tue, 09 Feb 2016 15:54:07 -0300</lastBuildDate>
-<pubDate>Tue, 09 Feb 2016 15:54:07 -0300</pubDate>
+<lastBuildDate>Tue, 09 Feb 2016 16:20:29 -0300</lastBuildDate>
+<pubDate>Tue, 09 Feb 2016 16:20:29 -0300</pubDate>
 <atom:link href="http://i90rr.github.io//feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Git: keeping a GitHub fork updated
@@ -94,7 +94,7 @@ Migrating mongoDB 2.6 mmap databases to {Percona Server} mongoDB 3.0.8 wiredTige
 
 <p><!-- <div class="box-shadow"> -->
 <a href="http://www.mongodb.org">
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/mongodb.png" width="150" height="150" align="right" style="margin-left: 17px" vspace="8px">
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/mongodb.png" width="250" height="250" align="right" style="margin-left: 17px" vspace="8px">
 </a></p>
 
 <p>Last month I was tasked to upgrade our mongoDB infrastructure so first thing I did was to try to import a random dump to the new database.
