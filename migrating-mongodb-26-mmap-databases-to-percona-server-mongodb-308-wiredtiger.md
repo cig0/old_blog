@@ -1,5 +1,9 @@
 Migrating mongoDB 2.6 mmap databases to {Percona Server} mongoDB 3.0.8 wiredTiger
 
+<a href="www.mongodb.org">
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/mongodb.png" align="right" style="margin-left: 17px" vspace="8px">
+</a>
+
 Last month I was tasked to upgrade our mongoDB infrastructure so first thing I did was to try to import a random dump to the new database.
 <br><br>
 There was when the problems started...
