@@ -48,3 +48,44 @@ body{
         }
 
         -->
+
+.anchor A {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  text-shadow: 4px 4px 4px #aaa;
+  text-decoration:none;
+
+
+.ubuntu_14 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  text-decoration:none;
+}
+
+.ubuntu_mono {
+  font-family: 'Ubuntu Mono';
+  font-size: 50px;
+}
+
+.box-shadow {
+  -moz-box-shadow:    7px 7px 7px #7C7C7C;
+  -webkit-box-shadow: 7px 7px 7px #7C7C7C;
+  box-shadow:         7px 7px 7px #7C7C7C;
+}
+
+.img-shadow {
+  float:left;
+  background: url(shadowAlpha.png) no-repeat bottom right !important;
+  background: url(shadow.gif) no-repeat bottom right;
+  margin: 10px 0 0 10px !important;
+  margin: 10px 0 0 5px;
+}
+
+.img-shadow img {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  margin: -6px 6px 6px -6px;
+  padding: 4px;
+} 

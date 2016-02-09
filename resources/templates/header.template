@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="main.css" type="text/css" />
     <link rel="stylesheet" href="blog.css" type="text/css" />
     <link rel="stylesheet" href="resources/css/styles.css" type="text/css" />
-    <!-- <link rel="stylesheet" href="resources/js/code-prettify/styles/doxy.css" type="text/css"/> -->
-    <link rel="stylesheet" href="resources/css/bootstrap-light_prettify.css" type="text/css"/>
+    <!-- <link rel="stylesheet" href="resources/js/code-prettify/styles/doxy.css" type="text/css"/> 
+    <link rel="stylesheet" href="resources/css/bootstrap-light_prettify.css" type="text/css"/>-->
     <!-- Code begins here -->
     <link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss" />
   </head>
