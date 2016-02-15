@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>another day in the sysadmin paradise ///</title><link>http://i90rr.github.io/frontpage.html</link>
 <description>where the grass is gr... oh ¬¬</description><language>en</language>
-<lastBuildDate>Mon, 15 Feb 2016 20:03:41 -0300</lastBuildDate>
-<pubDate>Mon, 15 Feb 2016 20:03:41 -0300</pubDate>
+<lastBuildDate>Mon, 15 Feb 2016 20:47:04 -0300</lastBuildDate>
+<pubDate>Mon, 15 Feb 2016 20:47:04 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Spacemacs: a quick guide for creating and managing layers
@@ -20,6 +20,7 @@ Spacemacs: a quick guide for creating and managing layers
 <em>Coming soon</em></p>
 
 <p>Tags: <a href='tag_spacemacs.html'>spacemacs</a>, <a href='tag_emacs.html'>emacs</a>, <a href='tag_editors.html'>editors</a></p>
+
 
 
 
@@ -172,26 +173,17 @@ Coding in Go with Atom editor on GNU+Linux
 <item><title>
 We are in business, finally! (aka About)
 </title><description><![CDATA[
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 17px" vspace="1px"></p>
-
-<p>It certainly took me more time than I'd wished to set up this blog but finally here we are. Now it's time to relax - and you know what that means: a sip of grog, our favorite easy chair and of course <a href="https://www.youtube.com/watch?v=g-BXxX1x4y8">this album</a>.</p>
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px" vspace="40px"></p>
 
 <p><strong>About me</strong></p>
 
-<p>Welcome to my corner on the 3w.</br>
-I'm a <a href="https://xkcd.com/705">SysAdmin</a> passionate about Unix(-like), automation, optimization, hardening and F/LOSS. Lately I started programming in <a href="https://golang.org">Go</a>; someday I would love to have the time to learn <a href="https://rust-lang.org">Rust</a> and <a href="http://www.lispmachine.net">Lisp</a>.</p>
+<p>I'm a <a href="https://xkcd.com/705">SysAdmin</a> passionate about Unix(-like), automation, optimization, hardening and F/LOSS. Lately I started programming in <a href="https://golang.org">Go</a>; someday I would love to have the time to learn <a href="https://rust-lang.org">Rust</a> and <a href="http://www.lispmachine.net">Lisp</a>.</p>
 
-<p>I'm a happy user of <a href="https://getfedora.org">Fedora</a> &amp; <a href="https://www.centos.org">CentOS</a> since mid 2014; previously I ran <a href="https://wiki.archlinux.org/index.php/Arch_Linux#Principles">Arch Linux</a> after trying Ubuntu, Debian, Slackware, Gentoo/Funtoo and FreeBSD.
-<br>My everyday toolkit consists of <a href="https://tmux.github.io">tmux</a> + <a href="https://github.com/tmux-plugins">tmux-plugins</a> + <a href="https://github.com/tmuxinator/tmuxinator">tmuxinator</a>, <a href="http://fishshell.com">fish</a> + <a href="https://github.com/oh-my-fish/oh-my-fish">omf</a> + <a href="https://github.com/wting/autojump">autojump</a> and <a href="http://spacemacs.org">Spacemacs</a>, an <a href="https://xkcd.com/378">Emacs</a> distribution that simply rocks (thanks E1HC!).
-<br>Among the GUI toolset there is FF + <a href="https://www.duckduckgo.com">DDG</a>, <a href="https://desktop.telegram.com">Telegram</a>, <a href="https://keepass.info">KeePass</a> and <a href="https://gnumdk.github.io/lollypop-web/">Lollypop</a> for playing music.</br>
-You can usually find me on <a href="https://www.weechat.org">IRC</a> (Freenode, OFTC, others...), <a href="https://www.apexdc.net">Direct Connect</a>, <a href="http://www.slsknet.org/news">SoulSeek</a> and <a href="http://www.pwnconf.org">pwn+</a></p>
-
-<p>I love to surf. <a href="http://www.surfertoday.com/surfing/8267-the-best-surfing-quotes-of-all-time">Surfing</a> is a <a href="https://www.youtube.com/watch?v=ACMckXr1j4o">state of mind</a> - surfing is Zen in movement.</br>
-When you surf, you connect with the world. <a href="http://bestcostaricantours.com/about/puravida.html">Pura Vida</a>.</p>
-
-<p>I have to thank <a href="https://cardinali.org" title="Ezequiel Cardinali">@ezq</a> who showed me what this little cool dude that is <a href="https://github.com/cfenollosa/bashblog">bashblog</a> can do last year when I attended to the <strong>FUDCon 2015</strong> (<em>Fedora Users and Developers Conference</em>) that was held in the month of September in Córdoba, Argentina. It was a fantastic experience where I had the chance to meet some of the extraordinary people that conforms the Fedora community. <strong><a href="https://www.youtube.com/watch?v=rPYX8o-m19s">You're awesome guys</a></strong>.</p>
+<p>Whenever I have time I love to surf, <a href="http://bestcostaricantours.com/about/puravida.html">pura vida</a>!</p>
 
 <p><strong>About this blog</strong>                                                                 </p>
+
+<p>It certainly took me more time than I'd wished to set up this blog but finally here we are.</p>
 
 <ul>
 <li>This blog focuses on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention</li>
@@ -208,15 +200,14 @@ If you see anything wrong please leave a comment :)</li>
 <p align="center"></br><b>H 4 P P Y  N 3 R D 1 N 9   !</b></p>
 
 <p>Tags: <a href='tag_about.html'>about</a></p>
-
 <!-- text end -->
-<p id='twitter'><a href="http://i90rr.github.io/h4we-are-in-business-finallyh4.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/h4we-are-in-business-finallyh4.html"
+<p id='twitter'><a href="http://i90rr.github.io/we-are-in-business-finally.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/we-are-in-business-finally.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>http://i90rr.github.io/h4we-are-in-business-finallyh4.html</link>
-<guid>http://i90rr.github.io/./h4we-are-in-business-finallyh4.html</guid>
+]]></description><link>http://i90rr.github.io/we-are-in-business-finally.html</link>
+<guid>http://i90rr.github.io/./we-are-in-business-finally.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Sun, 03 Jan 2016 00:00:00 -0300</pubDate></item>
 </channel></rss>
