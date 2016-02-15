@@ -2,27 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>another day in the sysadmin paradise ///</title><link>http://i90rr.github.io//frontpage.html</link>
 <description>where the grass is gr... oh ¬¬</description><language>en</language>
-<lastBuildDate>Sun, 14 Feb 2016 23:33:22 -0300</lastBuildDate>
-<pubDate>Sun, 14 Feb 2016 23:33:22 -0300</pubDate>
+<lastBuildDate>Mon, 15 Feb 2016 00:09:30 -0300</lastBuildDate>
+<pubDate>Mon, 15 Feb 2016 00:09:30 -0300</pubDate>
 <atom:link href="http://i90rr.github.io//feed.rss" rel="self" type="application/rss+xml" />
-<item><title>
-Git: keeping a GitHub fork updated
-</title><description><![CDATA[
-
-<p>I keep coming to this life-saviour post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
-
-<p>CC of: <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a></p>
-
-<hr />
-<p id='twitter'><a href="http://i90rr.github.io//git-keeping-a-github-fork-updated.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//git-keeping-a-github-fork-updated.html"
- data-via="_i90rr"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-]]></description><link>http://i90rr.github.io//git-keeping-a-github-fork-updated.html</link>
-<guid>http://i90rr.github.io//./git-keeping-a-github-fork-updated.html</guid>
-<dc:creator>i90rr</dc:creator>
-<pubDate>Sun, 07 Feb 2016 01:00:00 -0300</pubDate></item>
 <item><title>
 Spacemacs: a quick guide for creating and managing layers
 </title><description><![CDATA[
@@ -50,6 +32,10 @@ Spacemacs: a quick guide for creating and managing layers
 
 
 
+
+
+
+
 <!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io//spacemacs-a-quick-guide-for-creating-and-managing-layers.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//spacemacs-a-quick-guide-for-creating-and-managing-layers.html"
@@ -59,12 +45,12 @@ Spacemacs: a quick guide for creating and managing layers
 ]]></description><link>http://i90rr.github.io//spacemacs-a-quick-guide-for-creating-and-managing-layers.html</link>
 <guid>http://i90rr.github.io//./spacemacs-a-quick-guide-for-creating-and-managing-layers.html</guid>
 <dc:creator>i90rr</dc:creator>
-<pubDate>Fri, 05 Feb 2016 01:00:00 -0300</pubDate></item>
+<pubDate>Mon, 15 Feb 2016 00:00:00 -0300</pubDate></item>
 <item><title>
 Chat safely on IRC
 </title><description><![CDATA[
 
-<h4>How to register a Freenode IRC account + SSL + SASL + OTR in Weechat</h4>
+<h4 align="center">How to register a Freenode IRC account + SSL + SASL + OTR in Weechat</h4>
 
 <p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png" border="0"  align="left" style="margin-right: 17px"></p>
 
@@ -82,7 +68,25 @@ Chat safely on IRC
 ]]></description><link>http://i90rr.github.io//chat-secure-on-irc.html</link>
 <guid>http://i90rr.github.io//./chat-secure-on-irc.html</guid>
 <dc:creator>i90rr</dc:creator>
-<pubDate>Thu, 04 Feb 2016 00:00:00 -0300</pubDate></item>
+<pubDate>Mon, 08 Feb 2016 00:00:00 -0300</pubDate></item>
+<item><title>
+Git: keeping a GitHub fork updated
+</title><description><![CDATA[
+
+<p>I keep coming to this life-saviour post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
+
+<p>CC of: <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a></p>
+
+<hr />
+<p id='twitter'><a href="http://i90rr.github.io//git-keeping-a-github-fork-updated.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//git-keeping-a-github-fork-updated.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>http://i90rr.github.io//git-keeping-a-github-fork-updated.html</link>
+<guid>http://i90rr.github.io//./git-keeping-a-github-fork-updated.html</guid>
+<dc:creator>i90rr</dc:creator>
+<pubDate>Fri, 05 Feb 2016 00:00:00 -0300</pubDate></item>
 <item><title>
 Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mongoDB 3.0.8 wiredTiger
 </title><description><![CDATA[
@@ -129,6 +133,10 @@ We were able to successfully restore the needed dump. To avoid any possible conf
 <p>please <a href="https://www.percona.com/forums/questions-discussions/percona-server-for-mongodb/43561-mongorestore-hangs-restoring-a-mongodb-2-6-dump-to-a-ps-for-mongodb-3-0-8-wiredtiger" title="Mongorestore hangs restoring a MongoDB 2.6 dump to a PS for MongoDB 3.0.8 wiredTiger">follow this link</a> for a quick explanation of the problems encountered and how to solve them, I will update this post next week with a hand-holding step-by-step guide.</p>
 
 <p>Tags: <a href='tag_mongodb.html'>mongodb</a>, <a href='tag_percona.html'>percona</a>, <a href='tag_database.html'>database</a>, <a href='tag_nosql.html'>nosql</a>, <a href='tag_bigdata.html'>bigdata</a></p>
+
+
+
+
 <!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io//migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html"
@@ -214,6 +222,10 @@ If you see anything wrong please leave a comment :)</li>
 <p align="center"></br><b>H 4 P P Y  N 3 R D 1 N 9   !</b></p>
 
 <p>Tags: <a href='tag_about.html'>about</a></p>
+
+
+
+
 
 
 
