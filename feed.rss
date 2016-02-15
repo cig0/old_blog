@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>another day in the sysadmin paradise ///</title><link>http://i90rr.github.io//frontpage.html</link>
 <description>where the grass is gr... oh ¬¬</description><language>en</language>
-<lastBuildDate>Mon, 15 Feb 2016 00:09:30 -0300</lastBuildDate>
-<pubDate>Mon, 15 Feb 2016 00:09:30 -0300</pubDate>
+<lastBuildDate>Mon, 15 Feb 2016 00:13:43 -0300</lastBuildDate>
+<pubDate>Mon, 15 Feb 2016 00:13:43 -0300</pubDate>
 <atom:link href="http://i90rr.github.io//feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Spacemacs: a quick guide for creating and managing layers
@@ -36,6 +36,8 @@ Spacemacs: a quick guide for creating and managing layers
 
 
 
+
+
 <!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io//spacemacs-a-quick-guide-for-creating-and-managing-layers.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//spacemacs-a-quick-guide-for-creating-and-managing-layers.html"
@@ -44,7 +46,7 @@ Spacemacs: a quick guide for creating and managing layers
 </p>
 ]]></description><link>http://i90rr.github.io//spacemacs-a-quick-guide-for-creating-and-managing-layers.html</link>
 <guid>http://i90rr.github.io//./spacemacs-a-quick-guide-for-creating-and-managing-layers.html</guid>
-<dc:creator>i90rr</dc:creator>
+<dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Mon, 15 Feb 2016 00:00:00 -0300</pubDate></item>
 <item><title>
 Chat safely on IRC
@@ -59,6 +61,8 @@ Chat safely on IRC
 <em>Upcoming</em></p>
 
 <p>Tags: <a href='tag_irc.html'>irc</a>, <a href='tag_weechat.html'>weechat</a>, <a href='tag_privacy.html'>privacy</a>, <a href='tag_security.html'>security</a>, <a href='tag_ssl.html'>ssl</a>, <a href='tag_sasl.html'>sasl</a>, <a href='tag_otr.html'>otr</a>, <a href='tag_comms.html'>comms</a></p>
+
+
 <!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io//chat-secure-on-irc.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//chat-secure-on-irc.html"
@@ -67,7 +71,7 @@ Chat safely on IRC
 </p>
 ]]></description><link>http://i90rr.github.io//chat-secure-on-irc.html</link>
 <guid>http://i90rr.github.io//./chat-secure-on-irc.html</guid>
-<dc:creator>i90rr</dc:creator>
+<dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Mon, 08 Feb 2016 00:00:00 -0300</pubDate></item>
 <item><title>
 Git: keeping a GitHub fork updated
@@ -85,7 +89,7 @@ Git: keeping a GitHub fork updated
 </p>
 ]]></description><link>http://i90rr.github.io//git-keeping-a-github-fork-updated.html</link>
 <guid>http://i90rr.github.io//./git-keeping-a-github-fork-updated.html</guid>
-<dc:creator>i90rr</dc:creator>
+<dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Fri, 05 Feb 2016 00:00:00 -0300</pubDate></item>
 <item><title>
 Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mongoDB 3.0.8 wiredTiger
@@ -137,6 +141,8 @@ We were able to successfully restore the needed dump. To avoid any possible conf
 
 
 
+
+
 <!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io//migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html"
@@ -145,7 +151,7 @@ We were able to successfully restore the needed dump. To avoid any possible conf
 </p>
 ]]></description><link>http://i90rr.github.io//migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</link>
 <guid>http://i90rr.github.io//./migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</guid>
-<dc:creator>i90rr</dc:creator>
+<dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Tue, 02 Feb 2016 00:00:00 -0300</pubDate></item>
 <item><title>
 Coding in Go with Atom editor on GNU+Linux
@@ -183,7 +189,7 @@ Coding in Go with Atom editor on GNU+Linux
 </p>
 ]]></description><link>http://i90rr.github.io//coding-in-go-with-atom-in-gnulinux.html</link>
 <guid>http://i90rr.github.io//./coding-in-go-with-atom-in-gnulinux.html</guid>
-<dc:creator>i90rr</dc:creator>
+<dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Wed, 06 Jan 2016 00:00:00 -0300</pubDate></item>
 <item><title>
 We are in business, finally! (aka About)
@@ -234,6 +240,8 @@ If you see anything wrong please leave a comment :)</li>
 
 
 
+
+
 <!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io//h4we-are-in-business-finallyh4.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//h4we-are-in-business-finallyh4.html"
@@ -242,6 +250,6 @@ If you see anything wrong please leave a comment :)</li>
 </p>
 ]]></description><link>http://i90rr.github.io//h4we-are-in-business-finallyh4.html</link>
 <guid>http://i90rr.github.io//./h4we-are-in-business-finallyh4.html</guid>
-<dc:creator>i90rr</dc:creator>
+<dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Sun, 03 Jan 2016 00:00:00 -0300</pubDate></item>
 </channel></rss>
