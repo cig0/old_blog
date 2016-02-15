@@ -53,8 +53,7 @@ In our tests I found that 2gb of RAM was enough for the cache size, however YMMV
 <br>
 **Closure**
 <br>
-In the end we were able to successfully restore the needed dump.
-<br>To avoid any possible conflicts the issued command was:
+In the end we were able to successfully restore the needed dump by issuing:
 <ul><blockquote>mongorestore -v --maintainInsertionOrder --drop --stopOnError <i>DIRECTORY</i></blockquote></ul>
 
 <br>
