@@ -36,7 +36,7 @@
 <h3><a class="ablack" href="migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html">
 Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mongoDB 3.0.8 wiredTiger
 </a></h3>
-<div class="subtitle">February 02, 2016 &mdash; 
+<div class="subtitle">February 10, 2016 &mdash; 
 Martín Cigorraga</div>
 <!-- text begin -->
 
@@ -53,38 +53,59 @@ Martín Cigorraga</div>
 <hr />
 
 <p><br>
-We hit three blockers on our way to restore the aforementioned dump made with the legacy MongoDB 2.6. Our host was a <strong>CentOS 7 VM</strong> (<strong>KVM</strong>) updated to Jan 11th, 2016.</p>
+We hit three blockers on our way to restore the aforementioned dump made with MongoDB 2.6
+<br>Our host was a <strong>CentOS 7 VM</strong> (<strong>KVM</strong>) updated to Jan 11th, 2016:</p>
 
-<p>a) The first blocker was an issue with the format of a JSON metadata file:</p>
+<p><Ul>
+<li>
+The first blocker was an issue with the format of a JSON metadata file:</p>
 
 <blockquote>Failed: restore error: listDB.lists: error creating collection listDB.lists: error running create command: exception: specify size:<n> when capped is true</blockquote>
 
-<p>b) The second one has to be with a bug in MongoDB with the way it handles memory allocation, I quote:</p>
+<p>The solution was to simply <strong>remove all references</strong> to <strong>capped</strong> and <strong>size</strong>.</p>
 
-<blockquote>"There's another issue that seems to be related with the cache of wiredTiger trying to use more memory than the available one (seems a common problem when running Mongo in containers of any kind like LXC/Docker/cgroups-kvm, etc.); it fails to accurately measure the free memory. [...]  I will implement the "storage.wiredTiger.engineConfig.cacheSizeGB" option to limit wiredTiger's cache size [...]"</blockquote>
+<p><a href="https://goo.gl/9eCBS0">Ioan Mircea</a> deserves the credits as he was the one who pointed me in the right direction to start understanding what was happening there.</p>
 
-<p>c) The final issue we faced was related to the mongod daemon hanging indefinitely at random stages when restoring a collection: some times it hanged in an early stage of the restore process, some other times it froze well beyond half of the restore process (please check attached screenshot).</p>
-
-<p>mongod_hung.png
-Workaround</p>
-
-<p>a) Remove all references to capped and size:</p>
+<p>Juan Pablo Nogueira was kind enough to also share a one-liner to edit the files in place and fix the issue, which I reproduce below for your comfort:</p>
 
 <script src="https://gist.github.com/i90rr/647ea36211977d00a534.js"></script>
 
-<p>b) Manually allocate the necessary memory for the cache using the storage.wiredTiger.engineConfig.cacheSizeGB flag like this:</p>
+<p></li></p>
+
+<p><li>
+The second one has to be with a bug in mongoDB and the way it handles memory allocation:</p>
+
+<blockquote>"There's another issue that seems to be related with the cache of wiredTiger trying to use more memory than the available one (seems a common problem when running Mongo in containers of any kind like LXC/Docker/cgroups-kvm, etc.); it fails to accurately measure the free memory.</blockquote>
+
+<p>The solution to this issue was to manually allocate the minimum necessary memory for the cache using the <strong>storage.wiredTiger.engineConfig.cacheSizeGB</strong> flag like this:</p>
 
 <script src="https://gist.github.com/i90rr/60d87d19fb29768548c2.js"></script>
 
-<p>c) In our tests we found that 2GB was an appropriate value for the cache, however YMMV so you might need to play with the cache size until you find the correct value that works for you.</p>
+<p>Which leads us directly into the third issue :)
+</li></p>
 
-<p>Closing
+<p><li>
+The final issue we faced was related to the <em>mongod daemon</em> hanging indefinitely at random stages when restoring a collection: sometimes it hanged in an early stage of the restore process, some other times it froze well beyond half of it - <a href="">here is an screenshot</a>.
+<br>While I couldn't find anything in the logs that lead me to think that this was a cache size issue I finally could get along with the restore process by setting <strong>cacheSizeGB</strong> to a bigger value.</p>
+
+<blockquote>
+In our tests I found that 2gb of RAM was enough for the cache size, however YMMV so you might need to play with this value until you find the correct one that works for you.
+</blockquote>
+
+<p></li>
+</ul></p>
+
+<p><br>
+<strong>Closure</strong>
 <br>
-We were able to successfully restore the needed dump. To avoid any possible conflicts the issued command was:</p>
+In the end we were able to successfully restore the needed dump.
+<br>To avoid any possible conflicts the issued command was:</p>
 
-<ul>mongorestore -v --maintainInsertionOrder --drop --stopOnError DIRECTORY/</ul>
+<ul><blockquote>mongorestore -v --maintainInsertionOrder --drop --stopOnError <i>DIRECTORY</i></blockquote></ul>
 
-<p>please <a href="https://www.percona.com/forums/questions-discussions/percona-server-for-mongodb/43561-mongorestore-hangs-restoring-a-mongodb-2-6-dump-to-a-ps-for-mongodb-3-0-8-wiredtiger" title="Mongorestore hangs restoring a MongoDB 2.6 dump to a PS for MongoDB 3.0.8 wiredTiger">follow this link</a> for a quick explanation of the problems encountered and how to solve them, I will update this post next week with a hand-holding step-by-step guide.</p>
+<p><br>
+You might also find this related article useful:
+<br><a href="https://ubuntuincident.wordpress.com/2016/02/07/mongodb-upgrade-to-the-wiredtiger-storage-engine/">The Ubuntu Incident - MongoDB: upgrade to the WiredTiger storage engine</a></p>
 
 <p>Tags: <a href='tag_mongodb.html'>mongodb</a>, <a href='tag_percona.html'>percona</a>, <a href='tag_database.html'>database</a>, <a href='tag_nosql.html'>nosql</a>, <a href='tag_bigdata.html'>bigdata</a></p>
 <!-- text end -->
