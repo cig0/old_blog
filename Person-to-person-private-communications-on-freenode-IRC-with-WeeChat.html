@@ -66,10 +66,9 @@ This guide shows you how to implement a private <em>person-to-person</em> commun
 <li>You don't need to type your password every time you log in to the network</li>
 <li>In case you configure your client to automatically log in be aware that some clients still store credentials in plain text, which is a potential security risk</li>
 <li>Sometimes depending on the quality of your connection authenticating by a password may fail, with SASL it will not</li>
-<li>SASL will prevent most if not all attempts from stealing your nick. I remember when I still used to authenticate via a password that from time to time I had to fight with script kiddies and alike, issuing /GHOST and /RELEASE commands to NickServ in order to regain control of my nick. Authenticating with SASL that's now part of the past!</li>
 <li>Depending on the load of the server you connect to and the way your client works <a href="https://freenode.net/faq.shtml#nocloakonjoin">it may be a delay until the cloak is applied</a> when aythenticating via password method, this is why sometimes you see that a user enters a channel with his/her public IP address to moments later switch to the cloaked mode
 </ul></li>
-<li>Welcome to freenode! You can start working on your privacy now. Your first step should be to head to #freenode and <a href="https://freenode.net/faq.shtml#cloaks">ask the friendly staff there for a cloak</a>. A cloak hides your connection details - as well the channels you joined - from the rest of the freenode users but it doesn't work with web IRC clients</li>
+<li>Welcome to freenode! You can start working on your privacy now. Your first step should be to head to #freenode and <a href="https://freenode.net/faq.shtml#cloaks">ask for a cloak</a>. A cloak hides your connection details from the rest of the freenode users but it doesn't work with web IRC clients</li>
 <li>Next stop will be to <a href="https://weechat.org/files/doc/weechat_faq.en.html#irc_ssl_freenode">enforce the use of an SSL layer</a> to secure (encrypt) the communication between your WeeChat client and the server</li>
 <li>Fifth step: <a href="https://github.com/mmb/weechat-otr">implement the Off-the-Record protocol</a> and enjoy</li>
 </ol>
@@ -81,8 +80,6 @@ This guide shows you how to implement a private <em>person-to-person</em> commun
 <p>Do remember that privacy and security oriented technologies - as much as almost every other these days - are continuouslly evolving so what may be the best option for today may be doesn't for tomorrow.</p>
 
 <p>I recommend you to check this neat directory of privacy-oriented applications and services: <a href="https://prism-break.org/en/all">Prism Break</a></p>
-
-<p>Last but no least I want to thank Fuchs for taking the time to review this post, clarify a few concepts and help with suggestions on how to present the above information. </p>
 
 <p>Tags: <a href='tag_irc.html'>irc</a>, <a href='tag_weechat.html'>weechat</a>, <a href='tag_privacy.html'>privacy</a>, <a href='tag_security.html'>security</a>, <a href='tag_ssl.html'>ssl</a>, <a href='tag_sasl.html'>sasl</a>, <a href='tag_otr.html'>otr</a>, <a href='tag_comms.html'>comms</a></p>
 <!-- text end -->

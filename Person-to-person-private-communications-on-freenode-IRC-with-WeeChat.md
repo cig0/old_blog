@@ -25,10 +25,9 @@ While this guide is focused on freenode and WeeChat it should be trivial to adap
     <li>You don't need to type your password every time you log in to the network</li>
     <li>In case you configure your client to automatically log in be aware that some clients still store credentials in plain text, which is a potential security risk</li>
     <li>Sometimes depending on the quality of your connection authenticating by a password may fail, with SASL it will not</li>
-    <li>SASL will prevent most if not all attempts from stealing your nick. I remember when I still used to authenticate via a password that from time to time I had to fight with script kiddies and alike, issuing /GHOST and /RELEASE commands to NickServ in order to regain control of my nick. Authenticating with SASL that's now part of the past!</li>
     <li>Depending on the load of the server you connect to and the way your client works [it may be a delay until the cloak is applied](https://freenode.net/faq.shtml#nocloakonjoin) when aythenticating via password method, this is why sometimes you see that a user enters a channel with his/her public IP address to moments later switch to the cloaked mode
     </ul>
-3. Welcome to freenode! You can start working on your privacy now. Your first step should be to head to #freenode and [ask the friendly staff there for a cloak](https://freenode.net/faq.shtml#cloaks). A cloak hides your connection details - as well the channels you joined - from the rest of the freenode users but it doesn't work with web IRC clients
+3. Welcome to freenode! You can start working on your privacy now. Your first step should be to head to #freenode and [ask for a cloak](https://freenode.net/faq.shtml#cloaks). A cloak hides your connection details from the rest of the freenode users but it doesn't work with web IRC clients
 4. Next stop will be to [enforce the use of an SSL layer](https://weechat.org/files/doc/weechat_faq.en.html#irc_ssl_freenode) to secure (encrypt) the communication between your WeeChat client and the server
 5. Fifth step: [implement the Off-the-Record protocol](https://github.com/mmb/weechat-otr) and enjoy
 
@@ -39,7 +38,5 @@ I don't foresee you have any issues following these steps - I myself did configu
 Do remember that privacy and security oriented technologies - as much as almost every other these days - are continuouslly evolving so what may be the best option for today may be doesn't for tomorrow.
 
 I recommend you to check this neat directory of privacy-oriented applications and services: [Prism Break](https://prism-break.org/en/all)
-
-Last but no least I want to thank Fuchs for taking the time to review this post, clarify a few concepts and help with suggestions on how to present the above information. 
 
 Tags: irc, weechat, privacy, security, ssl, sasl, otr, comms
