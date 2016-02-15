@@ -2,16 +2,15 @@ Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mon
 
 <!-- <div class="box-shadow"> -->
 <a href="http://www.mongodb.org">
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/mongodb.png" width="200" height="200" align="right" style="margin-left: 17px" vspace="8px">
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/mongodb.png" width="200" height="200" align="right" style="margin-left: 24px" vspace="1px">
 </a>
 
 
 Last month I was tasked to upgrade our mongoDB infrastructure so first thing I did was try to import a random dump to the new database - and it wasn't a straightforward process of couse, why should it be? :)
 
-Luckily after some debugging and the help of fellow sysadmins at the company I used to work we could finally resolve all the issues we faced; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.
+Luckily after some debugging and the help of the fellow sysadmins at the company I used to work we could finally resolve all the issues we faced; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.
 
-__We hit three blockers on our way to restore the aforementioned dump made with the legacy MongoDB 2.6__.
-<br>Our working environment was a CentOS 7 VM (KVM) updated to _Jan 11th, 2016_.
+__We hit three blockers on our way to restore the aforementioned dump made with the legacy MongoDB 2.6__. Our host was a __CentOS 7 VM__ (__KVM__) updated to Jan 11th, 2016.
 
 a) The first blocker was an issue with the format of a JSON metadata file:
 
