@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="main.css" type="text/css" />
 <link rel="stylesheet" href="blog.css" type="text/css" />
 <link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss" />
-<title>Chat safely (and privately!) on Freenode IRC with WeeChat</title>
+<title>Person-to-person private communications on freenode IRC with WeeChat</title>
 <script type="text/javascript">
 
         var _gaq = _gaq || [];
@@ -21,8 +21,8 @@
         </script>
 <meta name='twitter:card' content='summary' />
 <meta name='twitter:site' content='@_i90rr' />
-<meta name='twitter:title' content='Chat safely (and privately!) on Freenode IRC with WeeChat' />
-<meta name='twitter:description' content=" Head-to-toe guide for registering an account + SASL + cloaking + SSL + OTR   This is a hand-holding step-by-step guide to use the Freenode IRC network to chat safely out of the reach of prying eyes; the goal is to save you time when setting up such " />
+<meta name='twitter:title' content='Person-to-person private communications on freenode IRC with WeeChat' />
+<meta name='twitter:description' content=" Head-to-toe guide for registering an account + SASL + cloaking + SSL + OTR   This guide shows you how to implement a private person-to-person communication channel in freenode to safely avoid server logging of your chats.   Introduction  There are p" />
 <meta name='twitter:image' content='https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png' />
 </head><body>
 <div id="divbodyholder">
@@ -34,7 +34,7 @@
 <div id="divbody"><div class="content">
 <!-- entry begin -->
 <h3><a class="ablack" href="chat-secure-on-irc.html">
-Chat safely (and privately!) on Freenode IRC with WeeChat
+Person-to-person private communications on freenode IRC with WeeChat
 </a></h3>
 <div class="subtitle">February 14, 2016 &mdash; 
 Martín Cigorraga</div>
@@ -43,13 +43,14 @@ Martín Cigorraga</div>
 <h4>Head-to-toe guide for registering an account + SASL + cloaking + SSL + OTR</h4>
 
 <p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png" border="0"  align="left" style="margin-right: 17px">
-This is a hand-holding step-by-step guide to use the Freenode IRC network to chat safely out of the reach of prying eyes; the goal is to save you time when setting up such setup.
-<br><br>
-<strong>Introduction</strong></p>
+This guide shows you how to implement a private <em>person-to-person</em> communication channel in freenode <br>to safely avoid server logging of your chats.
+<br><br></p>
 
-<p>If you're reading this post it's (most likely) because you're concerned about [your] privacy online, you are an IRC user and most probably you make your systems work the way <em>you</em> want.
-<br>Conversely if you are concerned about privacy online but you don't know how to apply this guide just leave me a comment and I will try to help you find the best solution that suits your needs.
-While this guide is focused on Freenode and WeeChat it should be trivial to adapt it to other networks and clients.
+<p><strong>Introduction</strong></p>
+
+<p>There are plenty of ways to securely chat online, however if you spend most of your time in freenode and indeed the people you chat with is there this method will help you establish a secure, private channel for a person-to-person communication. </p>
+
+<p>While this guide is focused on freenode and WeeChat it should be trivial to adapt it to other networks and clients.
 <br><br></p>
 
 <hr />
@@ -58,17 +59,17 @@ While this guide is focused on Freenode and WeeChat it should be trivial to adap
 <strong>Hands-on!</strong></p>
 
 <ol>
-<li>Start by <a href="https://freenode.net/faq.shtml#nicksetup">registering a new Freenode account</a></li>
-<li>Proceed to <a href="https://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication">configure WeeChat to log via SASL</a> (SASL on <a href="https://en.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer">Wikipedia</a>, <a href="https://freenode.net/sasl/">Freenode</a>)
+<li>Start by <a href="https://freenode.net/faq.shtml#nicksetup">registering a new freenode account</a></li>
+<li>Proceed to <a href="https://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication">configure WeeChat to log via SASL</a> (SASL on <a href="https://en.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer">Wikipedia</a>, <a href="https://freenode.net/sasl/">freenode</a>)
 <br>This is a convenient method to authenticate yourself and indeed a better one than using a password most of the times because:
 <ul>
 <li>You don't need to type your password every time you log in to the network</li>
 <li>In case you configure your client to automatically log in be aware that some clients still store credentials in plain text, which is a potential security risk</li>
 <li>Sometimes depending on the quality of your connection authenticating by a password may fail, with SASL it will not</li>
 <li>SASL will prevent most if not all attempts from stealing your nick. I remember when I still used to authenticate via a password that from time to time I had to fight with script kiddies and alike, issuing /GHOST and /RELEASE commands to NickServ in order to regain control of my nick. Authenticating with SASL that's now part of the past!</li>
-<li>Depending on the load of the server you connect to and the way your client works <a href="https://freenode.net/faq.shtml#nocloakonjoin">it may be a delay until the cloak is applied</a> when aythenticating via password method, this is why sometimes you see that a user enters a channel with his/her public IP address to moments later switch to the cloaked mode.
+<li>Depending on the load of the server you connect to and the way your client works <a href="https://freenode.net/faq.shtml#nocloakonjoin">it may be a delay until the cloak is applied</a> when aythenticating via password method, this is why sometimes you see that a user enters a channel with his/her public IP address to moments later switch to the cloaked mode
 </ul></li>
-<li>Welcome to Freenode! You can start working on your privacy now. Your first step should be to head to #freenode and <a href="https://freenode.net/faq.shtml#cloaks">ask the friendly staff there for a cloak</a></li>
+<li>Welcome to freenode! You can start working on your privacy now. Your first step should be to head to #freenode and <a href="https://freenode.net/faq.shtml#cloaks">ask the friendly staff there for a cloak</a>. A cloak hides your connection details - as well the channels you joined - from the rest of the freenode users but it doesn't work with web IRC clients</li>
 <li>Next stop will be to <a href="https://weechat.org/files/doc/weechat_faq.en.html#irc_ssl_freenode">enforce the use of an SSL layer</a> to secure (encrypt) the communication between your WeeChat client and the server</li>
 <li>Fifth step: <a href="https://github.com/mmb/weechat-otr">implement the Off-the-Record protocol</a> and enjoy</li>
 </ol>
@@ -77,8 +78,8 @@ While this guide is focused on Freenode and WeeChat it should be trivial to adap
 
 <p><strong>Final note</strong></p>
 
-<p>Do remember that privacy and security oriented technologies - as much as almost every other these days - are continuouslly changing so what may be the best option for today may be doesn't for tomorrow.
-I recommend you check this neat directory of privacy-oriented applications and services: https://prism-break.org/en/all/</p>
+<p>Do remember that privacy and security oriented technologies - as much as almost every other these days - are continuouslly evolving so what may be the best option for today may be doesn't for tomorrow.
+I recommend you to check this neat directory of privacy-oriented applications and services: https://prism-break.org/en/all/</p>
 
 <p>Tags: <a href='tag_irc.html'>irc</a>, <a href='tag_weechat.html'>weechat</a>, <a href='tag_privacy.html'>privacy</a>, <a href='tag_security.html'>security</a>, <a href='tag_ssl.html'>ssl</a>, <a href='tag_sasl.html'>sasl</a>, <a href='tag_otr.html'>otr</a>, <a href='tag_comms.html'>comms</a></p>
 <!-- text end -->

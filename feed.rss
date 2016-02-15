@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>another day in the sysadmin paradise ///</title><link>http://i90rr.github.io/frontpage.html</link>
 <description>where the grass is gr... oh ¬¬</description><language>en</language>
-<lastBuildDate>Mon, 15 Feb 2016 18:59:09 -0300</lastBuildDate>
-<pubDate>Mon, 15 Feb 2016 18:59:09 -0300</pubDate>
+<lastBuildDate>Mon, 15 Feb 2016 19:34:13 -0300</lastBuildDate>
+<pubDate>Mon, 15 Feb 2016 19:34:13 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Spacemacs: a quick guide for creating and managing layers
@@ -61,19 +61,20 @@ Spacemacs: a quick guide for creating and managing layers
 <dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Mon, 15 Feb 2016 00:00:00 -0300</pubDate></item>
 <item><title>
-Chat safely (and privately!) on Freenode IRC with WeeChat
+Person-to-person private communications on freenode IRC with WeeChat
 </title><description><![CDATA[
 
 <h4>Head-to-toe guide for registering an account + SASL + cloaking + SSL + OTR</h4>
 
 <p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png" border="0"  align="left" style="margin-right: 17px">
-This is a hand-holding step-by-step guide to use the Freenode IRC network to chat safely out of the reach of prying eyes; the goal is to save you time when setting up such setup.
-<br><br>
-<strong>Introduction</strong></p>
+This guide shows you how to implement a private <em>person-to-person</em> communication channel in freenode <br>to safely avoid server logging of your chats.
+<br><br></p>
 
-<p>If you're reading this post it's (most likely) because you're concerned about [your] privacy online, you are an IRC user and most probably you make your systems work the way <em>you</em> want.
-<br>Conversely if you are concerned about privacy online but you don't know how to apply this guide just leave me a comment and I will try to help you find the best solution that suits your needs.
-While this guide is focused on Freenode and WeeChat it should be trivial to adapt it to other networks and clients.
+<p><strong>Introduction</strong></p>
+
+<p>There are plenty of ways to securely chat online, however if you spend most of your time in freenode and indeed the people you chat with is there this method will help you establish a secure, private channel for a person-to-person communication. </p>
+
+<p>While this guide is focused on freenode and WeeChat it should be trivial to adapt it to other networks and clients.
 <br><br></p>
 
 <hr />
