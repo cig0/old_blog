@@ -22,7 +22,8 @@
 <meta name='twitter:card' content='summary' />
 <meta name='twitter:site' content='@_i90rr' />
 <meta name='twitter:title' content='another day in the sysadmin paradise /// &mdash; Posts tagged "git"' />
-<meta name='twitter:description' content=" Git: keeping a GitHub fork updated  February 05, 2016 &mdash;  Martín Cigorraga   I keep coming to this life-saviour post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a hard copy of it, just i" />
+<meta name='twitter:description' content=" Git: keeping a GitHub fork updated  February 05, 2016 &mdash;  Martín Cigorraga   I keep coming to this life-saving post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a hard copy of it, just in" />
+<meta name='twitter:image' content='https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/pull-rebase-vs-pull.png' />
 </head><body>
 <div id="divbodyholder">
 <div class="headerholder"><div class="header">
@@ -38,11 +39,56 @@ Git: keeping a GitHub fork updated
 Martín Cigorraga</div>
 <!-- text begin -->
 
-<p>I keep coming to this life-saviour post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
+<p>I keep coming to this life-saving post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
 
-<p>CC of: <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a></p>
+<p>CC of <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a> below:</p>
 
-<p class="readmore"><a href="./git-keeping-a-github-fork-updated.html">Read more...</a></p>
+<!-- ----
+
+__Keeping A GitHub Fork Updated__ - _by Dan Croak_ -->
+
+<p>I forked a GitHub repo <em>thoughtbot/dotfiles</em> to <em>croaky/dotfiles</em> and want to keep it updated.</p>
+
+<p><strong>Track</strong></p>
+
+<p>After I forked the repo to my GitHub account, I did this one time:</p>
+
+<ul>
+git clone git@github.com:croaky/dotfiles.git
+<br>cd dotfiles
+<br>git remote add upstream git@github.com:thoughtbot/dotfiles.git
+</ul>
+
+<p><br>
+<strong>Update</strong></p>
+
+<p>Each time I want to update, from my local master branch:</p>
+
+<ul>
+git fetch upstream
+<br>git rebase upstream/master
+</ul>
+
+<p>The goal of the rebase is to have a cleaner history if I have local changes or commits on the repo. It’s the difference between the the left and the right in the image below:</p>
+
+<div style="margin: 0px auto; display: flex; justify-content: center;">
+<a href="http://gitready.com/advanced/2009/02/11/pull-with-rebase.html">
+   <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/pull-rebase-vs-pull.png" border="0" />
+</a>
+</div>
+
+<p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top; font-size: small;">Pull with rebase - click to open the full article</span></p>
+
+<p><strong>Commit rights upstream</strong></p>
+
+<p>If I also have commit rights to the upstream repo, I can create a local upstream branch and do work that will go upstream there.</p>
+
+<ul>
+git checkout -b upstream upstream/master
+</ul>
+
+<p>Tags: <a href='tag_git.html'>git</a>, <a href='tag_cvs.html'>cvs</a></p>
+<!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io//git-keeping-a-github-fork-updated.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//git-keeping-a-github-fork-updated.html"
  data-via="_i90rr"

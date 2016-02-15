@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>another day in the sysadmin paradise ///</title><link>http://i90rr.github.io//frontpage.html</link>
 <description>where the grass is gr... oh ¬¬</description><language>en</language>
-<lastBuildDate>Mon, 15 Feb 2016 00:13:43 -0300</lastBuildDate>
-<pubDate>Mon, 15 Feb 2016 00:13:43 -0300</pubDate>
+<lastBuildDate>Mon, 15 Feb 2016 01:28:49 -0300</lastBuildDate>
+<pubDate>Mon, 15 Feb 2016 01:28:49 -0300</pubDate>
 <atom:link href="http://i90rr.github.io//feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Spacemacs: a quick guide for creating and managing layers
@@ -38,6 +38,15 @@ Spacemacs: a quick guide for creating and managing layers
 
 
 
+
+
+
+
+
+
+
+
+
 <!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io//spacemacs-a-quick-guide-for-creating-and-managing-layers.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//spacemacs-a-quick-guide-for-creating-and-managing-layers.html"
@@ -49,20 +58,17 @@ Spacemacs: a quick guide for creating and managing layers
 <dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Mon, 15 Feb 2016 00:00:00 -0300</pubDate></item>
 <item><title>
-Chat safely on IRC
+Chat safely (and privately!) on Freenode IRC with WeeChat
 </title><description><![CDATA[
 
-<h4 align="center">How to register a Freenode IRC account + SSL + SASL + OTR in Weechat</h4>
+<h4>Head-to-toe guide for registering an account + SASL + cloaking + SSL + OTR</h4>
 
-<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png" border="0"  align="left" style="margin-right: 17px"></p>
-
-<p><br>This is a hand-holding step-by-step guide to use the Freenode IRC network to chat safely out of the reach of pying eyes.
+<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png" border="0"  align="left" style="margin-right: 17px">
+This is a hand-holding step-by-step guide to use the Freenode IRC network to chat safely out of the reach of pying eyes.
 <br><br>
-<em>Upcoming</em></p>
+<em>Comming soon</em></p>
 
 <p>Tags: <a href='tag_irc.html'>irc</a>, <a href='tag_weechat.html'>weechat</a>, <a href='tag_privacy.html'>privacy</a>, <a href='tag_security.html'>security</a>, <a href='tag_ssl.html'>ssl</a>, <a href='tag_sasl.html'>sasl</a>, <a href='tag_otr.html'>otr</a>, <a href='tag_comms.html'>comms</a></p>
-
-
 <!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io//chat-secure-on-irc.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//chat-secure-on-irc.html"
@@ -77,11 +83,56 @@ Chat safely on IRC
 Git: keeping a GitHub fork updated
 </title><description><![CDATA[
 
-<p>I keep coming to this life-saviour post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
+<p>I keep coming to this life-saving post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
 
-<p>CC of: <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a></p>
+<p>CC of <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a> below:</p>
 
-<hr />
+<!-- ----
+
+__Keeping A GitHub Fork Updated__ - _by Dan Croak_ -->
+
+<p>I forked a GitHub repo <em>thoughtbot/dotfiles</em> to <em>croaky/dotfiles</em> and want to keep it updated.</p>
+
+<p><strong>Track</strong></p>
+
+<p>After I forked the repo to my GitHub account, I did this one time:</p>
+
+<ul>
+git clone git@github.com:croaky/dotfiles.git
+<br>cd dotfiles
+<br>git remote add upstream git@github.com:thoughtbot/dotfiles.git
+</ul>
+
+<p><br>
+<strong>Update</strong></p>
+
+<p>Each time I want to update, from my local master branch:</p>
+
+<ul>
+git fetch upstream
+<br>git rebase upstream/master
+</ul>
+
+<p>The goal of the rebase is to have a cleaner history if I have local changes or commits on the repo. It’s the difference between the the left and the right in the image below:</p>
+
+<div style="margin: 0px auto; display: flex; justify-content: center;">
+<a href="http://gitready.com/advanced/2009/02/11/pull-with-rebase.html">
+   <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/pull-rebase-vs-pull.png" border="0" />
+</a>
+</div>
+
+<p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top; font-size: small;">Pull with rebase - click to open the full article</span></p>
+
+<p><strong>Commit rights upstream</strong></p>
+
+<p>If I also have commit rights to the upstream repo, I can create a local upstream branch and do work that will go upstream there.</p>
+
+<ul>
+git checkout -b upstream upstream/master
+</ul>
+
+<p>Tags: <a href='tag_git.html'>git</a>, <a href='tag_cvs.html'>cvs</a></p>
+<!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io//git-keeping-a-github-fork-updated.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//git-keeping-a-github-fork-updated.html"
  data-via="_i90rr"
@@ -137,6 +188,15 @@ We were able to successfully restore the needed dump. To avoid any possible conf
 <p>please <a href="https://www.percona.com/forums/questions-discussions/percona-server-for-mongodb/43561-mongorestore-hangs-restoring-a-mongodb-2-6-dump-to-a-ps-for-mongodb-3-0-8-wiredtiger" title="Mongorestore hangs restoring a MongoDB 2.6 dump to a PS for MongoDB 3.0.8 wiredTiger">follow this link</a> for a quick explanation of the problems encountered and how to solve them, I will update this post next week with a hand-holding step-by-step guide.</p>
 
 <p>Tags: <a href='tag_mongodb.html'>mongodb</a>, <a href='tag_percona.html'>percona</a>, <a href='tag_database.html'>database</a>, <a href='tag_nosql.html'>nosql</a>, <a href='tag_bigdata.html'>bigdata</a></p>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -201,10 +261,10 @@ We are in business, finally! (aka About)
 <p>Welcome to my corner on the 3w.</br>
 I'm a <a href="https://xkcd.com/705">SysAdmin</a> passionate about Unix(-like), automation, optimization, hardening and F/LOSS. Lately I started programming in <a href="https://golang.org">Go</a>; someday I would love to have the time to learn <a href="https://rust-lang.org">Rust</a> and <a href="http://www.lispmachine.net">Lisp</a>.</p>
 
-<p>*I've been running <a href="https://wiki.archlinux.org/index.php/Arch_Linux#Principles">Arch Linux</a> everywhere since February 2008 but in October 2014 I settled with <a href="https://getfedora.org">Fedora</a> &amp; <a href="https://www.centos.org">CentOS</a> and I'm very happy with my desicion. Previous to that I ran Ubuntu and later Debian for little more than a year and in between Arch and Fedora I enjoyed <a href="https://chakraos.org">Chakra</a> for a few months. My everyday toolkit consists of <a href="https://tmux.github.io">tmux</a> + <a href="https://github.com/tmuxinator/tmuxinator">tmuxinator</a>, <a href="http://fishshell.com">fish</a> + <a href="https://github.com/oh-my-fish/oh-my-fish">omf</a> + <a href="https://github.com/wting/autojump">autojump</a> and <a href="http://spacemacs.org">Spacemacs</a>, an <a href="https://xkcd.com/378">Emacs</a>-based editor that rocks (thanks E1NS!). Among the GUI toolset there is FF + <a href="https://www.duckduckgo.com">DDG</a>, <a href="https://desktop.telegram.com">Telegram</a> and <a href="https://keepass.info">KeePass</a>.</br>
-You can usually find me dwelling in Freenode and other IRC networks and hanging out at <a href="http://www.pwnconf.org">pwn+</a></p>
+<p>I'm a happy user of <a href="https://getfedora.org">Fedora</a> &amp; <a href="https://www.centos.org">CentOS</a> since mid 2014; previously I ran <a href="https://wiki.archlinux.org/index.php/Arch_Linux#Principles">Arch Linux</a> after trying Ubuntu, Debian, Slackware, Gentoo/Funtoo and FreeBSD. My everyday toolkit consists of <a href="https://tmux.github.io">tmux</a> + <a href="https://github.com/tmuxinator/tmuxinator">tmuxinator</a>, <a href="http://fishshell.com">fish</a> + <a href="https://github.com/oh-my-fish/oh-my-fish">omf</a> + <a href="https://github.com/wting/autojump">autojump</a> and <a href="http://spacemacs.org">Spacemacs</a>, an <a href="https://xkcd.com/378">Emacs</a>-based editor that rocks (thanks E1NS!). Among the GUI toolset there is FF + <a href="https://www.duckduckgo.com">DDG</a>, <a href="https://desktop.telegram.com">Telegram</a> and <a href="https://keepass.info">KeePass</a>.</br>
+You can usually find me on IRC (Freenode, OFTC, others...) and <a href="http://www.pwnconf.org">pwn+</a></p>
 
-<p>Among many other things I love to surf. <a href="http://www.surfertoday.com/surfing/8267-the-best-surfing-quotes-of-all-time">Surfing</a> is a <a href="https://www.youtube.com/watch?v=ACMckXr1j4o">state of mind</a> - surfing is Zen in movement.</br>
+<p>I love to surf. <a href="http://www.surfertoday.com/surfing/8267-the-best-surfing-quotes-of-all-time">Surfing</a> is a <a href="https://www.youtube.com/watch?v=ACMckXr1j4o">state of mind</a> - surfing is Zen in movement.</br>
 When you surf, you connect with the world. <a href="http://bestcostaricantours.com/about/puravida.html">Pura Vida</a>.</p>
 
 <p><strong>About this blog</strong>                                                                 </p>
@@ -228,11 +288,6 @@ If you see anything wrong please leave a comment :)</li>
 <p align="center"></br><b>H 4 P P Y  N 3 R D 1 N 9   !</b></p>
 
 <p>Tags: <a href='tag_about.html'>about</a></p>
-
-
-
-
-
 
 
 

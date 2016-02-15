@@ -38,7 +38,7 @@ body{
         blockquote img{margin:12px 0px;}
         blockquote iframe{margin:12px 0px;}
 
-        <!--
+        /*
         
         welcome_landing{
             font-family: 'Ubuntu', sans-serif;
@@ -47,15 +47,13 @@ body{
             text-shadow: 4px 4px 4px #aaa;
         }
 
-        -->
-
 .anchor A {
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
   text-shadow: 4px 4px 4px #aaa;
   text-decoration:none;
 
-/* .ubuntu_14 {
+ .ubuntu_14 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   text-decoration:none;

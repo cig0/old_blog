@@ -7,8 +7,7 @@
         .subtitle{font-size:small;margin:12px 0px;}
         .content p{margin-left:24px;margin-right:24px;}
         h1{margin-bottom:12px !important;}
-        /* #description{font-size:large;margin-bottom:12px;} */
-        /*#description{font-size:medium;margin-bottom:12px;}*/
+        #description{font-size:large;margin-bottom:12px;}
         h3{margin-top:42px;margin-bottom:8px;}
-        h4{margin-left:24px;margin-right:24px;}
+        h4{margin-left:24px;margin-right:24px;text-align:center;font-size:x-large;}
         #twitter{line-height:20px;vertical-align:top;text-align:right;font-style:italic;color:#333;margin-top:24px;font-size:14px;}

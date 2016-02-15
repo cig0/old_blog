@@ -22,7 +22,7 @@
 <meta name='twitter:card' content='summary' />
 <meta name='twitter:site' content='@_i90rr' />
 <meta name='twitter:title' content='Git: keeping a GitHub fork updated' />
-<meta name='twitter:description' content=" I keep coming to this life-saviour post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a hard copy of it, just in case.  CC of: Keeping A GitHub Fork Updated by Dan Croak    Keeping A GitHub Fork" />
+<meta name='twitter:description' content=" I keep coming to this life-saving post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a hard copy of it, just in case.  CC of Keeping A GitHub Fork Updated by Dan Croak below:  <!-- ----  __Keepi" />
 <meta name='twitter:image' content='https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/pull-rebase-vs-pull.png' />
 </head><body>
 <div id="divbodyholder">
@@ -40,30 +40,35 @@ Git: keeping a GitHub fork updated
 Martín Cigorraga</div>
 <!-- text begin -->
 
-<p>I keep coming to this life-saviour post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
+<p>I keep coming to this life-saving post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
 
-<p>CC of: <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a></p>
+<p>CC of <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a> below:</p>
 
-<hr />
+<!-- ----
 
-<p><strong>Keeping A GitHub Fork Updated</strong> - <em>by Dan Croak</em></p>
+__Keeping A GitHub Fork Updated__ - _by Dan Croak_ -->
 
-<p>I forked a GitHub repo thoughtbot/dotfiles to croaky/dotfiles and want to keep it updated.</p>
+<p>I forked a GitHub repo <em>thoughtbot/dotfiles</em> to <em>croaky/dotfiles</em> and want to keep it updated.</p>
 
 <p><strong>Track</strong></p>
 
-<p>After I forked the repo to your Github account, I did this one time:</p>
+<p>After I forked the repo to my GitHub account, I did this one time:</p>
 
-<p>git clone git@github.com:croaky/dotfiles.git
+<ul>
+git clone git@github.com:croaky/dotfiles.git
 <br>cd dotfiles
-<br>git remote add upstream git@github.com:thoughtbot/dotfiles.git</p>
+<br>git remote add upstream git@github.com:thoughtbot/dotfiles.git
+</ul>
 
-<p><strong>Update</strong></p>
+<p><br>
+<strong>Update</strong></p>
 
 <p>Each time I want to update, from my local master branch:</p>
 
-<p>git fetch upstream
-<br>git rebase upstream/master</p>
+<ul>
+git fetch upstream
+<br>git rebase upstream/master
+</ul>
 
 <p>The goal of the rebase is to have a cleaner history if I have local changes or commits on the repo. It’s the difference between the the left and the right in the image below:</p>
 
@@ -73,24 +78,17 @@ Martín Cigorraga</div>
 </a>
 </div>
 
-<p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top;">pull with rebase - click to open the full article</span></p>
+<p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top; font-size: small;">Pull with rebase - click to open the full article</span></p>
 
 <p><strong>Commit rights upstream</strong></p>
 
 <p>If I also have commit rights to the upstream repo, I can create a local upstream branch and do work that will go upstream there.</p>
 
-<p>git checkout -b upstream upstream/master</p>
+<ul>
+git checkout -b upstream upstream/master
+</ul>
 
 <p>Tags: <a href='tag_git.html'>git</a>, <a href='tag_cvs.html'>cvs</a></p>
-
-
-
-
-
-
-
-
-
 <!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io//git-keeping-a-github-fork-updated.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//git-keeping-a-github-fork-updated.html"
