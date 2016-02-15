@@ -38,7 +38,12 @@ body{
         blockquote img{margin:12px 0px;}
         blockquote iframe{margin:12px 0px;}
 
-        /*
+/*
+
+        blockquote:before {background-color:#f9f9f9;border-left:solid 4px #e9e9e9;margin-left:12px;padding:12px 12px 12px 24px;content: open-quote;}
+        blockquote:after {background-color:#f9f9f9;border-left:solid 4px #e9e9e9;margin-left:12px;padding:12px 12px 12px 24px;content: close-quote;}
+
+
         
         welcome_landing{
             font-family: 'Ubuntu', sans-serif;

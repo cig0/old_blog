@@ -47,17 +47,21 @@ Martín Cigorraga</div>
 
 <p>Last month I was tasked to upgrade our mongoDB infrastructure so first thing I did was try to import a random dump to the new database - and it wasn't a straightforward process of couse, why should it be? :)</p>
 
-<p>Luckily after some debugging and the help of the fellow sysadmins at the company I used to work we could finally resolve all the issues we faced; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.</p>
+<p>Luckily after some debugging and the help of the fellow sysadmins at the company I used to work we could finally resolve all the issues we faced; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.
+<br><br></p>
 
-<p><strong>We hit three blockers on our way to restore the aforementioned dump made with the legacy MongoDB 2.6</strong>. Our host was a <strong>CentOS 7 VM</strong> (<strong>KVM</strong>) updated to Jan 11th, 2016.</p>
+<hr />
+
+<p><br>
+We hit three blockers on our way to restore the aforementioned dump made with the legacy MongoDB 2.6. Our host was a <strong>CentOS 7 VM</strong> (<strong>KVM</strong>) updated to Jan 11th, 2016.</p>
 
 <p>a) The first blocker was an issue with the format of a JSON metadata file:</p>
 
-<p>Failed: restore error: listDB.lists: error creating collection listDB.lists: error running create command: exception: specify size:<n> when capped is true</p>
+<blockquote>Failed: restore error: listDB.lists: error creating collection listDB.lists: error running create command: exception: specify size:<n> when capped is true</blockquote>
 
 <p>b) The second one has to be with a bug in MongoDB with the way it handles memory allocation, I quote:</p>
 
-<p>"There's another issue that seems to be related with the cache of wiredTiger trying to use more memory than the available one (seems a common problem when running Mongo in containers of any kind like LXC/Docker/cgroups-kvm, etc.); it fails to accurately measure the free memory. [...]  I will implement the "storage.wiredTiger.engineConfig.cacheSizeGB" option to limit wiredTiger's cache size [...]"</p>
+<blockquote>"There's another issue that seems to be related with the cache of wiredTiger trying to use more memory than the available one (seems a common problem when running Mongo in containers of any kind like LXC/Docker/cgroups-kvm, etc.); it fails to accurately measure the free memory. [...]  I will implement the "storage.wiredTiger.engineConfig.cacheSizeGB" option to limit wiredTiger's cache size [...]"</blockquote>
 
 <p>c) The final issue we faced was related to the mongod daemon hanging indefinitely at random stages when restoring a collection: some times it hanged in an early stage of the restore process, some other times it froze well beyond half of the restore process (please check attached screenshot).</p>
 
@@ -72,32 +76,17 @@ Workaround</p>
 
 <script src="https://gist.github.com/i90rr/60d87d19fb29768548c2.js"></script>
 
-<p>c) In our tests we found that 2GB was an appropriate value for the cache, however YMMV so you might need to play with the cache size until you find the correct value that works for you.
-Resolution
+<p>c) In our tests we found that 2GB was an appropriate value for the cache, however YMMV so you might need to play with the cache size until you find the correct value that works for you.</p>
+
+<p>Closing
 <br>
 We were able to successfully restore the needed dump. To avoid any possible conflicts the issued command was:</p>
 
-<blockquote># mongorestore -v --maintainInsertionOrder --drop --stopOnError DIRECTORY/</blockquote>
+<ul>mongorestore -v --maintainInsertionOrder --drop --stopOnError DIRECTORY/</ul>
 
 <p>please <a href="https://www.percona.com/forums/questions-discussions/percona-server-for-mongodb/43561-mongorestore-hangs-restoring-a-mongodb-2-6-dump-to-a-ps-for-mongodb-3-0-8-wiredtiger" title="Mongorestore hangs restoring a MongoDB 2.6 dump to a PS for MongoDB 3.0.8 wiredTiger">follow this link</a> for a quick explanation of the problems encountered and how to solve them, I will update this post next week with a hand-holding step-by-step guide.</p>
 
 <p>Tags: <a href='tag_mongodb.html'>mongodb</a>, <a href='tag_percona.html'>percona</a>, <a href='tag_database.html'>database</a>, <a href='tag_nosql.html'>nosql</a>, <a href='tag_bigdata.html'>bigdata</a></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html"

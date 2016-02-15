@@ -1,13 +1,13 @@
 Git: keeping a GitHub fork updated
 
-I keep coming to this life-saving post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a _hard copy_ of it, just in case.
+I keep returning to this life-saving post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a _hard copy_ of it, just in case.
 
-CC of [Keeping A GitHub Fork Updated by Dan Croak](https://robots.thoughtbot.com/keeping-a-github-fork-updated) below:
+CC of [Keeping A GitHub Fork Updated by Dan Croak](https://robots.thoughtbot.com/keeping-a-github-fork-updated) below
+<br><br>
 
-<!-- ----
+----
 
-__Keeping A GitHub Fork Updated__ - _by Dan Croak_ -->
-
+<br>
 I forked a GitHub repo _thoughtbot/dotfiles_ to _croaky/dotfiles_ and want to keep it updated.
 
 **Track**
@@ -33,9 +33,9 @@ git fetch upstream
 The goal of the rebase is to have a cleaner history if I have local changes or commits on the repo. It’s the difference between the the left and the right in the image below:
 
 <div style="margin: 0px auto; display: flex; justify-content: center;">
-<a href="http://gitready.com/advanced/2009/02/11/pull-with-rebase.html">
-   <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/pull-rebase-vs-pull.png" border="0" />
-</a>
+     <a href="http://gitready.com/advanced/2009/02/11/pull-with-rebase.html">
+        <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/pull-rebase-vs-pull.png" border="0" />
+     </a>
 </div>
 <span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top; font-size: small;">Pull with rebase - click to open the full article</span>
 
