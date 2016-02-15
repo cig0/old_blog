@@ -28,7 +28,7 @@ While this guide is focused on freenode and WeeChat it should be trivial to adap
     <li>Depending on the load of the server you connect to and the way your client works [it may be a delay until the cloak is applied](https://freenode.net/faq.shtml#nocloakonjoin) when aythenticating via password method, this is why sometimes you see that a user enters a channel with his/her public IP address to moments later switch to the cloaked mode
     </ul>
 3. Welcome to freenode! You can start working on your privacy now. Your first step should be to head to #freenode and [ask for a cloak](https://freenode.net/faq.shtml#cloaks). A cloak hides your connection details from the rest of the freenode users but it doesn't work with web IRC clients
-4. Next stop will be to [enforce the use of an SSL layer](https://weechat.org/files/doc/weechat_faq.en.html#irc_ssl_freenode) to secure (encrypt) the communication between your WeeChat client and the server
+4. Next stop will be to [enforce the use of an TLS SSL layer](https://weechat.org/files/doc/weechat_faq.en.html#irc_ssl_freenode) to secure (encrypt) the communication between your WeeChat client and the server
 5. Fifth step: [implement the Off-the-Record protocol](https://github.com/mmb/weechat-otr)
 
 I don't foresee you have any issues following these steps - I myself did configure OTR this way a few days ago - but should you happen to find a blocker just leave a comment below.
