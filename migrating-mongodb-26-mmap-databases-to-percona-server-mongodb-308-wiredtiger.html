@@ -85,7 +85,7 @@ The second one has to be with a bug in mongoDB and the way it handles memory all
 </li></p>
 
 <p><li>
-The final issue we faced was related to the <em>mongod daemon</em> hanging indefinitely at random stages when restoring a collection: sometimes it hanged in an early stage of the restore process, some other times it froze well beyond half of it - <a href="">here is an screenshot</a>.
+The final issue we faced was related to the <em>mongod daemon</em> hanging indefinitely at random stages when restoring a collection: sometimes it hanged in an early stage of the restore process, some other times it froze well beyond half of it - <a href="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/mongodb_hung.png">here is an screenshot</a>.
 <br>While I couldn't find anything in the logs that lead me to think that this was a cache size issue I finally could get along with the restore process by setting <strong>cacheSizeGB</strong> to a bigger value.</p>
 
 <blockquote>

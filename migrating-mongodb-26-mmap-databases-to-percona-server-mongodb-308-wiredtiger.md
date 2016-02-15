@@ -42,7 +42,7 @@ Which leads us directly into the third issue :)
 </li>
 
 <li>
-The final issue we faced was related to the _mongod daemon_ hanging indefinitely at random stages when restoring a collection: sometimes it hanged in an early stage of the restore process, some other times it froze well beyond half of it - [here is an screenshot]().
+The final issue we faced was related to the _mongod daemon_ hanging indefinitely at random stages when restoring a collection: sometimes it hanged in an early stage of the restore process, some other times it froze well beyond half of it - [here is an screenshot](https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/mongodb_hung.png).
 <br>While I couldn't find anything in the logs that lead me to think that this was a cache size issue I finally could get along with the restore process by setting __cacheSizeGB__ to a bigger value.
 <blockquote>
 In our tests I found that 2gb of RAM was enough for the cache size, however YMMV so you might need to play with this value until you find the correct one that works for you.
