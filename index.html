@@ -22,13 +22,13 @@
 <meta name='twitter:card' content='summary' />
 <meta name='twitter:site' content='@_i90rr' />
 <meta name='twitter:title' content='another day in the sysadmin paradise ///' />
-<meta name='twitter:description' content=" Spacemacs: a quick guide for creating and managing layers  February 15, 2016 &mdash;  Martín Cigorraga              Spacemacs welcome screen  Coming soon                              Comments? &nbsp; <a href='https://twitter.com/share' class='twitt" />
+<meta name='twitter:description' content=" Spacemacs: a quick guide for creating and managing layers  February 15, 2016 &mdash;  Martín Cigorraga              Spacemacs welcome screen  Coming soon                                Comments? &nbsp; <a href='https://twitter.com/share' class='twi" />
 <meta name='twitter:image' content='https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/spacemacs.png' />
 </head><body>
 <div id="divbodyholder">
 <div class="headerholder"><div class="header">
 <div id="title">
-<h1 class="nomargin"><a class="ablack" href="http://i90rr.github.io//frontpage.html">another day in the sysadmin paradise ///</a></h1>
+<h1 class="nomargin"><a class="ablack" href="http://i90rr.github.io/frontpage.html">another day in the sysadmin paradise ///</a></h1>
 <div id="description">where the grass is gr... oh ¬¬</div>
 </div></div></div>
 <div id="divbody"><div class="content">
@@ -77,9 +77,11 @@ Martín Cigorraga</div>
 
 
 
+
+
 <!-- text end -->
-<p id='twitter'><a href="http://i90rr.github.io//spacemacs-a-quick-guide-for-creating-and-managing-layers.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//spacemacs-a-quick-guide-for-creating-and-managing-layers.html"
+<p id='twitter'><a href="http://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
@@ -98,9 +100,11 @@ This is a hand-holding step-by-step guide to use the Freenode IRC network to cha
 <em>Comming soon</em></p>
 
 <p>Tags: <a href='tag_irc.html'>irc</a>, <a href='tag_weechat.html'>weechat</a>, <a href='tag_privacy.html'>privacy</a>, <a href='tag_security.html'>security</a>, <a href='tag_ssl.html'>ssl</a>, <a href='tag_sasl.html'>sasl</a>, <a href='tag_otr.html'>otr</a>, <a href='tag_comms.html'>comms</a></p>
+
+
 <!-- text end -->
-<p id='twitter'><a href="http://i90rr.github.io//chat-secure-on-irc.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//chat-secure-on-irc.html"
+<p id='twitter'><a href="http://i90rr.github.io/chat-secure-on-irc.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/chat-secure-on-irc.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
@@ -111,58 +115,14 @@ Git: keeping a GitHub fork updated
 Martín Cigorraga</div>
 <!-- text begin -->
 
-<p>I keep coming to this life-saving post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
+<p>I keep returning to this life-saving post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
 
-<p>CC of <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a> below:</p>
+<p>CC of <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a> below
+<br><br></p>
 
-<!-- ----
-
-__Keeping A GitHub Fork Updated__ - _by Dan Croak_ -->
-
-<p>I forked a GitHub repo <em>thoughtbot/dotfiles</em> to <em>croaky/dotfiles</em> and want to keep it updated.</p>
-
-<p><strong>Track</strong></p>
-
-<p>After I forked the repo to my GitHub account, I did this one time:</p>
-
-<ul>
-git clone git@github.com:croaky/dotfiles.git
-<br>cd dotfiles
-<br>git remote add upstream git@github.com:thoughtbot/dotfiles.git
-</ul>
-
-<p><br>
-<strong>Update</strong></p>
-
-<p>Each time I want to update, from my local master branch:</p>
-
-<ul>
-git fetch upstream
-<br>git rebase upstream/master
-</ul>
-
-<p>The goal of the rebase is to have a cleaner history if I have local changes or commits on the repo. It’s the difference between the the left and the right in the image below:</p>
-
-<div style="margin: 0px auto; display: flex; justify-content: center;">
-<a href="http://gitready.com/advanced/2009/02/11/pull-with-rebase.html">
-   <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/pull-rebase-vs-pull.png" border="0" />
-</a>
-</div>
-
-<p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top; font-size: small;">Pull with rebase - click to open the full article</span></p>
-
-<p><strong>Commit rights upstream</strong></p>
-
-<p>If I also have commit rights to the upstream repo, I can create a local upstream branch and do work that will go upstream there.</p>
-
-<ul>
-git checkout -b upstream upstream/master
-</ul>
-
-<p>Tags: <a href='tag_git.html'>git</a>, <a href='tag_cvs.html'>cvs</a></p>
-<!-- text end -->
-<p id='twitter'><a href="http://i90rr.github.io//git-keeping-a-github-fork-updated.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//git-keeping-a-github-fork-updated.html"
+<p class="readmore"><a href="./git-keeping-a-github-fork-updated.html">Read more...</a></p>
+<p id='twitter'><a href="http://i90rr.github.io/git-keeping-a-github-fork-updated.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/git-keeping-a-github-fork-updated.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
@@ -180,59 +140,12 @@ Martín Cigorraga</div>
 
 <p>Last month I was tasked to upgrade our mongoDB infrastructure so first thing I did was try to import a random dump to the new database - and it wasn't a straightforward process of couse, why should it be? :)</p>
 
-<p>Luckily after some debugging and the help of the fellow sysadmins at the company I used to work we could finally resolve all the issues we faced; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.</p>
+<p>Luckily after some debugging and the help of the fellow sysadmins at the company I used to work we could finally resolve all the issues we faced; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.
+<br><br></p>
 
-<p><strong>We hit three blockers on our way to restore the aforementioned dump made with the legacy MongoDB 2.6</strong>. Our host was a <strong>CentOS 7 VM</strong> (<strong>KVM</strong>) updated to Jan 11th, 2016.</p>
-
-<p>a) The first blocker was an issue with the format of a JSON metadata file:</p>
-
-<p>Failed: restore error: listDB.lists: error creating collection listDB.lists: error running create command: exception: specify size:<n> when capped is true</p>
-
-<p>b) The second one has to be with a bug in MongoDB with the way it handles memory allocation, I quote:</p>
-
-<p>"There's another issue that seems to be related with the cache of wiredTiger trying to use more memory than the available one (seems a common problem when running Mongo in containers of any kind like LXC/Docker/cgroups-kvm, etc.); it fails to accurately measure the free memory. [...]  I will implement the "storage.wiredTiger.engineConfig.cacheSizeGB" option to limit wiredTiger's cache size [...]"</p>
-
-<p>c) The final issue we faced was related to the mongod daemon hanging indefinitely at random stages when restoring a collection: some times it hanged in an early stage of the restore process, some other times it froze well beyond half of the restore process (please check attached screenshot).</p>
-
-<p>mongod_hung.png
-Workaround</p>
-
-<p>a) Remove all references to capped and size:</p>
-
-<script src="https://gist.github.com/i90rr/647ea36211977d00a534.js"></script>
-
-<p>b) Manually allocate the necessary memory for the cache using the storage.wiredTiger.engineConfig.cacheSizeGB flag like this:</p>
-
-<script src="https://gist.github.com/i90rr/60d87d19fb29768548c2.js"></script>
-
-<p>c) In our tests we found that 2GB was an appropriate value for the cache, however YMMV so you might need to play with the cache size until you find the correct value that works for you.
-Resolution
-<br>
-We were able to successfully restore the needed dump. To avoid any possible conflicts the issued command was:</p>
-
-<blockquote># mongorestore -v --maintainInsertionOrder --drop --stopOnError DIRECTORY/</blockquote>
-
-<p>please <a href="https://www.percona.com/forums/questions-discussions/percona-server-for-mongodb/43561-mongorestore-hangs-restoring-a-mongodb-2-6-dump-to-a-ps-for-mongodb-3-0-8-wiredtiger" title="Mongorestore hangs restoring a MongoDB 2.6 dump to a PS for MongoDB 3.0.8 wiredTiger">follow this link</a> for a quick explanation of the problems encountered and how to solve them, I will update this post next week with a hand-holding step-by-step guide.</p>
-
-<p>Tags: <a href='tag_mongodb.html'>mongodb</a>, <a href='tag_percona.html'>percona</a>, <a href='tag_database.html'>database</a>, <a href='tag_nosql.html'>nosql</a>, <a href='tag_bigdata.html'>bigdata</a></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- text end -->
-<p id='twitter'><a href="http://i90rr.github.io//migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html"
+<p class="readmore"><a href="./migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html">Read more...</a></p>
+<p id='twitter'><a href="http://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
@@ -268,8 +181,8 @@ Martín Cigorraga</div>
 <p></br></p>
 
 <p class="readmore"><a href="./coding-in-go-with-atom-in-gnulinux.html">Read more...</a></p>
-<p id='twitter'><a href="http://i90rr.github.io//coding-in-go-with-atom-in-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io//coding-in-go-with-atom-in-gnulinux.html"
+<p id='twitter'><a href="http://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
