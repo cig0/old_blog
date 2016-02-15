@@ -10,10 +10,14 @@ This is a hand-holding step-by-step guide to use the Freenode IRC network to cha
 If you're reading this post it's (most likely) because you're concerned about [your] privacy online, you are an IRC user and most probably you make your systems work the way _you_ want.
 <br>Conversely if you are concerned about privacy online but you don't know how to apply this guide just leave me a comment and I will try to help you find the best solution that suits your needs.
 While this guide is focused on Freenode and WeeChat it should be trivial to adapt it to other networks and clients.
+<br><br>
 
+----
+
+<br>
 **Hands-on!**
 
-1. First, [register a new Freenode account](https://freenode.net/faq.shtml#nicksetup)
+1. Start by [registering a new Freenode account](https://freenode.net/faq.shtml#nicksetup)
 2. Proceed to [configure WeeChat to log via SASL](https://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication) (SASL on [Wikipedia](https://en.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer), [Freenode]( https://freenode.net/sasl/))
 <br>This is a convenient method to authenticate yourself and indeed a better one than using a password most of the times because:
     <ul>
@@ -27,7 +31,11 @@ While this guide is focused on Freenode and WeeChat it should be trivial to adap
 4. Next stop will be to [enforce the use of an SSL layer](https://weechat.org/files/doc/weechat_faq.en.html#irc_ssl_freenode) to secure (encrypt) the communication between your WeeChat client and the server
 5. Fifth step: [implement the Off-the-Record protocol](https://github.com/mmb/weechat-otr) and enjoy
 
-I don't foresee you have any issues following these steps - I myself did configure OTR a few days ago this way - but should you happen to find a blocker just leave a comment below.
+I don't foresee you have any issues following these steps - I myself did configure OTR this way a few days ago - but should you happen to find a blocker just leave a comment below.
 
+**Final note**
+
+Do remember that privacy and security oriented technologies - as much as almost every other these days - are continuouslly changing so what may be the best option for today may be doesn't for tomorrow.
+I recommend you check this neat directory of privacy-oriented applications and services: https://prism-break.org/en/all/
 
 Tags: irc, weechat, privacy, security, ssl, sasl, otr, comms
