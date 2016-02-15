@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>another day in the sysadmin paradise ///</title><link>http://i90rr.github.io//frontpage.html</link>
 <description>where the grass is gr... oh ¬¬</description><language>en</language>
-<lastBuildDate>Sun, 14 Feb 2016 23:31:41 -0300</lastBuildDate>
-<pubDate>Sun, 14 Feb 2016 23:31:41 -0300</pubDate>
+<lastBuildDate>Sun, 14 Feb 2016 23:33:22 -0300</lastBuildDate>
+<pubDate>Sun, 14 Feb 2016 23:33:22 -0300</pubDate>
 <atom:link href="http://i90rr.github.io//feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Git: keeping a GitHub fork updated
@@ -68,7 +68,7 @@ Chat safely on IRC
 
 <p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png" border="0"  align="left" style="margin-right: 17px"></p>
 
-<p>This is a hand-holding step-by-step guide to use the Freenode IRC network to chat safely out of the reach of pying eyes.
+<p><br>This is a hand-holding step-by-step guide to use the Freenode IRC network to chat safely out of the reach of pying eyes.
 <br><br>
 <em>Upcoming</em></p>
 
