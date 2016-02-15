@@ -1,4 +1,5 @@
-#title{font-size: x-large;}
+/*#title{font-size: x-large;}*/
+#title{font-size: large;}
         a.ablack{color:black !important;}
         li{margin-bottom:8px;}
         ul,ol{margin-left:24px;margin-right:24px;}
