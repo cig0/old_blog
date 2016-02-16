@@ -10,9 +10,10 @@ It certainly took me more time than I'd wished to set up the blog but finally he
 * Is hosted at [GitHub Pages](https://pages.github.com "GitHub Pages")
 * Is hence mostly invulnerable to the dangers of the interwebs
 * Is devilish fast to load since it is made of *Markdown*, *HTML* and just a pinch of *JS*
-* Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM to show its contents
+* Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM
 
-I agree that I suck at English; on the bright side I'm actively working on getting better at it. If you see anything wrong please leave a comment :)
+I agree that I suck at English; on the bright side I'm actively working on getting better at it.
+<br>If you see anything wrong please leave a comment :)
 
 <br>
 <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px">
