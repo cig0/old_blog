@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# the art of CLI crafting</title><link>http://i90rr.github.io/frontpage.html</link>
 <description>1-liners sorcery rocks</description><language>en</language>
-<lastBuildDate>Mon, 15 Feb 2016 22:37:29 -0300</lastBuildDate>
-<pubDate>Mon, 15 Feb 2016 22:37:29 -0300</pubDate>
+<lastBuildDate>Mon, 15 Feb 2016 22:45:27 -0300</lastBuildDate>
+<pubDate>Mon, 15 Feb 2016 22:45:27 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Spacemacs: a quick guide for creating and managing layers
@@ -111,7 +111,7 @@ Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mon
 
 <p>Last month I was tasked to upgrade our mongoDB infrastructure so first thing I did was to try to import a random dump to the new database - and it wasn't a straightforward process of couse, why should it be? :)</p>
 
-<p>Luckily after some debugging and the help of the fellow sysadmins at the company I used to work we could finally resolve all the issues we faced; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.
+<p>Luckily after some debugging and the help of the fellow sysadmins at the company I used to work we could finally resolve all the issues were facing; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.
 <br><br></p>
 
 <hr />

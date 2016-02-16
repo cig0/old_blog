@@ -8,7 +8,7 @@ Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mon
 
 Last month I was tasked to upgrade our mongoDB infrastructure so first thing I did was to try to import a random dump to the new database - and it wasn't a straightforward process of couse, why should it be? :)
 
-Luckily after some debugging and the help of the fellow sysadmins at the company I used to work we could finally resolve all the issues we faced; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.
+Luckily after some debugging and the help of the fellow sysadmins at the company I used to work we could finally resolve all the issues were facing; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.
 <br><br>
 
 ----
