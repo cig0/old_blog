@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# the art of CLI crafting</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>1-liner sorcery rocks</description><language>en</language>
-<lastBuildDate>Tue, 16 Feb 2016 12:17:54 -0300</lastBuildDate>
-<pubDate>Tue, 16 Feb 2016 12:17:54 -0300</pubDate>
+<lastBuildDate>Tue, 16 Feb 2016 13:37:01 -0300</lastBuildDate>
+<pubDate>Tue, 16 Feb 2016 13:37:01 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Spacemacs: a quick guide for creating and managing layers
@@ -197,7 +197,7 @@ We are in business, finally! (aka About)
 <ul>
 <li>Focuses on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention</li>
 <li>Is made using <a href="https://github.com/cfenollosa/bashblog" title="Meet the little giant">bashblog</a>, a static site generator written in... Bash (duh!)</li>
-<li>Is a <a href="https://www.staticgen.com">static blog</a>, meaning it doesn't rely on any database or dynamic stuff (check <a href="https://davidwalsh.name/introduction-static-site-generators">this good article</a> to learn more about the difference with dynamic websites)</li>
+<li>Is a <a href="https://www.staticgen.com">static blog</a>, meaning it doesn't rely on any database or dynamic stuff (check <a href="https://davidwalsh.name/introduction-static-site-generators">this</a> article to learn more about the difference with dynamic websites)</li>
 <li>Is hosted at <a href="https://pages.github.com" title="GitHub Pages">GitHub Pages</a></li>
 <li>Is hence mostly invulnerable to the dangers of the interwebs</li>
 <li>Is devilish fast to load since it is made of <em>Markdown</em>, <em>HTML</em> and just a pinch of <em>JS</em></li>
@@ -218,10 +218,6 @@ We are in business, finally! (aka About)
 <p>H4ppy h4ck1n9 and <a href="http://bestcostaricantours.com/about/puravida.html">pura vida!</a></p>
 
 <p>Tags: <a href='tag_about.html'>about</a></p>
-
-
-
-
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/we-are-in-business-finally.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/we-are-in-business-finally.html"
