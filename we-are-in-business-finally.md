@@ -26,7 +26,7 @@ Never settle down. _Stay hungry_, _stay curious_. [Pura Vida](http://bestcostari
 <br>
 
 <p align="center">
-   Most importantly, <b>h4ppy n3rd1n9!</b>
+   Most importantly, <b>h4ppy h4ck1n9!</b>
 </p>
 
 <br>
