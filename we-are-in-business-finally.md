@@ -1,6 +1,6 @@
 We are in business, finally! (aka About)
 
-It certainly took me more time than I'd wished to set up this blog but finally here we are.
+It certainly took me more time than I'd wished to set up the blog but finally here we are.
 
 **This blog**...
 
