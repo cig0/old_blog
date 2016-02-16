@@ -23,6 +23,8 @@ I'm a SysAdmin insanely passionate about automation, optimization, hardening, th
 
 People stories and their creations fuel my interest to see the world from unseen perspectives. I believe that every work should be a labour of love, because only then you can bring your full potential to what you do.
 
-Stay hungry, stay curious. H4ppy h4ck1n9 and _[pura vida!](http://bestcostaricantours.com/about/puravida.html)_
+Stay hungry, stay curious.
+
+**H4ppy h4ck1n9** and _[pura vida!](http://bestcostaricantours.com/about/puravida.html)_
 
 Tags: about
