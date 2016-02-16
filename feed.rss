@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
-<channel><title>~# the art of CLI crafting</title><link>http://i90rr.github.io/index.html</link>
+<channel><title>~# the art of CLI crafting</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>1-liner sorcery rocks</description><language>en</language>
-<lastBuildDate>Tue, 16 Feb 2016 12:10:36 -0300</lastBuildDate>
-<pubDate>Tue, 16 Feb 2016 12:10:36 -0300</pubDate>
-<atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
+<lastBuildDate>Tue, 16 Feb 2016 12:17:54 -0300</lastBuildDate>
+<pubDate>Tue, 16 Feb 2016 12:17:54 -0300</pubDate>
+<atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Spacemacs: a quick guide for creating and managing layers
 </title><description><![CDATA[
@@ -67,14 +67,15 @@ Spacemacs: a quick guide for creating and managing layers
 
 
 
+
 <!-- text end -->
-<p id='twitter'><a href="http://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html"
+<p id='twitter'><a href="https://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>http://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html</link>
-<guid>http://i90rr.github.io/./spacemacs-a-quick-guide-for-creating-and-managing-layers.html</guid>
+]]></description><link>https://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html</link>
+<guid>https://i90rr.github.io/./spacemacs-a-quick-guide-for-creating-and-managing-layers.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Mon, 15 Feb 2016 00:00:00 -0300</pubDate></item>
 <item><title>
@@ -95,13 +96,13 @@ This guide shows you how to implement a private <em>person-to-person</em> commun
 <br><br></p>
 
 <hr />
-<p id='twitter'><a href="http://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html"
+<p id='twitter'><a href="https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>http://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</link>
-<guid>http://i90rr.github.io/./Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</guid>
+]]></description><link>https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</link>
+<guid>https://i90rr.github.io/./Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Sun, 14 Feb 2016 00:00:00 -0300</pubDate></item>
 <item><title>
@@ -119,13 +120,13 @@ Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mon
 <br><br></p>
 
 <hr />
-<p id='twitter'><a href="http://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html"
+<p id='twitter'><a href="https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>http://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</link>
-<guid>http://i90rr.github.io/./migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</guid>
+]]></description><link>https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</link>
+<guid>https://i90rr.github.io/./migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Wed, 10 Feb 2016 00:00:00 -0300</pubDate></item>
 <item><title>
@@ -138,13 +139,13 @@ Git: keeping a GitHub fork updated
 <br><br></p>
 
 <hr />
-<p id='twitter'><a href="http://i90rr.github.io/git-keeping-a-github-fork-updated.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/git-keeping-a-github-fork-updated.html"
+<p id='twitter'><a href="https://i90rr.github.io/git-keeping-a-github-fork-updated.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/git-keeping-a-github-fork-updated.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>http://i90rr.github.io/git-keeping-a-github-fork-updated.html</link>
-<guid>http://i90rr.github.io/./git-keeping-a-github-fork-updated.html</guid>
+]]></description><link>https://i90rr.github.io/git-keeping-a-github-fork-updated.html</link>
+<guid>https://i90rr.github.io/./git-keeping-a-github-fork-updated.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Fri, 05 Feb 2016 00:00:00 -0300</pubDate></item>
 <item><title>
@@ -176,13 +177,13 @@ Coding in Go with Atom editor on GNU+Linux
 <p></br></p>
 
 <hr />
-<p id='twitter'><a href="http://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html"
+<p id='twitter'><a href="https://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>http://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html</link>
-<guid>http://i90rr.github.io/./coding-in-go-with-atom-in-gnulinux.html</guid>
+]]></description><link>https://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html</link>
+<guid>https://i90rr.github.io/./coding-in-go-with-atom-in-gnulinux.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Wed, 06 Jan 2016 00:00:00 -0300</pubDate></item>
 <item><title>
@@ -220,14 +221,15 @@ We are in business, finally! (aka About)
 
 
 
+
 <!-- text end -->
-<p id='twitter'><a href="http://i90rr.github.io/we-are-in-business-finally.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/we-are-in-business-finally.html"
+<p id='twitter'><a href="https://i90rr.github.io/we-are-in-business-finally.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/we-are-in-business-finally.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>http://i90rr.github.io/we-are-in-business-finally.html</link>
-<guid>http://i90rr.github.io/./we-are-in-business-finally.html</guid>
+]]></description><link>https://i90rr.github.io/we-are-in-business-finally.html</link>
+<guid>https://i90rr.github.io/./we-are-in-business-finally.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Sun, 03 Jan 2016 00:00:00 -0300</pubDate></item>
 </channel></rss>
