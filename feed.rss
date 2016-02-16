@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>another day in the sysadmin paradise ///</title><link>http://i90rr.github.io/frontpage.html</link>
 <description>where the grass is gr... oh ¬¬</description><language>en</language>
-<lastBuildDate>Mon, 15 Feb 2016 21:51:26 -0300</lastBuildDate>
-<pubDate>Mon, 15 Feb 2016 21:51:26 -0300</pubDate>
+<lastBuildDate>Mon, 15 Feb 2016 21:52:50 -0300</lastBuildDate>
+<pubDate>Mon, 15 Feb 2016 21:52:50 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Spacemacs: a quick guide for creating and managing layers
@@ -175,11 +175,12 @@ We are in business, finally! (aka About)
 </title><description><![CDATA[
 <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px" vspace="1px"></p>
 
-<p><strong>About me</strong></p>
+<p><br>
+<strong>About me</strong></p>
 
 <p>I'm a SysAdmin insanely passionate about automation, optimization, hardening, F/LOSS and the Go programming language.</p>
 
-<p>People stories and their creations fuel my interest to see the world from unseen perspectives. I believe that every work should be a labour of love, because only then you can unleash your full potential. Never settle down. Stay hungry, stay curious. <a href="http://bestcostaricantours.com/about/puravida.html">Pura vida</a>!
+<p>People stories and their creations fuel my interest to see the world from unseen perspectives. I believe that every work should be a labour of love, because only then you can unleash your full potential. Never settle down. Stay hungry, stay curious. <a href="http://bestcostaricantours.com/about/puravida.html">Pura vida</a>.
 <br><br></p>
 
 <p><strong>About this blog</strong>                                                                 </p>

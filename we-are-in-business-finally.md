@@ -1,11 +1,12 @@
 We are in business, finally! (aka About)
 <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px" vspace="1px">
 
+<br>
 **About me**
 
 I'm a SysAdmin insanely passionate about automation, optimization, hardening, F/LOSS and the Go programming language.
 
-People stories and their creations fuel my interest to see the world from unseen perspectives. I believe that every work should be a labour of love, because only then you can unleash your full potential. Never settle down. Stay hungry, stay curious. [Pura vida](http://bestcostaricantours.com/about/puravida.html)!
+People stories and their creations fuel my interest to see the world from unseen perspectives. I believe that every work should be a labour of love, because only then you can unleash your full potential. Never settle down. Stay hungry, stay curious. [Pura vida](http://bestcostaricantours.com/about/puravida.html).
 <br><br>
 
 **About this blog**                                                                 
