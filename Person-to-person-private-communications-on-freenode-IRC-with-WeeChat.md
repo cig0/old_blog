@@ -20,7 +20,7 @@ While this guide is focused on freenode and WeeChat it should be trivial to adap
 
 1. Start by [registering a new freenode account](https://freenode.net/faq.shtml#nicksetup)
 2. Proceed to [configure WeeChat to log via SASL](https://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication) (SASL on [Wikipedia](https://en.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer), [freenode]( https://freenode.net/sasl/))
-<br>This is a convenient method to authenticate yourself and indeed a better one than using a password most of the times because:
+<br>This is a convenient method to authenticate yourself and indeed a better one than using a password mostly because:
     <ul>
     <li>You don't need to type your password every time you log in to the network</li>
     <li>In case you configure your client to automatically log in be aware that some clients still store credentials in plain text, which is a potential security risk</li>
