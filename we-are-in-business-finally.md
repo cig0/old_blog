@@ -22,8 +22,7 @@ I'm a SysAdmin insanely passionate about automation, optimization, hardening, th
 
 People stories and their creations fuel my interest to see the world from unseen perspectives. I believe that every work should be a labour of love, because only then you can bring your full potential to what you do.
 
-Never settle down. Stay hungry, stay curious. _[Pura vida!](http://bestcostaricantours.com/about/puravida.html)_.
-<br>
+Never settle down. Stay hungry, stay curious. _[Pura vida!](http://bestcostaricantours.com/about/puravida.html)_
 
 <p align="center">
    Most importantly, <b>h4ppy h4ck1n9.</b>
