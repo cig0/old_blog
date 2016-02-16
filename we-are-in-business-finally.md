@@ -21,7 +21,7 @@ I agree that I suck at English; on the bright side I'm actively working on getti
 
 I'm a SysAdmin insanely passionate about automation, optimization, hardening, the Go programming language and of F/LOSS in general.
 
-People stories and their creations fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love, because only then you can give your full potential. Stay hungry, stay curious.
+People stories and their creations fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love, because only then you can give your fullest potential. Stay hungry, stay curious.
 
 H4ppy h4ck1n9 and [pura vida!](http://bestcostaricantours.com/about/puravida.html)
 
