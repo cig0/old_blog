@@ -26,7 +26,7 @@ People stories and their creations fuel my interest to see the world from unseen
 Stay hungry, stay curious. _[Pura vida!](http://bestcostaricantours.com/about/puravida.html)_
 
 <p align="center">
-   Most importantly, <b>h4ppy h4ck1n9.</b>
+   And of course, <b>h4ppy h4ck1n9!</b>
 </p>
 
 <br>
