@@ -1,13 +1,43 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
-<channel><title>~# the art of CLI crafting</title><link>http://i90rr.github.io/index.html</link>
-<description>1-liner sorcery rocks</description><language>en</language>
-<lastBuildDate>Tue, 16 Feb 2016 12:10:36 -0300</lastBuildDate>
-<pubDate>Tue, 16 Feb 2016 12:10:36 -0300</pubDate>
-<atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
-<item><title>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="blog.css" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss" />
+<title>~# the art of CLI crafting</title>
+<script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-72527112-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+        </script>
+<meta name='twitter:card' content='summary' />
+<meta name='twitter:site' content='@_i90rr' />
+<meta name='twitter:title' content='~# the art of CLI crafting' />
+<meta name='twitter:description' content=" Spacemacs: a quick guide for creating and managing layers  February 15, 2016 &mdash;  Martín Cigorraga              Spacemacs welcome screen  Coming soon                                                 Comments? &nbsp; <a href='https://twitter.com/" />
+<meta name='twitter:image' content='https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/spacemacs.png' />
+</head><body>
+<div id="divbodyholder">
+<div class="headerholder"><div class="header">
+<div id="title">
+<h1 class="nomargin"><a class="ablack" href="http://i90rr.github.io/">~# the art of CLI crafting</a></h1>
+<div id="description">1-liner sorcery rocks</div>
+</div></div></div>
+<div id="divbody"><div class="content">
+<h3><a class="ablack" href="spacemacs-a-quick-guide-for-creating-and-managing-layers.html">
 Spacemacs: a quick guide for creating and managing layers
-</title><description><![CDATA[
+</a></h3>
+<div class="subtitle">February 15, 2016 &mdash; 
+Martín Cigorraga</div>
+<!-- text begin -->
 
 <p><br></p>
 
@@ -66,20 +96,18 @@ Spacemacs: a quick guide for creating and managing layers
 
 
 
-
 <!-- text end -->
 <p id='twitter'><a href="http://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>http://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html</link>
-<guid>http://i90rr.github.io/./spacemacs-a-quick-guide-for-creating-and-managing-layers.html</guid>
-<dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Mon, 15 Feb 2016 00:00:00 -0300</pubDate></item>
-<item><title>
+<h3><a class="ablack" href="Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html">
 Person-to-person private communications on freenode IRC with WeeChat
-</title><description><![CDATA[
+</a></h3>
+<div class="subtitle">February 14, 2016 &mdash; 
+Martín Cigorraga</div>
+<!-- text begin -->
 
 <h4>Head-to-toe guide for registering an account<br>+ SASL + cloaking + SSL + OTR</h4>
 
@@ -94,19 +122,18 @@ This guide shows you how to implement a private <em>person-to-person</em> commun
 <p>While this guide is focused on freenode and WeeChat it should be trivial to adapt it to other networks and clients.
 <br><br></p>
 
-<hr />
+<p class="readmore"><a href="./Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html">Read more...</a></p>
 <p id='twitter'><a href="http://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>http://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</link>
-<guid>http://i90rr.github.io/./Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</guid>
-<dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Sun, 14 Feb 2016 00:00:00 -0300</pubDate></item>
-<item><title>
+<h3><a class="ablack" href="migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html">
 Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mongoDB 3.0.8 wiredTiger
-</title><description><![CDATA[
+</a></h3>
+<div class="subtitle">February 10, 2016 &mdash; 
+Martín Cigorraga</div>
+<!-- text begin -->
 
 <p><!-- <div class="box-shadow"> -->
 <a href="http://www.mongodb.org">
@@ -118,38 +145,36 @@ Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mon
 <p>Luckily after some debugging and the help of the fellow sysadmins at the company I used to work we could finally resolve all the issues were facing; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.
 <br><br></p>
 
-<hr />
+<p class="readmore"><a href="./migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html">Read more...</a></p>
 <p id='twitter'><a href="http://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>http://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</link>
-<guid>http://i90rr.github.io/./migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</guid>
-<dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Wed, 10 Feb 2016 00:00:00 -0300</pubDate></item>
-<item><title>
+<h3><a class="ablack" href="git-keeping-a-github-fork-updated.html">
 Git: keeping a GitHub fork updated
-</title><description><![CDATA[
+</a></h3>
+<div class="subtitle">February 05, 2016 &mdash; 
+Martín Cigorraga</div>
+<!-- text begin -->
 
 <p>I keep returning to this life-saving post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
 
 <p>CC of <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a> below
 <br><br></p>
 
-<hr />
+<p class="readmore"><a href="./git-keeping-a-github-fork-updated.html">Read more...</a></p>
 <p id='twitter'><a href="http://i90rr.github.io/git-keeping-a-github-fork-updated.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/git-keeping-a-github-fork-updated.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>http://i90rr.github.io/git-keeping-a-github-fork-updated.html</link>
-<guid>http://i90rr.github.io/./git-keeping-a-github-fork-updated.html</guid>
-<dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Fri, 05 Feb 2016 00:00:00 -0300</pubDate></item>
-<item><title>
+<h3><a class="ablack" href="coding-in-go-with-atom-in-gnulinux.html">
 Coding in Go with Atom editor on GNU+Linux
-</title><description><![CDATA[
+</a></h3>
+<div class="subtitle">January 06, 2016 &mdash; 
+Martín Cigorraga</div>
+<!-- text begin -->
 
 <p>I started to flirt with <a href="https://atom.io" title="A hackable text editor for the 21st Century">Atom</a> after my boss suggested me to give it a try for working with our Puppet infrastructure implementation - thanks for the tip Adam!</p>
 
@@ -175,59 +200,27 @@ Coding in Go with Atom editor on GNU+Linux
 
 <p></br></p>
 
-<hr />
+<p class="readmore"><a href="./coding-in-go-with-atom-in-gnulinux.html">Read more...</a></p>
 <p id='twitter'><a href="http://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>http://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html</link>
-<guid>http://i90rr.github.io/./coding-in-go-with-atom-in-gnulinux.html</guid>
-<dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Wed, 06 Jan 2016 00:00:00 -0300</pubDate></item>
-<item><title>
-We are in business, finally! (aka About)
-</title><description><![CDATA[
+<div id="all_posts"><a href="all_posts.html">View more posts</a> &mdash; <a href="all_tags.html">All tags</a> &mdash; <a href="feed.rss">Subscribe</a></div>
+</div>
+<div id="footer">CC by-sa / AGPL v3+ <a href="http://www.github.com/i90rr">Martín Cigorraga</a> &mdash; <a href="mailto:gmail: i90rr&#46;i90rr">gmail: i90rr&#46;i90rr</a><br/>
+Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</div>
+</div></div>
+<script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'i90rr'; // required: replace example with your forum shortname
 
-<p>It certainly took me more time than I'd wished to set up the blog but finally here we are.</p>
-
-<p><strong>This blog</strong>...</p>
-
-<ul>
-<li>Focuses on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention</li>
-<li>Is made using <a href="https://github.com/cfenollosa/bashblog" title="Meet the little giant">bashblog</a>, a static site generator written in... Bash (duh!)</li>
-<li>Is a <a href="https://www.staticgen.com">static blog</a>, meaning it doesn't rely on any database or dynamic stuff (check <a href="https://davidwalsh.name/introduction-static-site-generators">this good article</a> to learn more about the difference with dynamic websites)</li>
-<li>Is hosted at <a href="https://pages.github.com" title="GitHub Pages">GitHub Pages</a></li>
-<li>Is hence mostly invulnerable to the dangers of the interwebs</li>
-<li>Is devilish fast to load since it is made of <em>Markdown</em>, <em>HTML</em> and just a pinch of <em>JS</em></li>
-<li>Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM</li>
-</ul>
-
-<p>I agree that I suck at English; on the bright side I'm actively working on getting better at it.
-<br>If you see anything wrong please leave a comment :)</p>
-
-<p><br>
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px">
-<strong>The boring stuff</strong></p>
-
-<p>I'm a SysAdmin insanely passionate about automation, optimization, hardening, the Go programming language and of F/LOSS in general.</p>
-
-<p>People stories and their creations fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love, because only then you can give it your full potential. Stay hungry, stay curious.</p>
-
-<p>H4ppy h4ck1n9 and <a href="http://bestcostaricantours.com/about/puravida.html">pura vida!</a></p>
-
-<p>Tags: <a href='tag_about.html'>about</a></p>
-
-
-
-<!-- text end -->
-<p id='twitter'><a href="http://i90rr.github.io/we-are-in-business-finally.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="http://i90rr.github.io/we-are-in-business-finally.html"
- data-via="_i90rr"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-]]></description><link>http://i90rr.github.io/we-are-in-business-finally.html</link>
-<guid>http://i90rr.github.io/./we-are-in-business-finally.html</guid>
-<dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Sun, 03 Jan 2016 00:00:00 -0300</pubDate></item>
-</channel></rss>
+        /* * * DONT EDIT BELOW THIS LINE * * */
+        (function () {
+        var s = document.createElement("script"); s.async = true;
+        s.type = "text/javascript";
+        s.src = "//" + disqus_shortname + ".disqus.com/count.js";
+        (document.getElementsByTagName("HEAD")[0] || document.getElementsByTagName("BODY")[0]).appendChild(s);
+    }());
+    </script>
+</body></html>
