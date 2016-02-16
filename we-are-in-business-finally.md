@@ -14,7 +14,6 @@ It certainly took me more time than I'd wished to set up this blog but finally h
 * I agree that I suck at English; on the bright side I'm actively working on getting better at it.                        
 If you see anything wrong please leave a comment :)
 
-<br>
 <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px">
 
 <br>
