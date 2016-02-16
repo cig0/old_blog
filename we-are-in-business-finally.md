@@ -5,9 +5,7 @@ We are in business, finally! (aka About)
 
 I'm a SysAdmin insanely passionate about automation, optimization, hardening, F/LOSS and the Go programming language.
 
-People stories and their creations fuel my interest to see the world from unseen perspectives. I believe that every work should be a labour of love, because only then you can unleash your full potential. Never settle down. Stay hungry, stay curious.
-
-Whenever I have time I love to surf, [pura vida](http://bestcostaricantours.com/about/puravida.html)!
+People stories and their creations fuel my interest to see the world from unseen perspectives. I believe that every work should be a labour of love, because only then you can unleash your full potential. Never settle down. Stay hungry, stay curious. [Pura vida](http://bestcostaricantours.com/about/puravida.html)!
 <br><br>
 
 **About this blog**                                                                 
