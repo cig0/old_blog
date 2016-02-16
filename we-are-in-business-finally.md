@@ -25,7 +25,7 @@ I'm a SysAdmin insanely passionate about automation, optimization, hardening, th
 People stories and their creations fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love, because only then you can give the best of you.
 
 <p align="center">Stay hungry, stay curious
-              <br>H4ppy h4ck1n9 and <a href="http://bestcostaricantours.com/about/puravida.html">pura vida</a>
+              <br>h4ppy h4ck1n9 and <a href="http://bestcostaricantours.com/about/puravida.html">pura vida</a>
 </p>
 
 <br>
