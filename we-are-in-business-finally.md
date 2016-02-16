@@ -17,12 +17,16 @@ I agree that I suck at English; on the bright side I'm actively working on getti
 
 <br>
 <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px">
+
 **The boring stuff**
 
 I'm a SysAdmin insanely passionate about automation, optimization, hardening, the Go programming language and of F/LOSS in general.
 
-People stories and their creations fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love, because only then you can give your fullest potential. Stay hungry, stay curious.
+People stories and their creations fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love, because only then you can give the best of you.
 
-H4ppy h4ck1n9 and [pura vida!](http://bestcostaricantours.com/about/puravida.html)
+<p align="center">Stay hungry, stay curious
+              <br>H4ppy h4ck1n9 and <a href="http://bestcostaricantours.com/about/puravida.html">pura vida</a>
+</p>
 
+<br>
 Tags: about
