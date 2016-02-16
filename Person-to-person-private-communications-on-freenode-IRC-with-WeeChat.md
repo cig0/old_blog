@@ -35,9 +35,7 @@ I don't foresee you have any issues following these steps - I myself did configu
 
 **Final note**
 
-Do remember that privacy and security oriented technologies - as much as almost every other these days - are continuouslly evolving so what may be the best option for today may be doesn't for tomorrow.
-
-I recommend you to check this neat directory of privacy-oriented applications and services: [Prism Break](https://prism-break.org/en/all)
+I recommend you to check the neat directory of privacy-oriented applications and services: [Prism Break](https://prism-break.org/en/all)
 
 Last but no least I want to thank the guys at #freenode that helped me correct some inaccurate stuff and misbelieves about how some of the freenode stuff works.
 
