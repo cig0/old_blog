@@ -1,6 +1,6 @@
 Person-to-person private communications on freenode IRC with WeeChat
 
-<h4>Head-to-toe guide for registering an account + SASL + cloaking + SSL + OTR</h4>
+<h4>Head-to-toe guide for registering an account<br>+ SASL + cloaking + SSL + OTR</h4>
 
 <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png" border="0"  align="left" style="margin-right: 17px">
 This guide shows you how to implement a private _person-to-person_ communication channel in freenode <br>to safely avoid server logging of your chats.

@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# the art of CLI crafting</title><link>http://i90rr.github.io/frontpage.html</link>
 <description>1-liners sorcery rocks</description><language>en</language>
-<lastBuildDate>Mon, 15 Feb 2016 22:45:27 -0300</lastBuildDate>
-<pubDate>Mon, 15 Feb 2016 22:45:27 -0300</pubDate>
+<lastBuildDate>Mon, 15 Feb 2016 22:46:14 -0300</lastBuildDate>
+<pubDate>Mon, 15 Feb 2016 22:46:14 -0300</pubDate>
 <atom:link href="http://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Spacemacs: a quick guide for creating and managing layers
@@ -77,7 +77,7 @@ Spacemacs: a quick guide for creating and managing layers
 Person-to-person private communications on freenode IRC with WeeChat
 </title><description><![CDATA[
 
-<h4>Head-to-toe guide for registering an account + SASL + cloaking + SSL + OTR</h4>
+<h4>Head-to-toe guide for registering an account<br>+ SASL + cloaking + SSL + OTR</h4>
 
 <p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png" border="0"  align="left" style="margin-right: 17px">
 This guide shows you how to implement a private <em>person-to-person</em> communication channel in freenode <br>to safely avoid server logging of your chats.
