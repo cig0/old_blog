@@ -16,13 +16,13 @@ I agree that I suck at English; on the bright side I'm actively working on getti
 <br>If you see anything wrong please leave a comment :)
 
 <br>
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px">
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px" vspace="3px">
 
 **The boring stuff**
 
 I'm a SysAdmin insanely passionate about automation, optimization, hardening, the Go programming language and of F/LOSS in general.
 
-People stories and their creations fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love, because only then you can give the best of you.
+People stories and their creations fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love because only then you can give the best of you.
 
 <p align="center">h4ppy h4ck1n9
               <br><a href="http://bestcostaricantours.com/about/puravida.html">Pura vida!</a>
