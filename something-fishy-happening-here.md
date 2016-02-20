@@ -12,8 +12,7 @@ When I finally got a whole weekend for a n3rd sprint I deeply, desperately, pass
 
 Right straight after reading Fish's website I could sense this would be the beginning of something special, as reading about it's design argument I felt the same way as when I read about [The Arch Way]() some years ago and fell in love with the distro.
 
-I believe the best way I can present this Friendly Interactive Shell is by describing it as __an intelligent shell that works as an extension of the user in an organic and natural way__.
-<br>Check the image below:
+I believe the best way I can present this Friendly Interactive Shell is by describing it as __an intelligent shell that works as an extension of the user in an organic and natural way__:
 
 <div class="center">
     <span>Screenshot taken from: http://lwn.net/images/2013/11-fish-shell.png</span>
