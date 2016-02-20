@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# the art of CLI crafting</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>1-liner sorcery rocks ///</description><language>en</language>
-<lastBuildDate>Sat, 20 Feb 2016 01:32:34 -0300</lastBuildDate>
-<pubDate>Sat, 20 Feb 2016 01:32:34 -0300</pubDate>
+<lastBuildDate>Sat, 20 Feb 2016 01:38:06 -0300</lastBuildDate>
+<pubDate>Sat, 20 Feb 2016 01:38:06 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Fish shell: finally, a command line shell for the 90's
@@ -11,7 +11,7 @@ Fish shell: finally, a command line shell for the 90's
 
 <p style="text-align: center; font-size: small;">This is an old post I'm reproducing here as part of my old blog migration. Since I wrote this post<br>I changed my habits quite a bit but the article is still valid as last time I checked using Fish as the default shell<br>in my Fedora 23 system I couldn't log into the X session</p>
 
-<h4>Why you shouldn't set <a href="https://www.fishshell.com">Fish</a> as the default shell <br>Tip: it's ok thoguh to set it as your primary shell :)</h4>
+<h4>Why you shouldn't set <a href="https://www.fishshell.com">Fish</a> as the default shell<br>Tip: it's ok though to set it as your primary shell</h4>
 
 <p>When I decided barely a month ago to finally move from Bash to Zsh I did remember about Fish, a shell I had tried in the past but ultimately left to test later as I didn't had the time at that opportunity to dive into it the way I pretended.</p>
 
