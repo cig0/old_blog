@@ -23,7 +23,7 @@ While this guide is focused on freenode and WeeChat it should be trivial to adap
 <br>This is a convenient method to authenticate yourself and indeed a better one than using a password mostly because:
     <ul>
     <li>You don't need to type your password every time you log in to the network</li>
-    <li>In case you configure your client to automatically log in be aware that some clients still store credentials in plain text, which is a potential security risk</li>
+    <li>In case you configure your client to automatically log in using a password be aware that some clients still store credentials in plain text, which is a potential security risk</li>
     <li>Sometimes depending on the quality of your connection authenticating by a password may fail, with SASL it will not</li>
     <li>Depending on the load of the server you connect to and the way your client works [you might experience a delay until the cloak is applied](https://freenode.net/faq.shtml#nocloakonjoin) when aythenticating via password method, this is why sometimes you see that a user enters a channel with his/her public IP address to moments later switch to the cloaked mode
     </ul>
