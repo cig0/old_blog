@@ -2,7 +2,9 @@ Fish shell: finally, a command line shell for the 90's
 
 <p style="text-align: center; font-size: small;">This is an old post I'm reproducing here as part of my old blog migration. Since I wrote this post<br>I changed my habits quite a bit but the article is still valid as last time I checked using Fish as the default shell<br>in my Fedora 23 system I couldn't log into the X session</p>
 
-####Why you shouldn't set [Fish](https://www.fishshell.com) as the default shell<br>Tip: it's ok though to set it as your primary shell
+<p style="font-size: x-large; text-align: center;">Why you shouldn't set <a href="https://www.fishshell.com">Fish</a> as the default shell
+<br><span style="font-size: large;">Tip: it's ok though to set it as your <b>primary</b> shell</span>
+</p>
 
 When I decided barely a month ago to finally move from Bash to Zsh I did remember about Fish, a shell I had tried in the past but ultimately left to test later as I didn't had the time at that opportunity to dive into it the way I pretended.
 
