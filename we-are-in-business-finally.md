@@ -28,4 +28,4 @@ People stories and their creations fuel my interest to see the world from unseen
               <br><a href="http://bestcostaricantours.com/about/puravida.html">Pura vida!</a>
 </p>
 
-Tags: about
+Tags: about,
