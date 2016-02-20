@@ -1,7 +1,6 @@
 Fish shell: finally, a command line shell for the 90's
 
-<p style="text-align: center; font-size: small;">This is an old post I'm reproducing here as part of my old blog migration.
-<br>Since I wrote this post I changed my habits quite a bit but the article is still valid as last time I checked using Fish as the default shell in my Fedora 23 system I couldn't log into the X session</p>
+<p style="text-align: center; font-size: small;">This is an old post I'm reproducing here as part of my old blog migration. Since I wrote this post<br>I changed my habits quite a bit but the article is still valid as last time I checked using Fish as the default shell in my Fedora 23 system I couldn't log into the X session</p>
 
 ####Why you shouldn't set [Fish](https://www.fishshell.com) as the system shell <br>(it's ok to set it as your primary shell though :)
 
@@ -46,7 +45,7 @@ Now to launch tmux + Fish as a login shell you can stick this simple snippet bor
 Note that the -2 flag is there to force tmux to assume the terminal supports 256 colors, YMMV.
 
 Finally, a full ~/.bash_profile could look like this one:
-<script lang="bash" src="https://gist.github.com/i90rr/70a892b45fdf488b949f.js"></script>
+<script lang="sh" src="https://gist.github.com/i90rr/70a892b45fdf488b949f.js"></script>
 
 <br>
 Now every time you create a new vty by launching an emulator, by SSH-ing to your system, by creating a new instance within tmux or by switching to a tty you will be greeted by tmux sporting an elegant and intelligent shell :)
