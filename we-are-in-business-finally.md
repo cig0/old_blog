@@ -27,6 +27,5 @@ People stories and their creations fuel my interest to see the world from unseen
 <p align="center">h4ppy h4ck1n9
               <br><a href="http://bestcostaricantours.com/about/puravida.html">Pura vida!</a>
 </p>
-<br>
 
 Tags: about
