@@ -15,8 +15,8 @@ Right straight after reading Fish's website I could sense this would be the begi
 I believe the best way I can present this Friendly Interactive Shell is by describing it as __an intelligent shell that works as an extension of the user in an organic and natural way__:
 
 <div class="center">
+    <img class="center" src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/11-fish-shell1.png" align="center"/>
     <span>Screenshot taken from: http://lwn.net/images/2013/11-fish-shell.png</span>
-    <img class="center" src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/11-fish-shell1.png" align="center" />
 </div>
 <br>
 
