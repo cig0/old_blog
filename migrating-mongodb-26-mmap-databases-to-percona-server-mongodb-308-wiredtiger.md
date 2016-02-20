@@ -21,7 +21,7 @@ We hit three blockers on our way to restore the aforementioned dump made with Mo
 <li>
 The first blocker was an issue with the format of a JSON metadata file:
 
-<blockquote>Failed: restore error: listDB.lists: error creating collection listDB.lists: error running create command: exception: specify size:<n> when capped is true</blockquote>
+<code>Failed: restore error: listDB.lists: error creating collection listDB.lists: error running create command: exception: specify size:<n> when capped is true</code>
 
 The solution was to simply __remove all references__ to __capped__ and __size__.
 
@@ -54,7 +54,7 @@ In our tests I found that 2gb of RAM was enough for the cache size, however YMMV
 **Closure**
 <br>
 In the end we were able to successfully restore the needed dump by issuing:
-<ul><blockquote>mongorestore -v --maintainInsertionOrder --drop --stopOnError <i>DIRECTORY</i></blockquote></ul>
+<ul><code># mongorestore -v --maintainInsertionOrder --drop --stopOnError <i>DIRECTORY_WITH_THE_DUMP_TO_IMPORT</i></code></ul>
 
 <br>
 You might also find this related article useful:
