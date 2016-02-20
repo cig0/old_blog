@@ -4,13 +4,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="main.css" type="text/css" />
 <link rel="stylesheet" href="blog.css" type="text/css" />
+<link rel="stylesheet" href="resources/css/styles.css" type="text/css" />
 <link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss" />
 <title>~# the art of CLI crafting</title>
 <meta name='twitter:card' content='summary' />
 <meta name='twitter:site' content='@_i90rr' />
 <meta name='twitter:title' content='~# the art of CLI crafting' />
-<meta name='twitter:description' content=" Spacemacs: a quick guide for creating and managing layers  February 15, 2016 &mdash;  Martín Cigorraga              Spacemacs welcome screen  Coming soon                                                    Comments? &nbsp; <a href='https://twitter.c" />
-<meta name='twitter:image' content='https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/spacemacs.png' />
+<meta name='twitter:description' content=" Fish shell: finally, a command line shell for the 90's  February 19, 2016 &mdash;  Martín Cigorraga   This is an old post I'm reproducing here as part of my old blog migration. Since I wrote this post I changed my habits quite a bit but the article" />
+<meta name='twitter:image' content='https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/11-fish-shell1.png' />
 </head><body>
 <div id="divbodyholder">
 <div class="headerholder"><div class="header">
@@ -19,6 +20,39 @@
 <div id="description">1-liner sorcery rocks ///</div>
 </div></div></div>
 <div id="divbody"><div class="content">
+<h3><a class="ablack" href="something-fishy-happening-here.html">
+Fish shell: finally, a command line shell for the 90's
+</a></h3>
+<div class="subtitle">February 19, 2016 &mdash; 
+Martín Cigorraga</div>
+<!-- text begin -->
+
+<p style="text-align: center; font-size: small;">This is an old post I'm reproducing here as part of my old blog migration.
+<br>Since I wrote this post I changed my habits quite a bit but the article is still valid as last time I checked using Fish as the default shell in my Fedora 23 system I couldn't log into the X session</p>
+
+<h4>Why you shouldn't set <a href="https://www.fishshell.com">Fish</a> as the system shell <br>(it's ok to set it as your primary shell though :)</h4>
+
+<p>When I decided barely a month ago to finally move from Bash to Zsh I did remember about Fish, a shell I had tried in the past but ultimately left to test later as I didn't had the time at that opportunity to dive into it the way I pretended.</p>
+
+<p>When I finally got a whole weekend for a n3rd sprint I deeply, desperately, passionately and unconditionally fell in love with Fish.</p>
+
+<p>Right straight after reading Fish's website I could sense this would be the beginning of something special, as reading about it's design argument I felt the same way as when I read about <a href="">The Arch Way</a> some years ago and fell in love with the distro.</p>
+
+<p>I believe <strong>the best way I can picture the Friendly Interactive Shell is by describing it as an intelligent shell that works as an extension of the user in an organic and natural way</strong> - check the image below:</p>
+
+<div class="center">
+    <span>Screenshot taken from: http://lwn.net/images/2013/11-fish-shell.png</span>
+    <img class="center" src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/11-fish-shell1.png" align="center" />
+</div>
+
+<p><br></p>
+
+<p class="readmore"><a href="./something-fishy-happening-here.html">Read more...</a></p>
+<p id='twitter'><a href="https://i90rr.github.io/something-fishy-happening-here.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/something-fishy-happening-here.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
 <h3><a class="ablack" href="spacemacs-a-quick-guide-for-creating-and-managing-layers.html">
 Spacemacs: a quick guide for creating and managing layers
 </a></h3>
@@ -37,6 +71,11 @@ Martín Cigorraga</div>
 <em>Coming soon</em></p>
 
 <p>Tags: <a href='tag_spacemacs.html'>spacemacs</a>, <a href='tag_emacs.html'>emacs</a>, <a href='tag_editors.html'>editors</a></p>
+
+
+
+
+
 
 
 
@@ -156,43 +195,6 @@ Martín Cigorraga</div>
 <p class="readmore"><a href="./git-keeping-a-github-fork-updated.html">Read more...</a></p>
 <p id='twitter'><a href="https://i90rr.github.io/git-keeping-a-github-fork-updated.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/git-keeping-a-github-fork-updated.html"
- data-via="_i90rr"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-<h3><a class="ablack" href="coding-in-go-with-atom-in-gnulinux.html">
-Coding in Go with Atom editor on GNU+Linux
-</a></h3>
-<div class="subtitle">January 06, 2016 &mdash; 
-Martín Cigorraga</div>
-<!-- text begin -->
-
-<p>I started to flirt with <a href="https://atom.io" title="A hackable text editor for the 21st Century">Atom</a> after my boss suggested me to give it a try for working with our Puppet infrastructure implementation - thanks for the tip Adam!</p>
-
-<p>Truth is that I have tried Atom in the past when it was at its early stages and while I saw at the time the project had a lot of potential there were too many issues, mainly related to performance, that pushed me away of it thus missing the opportunity to give it a fair try - for the record, I'm an avid Emacs user and lately a <a href="http://spacemacs.org" title="A community-driven Emacs distribution - The best editor is neither Emacs nor Vim, it's Emacs *and* Vim!">Spacemacs</a> fan, more on it on an upcoming post. </p>
-
-<p>Time went on and now Atom is a quite mature and feature-complete text editor. While it's difficult for me to digest the idea that it is in fact a Chromium-based web browser tweaked to work as a text editor, and nontheless how bloated it "has" to be given its foundations and regardless all the work being done to optimize its performance, I can understand why the developers went this way: given its roots I suppose that most of them if not the vast majority are web-oriented developers, so to them this is a natural direction. Now, to be truthful, Atom 1.3.2 on my Fedora 23 system <em>runs incredible snappy</em>.</p>
-
-<p>Atom has a big community that continuously adds new features in the form of plugins. As with other programming languages there are some Go packages that can (and will) make a difference at the moment of diving into the editor to start hammering the keyboard. </p>
-
-<p>So far I found these two third-party packages very useful:</p>
-
-<ul>
-<li><strong>go-config</strong>: detects installed Go runtime(s), tools and configurations making them available for use by other packages</li>
-<li><strong>go-plus</strong>: adds 'gocode', 'gofmt', 'goimports', 'go vet', 'golint', 'go build' and 'go test' functionality for the Go language</li>
-</ul>
-
-<p>They both install well, but making them work is a different story.
-</br></br></br></p>
-
-<div style="display: flex; justify-content: center;">
-  <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/gopher-new_transparent_600.png" style="width: 400px; height: 252px;" />
-</div>
-
-<p></br></p>
-
-<p class="readmore"><a href="./coding-in-go-with-atom-in-gnulinux.html">Read more...</a></p>
-<p id='twitter'><a href="https://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>

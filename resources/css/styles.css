@@ -1,3 +1,16 @@
+img.center {
+             display: block;
+             margin-left: auto;
+             margin-right: auto
+             }
+
+/* div */
+.center {
+    font-size: small;
+    text-align: center;
+    display: block
+    }
+
 /*
 .anchor A {
   font-family: 'Ubuntu', sans-serif;
@@ -41,5 +54,4 @@
 }
 */
 
-  h3{margin-top:42px;margin-bottom:8px;font-size:medium;}
  

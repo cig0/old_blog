@@ -2,9 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# the art of CLI crafting</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>1-liner sorcery rocks ///</description><language>en</language>
-<lastBuildDate>Tue, 16 Feb 2016 22:10:48 -0300</lastBuildDate>
-<pubDate>Tue, 16 Feb 2016 22:10:48 -0300</pubDate>
+<lastBuildDate>Fri, 19 Feb 2016 23:07:51 -0300</lastBuildDate>
+<pubDate>Fri, 19 Feb 2016 23:07:51 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Fish shell: finally, a command line shell for the 90's
+</title><description><![CDATA[
+
+<p style="text-align: center; font-size: small;">This is an old post I'm reproducing here as part of my old blog migration.
+<br>Since I wrote this post I changed my habits quite a bit but the article is still valid as last time I checked using Fish as the default shell in my Fedora 23 system I couldn't log into the X session</p>
+
+<h4>Why you shouldn't set <a href="https://www.fishshell.com">Fish</a> as the system shell <br>(it's ok to set it as your primary shell though :)</h4>
+
+<p>When I decided barely a month ago to finally move from Bash to Zsh I did remember about Fish, a shell I had tried in the past but ultimately left to test later as I didn't had the time at that opportunity to dive into it the way I pretended.</p>
+
+<p>When I finally got a whole weekend for a n3rd sprint I deeply, desperately, passionately and unconditionally fell in love with Fish.</p>
+
+<p>Right straight after reading Fish's website I could sense this would be the beginning of something special, as reading about it's design argument I felt the same way as when I read about <a href="">The Arch Way</a> some years ago and fell in love with the distro.</p>
+
+<p>I believe <strong>the best way I can picture the Friendly Interactive Shell is by describing it as an intelligent shell that works as an extension of the user in an organic and natural way</strong> - check the image below:</p>
+
+<div class="center">
+    <span>Screenshot taken from: http://lwn.net/images/2013/11-fish-shell.png</span>
+    <img class="center" src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/11-fish-shell1.png" align="center" />
+</div>
+
+<p><br></p>
+
+<hr />
+<p id='twitter'><a href="https://i90rr.github.io/something-fishy-happening-here.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/something-fishy-happening-here.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/something-fishy-happening-here.html</link>
+<guid>https://i90rr.github.io/./something-fishy-happening-here.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Fri, 19 Feb 2016 19:25:00 -0300</pubDate></item>
 <item><title>
 Spacemacs: a quick guide for creating and managing layers
 </title><description><![CDATA[
@@ -20,6 +54,11 @@ Spacemacs: a quick guide for creating and managing layers
 <em>Coming soon</em></p>
 
 <p>Tags: <a href='tag_spacemacs.html'>spacemacs</a>, <a href='tag_emacs.html'>emacs</a>, <a href='tag_editors.html'>editors</a></p>
+
+
+
+
+
 
 
 
@@ -223,6 +262,11 @@ We are in business, finally! (aka About)
 
 <p><br>
 Tags: about</p>
+
+
+
+
+
 
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/we-are-in-business-finally.html#disqus_thread">Comments?</a> &nbsp;
