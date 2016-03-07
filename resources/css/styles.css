@@ -54,4 +54,58 @@ img.center {
 }
 */
 
- 
+/* Center H and V */
+
+.center_absolute {
+   width: 800px;
+   height: 551px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: -400px;
+   margin-top: -275px;
+}
+
+@media only screen and (max-width: 800px) {
+    .center_absolute {
+        width: 100%;
+        position: static;
+        margin: 0 auto;
+    }
+
+    #front_img {
+        width: 100%;
+    }
+}
+
+/* Playing with small screens */
+
+@media only screen and (max-width: 400px) {
+    #divbody {
+        padding: 0px 10px 5px 10px;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    h3 {
+        margin-top: 21px;
+    }
+
+    .content h3, .subtitle {
+        text-align: center;
+    }
+
+    .content p {
+        margin: 10px 5px;
+    }
+
+    .center {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
