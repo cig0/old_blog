@@ -2,9 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# the art of CLI crafting</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>1-liner sorcery rocks ///</description><language>en</language>
-<lastBuildDate>Wed, 16 Mar 2016 21:13:32 -0300</lastBuildDate>
-<pubDate>Wed, 16 Mar 2016 21:13:32 -0300</pubDate>
+<lastBuildDate>Wed, 16 Mar 2016 21:22:37 -0300</lastBuildDate>
+<pubDate>Wed, 16 Mar 2016 21:22:37 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Fish shell: finally, a command line shell for the 90's
+</title><description><![CDATA[
+
+<p style="text-align: center; font-size: small;">This is an old post I'm reproducing here as part of my old blog migration. Since I wrote this post<br>I changed my habits quite a bit but the article is still valid as last time I checked using Fish as the default shell<br>in my Fedora 23 system I couldn't log into the X session</p>
+
+<p style="font-size: x-large; text-align: center;">Why you shouldn't set <a href="https://www.fishshell.com">Fish</a> as the default shell
+<br><span style="font-size: large;">Tip: it's ok though to set it as your <b>primary</b> shell</span>
+</p>
+
+<p>When I decided barely a month ago to finally move from Bash to Zsh I did remember about Fish, a shell I had tried in the past but ultimately left to test later as I didn't had the time at that opportunity to dive into it the way I pretended.</p>
+
+<p>When I finally got a whole weekend for a n3rd sprint I deeply, desperately, passionately and unconditionally fell in love with Fish.</p>
+
+<p>Right straight after reading Fish's website I could sense this would be the beginning of something special, as reading about it's design argument I felt the same way as when I read about <a href="">The Arch Way</a> some years ago and fell in love with the distro.</p>
+
+<p>I believe the best way I can present this Friendly Interactive Shell is by describing it as <strong>an intelligent shell that works as an extension of the user in an organic and natural way</strong>:</p>
+
+<div class="center">
+    <img class="center" src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/11-fish-shell1.png" align="center"/>
+    <span>Screenshot taken from: http://lwn.net/images/2013/11-fish-shell.png</span>
+</div>
+
+<p><br></p>
+
+<hr />
+<p id='twitter'><a href="https://i90rr.github.io/something-fishy-happening-here.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/something-fishy-happening-here.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/something-fishy-happening-here.html</link>
+<guid>https://i90rr.github.io/./something-fishy-happening-here.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Wed, 16 Mar 2016 21:11:00 -0300</pubDate></item>
 <item><title>
 We are in business, finally! (aka About)
 </title><description><![CDATA[
@@ -40,6 +75,7 @@ We are in business, finally! (aka About)
 </p>
 
 <p>Tags: <a href='tag_about.html'>about</a></p>
+
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/we-are-in-business-finally.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/we-are-in-business-finally.html"
@@ -49,42 +85,49 @@ We are in business, finally! (aka About)
 ]]></description><link>https://i90rr.github.io/we-are-in-business-finally.html</link>
 <guid>https://i90rr.github.io/./we-are-in-business-finally.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Wed, 16 Mar 2016 21:11:39 -0300</pubDate></item>
+<pubDate>Wed, 16 Mar 2016 21:11:00 -0300</pubDate></item>
 <item><title>
-Fish shell: finally, a command line shell for the 90's
+Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mongoDB 3.0.8 wiredTiger
 </title><description><![CDATA[
 
-<p style="text-align: center; font-size: small;">This is an old post I'm reproducing here as part of my old blog migration. Since I wrote this post<br>I changed my habits quite a bit but the article is still valid as last time I checked using Fish as the default shell<br>in my Fedora 23 system I couldn't log into the X session</p>
+<p><a href="http://www.mongodb.org">
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/mongodb.png" width="200" height="200" align="right" style="margin-left: 24px" vspace="1px">
+</a></p>
 
-<p style="font-size: x-large; text-align: center;">Why you shouldn't set <a href="https://www.fishshell.com">Fish</a> as the default shell
-<br><span style="font-size: large;">Tip: it's ok though to set it as your <b>primary</b> shell</span>
-</p>
+<p>Last month I was tasked to upgrade our mongoDB infrastructure so first thing I did was to try to import a random dump to the new database - and it wasn't a straightforward process of couse, why should it be? :)</p>
 
-<p>When I decided barely a month ago to finally move from Bash to Zsh I did remember about Fish, a shell I had tried in the past but ultimately left to test later as I didn't had the time at that opportunity to dive into it the way I pretended.</p>
-
-<p>When I finally got a whole weekend for a n3rd sprint I deeply, desperately, passionately and unconditionally fell in love with Fish.</p>
-
-<p>Right straight after reading Fish's website I could sense this would be the beginning of something special, as reading about it's design argument I felt the same way as when I read about <a href="">The Arch Way</a> some years ago and fell in love with the distro.</p>
-
-<p>I believe the best way I can present this Friendly Interactive Shell is by describing it as <strong>an intelligent shell that works as an extension of the user in an organic and natural way</strong>:</p>
-
-<div class="center">
-    <img class="center" src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/11-fish-shell1.png" align="center"/>
-    <span>Screenshot taken from: http://lwn.net/images/2013/11-fish-shell.png</span>
-</div>
-
-<p><br></p>
+<p>Luckily after some debugging and the help of the fellow sysadmins at the company I used to work we could finally resolve all the issues we were facing; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.
+<br><br></p>
 
 <hr />
-<p id='twitter'><a href="https://i90rr.github.io/something-fishy-happening-here.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/something-fishy-happening-here.html"
+<p id='twitter'><a href="https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>https://i90rr.github.io/something-fishy-happening-here.html</link>
-<guid>https://i90rr.github.io/./something-fishy-happening-here.html</guid>
+]]></description><link>https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</link>
+<guid>https://i90rr.github.io/./migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Wed, 16 Mar 2016 21:11:39 -0300</pubDate></item>
+<pubDate>Wed, 10 Feb 2016 00:00:00 -0300</pubDate></item>
+<item><title>
+Git: keeping a GitHub fork updated
+</title><description><![CDATA[
+
+<p>I keep returning to this life-saving post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
+
+<p>CC of <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a> below
+<br><br></p>
+
+<hr />
+<p id='twitter'><a href="https://i90rr.github.io/git-keeping-a-github-fork-updated.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/git-keeping-a-github-fork-updated.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/git-keeping-a-github-fork-updated.html</link>
+<guid>https://i90rr.github.io/./git-keeping-a-github-fork-updated.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Fri, 05 Feb 2016 00:00:00 -0300</pubDate></item>
 <item><title>
 Spacemacs: a quick guide for creating and managing layers
 </title><description><![CDATA[
@@ -154,6 +197,7 @@ Spacemacs: a quick guide for creating and managing layers
 
 
 
+
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html"
@@ -163,26 +207,34 @@ Spacemacs: a quick guide for creating and managing layers
 ]]></description><link>https://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html</link>
 <guid>https://i90rr.github.io/./spacemacs-a-quick-guide-for-creating-and-managing-layers.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Wed, 16 Mar 2016 21:11:39 -0300</pubDate></item>
+<pubDate>Fri, 05 Feb 2016 00:00:00 -0300</pubDate></item>
 <item><title>
-Git: keeping a GitHub fork updated
+Person-to-person private communications on freenode IRC with WeeChat
 </title><description><![CDATA[
 
-<p>I keep returning to this life-saving post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
+<h4>Head-to-toe guide for registering an account<br>+ SASL + cloaking + SSL + OTR</h4>
 
-<p>CC of <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a> below
+<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png" border="0"  align="left" style="margin-right: 17px">
+This guide shows you how to implement a private <em>person-to-person</em> communication channel in freenode <br>to safely avoid server logging of your chats.
+<br><br></p>
+
+<p><strong>Introduction</strong></p>
+
+<p>There are plenty of ways to securely chat online, however if you spend most of your time in freenode and indeed the people you chat with is there this method will help you establish a secure, private channel for a person-to-person communication. </p>
+
+<p>While this guide is focused on freenode and WeeChat it should be trivial to adapt it to other networks and clients.
 <br><br></p>
 
 <hr />
-<p id='twitter'><a href="https://i90rr.github.io/git-keeping-a-github-fork-updated.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/git-keeping-a-github-fork-updated.html"
+<p id='twitter'><a href="https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>https://i90rr.github.io/git-keeping-a-github-fork-updated.html</link>
-<guid>https://i90rr.github.io/./git-keeping-a-github-fork-updated.html</guid>
+]]></description><link>https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</link>
+<guid>https://i90rr.github.io/./Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Wed, 16 Mar 2016 21:11:39 -0300</pubDate></item>
+<pubDate>Thu, 04 Feb 2016 00:00:00 -0300</pubDate></item>
 <item><title>
 Coding in Go with Atom editor on GNU+Linux
 </title><description><![CDATA[
@@ -220,55 +272,5 @@ Coding in Go with Atom editor on GNU+Linux
 ]]></description><link>https://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html</link>
 <guid>https://i90rr.github.io/./coding-in-go-with-atom-in-gnulinux.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Wed, 16 Mar 2016 21:11:39 -0300</pubDate></item>
-<item><title>
-Person-to-person private communications on freenode IRC with WeeChat
-</title><description><![CDATA[
-
-<h4>Head-to-toe guide for registering an account<br>+ SASL + cloaking + SSL + OTR</h4>
-
-<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png" border="0"  align="left" style="margin-right: 17px">
-This guide shows you how to implement a private <em>person-to-person</em> communication channel in freenode <br>to safely avoid server logging of your chats.
-<br><br></p>
-
-<p><strong>Introduction</strong></p>
-
-<p>There are plenty of ways to securely chat online, however if you spend most of your time in freenode and indeed the people you chat with is there this method will help you establish a secure, private channel for a person-to-person communication. </p>
-
-<p>While this guide is focused on freenode and WeeChat it should be trivial to adapt it to other networks and clients.
-<br><br></p>
-
-<hr />
-<p id='twitter'><a href="https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html"
- data-via="_i90rr"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-]]></description><link>https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</link>
-<guid>https://i90rr.github.io/./Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</guid>
-<dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Wed, 16 Mar 2016 21:11:39 -0300</pubDate></item>
-<item><title>
-Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mongoDB 3.0.8 wiredTiger
-</title><description><![CDATA[
-
-<p><a href="http://www.mongodb.org">
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/mongodb.png" width="200" height="200" align="right" style="margin-left: 24px" vspace="1px">
-</a></p>
-
-<p>Last month I was tasked to upgrade our mongoDB infrastructure so first thing I did was to try to import a random dump to the new database - and it wasn't a straightforward process of couse, why should it be? :)</p>
-
-<p>Luckily after some debugging and the help of the fellow sysadmins at the company I used to work we could finally resolve all the issues we were facing; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.
-<br><br></p>
-
-<hr />
-<p id='twitter'><a href="https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html"
- data-via="_i90rr"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-]]></description><link>https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</link>
-<guid>https://i90rr.github.io/./migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</guid>
-<dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Wed, 16 Mar 2016 21:11:00 -0300</pubDate></item>
+<pubDate>Sun, 03 Jan 2016 00:00:00 -0300</pubDate></item>
 </channel></rss>
