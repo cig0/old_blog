@@ -2,9 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# the art of CLI crafting</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>1-liner sorcery rocks ///</description><language>en</language>
-<lastBuildDate>Sat, 20 Feb 2016 15:35:11 -0300</lastBuildDate>
-<pubDate>Sat, 20 Feb 2016 15:35:11 -0300</pubDate>
+<lastBuildDate>Wed, 16 Mar 2016 21:13:32 -0300</lastBuildDate>
+<pubDate>Wed, 16 Mar 2016 21:13:32 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+We are in business, finally! (aka About)
+</title><description><![CDATA[
+
+<p>It certainly took me more time than I'd wished to set up the blog but finally here we are.</p>
+
+<p><strong>This blog</strong>...</p>
+
+<ul>
+<li>Focuses on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention</li>
+<li>Is made using <a href="https://github.com/cfenollosa/bashblog" title="Meet the little giant">bashblog</a>, a static site generator written in... Bash (duh!)</li>
+<li>Is a <a href="https://www.staticgen.com">static blog</a>, meaning it doesn't rely on any database or dynamic stuff (check <a href="https://davidwalsh.name/introduction-static-site-generators">this article</a> to learn more about the difference with dynamic websites)</li>
+<li>Is hosted at <a href="https://pages.github.com" title="GitHub Pages">GitHub Pages</a></li>
+<li>Is hence mostly invulnerable to the dangers of the interwebs</li>
+<li>Is devilish fast to load since it is made of <em>Markdown</em>, <em>HTML</em>, <em>CSS</em> and just a pinch of <em>JS</em></li>
+<li>Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM</li>
+</ul>
+
+<p>I agree that I suck at English; on the bright side I'm actively working on getting better at it.
+<br>If you see anything wrong please leave a comment :)</p>
+
+<p><br>
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px" vspace="3px"></p>
+
+<p><strong>The boring stuff</strong></p>
+
+<p>I'm a SysAdmin insanely passionate about automation, optimization, hardening, the Go programming language and of F/LOSS in general.</p>
+
+<p>People stories and their creations fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love because only then you can give the best of you.</p>
+
+<p align="center">h4ppy h4ck1n9
+              <br><a href="http://bestcostaricantours.com/about/puravida.html">Pura vida!</a>
+</p>
+
+<p>Tags: <a href='tag_about.html'>about</a></p>
+<!-- text end -->
+<p id='twitter'><a href="https://i90rr.github.io/we-are-in-business-finally.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/we-are-in-business-finally.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/we-are-in-business-finally.html</link>
+<guid>https://i90rr.github.io/./we-are-in-business-finally.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Wed, 16 Mar 2016 21:11:39 -0300</pubDate></item>
 <item><title>
 Fish shell: finally, a command line shell for the 90's
 </title><description><![CDATA[
@@ -39,7 +84,7 @@ Fish shell: finally, a command line shell for the 90's
 ]]></description><link>https://i90rr.github.io/something-fishy-happening-here.html</link>
 <guid>https://i90rr.github.io/./something-fishy-happening-here.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Fri, 19 Feb 2016 19:25:00 -0300</pubDate></item>
+<pubDate>Wed, 16 Mar 2016 21:11:39 -0300</pubDate></item>
 <item><title>
 Spacemacs: a quick guide for creating and managing layers
 </title><description><![CDATA[
@@ -118,58 +163,7 @@ Spacemacs: a quick guide for creating and managing layers
 ]]></description><link>https://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html</link>
 <guid>https://i90rr.github.io/./spacemacs-a-quick-guide-for-creating-and-managing-layers.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Mon, 15 Feb 2016 00:00:00 -0300</pubDate></item>
-<item><title>
-Person-to-person private communications on freenode IRC with WeeChat
-</title><description><![CDATA[
-
-<h4>Head-to-toe guide for registering an account<br>+ SASL + cloaking + SSL + OTR</h4>
-
-<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png" border="0"  align="left" style="margin-right: 17px">
-This guide shows you how to implement a private <em>person-to-person</em> communication channel in freenode <br>to safely avoid server logging of your chats.
-<br><br></p>
-
-<p><strong>Introduction</strong></p>
-
-<p>There are plenty of ways to securely chat online, however if you spend most of your time in freenode and indeed the people you chat with is there this method will help you establish a secure, private channel for a person-to-person communication. </p>
-
-<p>While this guide is focused on freenode and WeeChat it should be trivial to adapt it to other networks and clients.
-<br><br></p>
-
-<hr />
-<p id='twitter'><a href="https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html"
- data-via="_i90rr"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-]]></description><link>https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</link>
-<guid>https://i90rr.github.io/./Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</guid>
-<dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Sun, 14 Feb 2016 00:00:00 -0300</pubDate></item>
-<item><title>
-Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mongoDB 3.0.8 wiredTiger
-</title><description><![CDATA[
-
-<p><!-- <div class="box-shadow"> -->
-<a href="http://www.mongodb.org">
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/mongodb.png" width="200" height="200" align="right" style="margin-left: 24px" vspace="1px">
-</a></p>
-
-<p>Last month I was tasked to upgrade our mongoDB infrastructure so first thing I did was to try to import a random dump to the new database - and it wasn't a straightforward process of couse, why should it be? :)</p>
-
-<p>Luckily after some debugging and the help of the fellow sysadmins at the company I used to work we could finally resolve all the issues were facing; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.
-<br><br></p>
-
-<hr />
-<p id='twitter'><a href="https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html"
- data-via="_i90rr"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-]]></description><link>https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</link>
-<guid>https://i90rr.github.io/./migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</guid>
-<dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Wed, 10 Feb 2016 00:00:00 -0300</pubDate></item>
+<pubDate>Wed, 16 Mar 2016 21:11:39 -0300</pubDate></item>
 <item><title>
 Git: keeping a GitHub fork updated
 </title><description><![CDATA[
@@ -188,7 +182,7 @@ Git: keeping a GitHub fork updated
 ]]></description><link>https://i90rr.github.io/git-keeping-a-github-fork-updated.html</link>
 <guid>https://i90rr.github.io/./git-keeping-a-github-fork-updated.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Fri, 05 Feb 2016 00:00:00 -0300</pubDate></item>
+<pubDate>Wed, 16 Mar 2016 21:11:39 -0300</pubDate></item>
 <item><title>
 Coding in Go with Atom editor on GNU+Linux
 </title><description><![CDATA[
@@ -226,50 +220,55 @@ Coding in Go with Atom editor on GNU+Linux
 ]]></description><link>https://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html</link>
 <guid>https://i90rr.github.io/./coding-in-go-with-atom-in-gnulinux.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Wed, 06 Jan 2016 00:00:00 -0300</pubDate></item>
+<pubDate>Wed, 16 Mar 2016 21:11:39 -0300</pubDate></item>
 <item><title>
-We are in business, finally! (aka About)
+Person-to-person private communications on freenode IRC with WeeChat
 </title><description><![CDATA[
 
-<p>It certainly took me more time than I'd wished to set up the blog but finally here we are.</p>
+<h4>Head-to-toe guide for registering an account<br>+ SASL + cloaking + SSL + OTR</h4>
 
-<p><strong>This blog</strong>...</p>
+<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png" border="0"  align="left" style="margin-right: 17px">
+This guide shows you how to implement a private <em>person-to-person</em> communication channel in freenode <br>to safely avoid server logging of your chats.
+<br><br></p>
 
-<ul>
-<li>Focuses on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention</li>
-<li>Is made using <a href="https://github.com/cfenollosa/bashblog" title="Meet the little giant">bashblog</a>, a static site generator written in... Bash (duh!)</li>
-<li>Is a <a href="https://www.staticgen.com">static blog</a>, meaning it doesn't rely on any database or dynamic stuff (check <a href="https://davidwalsh.name/introduction-static-site-generators">this article</a> to learn more about the difference with dynamic websites)</li>
-<li>Is hosted at <a href="https://pages.github.com" title="GitHub Pages">GitHub Pages</a></li>
-<li>Is hence mostly invulnerable to the dangers of the interwebs</li>
-<li>Is devilish fast to load since it is made of <em>Markdown</em>, <em>HTML</em>, <em>CSS</em> and just a pinch of <em>JS</em></li>
-<li>Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM</li>
-</ul>
+<p><strong>Introduction</strong></p>
 
-<p>I agree that I suck at English; on the bright side I'm actively working on getting better at it.
-<br>If you see anything wrong please leave a comment :)</p>
+<p>There are plenty of ways to securely chat online, however if you spend most of your time in freenode and indeed the people you chat with is there this method will help you establish a secure, private channel for a person-to-person communication. </p>
 
-<p><br>
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px" vspace="3px"></p>
+<p>While this guide is focused on freenode and WeeChat it should be trivial to adapt it to other networks and clients.
+<br><br></p>
 
-<p><strong>The boring stuff</strong></p>
-
-<p>I'm a SysAdmin insanely passionate about automation, optimization, hardening, the Go programming language and of F/LOSS in general.</p>
-
-<p>People stories and their creations fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love because only then you can give the best of you.</p>
-
-<p align="center">h4ppy h4ck1n9
-              <br><a href="http://bestcostaricantours.com/about/puravida.html">Pura vida!</a>
-</p>
-
-<p>Tags: <a href='tag_about.html'>about</a></p>
-<!-- text end -->
-<p id='twitter'><a href="https://i90rr.github.io/we-are-in-business-finally.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/we-are-in-business-finally.html"
+<hr />
+<p id='twitter'><a href="https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>https://i90rr.github.io/we-are-in-business-finally.html</link>
-<guid>https://i90rr.github.io/./we-are-in-business-finally.html</guid>
+]]></description><link>https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</link>
+<guid>https://i90rr.github.io/./Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Sun, 03 Jan 2016 00:00:00 -0300</pubDate></item>
+<pubDate>Wed, 16 Mar 2016 21:11:39 -0300</pubDate></item>
+<item><title>
+Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mongoDB 3.0.8 wiredTiger
+</title><description><![CDATA[
+
+<p><a href="http://www.mongodb.org">
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/mongodb.png" width="200" height="200" align="right" style="margin-left: 24px" vspace="1px">
+</a></p>
+
+<p>Last month I was tasked to upgrade our mongoDB infrastructure so first thing I did was to try to import a random dump to the new database - and it wasn't a straightforward process of couse, why should it be? :)</p>
+
+<p>Luckily after some debugging and the help of the fellow sysadmins at the company I used to work we could finally resolve all the issues we were facing; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.
+<br><br></p>
+
+<hr />
+<p id='twitter'><a href="https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</link>
+<guid>https://i90rr.github.io/./migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Wed, 16 Mar 2016 21:11:00 -0300</pubDate></item>
 </channel></rss>
