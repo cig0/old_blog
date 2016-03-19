@@ -2,19 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# the art of CLI crafting</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>1-liner sorcery rocks ///</description><language>en</language>
-<lastBuildDate>Fri, 18 Mar 2016 23:44:37 -0300</lastBuildDate>
-<pubDate>Fri, 18 Mar 2016 23:44:37 -0300</pubDate>
+<lastBuildDate>Fri, 18 Mar 2016 23:48:02 -0300</lastBuildDate>
+<pubDate>Fri, 18 Mar 2016 23:48:02 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
-Newly installed applications not showing up in Ubuntu Unity Dash
+Newly installed applications not showing up in Ubuntu 15.10 &amp; 16.04 LTS Unity Dash 
 </title><description><![CDATA[
-For Ubuntu 15.10 and 16.04 (<a href="https://bugs.launchpad.net/ubuntu/+source/unity/+bug/1506744/comments/27">as of 2016-03-11</a>)</p>
+<a href="https://bugs.launchpad.net/ubuntu/+source/unity/+bug/1506744/comments/27">As of 2016-03-11</a></p>
 
-<p><a href="http://www.ubuntu.com/download">
+<p><br>
+<a href="http://www.ubuntu.com/download">
 <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/logo-ubuntu_-black_orange-hex.png" style="text-align: center; margin: auto;">
 </a></p>
 
-<p>There's an annoying bug that prevents applications installed via a DEB file, be it either via CLI or the Ubuntu Software Center, from showing up in dash after being installed.</p>
+<p><br>
+There's an annoying bug that prevents applications installed via a DEB file, be it either via CLI or the Ubuntu Software Center, from showing up in dash after being installed.</p>
 
 <p>A bug report under the name of <strong>Newly installed applications do not show in the dash</strong> was initially filled on October 16th, 2015 (!) and despite this being a highly annoying usability breakage it has been classified since then as of 'low importance' (!!).</p>
 
@@ -24,7 +26,9 @@ For Ubuntu 15.10 and 16.04 (<a href="https://bugs.launchpad.net/ubuntu/+source/u
 
 <blockquote>Kill the process /usr/bin/unity-scope-loader</blockquote>
 
-<p>Tags: <a href='tag_ubuntu.html'>ubuntu</a>, <a href='tag_unity.html'>unity</a></p>
+<p><br>
+Tags: ubuntu, unity</p>
+
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html"
@@ -34,7 +38,7 @@ For Ubuntu 15.10 and 16.04 (<a href="https://bugs.launchpad.net/ubuntu/+source/u
 ]]></description><link>https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html</link>
 <guid>https://i90rr.github.io/./newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Fri, 18 Mar 2016 23:44:34 -0300</pubDate></item>
+<pubDate>Fri, 18 Mar 2016 23:44:00 -0300</pubDate></item>
 <item><title>
 Fish shell: finally, a command line shell for the 90's
 </title><description><![CDATA[
