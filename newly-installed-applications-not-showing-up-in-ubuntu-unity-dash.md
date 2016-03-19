@@ -1,5 +1,5 @@
 Newly installed applications not showing up in Ubuntu 15.10 & 16.04 LTS Unity Dash 
-[As of 2016-03-11](https://bugs.launchpad.net/ubuntu/+source/unity/+bug/1506744/comments/27)
+_Still valid as of 2016-03-19_
 
 <br>
 <a href="http://www.ubuntu.com/download">
