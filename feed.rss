@@ -2,9 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# the art of CLI crafting</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>1-liner sorcery rocks ///</description><language>en</language>
-<lastBuildDate>Wed, 16 Mar 2016 21:46:36 -0300</lastBuildDate>
-<pubDate>Wed, 16 Mar 2016 21:46:36 -0300</pubDate>
+<lastBuildDate>Fri, 18 Mar 2016 23:44:37 -0300</lastBuildDate>
+<pubDate>Fri, 18 Mar 2016 23:44:37 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Newly installed applications not showing up in Ubuntu Unity Dash
+</title><description><![CDATA[
+For Ubuntu 15.10 and 16.04 (<a href="https://bugs.launchpad.net/ubuntu/+source/unity/+bug/1506744/comments/27">as of 2016-03-11</a>)</p>
+
+<p><a href="http://www.ubuntu.com/download">
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/logo-ubuntu_-black_orange-hex.png" style="text-align: center; margin: auto;">
+</a></p>
+
+<p>There's an annoying bug that prevents applications installed via a DEB file, be it either via CLI or the Ubuntu Software Center, from showing up in dash after being installed.</p>
+
+<p>A bug report under the name of <strong>Newly installed applications do not show in the dash</strong> was initially filled on October 16th, 2015 (!) and despite this being a highly annoying usability breakage it has been classified since then as of 'low importance' (!!).</p>
+
+<p>The bug report can be found here: <a href="https://bugs.launchpad.net/ubuntu/+source/unity/+bug/1506744">Bug #1506744</a>.</p>
+
+<p>Anyhow, <a href="https://bugs.launchpad.net/ubuntu/+source/unity/+bug/1506744/comments/12">comment #12</a> by <em>Dan Jared</em> offers a workaround that works for me:</p>
+
+<blockquote>Kill the process /usr/bin/unity-scope-loader</blockquote>
+
+<p>Tags: <a href='tag_ubuntu.html'>ubuntu</a>, <a href='tag_unity.html'>unity</a></p>
+<!-- text end -->
+<p id='twitter'><a href="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html</link>
+<guid>https://i90rr.github.io/./newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Fri, 18 Mar 2016 23:44:34 -0300</pubDate></item>
 <item><title>
 Fish shell: finally, a command line shell for the 90's
 </title><description><![CDATA[
