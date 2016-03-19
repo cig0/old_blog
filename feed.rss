@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# the art of CLI crafting</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>1-liner sorcery rocks ///</description><language>en</language>
-<lastBuildDate>Fri, 18 Mar 2016 23:57:22 -0300</lastBuildDate>
-<pubDate>Fri, 18 Mar 2016 23:57:22 -0300</pubDate>
+<lastBuildDate>Fri, 18 Mar 2016 23:58:36 -0300</lastBuildDate>
+<pubDate>Fri, 18 Mar 2016 23:58:36 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Newly installed applications not showing up in Ubuntu 15.10 &amp; 16.04 LTS Unity Dash 
@@ -19,19 +19,18 @@ Newly installed applications not showing up in Ubuntu 15.10 &amp; 16.04 LTS Unit
 <p><br><br>
 There's an annoying bug that prevents applications installed via a DEB file, be it either via CLI or the Ubuntu Software Center from showing up in dash after being installed.</p>
 
-<p>A bug report under the name of <strong>Newly installed applications do not show in the dash</strong> was initially filled on October 16th, 2015 (!) and despite this being a highly annoying usability breakage it has been classified since then as of 'low importance' (!!).</p>
+<p>A bug report under the name of <strong>Newly installed applications do not show in the dash</strong> was initially filled on October 16th, 2015 (!) and despite this being a highly annoying usability breakage it has been classified since then as of 'low importance' (!!)</p>
 
-<p>The bug report can be found here: <a href="https://bugs.launchpad.net/ubuntu/+source/unity/+bug/1506744">Bug #1506744</a>.</p>
+<p>The bug report can be found here: <a href="https://bugs.launchpad.net/ubuntu/+source/unity/+bug/1506744">Bug #1506744</a></p>
 
 <p>Anyhow, <a href="https://bugs.launchpad.net/ubuntu/+source/unity/+bug/1506744/comments/12">Dan Jared shares a useful workaround</a> on that ticket that fixes the issue:</p>
 
 <blockquote>Kill the process /usr/bin/unity-scope-loader</blockquote>
 
-<p>HTG!</p>
+<p>HTG!
+<br></p>
 
-<p><br>
-Tags: ubuntu, unity</p>
-
+<p>Tags: <a href='tag_ubuntu.html'>ubuntu</a>, <a href='tag_unity.html'>unity</a></p>
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html"
