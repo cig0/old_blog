@@ -16,7 +16,7 @@ The bug report can be found here: [Bug #1506744](https://bugs.launchpad.net/ubun
 Anyhow, [Dan Jared shares a useful workaround](https://bugs.launchpad.net/ubuntu/+source/unity/+bug/1506744/comments/12) on that ticket that fixes the issue:
 <blockquote>Kill the process /usr/bin/unity-scope-loader</blockquote>
 
-HTG!
+HTH
 <br>
 
 Tags: ubuntu, unity

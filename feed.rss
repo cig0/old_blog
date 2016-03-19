@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# the art of CLI crafting</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>1-liner sorcery rocks ///</description><language>en</language>
-<lastBuildDate>Fri, 18 Mar 2016 23:58:36 -0300</lastBuildDate>
-<pubDate>Fri, 18 Mar 2016 23:58:36 -0300</pubDate>
+<lastBuildDate>Sat, 19 Mar 2016 00:00:23 -0300</lastBuildDate>
+<pubDate>Sat, 19 Mar 2016 00:00:23 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Newly installed applications not showing up in Ubuntu 15.10 &amp; 16.04 LTS Unity Dash 
@@ -27,10 +27,11 @@ There's an annoying bug that prevents applications installed via a DEB file, be 
 
 <blockquote>Kill the process /usr/bin/unity-scope-loader</blockquote>
 
-<p>HTG!
+<p>HTH
 <br></p>
 
 <p>Tags: <a href='tag_ubuntu.html'>ubuntu</a>, <a href='tag_unity.html'>unity</a></p>
+
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html"
@@ -133,6 +134,7 @@ Spacemacs: a quick guide for creating and managing layers
 <em>Coming soon</em></p>
 
 <p>Tags: <a href='tag_spacemacs.html'>spacemacs</a>, <a href='tag_emacs.html'>emacs</a>, <a href='tag_editors.html'>editors</a></p>
+
 
 
 
@@ -301,6 +303,7 @@ We are in business, finally! (aka About)
 </p>
 
 <p>Tags: <a href='tag_about.html'>about</a></p>
+
 
 
 
