@@ -1,5 +1,5 @@
 Newly installed applications not showing up in Ubuntu 15.10 & 16.04 LTS Unity Dash 
-_Still valid as of 2016-03-19_
+<p style="text-align: right; margin: auto;" ><small><em>Still valid as of 2016-03-19</em>.</small></p>
 
 <br>
 <a href="http://www.ubuntu.com/download">
@@ -7,7 +7,7 @@ _Still valid as of 2016-03-19_
 </a>
 
 <br>
-There's an annoying bug that prevents applications installed via a DEB file, be it either via CLI or the Ubuntu Software Center, from showing up in dash after being installed.
+There's an annoying bug that prevents applications installed via a DEB file, be it either via CLI or the Ubuntu Software Center from showing up in dash after being installed.
 
 A bug report under the name of **Newly installed applications do not show in the dash** was initially filled on October 16th, 2015 (!) and despite this being a highly annoying usability breakage it has been classified since then as of 'low importance' (!!).
 
