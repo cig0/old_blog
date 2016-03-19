@@ -1,6 +1,5 @@
 Newly installed applications not showing up in Ubuntu 15.10 & 16.04 LTS Unity Dash 
 
-<br>
 <p style="text-align: right; margin: auto;" ><small><em>Still valid as of 2016-03-19</em>.</small></p>
 
 <br>
