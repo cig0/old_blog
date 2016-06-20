@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
-<channel><title>~# the art of CLI crafting</title><link>https://i90rr.github.io/frontpage.html</link>
-<description>1-liner sorcery rocks ///</description><language>en</language>
-<lastBuildDate>Mon, 21 Mar 2016 23:36:53 -0300</lastBuildDate>
-<pubDate>Mon, 21 Mar 2016 23:36:53 -0300</pubDate>
+<channel><title>~# ʇoʇɐ1_u00q.sh</title><link>https://i90rr.github.io/index.html</link>
+<description>computing has ceased being a matter of logic to become a question of faith (@maw dixit)</description><language>en</language>
+<lastBuildDate>Mon, 20 Jun 2016 01:02:07 -0300</lastBuildDate>
+<pubDate>Mon, 20 Jun 2016 01:02:07 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Newly installed applications not showing up in Ubuntu 15.10 &amp; 16.04 LTS Unity Dash 
@@ -32,6 +32,14 @@ There's an annoying bug that prevents applications installed via a DEB file, be 
 
 <p>Tags: <a href='tag_ubuntu.html'>ubuntu</a>, <a href='tag_unity.html'>unity</a></p>
 
+
+
+
+
+
+
+
+
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html"
@@ -41,7 +49,7 @@ There's an annoying bug that prevents applications installed via a DEB file, be 
 ]]></description><link>https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html</link>
 <guid>https://i90rr.github.io/./newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Fri, 18 Mar 2016 23:44:00 -0300</pubDate></item>
+<pubDate>Fri, 18 Mar 2016 00:01:00 -0300</pubDate></item>
 <item><title>
 Spacemacs: a quick guide for creating and managing layers
 </title><description><![CDATA[
@@ -119,6 +127,14 @@ Spacemacs: a quick guide for creating and managing layers
 
 
 
+
+
+
+
+
+
+
+
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html"
@@ -128,7 +144,7 @@ Spacemacs: a quick guide for creating and managing layers
 ]]></description><link>https://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html</link>
 <guid>https://i90rr.github.io/./spacemacs-a-quick-guide-for-creating-and-managing-layers.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Thu, 03 Mar 2016 00:00:00 -0300</pubDate></item>
+<pubDate>Thu, 03 Mar 2016 00:01:00 -0300</pubDate></item>
 <item><title>
 Fish shell: finally, a command line shell for the 90's
 </title><description><![CDATA[
@@ -163,7 +179,7 @@ Fish shell: finally, a command line shell for the 90's
 ]]></description><link>https://i90rr.github.io/something-fishy-happening-here.html</link>
 <guid>https://i90rr.github.io/./something-fishy-happening-here.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Wed, 17 Feb 2016 00:00:00 -0300</pubDate></item>
+<pubDate>Wed, 17 Feb 2016 00:01:00 -0300</pubDate></item>
 <item><title>
 Person-to-person private communications on freenode IRC with WeeChat
 </title><description><![CDATA[
@@ -190,7 +206,7 @@ This guide shows you how to implement a private <em>person-to-person</em> commun
 ]]></description><link>https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</link>
 <guid>https://i90rr.github.io/./Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Fri, 12 Feb 2016 00:00:00 -0300</pubDate></item>
+<pubDate>Fri, 12 Feb 2016 00:01:00 -0300</pubDate></item>
 <item><title>
 Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mongoDB 3.0.8 wiredTiger
 </title><description><![CDATA[
@@ -213,7 +229,7 @@ Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mon
 ]]></description><link>https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</link>
 <guid>https://i90rr.github.io/./migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Wed, 10 Feb 2016 00:00:00 -0300</pubDate></item>
+<pubDate>Wed, 10 Feb 2016 00:01:00 -0300</pubDate></item>
 <item><title>
 Git: keeping a GitHub fork updated
 </title><description><![CDATA[
@@ -232,7 +248,7 @@ Git: keeping a GitHub fork updated
 ]]></description><link>https://i90rr.github.io/git-keeping-a-github-fork-updated.html</link>
 <guid>https://i90rr.github.io/./git-keeping-a-github-fork-updated.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Fri, 05 Feb 2016 00:00:00 -0300</pubDate></item>
+<pubDate>Fri, 05 Feb 2016 00:01:00 -0300</pubDate></item>
 <item><title>
 Coding in Go with Atom editor on GNU+Linux
 </title><description><![CDATA[
@@ -270,7 +286,7 @@ Coding in Go with Atom editor on GNU+Linux
 ]]></description><link>https://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html</link>
 <guid>https://i90rr.github.io/./coding-in-go-with-atom-in-gnulinux.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Sun, 03 Jan 2016 00:00:00 -0300</pubDate></item>
+<pubDate>Sun, 03 Jan 2016 00:01:00 -0300</pubDate></item>
 <item><title>
 We are in business, finally! (aka About)
 </title><description><![CDATA[
@@ -314,6 +330,14 @@ We are in business, finally! (aka About)
 
 
 
+
+
+
+
+
+
+
+
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/we-are-in-business-finally.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/we-are-in-business-finally.html"
@@ -323,5 +347,5 @@ We are in business, finally! (aka About)
 ]]></description><link>https://i90rr.github.io/we-are-in-business-finally.html</link>
 <guid>https://i90rr.github.io/./we-are-in-business-finally.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Fri, 01 Jan 2016 00:00:00 -0300</pubDate></item>
+<pubDate>Fri, 01 Jan 2016 00:01:00 -0300</pubDate></item>
 </channel></rss>
