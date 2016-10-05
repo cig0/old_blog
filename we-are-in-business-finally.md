@@ -1,4 +1,4 @@
-We are in business, finally! (aka About)
+We are in business, finally (aka About)
 
 It certainly took me more than I'd wished to set up this blog but finally here I am!
 
