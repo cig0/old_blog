@@ -2,59 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# ʇoʇɐ1_u00qᴉ.sh</title><link>https://i90rr.github.io/index.html</link>
 <description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
-<lastBuildDate>Tue, 04 Oct 2016 23:09:08 -0300</lastBuildDate>
-<pubDate>Tue, 04 Oct 2016 23:09:08 -0300</pubDate>
+<lastBuildDate>Tue, 04 Oct 2016 23:13:35 -0300</lastBuildDate>
+<pubDate>Tue, 04 Oct 2016 23:13:35 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
-<item><title>
-We are in business, finally (aka About)
-</title><description><![CDATA[
-
-<p>It certainly took me more than I'd wished to set up this blog but finally here I am!</p>
-
-<p><strong>This blog</strong>...</p>
-
-<ul>
-<li>Focuses on IT, yet don't be surprised to find entries about pretty much everything else that can catch my attention</li>
-<li>Is made using <a href="https://github.com/cfenollosa/bashblog" title="Meet the little giant">bashblog</a>, a static site generator written in... Bash (duh!)</li>
-<li>Is a <a href="https://www.staticgen.com">static blog</a>, meaning it doesn't rely on any database or dynamic stuff (check <a href="https://davidwalsh.name/introduction-static-site-generators">this article</a> to learn more about the difference with dynamic websites)</li>
-<li>Is hosted at <a href="https://pages.github.com" title="GitHub Pages">GitHub Pages</a></li>
-<li>Is hence mostly invulnerable to the dangers of the interwebs</li>
-<li>Is devilish fast to load since it is made using <em>Markdown</em>, <em>HTML</em>, <em>CSS</em> and just a pinch of <em>JS</em></li>
-<li>Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM</li>
-</ul>
-
-<p>Note: I agree that I suck at English; on the bright side I'm actively working on getting better at it so please be patient :)</p>
-
-<p><br/>
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px" vspace="16px">
-<strong>The boring stuff</strong></p>
-
-<p>I'm a SysAdmin insanely passionate about automation, optimization, hardening, the Go programming language and of F/LOSS in general.</p>
-
-<p>On the not techy side I enjoy outdoor activities - surf above everything else. Love to read and learn from the classics, Latins and Greeks are usually my tops. Said that, all praises to Master Lovecraft. I believe that thanks to Tex Avery the world is a better place. Some day I will learn to play music or draw - I heard that one <em>has</em> to develop at least one of such talents.
-<br/>Family, friends, my dogs are first to me.
-<br/>Oh and I'm on my way to stop eating animals :)</p>
-
-<p>People stories and creations fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love and passion because only then you can give the best of you.</p>
-
-<p align="center">h4ppy h4ck1n9
-   <br/>
-        and
-   <br/><a href="http://bestcostaricantours.com/about/puravida.html">Pura vida!</a>
-</p>
-
-<p>Tags: <a href='tag_about.html'>about</a></p>
-
-<!-- text end -->
-<p id='twitter'><a href="https://i90rr.github.io/we-are-in-business-finally.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/we-are-in-business-finally.html"
- data-via="_i90rr"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-]]></description><link>https://i90rr.github.io/we-are-in-business-finally.html</link>
-<guid>https://i90rr.github.io/./we-are-in-business-finally.html</guid>
-<dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Tue, 04 Oct 2016 22:35:20 -0300</pubDate></item>
 <item><title>
 Newly installed applications not showing up in Ubuntu 15.10 &amp; 16.04 LTS Unity Dash 
 </title><description><![CDATA[
@@ -95,6 +45,7 @@ There's an annoying bug that prevents applications installed via a DEB file, be 
 
 
 
+
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html"
@@ -120,6 +71,7 @@ Spacemacs: a quick guide for creating and managing layers
 <em>Coming soon</em></p>
 
 <p>Tags: <a href='tag_spacemacs.html'>spacemacs</a>, <a href='tag_emacs.html'>emacs</a>, <a href='tag_editors.html'>editors</a></p>
+
 
 
 
@@ -347,4 +299,55 @@ Coding in Go with Atom editor on GNU+Linux
 <guid>https://i90rr.github.io/./coding-in-go-with-atom-in-gnulinux.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Sun, 03 Jan 2016 00:01:00 -0300</pubDate></item>
+<item><title>
+We are in business, finally (aka About)
+</title><description><![CDATA[
+
+<p>It certainly took me more than I'd wished to set up this blog but finally here I am!</p>
+
+<p><strong>This blog</strong>...</p>
+
+<ul>
+<li>Focuses on IT, yet don't be surprised to find entries about pretty much everything else that can catch my attention</li>
+<li>Is made using <a href="https://github.com/cfenollosa/bashblog" title="Meet the little giant">bashblog</a>, a static site generator written in... Bash (duh!)</li>
+<li>Is a <a href="https://www.staticgen.com">static blog</a>, meaning it doesn't rely on any database or dynamic stuff (check <a href="https://davidwalsh.name/introduction-static-site-generators">this article</a> to learn more about the difference with dynamic websites)</li>
+<li>Is hosted at <a href="https://pages.github.com" title="GitHub Pages">GitHub Pages</a></li>
+<li>Is hence mostly invulnerable to the dangers of the interwebs</li>
+<li>Is devilish fast to load since it is made using <em>Markdown</em>, <em>HTML</em>, <em>CSS</em> and just a pinch of <em>JS</em></li>
+<li>Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM</li>
+</ul>
+
+<p>Note: I agree that I suck at English; on the bright side I'm actively working on getting better at it so please be patient :)</p>
+
+<p><br/>
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px" vspace="16px">
+<strong>The boring stuff</strong></p>
+
+<p>I'm a SysAdmin insanely passionate about automation, optimization, hardening, the Go programming language and of F/LOSS in general.</p>
+
+<p>On the not techy side I enjoy outdoor activities - surf above everything else. Love to read and learn from the classics, Latins and Greeks are usually my tops. Said that, all praises to Master Lovecraft. I believe that thanks to Tex Avery the world is a better place. Some day I will learn to play music or draw - I heard that one <em>has</em> to develop at least one of such talents.
+<br/>Family, friends, my dogs are first to me.
+<br/>Oh and I'm on my way to stop eating animals :)</p>
+
+<p>People stories and creations fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love and passion because only then you can give the best of you.</p>
+
+<p align="center">h4ppy h4ck1n9
+   <br/>
+        and
+   <br/><a href="http://bestcostaricantours.com/about/puravida.html">Pura vida!</a>
+</p>
+
+<p>Tags: <a href='tag_about.html'>about</a></p>
+
+
+<!-- text end -->
+<p id='twitter'><a href="https://i90rr.github.io/we-are-in-business-finally.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/we-are-in-business-finally.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/we-are-in-business-finally.html</link>
+<guid>https://i90rr.github.io/./we-are-in-business-finally.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Fri, 01 Jan 2016 22:34:20 -0300</pubDate></item>
 </channel></rss>
