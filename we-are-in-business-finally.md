@@ -14,20 +14,22 @@ It certainly took me more than I'd wished to set up this blog but finally here I
 
 Note: I agree that I suck at English; on the bright side I'm actively working on getting better at it so please be patient :)
 
-<br>
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px" vspace="3px">
-
+<br/>
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px" vspace="16px">
 **The boring stuff**
 
 I'm a SysAdmin insanely passionate about automation, optimization, hardening, the Go programming language and of F/LOSS in general.
 
-On the not techy side I enjoy outdoor activities - specially surfing; love to read and learn from the classics - Latins and Greeks are among my preferred ones) and of course the great Master, Mr. Lovecraft. I believe that thanks to Tex Avery the world is a better place. Some day I will learn to play music or draw - I heard that one _has_ to develop at least one of such talents. Family, friends, my dogs is what most matter to me. Oh and I'm on my way to stop eating animals :)
+On the not techy side I enjoy outdoor activities - surf above everything else. Love to read and learn from the classics, Latins and Greeks are usually my tops. Said that, all praises to Master Lovecraft. I believe that thanks to Tex Avery the world is a better place. Some day I will learn to play music or draw - I heard that one _has_ to develop at least one of such talents.
+<br/>Family, friends, my dogs are first to me.
+<br/>Oh and I'm on my way to stop eating animals :)
 
-People stories and their creations fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love because only then you can give the best of you.
+People stories and creations fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love and passion because only then you can give the best of you.
 
 <p align="center">h4ppy h4ck1n9
-and
-  <br><a href="http://bestcostaricantours.com/about/puravida.html">Pura vida!</a>
+   <br/>
+        and
+   <br/><a href="http://bestcostaricantours.com/about/puravida.html">Pura vida!</a>
 </p>
 
 Tags: about,
