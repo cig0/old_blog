@@ -22,14 +22,14 @@ I'm a SysAdmin insanely passionate about automation, optimization, hardening, th
 
 On the not techy side I enjoy outdoor activities - surf above everything else. Love to read and learn from the classics, Latins and Greeks are usually my tops. Said that, all praises to Master Lovecraft. I believe that thanks to Tex Avery the world is a better place. Some day I will learn to play music or draw - I heard that one _has_ to develop at least one of such talents.
 <br/>Family, friends, my dogs are first to me.
-<br/>Oh and I'm on my way to stop eating animals :)
+<br/>Oh and I'm on my way to stop eating animals ᕕ( ᐛ )ᕗ
 
 People stories and creations fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love and passion because only then you can give the best of you.
 
 <br/>
 **Acknowledgments**
 
-I have to specially thank [@nicoman](http://www.nicomanso.com/) for his invaluable help when putting together the scaffolding of this blog, most notably the landing page.
+I have to specially thank [@nicoman](http://www.nicomanso.com/) for his invaluable help when putting together the scaffolding for this blog, most notably the landing page.
 
 <br/>
 <p align="center">h4ppy h4ck1n9
