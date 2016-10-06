@@ -26,6 +26,12 @@ On the not techy side I enjoy outdoor activities - surf above everything else. L
 
 People stories and creations fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love and passion because only then you can give the best of you.
 
+<br/>
+**Acknowledgments**
+
+I have to specially thank [@nicoman](http://www.nicomanso.com/) for his invaluable help when putting together the scaffolding of this blog, most notably the landing page.
+
+<br/>
 <p align="center">h4ppy h4ck1n9
    <br/>
         and

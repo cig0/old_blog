@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# totally_n00bi.sh</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
-<lastBuildDate>Thu, 06 Oct 2016 00:37:12 -0300</lastBuildDate>
-<pubDate>Thu, 06 Oct 2016 00:37:12 -0300</pubDate>
+<lastBuildDate>Thu, 06 Oct 2016 00:44:06 -0300</lastBuildDate>
+<pubDate>Thu, 06 Oct 2016 00:44:06 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Newly installed applications not showing up in Ubuntu 15.10 &amp; 16.04 LTS Unity Dash 
@@ -361,6 +361,13 @@ We are in business, finally (aka About)
 
 <p>People stories and creations fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love and passion because only then you can give the best of you.</p>
 
+<p><br/>
+<strong>Acknowledgments</strong></p>
+
+<p>I have to specially thank <a href="http://www.nicomanso.com/">@nicoman</a> for his invaluable help when putting together the scaffolding of this blog, most notably the landing page.</p>
+
+<p><br/></p>
+
 <p align="center">h4ppy h4ck1n9
    <br/>
         and
@@ -368,23 +375,6 @@ We are in business, finally (aka About)
 </p>
 
 <p>Tags: <a href='tag_about.html'>about</a></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/we-are-in-business-finally.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/we-are-in-business-finally.html"
