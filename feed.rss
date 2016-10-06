@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# totally_n00bi.sh</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
-<lastBuildDate>Thu, 06 Oct 2016 00:24:48 -0300</lastBuildDate>
-<pubDate>Thu, 06 Oct 2016 00:24:48 -0300</pubDate>
+<lastBuildDate>Thu, 06 Oct 2016 00:33:13 -0300</lastBuildDate>
+<pubDate>Thu, 06 Oct 2016 00:33:13 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Newly installed applications not showing up in Ubuntu 15.10 &amp; 16.04 LTS Unity Dash 
@@ -58,6 +58,7 @@ There's an annoying bug that prevents applications installed via a DEB file, be 
 
 
 
+
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html"
@@ -83,6 +84,7 @@ Spacemacs: a quick guide for creating and managing layers
 <em>Coming soon</em></p>
 
 <p>Tags: <a href='tag_spacemacs.html'>spacemacs</a>, <a href='tag_emacs.html'>emacs</a>, <a href='tag_editors.html'>editors</a></p>
+
 
 
 
@@ -362,6 +364,7 @@ We are in business, finally (aka About)
 </p>
 
 <p>Tags: <a href='tag_about.html'>about</a></p>
+
 
 
 
