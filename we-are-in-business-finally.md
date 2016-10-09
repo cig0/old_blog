@@ -3,7 +3,7 @@ We are in business, finally (aka About)
 It certainly took me more than I'd wished to set up this blog but finally here I am!
 
 **About blog's name**
-Tuonela is the Underworld in Finnish mythology. It is also the name of an excellent album by the Finnish band Amorphis. I like Finland and I work on IT infrastructure. Do the maths.  
+<br/>Tuonela is the Underworld in Finnish mythology. It is also the name of an excellent album by the Finnish band Amorphis. I like Finland and I work on IT infrastructure. Do the maths.  
 
 **Enter Tuonela**...
 
