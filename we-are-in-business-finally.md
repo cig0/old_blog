@@ -2,7 +2,10 @@ We are in business, finally (aka About)
 
 It certainly took me more than I'd wished to set up this blog but finally here I am!
 
-**This blog**...
+**About blog's name**
+Tuonela is the Underworld in Finnish mythology. It is also the name of an excellent album by the Finnish band Amorphis. I like Finland and I work on IT infrastructure. Do the maths.  
+
+**Enter Tuonela**...
 
 * Focuses on IT, yet don't be surprised to find entries about pretty much everything else that can catch my attention
 * Is made using [bashblog](https://github.com/cfenollosa/bashblog "Meet the little giant"), a static site generator written in Bourne-Again SHell
