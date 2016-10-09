@@ -8,7 +8,7 @@ It certainly took me more than I'd wished to set up this blog but finally here I
 
 **Enter Tuonela**...
 
-* Focuses on IT, yet don't be surprised to find entries about pretty much everything else that can catch my attention
+* Focused on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention
 * Is made using [bashblog](https://github.com/cfenollosa/bashblog "Meet the little giant"), a static site generator written in Bourne-Again SHell
 * Is a [static blog](https://www.staticgen.com), meaning it doesn't rely on any database or dynamic stuff (check [this article](https://davidwalsh.name/introduction-static-site-generators) to learn more about the difference with dynamic websites)
 * Is hosted at [GitHub Pages](https://pages.github.com "GitHub Pages") (many thanks!)
