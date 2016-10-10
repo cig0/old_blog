@@ -17,7 +17,7 @@ ators) to learn more about the difference with dynamic websites)
 * Is named after my affinity to Finland, Finnish mythology, Finnish metal music and the fact that I live and breath IT infrastructure. [Tuonela](https://en.wikipedia.org/wiki/Tuonela) is the Underworld in Finnish mythology. It is also the name of an [excellent album by the Finnish band Amorphis](http://www.metal-archives.com/reviews/Amorphis/Tuonela/1/). I like Finland, I like metal and I work on IT infrastructure: `~# cd tuonela`
 
 <br/>
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px" vspace="16px">
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="285" height="285" style="margin-left: 25px" vspace="10px">
 
 **~# whoami**
 
@@ -25,7 +25,7 @@ I'm a SysAdmin insanely passionate about automation, optimization, hardening, th
 
 On the not techy side I enjoy outdoor activities - surf above everything else. Love to read and learn from the classics; all praises to Master Lovecraft. I believe that thanks to Tex Avery the world is a better place. Some day I will learn to play music or draw - I heard that one _has_ to develop at least one of such talents. Family, friends, my dogs are first to me. Oh and I'm on my way to stop eating animals (•̀ᴗ•́)و ̑̑
 
-People stories and creations fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love and passion because only then you can give the best of you.
+I'm naturally avid about people's stories and creations as they fuel my interest to see the world from unseen perspectives. In my book, every work should be a labour of love and passion because only then it means you're happy with what you do and so can give the best of you.
 
 <br/>
 
@@ -33,7 +33,7 @@ People stories and creations fuel my interest to see the world from unseen persp
 
 I have to specially thank [@nicoman](http://www.nicomanso.com/) for his invaluable help when putting together the scaffolding for this blog, most notably the landing page.
 <br/>
-I also have to thank [@ezq](https://cardinali.org/) for introducing me to bashblog at the awesome [FUDCon 2015 in Córdoba, Argentina](https://www.youtube.com/watch?v=rPYX8o-m19s). The people I met there was simply incredible and the memories will last forever.
+I also have to thank [@ezq](https://cardinali.org/) for introducing me to bashblog at the awesome [FUDCon 2015 in Córdoba, Argentina](https://www.youtube.com/watch?v=rPYX8o-m19s). The people I met there is simply incredible and the memories will last forever.
 <br/>
 
 
