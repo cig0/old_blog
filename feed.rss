@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# cd tuonela</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
-<lastBuildDate>Mon, 10 Oct 2016 09:15:06 -0300</lastBuildDate>
-<pubDate>Mon, 10 Oct 2016 09:15:06 -0300</pubDate>
+<lastBuildDate>Mon, 10 Oct 2016 09:17:25 -0300</lastBuildDate>
+<pubDate>Mon, 10 Oct 2016 09:17:25 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Newly installed applications not showing up in Ubuntu 15.10 &amp; 16.04 LTS Unity Dash 
@@ -343,13 +343,13 @@ We are in business, finally (aka About)
 
 <p><strong>~# cd tuonela; ls -l</strong>
 <code>
-* -rw-r--r--  1 i90rr i90rr 113 Jan  1 16:08 Focused on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention
-* -rw-r--r--  1 i90rr i90rr 143 Jan  1 16:08 Is made using [bashblog](https://github.com/cfenollosa/bashblog "Meet the little giant"), a static site generator written in Bourne-Again SHell
-* -rw-r--r--  1 i90rr i90rr 244 Jan  1 16:08 Is a [static blog](https://www.staticgen.com), meaning it doesn't rely on any database or dynamic stuff (check [this article](https://davidwalsh.name/introduction-static-site-generators) to learn more about the difference with dynamic websites)
-* -rw-r--r--  1 i90rr i90rr  83 Jan  1 16:08 Is hosted at [GitHub Pages](https://pages.github.com "GitHub Pages") (many thanks!)
-* -rw-r--r--  1 i90rr i90rr  60 Jan  1 16:08 Is hence mostly invulnerable to the dangers of the interwebs
-* -rw-r--r--  1 i90rr i90rr  98 Jan  1 16:08 Is devilish fast to load since it is made using *Markdown*, *HTML*, *CSS* and just a pinch of *JS*
-* -rw-r--r--  1 i90rr i90rr  94 Jan  1 16:08 Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM
+ -rw-r--r--  1 i90rr i90rr 113 Jan  1 16:08 Focused on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention
+ -rw-r--r--  1 i90rr i90rr 143 Jan  1 16:08 Is made using [bashblog](https://github.com/cfenollosa/bashblog "Meet the little giant"), a static site generator written in Bourne-Again SHell
+ -rw-r--r--  1 i90rr i90rr 244 Jan  1 16:08 Is a [static blog](https://www.staticgen.com), meaning it doesn't rely on any database or dynamic stuff (check [this article](https://davidwalsh.name/introduction-static-site-generators) to learn more about the difference with dynamic websites)
+ -rw-r--r--  1 i90rr i90rr  83 Jan  1 16:08 Is hosted at [GitHub Pages](https://pages.github.com "GitHub Pages") (many thanks!)
+ -rw-r--r--  1 i90rr i90rr  60 Jan  1 16:08 Is hence mostly invulnerable to the dangers of the interwebs
+ -rw-r--r--  1 i90rr i90rr  98 Jan  1 16:08 Is devilish fast to load since it is made using *Markdown*, *HTML*, *CSS* and just a pinch of *JS*
+ -rw-r--r--  1 i90rr i90rr  94 Jan  1 16:08 Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM
 </code>
 Note: I agree that I suck at English; on the bright side I'm actively working on getting better at it so please be patient :)</p>
 
