@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# cd tuonela</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
-<lastBuildDate>Mon, 10 Oct 2016 18:42:03 -0300</lastBuildDate>
-<pubDate>Mon, 10 Oct 2016 18:42:03 -0300</pubDate>
+<lastBuildDate>Mon, 10 Oct 2016 18:43:08 -0300</lastBuildDate>
+<pubDate>Mon, 10 Oct 2016 18:43:08 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Newly installed applications not showing up in Ubuntu 15.10 &amp; 16.04 LTS Unity Dash 
@@ -351,9 +351,8 @@ Coding in Go with Atom editor on GNU+Linux
 Sailing the CLIs of system administration depths
 </title><description><![CDATA[
 
-<p>It certainly took me more than I'd wished to set up this blog but finally here I am =)</p>
-
-<p><br/></p>
+<p>It certainly took me more than I'd wished to set up this blog but finally here I am =)
+<br/></p>
 
 <p><strong>~# ls -l this\ blog/</strong></p>
 
@@ -366,7 +365,7 @@ ators">this article</a> to learn more about the difference with dynamic websites
 <li>Is hence mostly invulnerable to the dangers of the interwebs</li>
 <li>Is devilish fast to load since it is made using <em>Markdown</em>, <em>HTML</em>, <em>CSS</em> and just a pinch of <em>JS</em></li>
 <li>Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM</li>
-<li>Is written using the quite versatile <a href="https://www.atom.io">Atom Editor</a> plus the useful package <em><a href="https://atom.io/packages/markdown-preview-plus">markdown-preview-plus</a></em> which provides live previews</li>
+<li>Is written using the quite versatile <a href="https://www.atom.io">Atom Editor</a> plus the useful package <em><a href="https://atom.io/packages/markdown-preview-plus">markdown-preview-plus</a></em></li>
 <li>Is named after my affinity to Finland, Finnish mythology, Finnish metal music and the fact that I live and breath IT infrastructure. <a href="https://en.wikipedia.org/wiki/Tuonela">Tuonela</a> is the Underworld in Finnish mythology. It is also the name of an <a href="http://www.metal-archives.com/reviews/Amorphis/Tuonela/1/">excellent album by the Finnish band Amorphis</a>. I like Finland, I like metal and I work on IT infrastructure: <code>~# cd tuonela</code></li>
 </ul>
 
@@ -399,8 +398,6 @@ I also have to thank <a href="https://cardinali.org/">@ezq</a> for introducing m
 </p>
 
 <p>Tags: <a href='tag_about.html'>about</a></p>
-
-
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/sailing-the-clis-of-system-administration-depths.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/sailing-the-clis-of-system-administration-depths.html"
