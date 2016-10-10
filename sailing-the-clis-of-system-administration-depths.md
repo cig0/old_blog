@@ -13,7 +13,7 @@ ators) to learn more about the difference with dynamic websites)
 * Is hence mostly invulnerable to the dangers of the interwebs
 * Is devilish fast to load since it is made using *Markdown*, *HTML*, *CSS* and just a pinch of *JS*
 * Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM
-* Is written using the quite versatile [Atom Editor](https://www.atom.io) plus the useful package _[markdown-preview-plus](https://atom.io/packages/markdown-preview-plus)_ which provides live previews
+* Is written using the quite versatile [Atom Editor](https://www.atom.io) plus the useful package _[markdown-preview-plus](https://atom.io/packages/markdown-preview-plus)_
 * Is named after my affinity to Finland, Finnish mythology, Finnish metal music and the fact that I live and breath IT infrastructure. [Tuonela](https://en.wikipedia.org/wiki/Tuonela) is the Underworld in Finnish mythology. It is also the name of an [excellent album by the Finnish band Amorphis](http://www.metal-archives.com/reviews/Amorphis/Tuonela/1/). I like Finland, I like metal and I work on IT infrastructure: `~# cd tuonela`
 
 <br/>
