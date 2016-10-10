@@ -7,6 +7,7 @@ It certainly took me more than I'd wished to set up this blog but finally here I
 <br/>
 
 **~# cd tuonela; ls -l**
+
 * -rw-r--r--  1 i90rr i90rr 113 Jan  1 16:08 Focused on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention
 * -rw-r--r--  1 i90rr i90rr 143 Jan  1 16:08 Is made using [bashblog](https://github.com/cfenollosa/bashblog "Meet the little giant"), a static site generator written in Bourne-Again SHell
 * -rw-r--r--  1 i90rr i90rr 244 Jan  1 16:08 Is a [static blog](https://www.staticgen.com), meaning it doesn't rely on any database or dynamic stuff (check [this article](https://davidwalsh.name/introduction-static-site-gener
