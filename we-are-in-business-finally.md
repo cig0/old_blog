@@ -8,14 +8,14 @@ It certainly took me more than I'd wished to set up this blog but finally here I
 
 **~# cd tuonela; ls -l**
 
-* -rw-r--r--  1 i90rr i90rr 113 Jan  1 16:08 Focused on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention
-* -rw-r--r--  1 i90rr i90rr 143 Jan  1 16:08 Is made using [bashblog](https://github.com/cfenollosa/bashblog "Meet the little giant"), a static site generator written in Bourne-Again SHell
-* -rw-r--r--  1 i90rr i90rr 244 Jan  1 16:08 Is a [static blog](https://www.staticgen.com), meaning it doesn't rely on any database or dynamic stuff (check [this article](https://davidwalsh.name/introduction-static-site-gener
+* `-rw-r--r--  1 i90rr i90rr 113 Jan  1 16:08` Focused on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention
+* `-rw-r--r--  1 i90rr i90rr 143 Jan  1 16:08` Is made using [bashblog](https://github.com/cfenollosa/bashblog "Meet the little giant"), a static site generator written in Bourne-Again SHell
+* `-rw-r--r--  1 i90rr i90rr 244 Jan  1 16:08` Is a [static blog](https://www.staticgen.com), meaning it doesn't rely on any database or dynamic stuff (check [this article](https://davidwalsh.name/introduction-static-site-gener
 ators) to learn more about the difference with dynamic websites)
-* -rw-r--r--  1 i90rr i90rr  83 Jan  1 16:08 Is hosted at [GitHub Pages](https://pages.github.com "GitHub Pages") (many thanks!)
-* -rw-r--r--  1 i90rr i90rr  60 Jan  1 16:08 Is hence mostly invulnerable to the dangers of the interwebs
-* -rw-r--r--  1 i90rr i90rr  98 Jan  1 16:08 Is devilish fast to load since it is made using *Markdown*, *HTML*, *CSS* and just a pinch of *JS*
-* -rw-r--r--  1 i90rr i90rr  94 Jan  1 16:08 Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM
+* `-rw-r--r--  1 i90rr i90rr  83 Jan  1 16:08` Is hosted at [GitHub Pages](https://pages.github.com "GitHub Pages") (many thanks!)
+* `-rw-r--r--  1 i90rr i90rr  60 Jan  1 16:08` Is hence mostly invulnerable to the dangers of the interwebs
+* `-rw-r--r--  1 i90rr i90rr  98 Jan  1 16:08` Is devilish fast to load since it is made using *Markdown*, *HTML*, *CSS* and just a pinch of *JS*
+* `-rw-r--r--  1 i90rr i90rr  94 Jan  1 16:08` Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM
 
 Note: I agree that I suck at English; on the bright side I'm actively working on getting better at it so please be patient :)
 
