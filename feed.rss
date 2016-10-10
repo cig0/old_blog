@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# cd tuonela</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
-<lastBuildDate>Mon, 10 Oct 2016 09:18:46 -0300</lastBuildDate>
-<pubDate>Mon, 10 Oct 2016 09:18:46 -0300</pubDate>
+<lastBuildDate>Mon, 10 Oct 2016 09:19:45 -0300</lastBuildDate>
+<pubDate>Mon, 10 Oct 2016 09:19:45 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Newly installed applications not showing up in Ubuntu 15.10 &amp; 16.04 LTS Unity Dash 
@@ -341,18 +341,17 @@ We are in business, finally (aka About)
 <br/><a href="https://en.wikipedia.org/wiki/Tuonela">Tuonela is the Underworld in Finnish mythology</a>. It is also the name of an <a href="http://www.metal-archives.com/reviews/Amorphis/Tuonela/1/">excellent album by the Finnish band Amorphis</a>. I like Finland, I like metal and I work on IT infrastructure -- do the maths. <br />
 <br/></p>
 
-<p><strong>~# cd tuonela; ls -l</strong></p>
+<p><strong>~# cd tuonela; ls -l</strong>
+* -rw-r--r--  1 i90rr i90rr 113 Jan  1 16:08 Focused on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention
+* -rw-r--r--  1 i90rr i90rr 143 Jan  1 16:08 Is made using <a href="https://github.com/cfenollosa/bashblog" title="Meet the little giant">bashblog</a>, a static site generator written in Bourne-Again SHell
+* -rw-r--r--  1 i90rr i90rr 244 Jan  1 16:08 Is a <a href="https://www.staticgen.com">static blog</a>, meaning it doesn't rely on any database or dynamic stuff (check <a href="https://davidwalsh.name/introduction-static-site-gener
+ators">this article</a> to learn more about the difference with dynamic websites)
+* -rw-r--r--  1 i90rr i90rr  83 Jan  1 16:08 Is hosted at <a href="https://pages.github.com" title="GitHub Pages">GitHub Pages</a> (many thanks!)
+* -rw-r--r--  1 i90rr i90rr  60 Jan  1 16:08 Is hence mostly invulnerable to the dangers of the interwebs
+* -rw-r--r--  1 i90rr i90rr  98 Jan  1 16:08 Is devilish fast to load since it is made using <em>Markdown</em>, <em>HTML</em>, <em>CSS</em> and just a pinch of <em>JS</em>
+* -rw-r--r--  1 i90rr i90rr  94 Jan  1 16:08 Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM</p>
 
-<p><code>
- -rw-r--r--  1 i90rr i90rr 113 Jan  1 16:08 Focused on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention
- -rw-r--r--  1 i90rr i90rr 143 Jan  1 16:08 Is made using [bashblog](https://github.com/cfenollosa/bashblog "Meet the little giant"), a static site generator written in Bourne-Again SHell
- -rw-r--r--  1 i90rr i90rr 244 Jan  1 16:08 Is a [static blog](https://www.staticgen.com), meaning it doesn't rely on any database or dynamic stuff (check [this article](https://davidwalsh.name/introduction-static-site-generators) to learn more about the difference with dynamic websites)
- -rw-r--r--  1 i90rr i90rr  83 Jan  1 16:08 Is hosted at [GitHub Pages](https://pages.github.com "GitHub Pages") (many thanks!)
- -rw-r--r--  1 i90rr i90rr  60 Jan  1 16:08 Is hence mostly invulnerable to the dangers of the interwebs
- -rw-r--r--  1 i90rr i90rr  98 Jan  1 16:08 Is devilish fast to load since it is made using *Markdown*, *HTML*, *CSS* and just a pinch of *JS*
- -rw-r--r--  1 i90rr i90rr  94 Jan  1 16:08 Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM
-</code>
-Note: I agree that I suck at English; on the bright side I'm actively working on getting better at it so please be patient :)</p>
+<p>Note: I agree that I suck at English; on the bright side I'm actively working on getting better at it so please be patient :)</p>
 
 <p><br/>
 <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px" vspace="16px">
