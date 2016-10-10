@@ -25,7 +25,7 @@ Note: I agree that I suck at English; on the bright side I'm actively working on
 
 I'm a SysAdmin insanely passionate about automation, optimization, hardening, the Go programming language and of F/LOSS in general.
 
-On the not techy side I enjoy outdoor activities - surf above everything else. Love to read and learn from the classics, Latins and Greeks are usually my tops. Said that, all praises to Master Lovecraft. I believe that thanks to Tex Avery the world is a better place. Some day I will learn to play music or draw - I heard that one _has_ to develop at least one of such talents.
+On the not techy side I enjoy outdoor activities - surf above everything else. Love to read and learn from the classics; all praises to Master Lovecraft. I believe that thanks to Tex Avery the world is a better place. Some day I will learn to play music or draw - I heard that one _has_ to develop at least one of such talents.
 <br/>Family, friends, my dogs are first to me.
 <br/>Oh and I'm on my way to stop eating animals (•̀ᴗ•́)و ̑̑
 
