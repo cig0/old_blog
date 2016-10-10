@@ -33,7 +33,7 @@ I'm naturally avid about people's stories and creations as they fuel my interest
 
 I have to specially thank [@nicoman](http://www.nicomanso.com/) for his invaluable help when putting together the scaffolding for this blog, most notably the landing page.
 <br/>
-I also have to thank [@ezq](https://cardinali.org/) for introducing me to bashblog at the awesome [FUDCon 2015 in Córdoba, Argentina](https://www.youtube.com/watch?v=rPYX8o-m19s). The people I met there is simply incredible and the memories will last forever.
+I also have to thank [@ezq](https://cardinali.org/) for introducing me to bashblog at the awesome [FUDCon 2015 in Córdoba, Argentina](https://www.youtube.com/watch?v=rPYX8o-m19s). The people I met there is simply incredible and those good memories will last forever.
 <br/>
 
 
