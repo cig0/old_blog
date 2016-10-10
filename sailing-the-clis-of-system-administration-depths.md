@@ -17,7 +17,7 @@ ators) to learn more about the difference with dynamic websites)
 * Is named after my affinity to Finland, Finnish mythology, Finnish metal music and the fact that I live and breath IT infrastructure. [Tuonela](https://en.wikipedia.org/wiki/Tuonela) is the Underworld in Finnish mythology. It is also the name of an [excellent album by the Finnish band Amorphis](http://www.metal-archives.com/reviews/Amorphis/Tuonela/1/). I like Finland, I like metal and I work on IT infrastructure: `~# cd tuonela`
 
 <br/>
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px" vspace="23px">
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="300" height="300" style="margin-left: 25px" vspace="10px">
 
 **~# whoami**
 
