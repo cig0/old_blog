@@ -1,4 +1,4 @@
-Sailing the CLIs of system administration depths
+About
 
 It certainly took me more than I'd wished to set up this blog but finally here I am =)
 <br/>
