@@ -23,7 +23,7 @@ ators) to learn more about the difference with dynamic websites)
 
 I'm a SysAdmin insanely passionate about automation, orchestration, optimization,  hardening and F/LOSS in general.
 
-I also like to code my own tools for which I use mostly Python although I'm more on the side of Go, Rust and lately Swift. Lisp and Haskell also draws my attention from time to time.
+I also like to code my own tools for which I use mostly Python although I'm more on the side of Go, Rust and lately Swift. Lisp and Haskell also draw my attention...
 
 On the not techy side I enjoy outdoor activities - surf above everything else. Love to read and learn from the classics; all praises to Master Lovecraft. I believe that thanks to Tex Avery the world is a better place. Some day I will learn to play music or draw - I heard that one _has_ to develop at least one of such talents. Family, friends, my dogs are first to me. Oh and I'm on my way to stop eating animals (•̀ᴗ•́)و ̑̑
 
