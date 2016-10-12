@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# cd tuonela</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
-<lastBuildDate>Wed, 12 Oct 2016 03:41:36 -0300</lastBuildDate>
-<pubDate>Wed, 12 Oct 2016 03:41:36 -0300</pubDate>
+<lastBuildDate>Wed, 12 Oct 2016 04:07:41 -0300</lastBuildDate>
+<pubDate>Wed, 12 Oct 2016 04:07:41 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Newly installed applications not showing up in Ubuntu 15.10 &amp; 16.04 LTS Unity Dash 
@@ -385,16 +385,18 @@ ators">this article</a> to learn more about the difference with dynamic websites
 <li>Is named after my affinity to Finland, Finnish mythology, Finnish metal music and the fact that I live and breath IT infrastructure. <a href="https://en.wikipedia.org/wiki/Tuonela">Tuonela</a> is the Underworld in Finnish mythology. It is also the name of an <a href="http://www.metal-archives.com/reviews/Amorphis/Tuonela/1/">excellent album by the Finnish band Amorphis</a>. I like Finland, I like metal and I work on IT infrastructure: <code>~# cd tuonela</code></li>
 </ul>
 
-<p><br/>
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="285" height="285" style="margin-left: 25px" vspace="10px"></p>
+<p><br/></p>
 
-<p><strong>~# whoami</strong></p>
+<p><strong>~# whoami</strong>
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="285" height="285" style="margin-left: 25px" vspace="40px"></p>
 
-<p>I'm a SysAdmin insanely passionate about automation, optimization, hardening, the Go programming language and of F/LOSS in general.</p>
+<p>I'm a SysAdmin insanely passionate about automation, orchestration, optimization,  hardening and F/LOSS in general.</p>
+
+<p>I also like to code my own tools for which I use mostly Python although I'm more on the side of Go, Rust and lately Swift. Lisp and Haskell also draws my attention from time to time.</p>
 
 <p>On the not techy side I enjoy outdoor activities - surf above everything else. Love to read and learn from the classics; all praises to Master Lovecraft. I believe that thanks to Tex Avery the world is a better place. Some day I will learn to play music or draw - I heard that one <em>has</em> to develop at least one of such talents. Family, friends, my dogs are first to me. Oh and I'm on my way to stop eating animals (•̀ᴗ•́)و ̑̑</p>
 
-<p>I'm naturally avid about people's stories and creations as they fuel my interest to see the world from unseen - and most of the times pretty much unique - perspectives. In my book every work should be the labour of love and passion because only then you can give the best out of you.</p>
+<p>I'm naturally avid about people's stories and creations as they fuel my interest to see the world from unseen - and sometimes quite unique - perspectives. In my book every work should be the labour of love and passion because only then you can give the best out of you.</p>
 
 <p><br/></p>
 
@@ -402,7 +404,7 @@ ators">this article</a> to learn more about the difference with dynamic websites
 
 <p>I have to specially thank <a href="http://www.nicomanso.com/">@nicoman</a> for his invaluable help when putting together the scaffolding for this blog, most notably the landing page.
 <br/>
-I also have to thank <a href="https://cardinali.org/">@ezq</a> for introducing me to bashblog at the awesome <a href="https://www.youtube.com/watch?v=rPYX8o-m19s">FUDCon 2015 in Córdoba, Argentina</a>. The people I met there are simply incredible and those good memories will last forever.
+I also have to thank <a href="https://cardinali.org/">@ezq</a> for re-introducing me to bashblog at the awesome <a href="https://www.fedoraproject.org">Fedora's</a> <a href="https://www.youtube.com/watch?v=rPYX8o-m19s">FUDCon 2015</a> which was held in <a href="https://en.wikipedia.org/wiki/C%C3%B3rdoba_Province,_Argentina">Córdoba, Argentina</a>. The people I met there is simply incredible, those fond memories will stay with me forever.
 <br/></p>
 
 <p><br/></p>
@@ -414,8 +416,6 @@ I also have to thank <a href="https://cardinali.org/">@ezq</a> for introducing m
 </p>
 
 <p>Tags: <a href='tag_about.html'>about</a></p>
-
-
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/about.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/about.html"
