@@ -33,7 +33,7 @@ I'm naturally avid about people's stories and creations as they fuel my interest
 
 **Acknowledgments**
 
-I have to specially thank [@nicoman](http://www.nicomanso.com/) for his invaluable help when putting together the scaffolding for this blog, most notably the landing page.
+I have to specially thank [@nicoman](http://www.nicomanso.com/) for his invaluable help when putting together the scaffolding for this blog, most notably the [landing page](index.html).
 <br/>
 I also have to thank [@ezq](https://cardinali.org/) for re-introducing me to bashblog at the awesome [Fedora's](https://www.fedoraproject.org) [FUDCon 2015](https://www.youtube.com/watch?v=rPYX8o-m19s) which was held in [Córdoba, Argentina](https://en.wikipedia.org/wiki/C%C3%B3rdoba_Province,_Argentina). The people I met there is simply incredible, those fond memories will stay with me forever.
 <br/>
