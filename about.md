@@ -6,9 +6,8 @@ It certainly took me more than I'd wished to set up this blog but finally here I
 **~# ls -l this\ blog/**
 
 * Focuses on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention
-* Is made using [bashblog](https://github.com/cfenollosa/bashblog "Meet the little giant"), a static site generator written in Bourne-Again SHell
-* Is a [static blog](https://www.staticgen.com), meaning it doesn't rely on any database or dynamic stuff (check [this article](https://davidwalsh.name/introduction-static-site-gener
-ators) to learn more about the difference with dynamic websites)
+* Is made using [bashblog](https://github.com/cfenollosa/bashblog "Meet the little giant"), a beautifully crafted static site generator written in Bourne-Again SHell
+* Is a [static blog](https://www.staticgen.com), meaning it doesn't rely on any database or dynamic stuff; check [this neat article](https://davidwalsh.name/introduction-static-site-generators) to learn more about the difference with dynamic websites/webApps
 * Is hosted at [GitHub Pages](https://pages.github.com "GitHub Pages") (many thanks!)
 * Is hence mostly invulnerable to the dangers of the interwebs
 * Is devilish fast to load since it is made using *Markdown*, *HTML*, *CSS* and just a pinch of *JS*
@@ -35,7 +34,7 @@ I'm naturally avid about people's stories and creations as they fuel my interest
 
 I have to specially thank [@nicoman](http://www.nicomanso.com/) for his invaluable help when putting together the scaffolding for this blog, most notably the [landing page](index.html).
 <br/>
-I also have to thank [@ezq](https://cardinali.org/) for re-introducing me to bashblog at the awesome [Fedora's](https://www.fedoraproject.org) [FUDCon 2015](https://www.youtube.com/watch?v=rPYX8o-m19s) which was held in [Córdoba, Argentina](https://en.wikipedia.org/wiki/C%C3%B3rdoba_Province,_Argentina). The people I met there is simply incredible, those fond memories will stay with me forever.
+I also have to thank [@ezq](https://cardinali.org/) for re-introducing me to bashblog at the awesome [Fedora's](https://www.fedoraproject.org) [FUDCon 2015](https://www.youtube.com/watch?v=rPYX8o-m19s) which was held in [Córdoba, Argentina](https://en.wikipedia.org/wiki/C%C3%B3rdoba_Province,_Argentina). The people I met there is simply incredible and those fond memories will stay with me forever.
 <br/>
 
 
