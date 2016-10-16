@@ -1,7 +1,7 @@
 About
 
 <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/journey_to_tuonela_ii_by_tuomaskoivurinne.png"></img>
-<center><small><cite>Journey to Tuonela II - [Courtesy of Tuomas  Koivurinne](http://tuomaskoivurinne.deviantart.com/) (many thanks!)</cite></small></center>
+<center><small><cite>Journey to Tuonela II - [Courtesy of Tuomas  Koivurinne](http://www.deviantart.com/art/Journey-to-Tuonela-II-222217046) (many thanks!)</cite></small></center>
 
 <br/><br/>
 It certainly took me more than I'd wished to set up this blog but finally here I am =)
