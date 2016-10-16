@@ -2,74 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# cd tuonela</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
-<lastBuildDate>Sat, 15 Oct 2016 21:39:04 -0300</lastBuildDate>
-<pubDate>Sat, 15 Oct 2016 21:39:04 -0300</pubDate>
+<lastBuildDate>Sat, 15 Oct 2016 21:44:10 -0300</lastBuildDate>
+<pubDate>Sat, 15 Oct 2016 21:44:10 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
-<item><title>
-About
-</title><description><![CDATA[
-
-<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/journey_to_tuonela_ii_by_tuomaskoivurinne.png"></img>
-<center><small><cite>Journey to Tuonela II - <a href="http://www.deviantart.com/art/Journey-to-Tuonela-II-222217046">Courtesy of Tuomas  Koivurinne</a> (many thanks!)</cite></small></center></p>
-
-<p><br/><br/>
-It certainly took me more than I'd wished to set up this blog but finally here I am =)</p>
-
-<p><strong>~# ls -l this\ blog/</strong></p>
-
-<ul>
-<li>Focuses on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention</li>
-<li>Is made using <a href="https://github.com/cfenollosa/bashblog" title="Meet the little giant">bashblog</a>, a beautifully crafted static site generator written in Bourne-Again SHell</li>
-<li>Is a <a href="https://www.staticgen.com">static blog</a>, meaning it doesn't rely on any database or dynamic stuff; check <a href="https://davidwalsh.name/introduction-static-site-generators">this neat article</a> to learn more about the difference with dynamic websites/webApps</li>
-<li>Is hosted at <a href="https://pages.github.com" title="GitHub Pages">GitHub Pages</a> (many thanks!)</li>
-<li>Is hence mostly invulnerable to the dangers of the interwebs</li>
-<li>Is devilish fast to load since it is made using <em>Markdown</em>, <em>HTML</em>, <em>CSS</em> and just a pinch of <em>JS</em></li>
-<li>Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM</li>
-<li>Is written using the quite versatile <a href="https://www.atom.io">Atom Editor</a> plus the useful package <em><a href="https://atom.io/packages/markdown-preview-plus">markdown-preview-plus</a></em></li>
-<li>Is named after my affinity to Finland, Finnish mythology, Finnish metal music and the fact that I live and breath IT infrastructure. <a href="https://en.wikipedia.org/wiki/Tuonela">Tuonela</a> is the Underworld in Finnish mythology. It is also the name of an <a href="http://www.metal-archives.com/reviews/Amorphis/Tuonela/1/">excellent album by the Finnish band Amorphis</a>. I like Finland, I like metal and I work on IT infrastructure: <code>~# cd tuonela</code></li>
-</ul>
-
-<p><br/></p>
-
-<p><strong>~# whoami</strong>
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="285" height="285" style="margin-left: 25px" vspace="40px"></p>
-
-<p>I'm a SysAdmin insanely passionate about automation, orchestration, optimization,  hardening and F/LOSS in general.</p>
-
-<p>I also like to code my own tools for which I mostly use Python although I'm more on the side of Go, Rust and lately Swift. Lisp and Haskell also draw my attention...</p>
-
-<p>On the not techy side I enjoy outdoor activities - surf above everything else. Love to read and learn from the classics; all praises to Master Lovecraft. I believe that thanks to Tex Avery the world is a better place. Some day I will learn to play music or draw - I heard that one <em>has</em> to develop at least one of such talents. Family, friends, my dogs are first to me. Oh and I'm on my way to stop eating animals (•̀ᴗ•́)و ̑̑</p>
-
-<p>I'm naturally avid about people's stories and creations as they fuel my interest to see the world from unseen - and sometimes quite unique - perspectives. In my book every work should be the labour of love and passion because only then you can give the best out of you.</p>
-
-<p><br/></p>
-
-<p><strong>Acknowledgments</strong></p>
-
-<p>I have to specially thank <a href="http://www.nicomanso.com/">@nicoman</a> for his invaluable help when putting together the scaffolding for this blog, most notably the <a href="index.html">landing page</a>.
-<br/>
-I also have to thank <a href="https://cardinali.org/">@ezq</a> for re-introducing me to bashblog at the awesome <a href="https://www.fedoraproject.org">Fedora's</a> <a href="https://www.youtube.com/watch?v=rPYX8o-m19s">FUDCon 2015</a> which was held in <a href="https://en.wikipedia.org/wiki/C%C3%B3rdoba_Province,_Argentina">Córdoba, Argentina</a>. The people I met there is simply incredible and those fond memories will stay with me forever.
-<br/></p>
-
-<p><br/></p>
-
-<p align="center">h4ppy h4ck1n9
-   <br/>
-        and
-   <br/><a href="http://bestcostaricantours.com/about/puravida.html">Pura vida!</a>
-</p>
-
-<p>Tags: <a href='tag_about.html'>about</a></p>
-<!-- text end -->
-<p id='twitter'><a href="https://i90rr.github.io/about.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/about.html"
- data-via="_i90rr"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-]]></description><link>https://i90rr.github.io/about.html</link>
-<guid>https://i90rr.github.io/./about.html</guid>
-<dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Sat, 15 Oct 2016 21:14:01 -0300</pubDate></item>
 <item><title>
 Newly installed applications not showing up in Ubuntu 15.10 &amp; 16.04 LTS Unity Dash 
 </title><description><![CDATA[
@@ -428,4 +363,69 @@ Coding in Go with Atom editor on GNU+Linux
 <guid>https://i90rr.github.io/./coding-in-go-with-atom-in-gnulinux.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Sun, 03 Jan 2016 00:01:00 -0300</pubDate></item>
+<item><title>
+About
+</title><description><![CDATA[
+
+<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/journey_to_tuonela_ii_by_tuomaskoivurinne.png"></img>
+<center><small><cite>Journey to Tuonela II - <a href="http://www.deviantart.com/art/Journey-to-Tuonela-II-222217046">Courtesy of Tuomas  Koivurinne</a> (many thanks!)</cite></small></center></p>
+
+<p><br/><br/>
+It certainly took me more than I'd wished to set up this blog but finally here I am =)</p>
+
+<p><strong>~# ls -l this\ blog/</strong></p>
+
+<ul>
+<li>Focuses on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention</li>
+<li>Is made using <a href="https://github.com/cfenollosa/bashblog" title="Meet the little giant">bashblog</a>, a beautifully crafted static site generator written in Bourne-Again SHell</li>
+<li>Is a <a href="https://www.staticgen.com">static blog</a>, meaning it doesn't rely on any database or dynamic stuff; check <a href="https://davidwalsh.name/introduction-static-site-generators">this neat article</a> to learn more about the difference with dynamic websites/webApps</li>
+<li>Is hosted at <a href="https://pages.github.com" title="GitHub Pages">GitHub Pages</a> (many thanks!)</li>
+<li>Is hence mostly invulnerable to the dangers of the interwebs</li>
+<li>Is devilish fast to load since it is made using <em>Markdown</em>, <em>HTML</em>, <em>CSS</em> and just a pinch of <em>JS</em></li>
+<li>Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM</li>
+<li>Is written using the quite versatile <a href="https://www.atom.io">Atom Editor</a> plus the useful package <em><a href="https://atom.io/packages/markdown-preview-plus">markdown-preview-plus</a></em></li>
+<li>Is named after my affinity to Finland, Finnish mythology, Finnish metal music and the fact that I live and breath IT infrastructure. <a href="https://en.wikipedia.org/wiki/Tuonela">Tuonela</a> is the Underworld in Finnish mythology. It is also the name of an <a href="http://www.metal-archives.com/reviews/Amorphis/Tuonela/1/">excellent album by the Finnish band Amorphis</a>. I like Finland, I like metal and I work on IT infrastructure: <code>~# cd tuonela</code></li>
+</ul>
+
+<p><br/></p>
+
+<p><strong>~# whoami</strong>
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="285" height="285" style="margin-left: 25px" vspace="40px"></p>
+
+<p>I'm a SysAdmin insanely passionate about automation, orchestration, optimization,  hardening and F/LOSS in general.</p>
+
+<p>I also like to code my own tools for which I mostly use Python although I'm more on the side of Go, Rust and lately Swift. Lisp and Haskell also draw my attention...</p>
+
+<p>On the not techy side I enjoy outdoor activities - surf above everything else. Love to read and learn from the classics; all praises to Master Lovecraft. I believe that thanks to Tex Avery the world is a better place. Some day I will learn to play music or draw - I heard that one <em>has</em> to develop at least one of such talents. Family, friends, my dogs are first to me. Oh and I'm on my way to stop eating animals (•̀ᴗ•́)و ̑̑</p>
+
+<p>I'm naturally avid about people's stories and creations as they fuel my interest to see the world from unseen - and sometimes quite unique - perspectives. In my book every work should be the labour of love and passion because only then you can give the best out of you.</p>
+
+<p><br/></p>
+
+<p><strong>Acknowledgments</strong></p>
+
+<p>I have to specially thank <a href="http://www.nicomanso.com/">@nicoman</a> for his invaluable help when putting together the scaffolding for this blog, most notably the <a href="index.html">landing page</a>.
+<br/>
+I also have to thank <a href="https://cardinali.org/">@ezq</a> for re-introducing me to bashblog at the awesome <a href="https://www.fedoraproject.org">Fedora's</a> <a href="https://www.youtube.com/watch?v=rPYX8o-m19s">FUDCon 2015</a> which was held in <a href="https://en.wikipedia.org/wiki/C%C3%B3rdoba_Province,_Argentina">Córdoba, Argentina</a>. The people I met there is simply incredible and those fond memories will stay with me forever.
+<br/></p>
+
+<p><br/></p>
+
+<p align="center">h4ppy h4ck1n9
+   <br/>
+        and
+   <br/><a href="http://bestcostaricantours.com/about/puravida.html">Pura vida!</a>
+</p>
+
+<p>Tags: <a href='tag_about.html'>about</a></p>
+<!-- text end -->
+<p id='twitter'><a href="https://i90rr.github.io/about.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/about.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/about.html</link>
+<guid>https://i90rr.github.io/./about.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Fri, 01 Jan 2016 00:01:00 -0300</pubDate></item>
 </channel></rss>
