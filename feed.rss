@@ -2,9 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# cd tuonela</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
-<lastBuildDate>Sat, 15 Oct 2016 21:44:10 -0300</lastBuildDate>
-<pubDate>Sat, 15 Oct 2016 21:44:10 -0300</pubDate>
+<lastBuildDate>Sat, 15 Oct 2016 22:02:27 -0300</lastBuildDate>
+<pubDate>Sat, 15 Oct 2016 22:02:27 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+<br/></br>
+</title><description><![CDATA[
+
+<p><center><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/me.jpg" ></center></p>
+
+<p>The company I work for rocks, yay!</p>
+
+<!-- text end -->
+<p id='twitter'><a href="https://i90rr.github.io/me.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/me.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/me.html</link>
+<guid>https://i90rr.github.io/./me.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Sat, 15 Oct 2016 21:46:35 -0300</pubDate></item>
 <item><title>
 Newly installed applications not showing up in Ubuntu 15.10 &amp; 16.04 LTS Unity Dash 
 </title><description><![CDATA[
@@ -367,7 +385,7 @@ Coding in Go with Atom editor on GNU+Linux
 About
 </title><description><![CDATA[
 
-<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/journey_to_tuonela_ii_by_tuomaskoivurinne.png"></img>
+<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/journey_to_tuonela_ii_by_tuomaskoivurinne.jpg"></img>
 <center><small><cite>Journey to Tuonela II - <a href="http://www.deviantart.com/art/Journey-to-Tuonela-II-222217046">Courtesy of Tuomas  Koivurinne</a> (many thanks!)</cite></small></center></p>
 
 <p><br/><br/>
