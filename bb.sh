@@ -17,7 +17,7 @@ global_config=".config"
 # by the 'global_config' file contents
 global_variables() {
     global_software_name="BashBlog"
-    global_software_version="2.7"
+    global_software_version="2.8"
 
     # Blog title
     global_title="My fancy blog"
@@ -66,6 +66,11 @@ global_variables() {
     # global archive
     archive_index="all_posts.html"
     tags_index="all_tags.html"
+
+    # Non blogpost files. Bashblog will ignore these. Useful for static pages and custom content
+    # Add them as a bash array, e.g. non_blogpost_files=("news.html" "test.html")
+    non_blogpost_files=()
+
     # feed file (rss in this case)
     blog_feed="feed.rss"
     number_of_feed_articles="10"
@@ -90,6 +95,9 @@ global_variables() {
     # extra content to add just after we open the <body> tag
     # and before the actual blog content
     body_begin_file=""
+    # extra content to add just before we cloese <body tag (just before
+    # </body>)
+    body_end_file=""
     # CSS files to include on every page, f.ex. css_include=('main.css' 'blog.css')
     # leave empty to use generated
     css_include=()
@@ -109,6 +117,7 @@ global_variables() {
     template_tags_title="All tags"
     # "posts" (on "All tags" page, text at the end of each tag line, like "2. Music - 15 posts")
     template_tags_posts="posts"
+    template_tags_posts_2_4="posts"  # Some slavic languages use a different plural form for 2-4 items
     template_tags_posts_singular="post"
     # "Posts tagged" (text on a title of a page with index of one tag, like "My Blog - Posts tagged "Music"")
     template_tag_title="Posts tagged"
@@ -147,7 +156,7 @@ global_variables() {
 
     # Markdown location. Trying to autodetect by default.
     # The invocation must support the signature 'markdown_bin in.md > out.html'
-    markdown_bin=$(which Markdown.pl || which markdown)
+    [[ -f Markdown.pl ]] && markdown_bin=./Markdown.pl || markdown_bin=$(which Markdown.pl 2>/dev/null || which markdown 2>/dev/null)
 }
 
 # Check for the validity of some variables
@@ -165,7 +174,10 @@ global_variables_check() {
 # Test if the markdown script is working correctly
 test_markdown() {
     [[ -n $markdown_bin ]] &&
-        [[ $("$markdown_bin" <<< $'line 1\n\nline 2') == $'<p>line 1</p>\n\n<p>line 2</p>' ]]
+        (
+        [[ $("$markdown_bin" <<< $'line 1\n\nline 2') == $'<p>line 1</p>\n\n<p>line 2</p>' ]] ||
+        [[ $("$markdown_bin" <<< $'line 1\n\nline 2') == $'<p>line 1</p>\n<p>line 2</p>' ]]
+        )
 }
 
 
@@ -351,9 +363,6 @@ twitter() {
 
             echo "<p id='twitter'><a href='http://twitter.com/intent/tweet?url=$1&text=$template_twitter_comment&via=$global_twitter_username'>$template_comments $template_twitter_button</a> "
             echo "<a href='$search_engine""$1'><span id='count-$id'></span></a>&nbsp;</p>"
-            # Get current tweet count
-            echo "<script type=\"text/javascript\">\$.ajax({type: \"GET\", url: \"https://cdn.api.twitter.com/1/urls/count.json?url=$1\",
-            dataType: \"jsonp\", success: function(data){ \$(\"#count-$id\").html(\"(\" + data.count + \")\"); }}); </script>"
             return;
         else 
             echo "<p id='twitter'>$template_comments&nbsp;"; 
@@ -378,6 +387,11 @@ twitter() {
 # or 1 (bash return value 'false') if it is a blogpost
 is_boilerplate_file() {
     name=${1#./}
+    # First check against user-defined non-blogpost pages
+    for item in "${non_blogpost_files[@]}"; do
+        [[ "$name" == "$item" ]] && return 0
+    done
+
     case $name in
     ( "$index_file" | "$archive_index" | "$tags_index" | "$footer_file" | "$header_file" | "$global_analytics_file" | "$prefix_tags"* )
         return 0 ;;
@@ -472,6 +486,7 @@ create_html_page() {
         # close divs
         echo '</div></div>' # divbody and divbodyholder 
         disqus_footer
+        [[ -n $body_end_file ]] && cat "$body_end_file"
         echo '</body></html>'
     } > "$filename"
 }
@@ -681,7 +696,11 @@ all_tags() {
             nposts=$(grep -c "<\!-- text begin -->" "$i")
             tagname=${i#"$prefix_tags"}
             tagname=${tagname%.html}
-            ((nposts > 1)) && word=$template_tags_posts || word=$template_tags_posts_singular
+            case $nposts in
+                1) word=$template_tags_posts_singular;;
+                2|3|4) word=$template_tags_posts_2_4;;
+                *) word=$template_tags_posts;;
+            esac
             echo "<li><a href=\"$i\">$tagname</a> &mdash; $nposts $word</li>"
         done
         echo "" 1>&3
@@ -1105,7 +1124,7 @@ do_main() {
 
     # Check for $EDITOR
     [[ -z $EDITOR ]] && 
-        echo "Please set your \$EDITOR environment variable" && exit
+        echo "Please set your \$EDITOR environment variable. For example, to use nano, add the line 'export EDITOR=nano' to your \$HOME/.bashrc file" && exit
 
     # Check for validity of argument
     [[ $1 != "reset" && $1 != "post" && $1 != "rebuild" && $1 != "list" && $1 != "edit" && $1 != "delete" && $1 != "tags" ]] && 
