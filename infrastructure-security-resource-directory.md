@@ -12,7 +12,7 @@ A quick note on how information is presented:
 
 1. I will try to add just the original URL/URI whenever it's possible simply because some resources are self-explanatory, like the ones from GitHub;
 2. With rather obscure endpoints I might present the linked information in an embellished form for the sake of readability. 
-<br/><br/>
+<br/><br/><br/>
 
 #### GNU+Linux Operating Systems
 
