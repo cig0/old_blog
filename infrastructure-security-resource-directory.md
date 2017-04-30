@@ -11,7 +11,7 @@ One last thing about how information is presented:
 <br/>I will try to add just the original URL/URI whenever it's possible simply because some resources are self-explanatory, like the ones from GitHub.
 <br/>With rather obscure endpoints I might present the linked information in an embellished form for the sake of readability. 
 
-### GNU+Linux Operating Systems
+#### GNU+Linux Operating Systems
 
 <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/debian-logo1.png" style="width: 180px; height: 87px">
 <br/>
@@ -19,8 +19,11 @@ One last thing about how information is presented:
 * [https://github.com/drduh/Debian-Privacy-Server-Guide](https://github.com/drduh/Debian-Privacy-Server-Guide)
 <br/><br/>
 
+#### macOS & Darwin (PureDarwin? GNU+Darwin?)
+
 <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/Mac-OS-logo1.jpeg" style="width: 180px; height: 166px">
 <br/>
+
 
 * [https://github.com/drduh/macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
 

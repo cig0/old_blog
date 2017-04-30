@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# cd tuonela</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
-<lastBuildDate>Sun, 30 Apr 2017 19:04:17 -0300</lastBuildDate>
-<pubDate>Sun, 30 Apr 2017 19:04:17 -0300</pubDate>
+<lastBuildDate>Sun, 30 Apr 2017 19:11:31 -0300</lastBuildDate>
+<pubDate>Sun, 30 Apr 2017 19:11:31 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Infrastructure security resource directory
@@ -20,7 +20,7 @@ Infrastructure security resource directory
 <br/>I will try to add just the original URL/URI whenever it's possible simply because some resources are self-explanatory, like the ones from GitHub.
 <br/>With rather obscure endpoints I might present the linked information in an embellished form for the sake of readability. </p>
 
-<h3>GNU+Linux Operating Systems</h3>
+<h4>GNU+Linux Operating Systems</h4>
 
 <p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/debian-logo1.png" style="width: 180px; height: 87px">
 <br/></p>
@@ -29,6 +29,8 @@ Infrastructure security resource directory
 <li><a href="https://github.com/drduh/Debian-Privacy-Server-Guide">https://github.com/drduh/Debian-Privacy-Server-Guide</a>
 <br/><br/></li>
 </ul>
+
+<h4>macOS &amp; Darwin (PureDarwin? GNU+Darwin?)</h4>
 
 <p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/Mac-OS-logo1.jpeg" style="width: 180px; height: 166px">
 <br/></p>
