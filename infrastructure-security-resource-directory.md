@@ -28,5 +28,11 @@ A quick note on how information is presented:
 <br/>
 
 * [https://github.com/drduh/macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
+<br/><br/><br/>
 
-Tags: infrastructure, infosec, links
+#### Miscellaneous
+
+* [https://github.com/drduh/config](https://github.com/drduh/config): ssh, openvpn
+
+
+Tags: infrastructure, infosec, links, ssh, openvpn, macos, debian
