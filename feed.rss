@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# cd tuonela</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
-<lastBuildDate>Sun, 30 Apr 2017 19:58:20 -0300</lastBuildDate>
-<pubDate>Sun, 30 Apr 2017 19:58:20 -0300</pubDate>
+<lastBuildDate>Sun, 30 Apr 2017 20:00:04 -0300</lastBuildDate>
+<pubDate>Sun, 30 Apr 2017 20:00:04 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Infrastructure Security Resources Directory
@@ -54,6 +54,7 @@ Infrastructure Security Resources Directory
 <p>Tags: <a href='tag_infrastructure.html'>infrastructure</a>, <a href='tag_infosec.html'>infosec</a>, <a href='tag_links.html'>links</a>, <a href='tag_ssh.html'>ssh</a>, <a href='tag_openvpn.html'>openvpn</a>, <a href='tag_macos.html'>macos</a>, <a href='tag_debian.html'>debian</a></p>
 
 
+
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/infrastructure-security-resource-directory.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/infrastructure-security-resource-directory.html"
@@ -86,6 +87,7 @@ Papertrail: log management right from your browser
 <p>Note: I forgot to edit the default configuration file to comment out or remove the nonexistent example file locallog.txt</p>
 
 <p>Tags: <a href='tag_logs.html'>logs</a></p>
+
 
 
 <!-- text end -->
@@ -150,6 +152,7 @@ Command-line tools for IP-related stuff
 <p>Tags: <a href='tag_ip.html'>ip</a>, <a href='tag_geoip.html'>geoip</a>, <a href='tag_cli.html'>cli</a></p>
 
 
+
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/command-line-tools-for-ip-related-stuff.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/command-line-tools-for-ip-related-stuff.html"
@@ -173,6 +176,7 @@ No.
 <p>The company I work for rocks.</p>
 
 <p>Tags: <a href='tag_about.html'>about</a></p>
+
 
 
 <!-- text end -->
@@ -260,6 +264,7 @@ There's an annoying bug that prevents applications installed via a DEB file, be 
 
 
 
+
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html"
@@ -285,6 +290,7 @@ Spacemacs: a quick guide for creating and managing layers
 <em>Coming soon</em></p>
 
 <p>Tags: <a href='tag_spacemacs.html'>spacemacs</a>, <a href='tag_emacs.html'>emacs</a>, <a href='tag_editors.html'>editors</a></p>
+
 
 
 
