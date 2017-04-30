@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# cd tuonela</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
-<lastBuildDate>Sun, 30 Apr 2017 01:47:39 -0300</lastBuildDate>
-<pubDate>Sun, 30 Apr 2017 01:47:39 -0300</pubDate>
+<lastBuildDate>Sun, 30 Apr 2017 01:49:26 -0300</lastBuildDate>
+<pubDate>Sun, 30 Apr 2017 01:49:26 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Papertrail: log management right from your browser
@@ -22,8 +22,7 @@ Papertrail: log management right from your browser
      </a> 
 </div>
 
-<p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top; font-size: small;">Click to enlarge</span>
-<br/><br/></p>
+<p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top; font-size: small;">Click to enlarge</span></p>
 
 <p style="font-size: small;">Note: I forgot to edit the default configuration file to comment out or remove the nonexistent example file locallog.txt</p>  
 
