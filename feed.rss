@@ -2,140 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# cd tuonela</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
-<lastBuildDate>Sun, 30 Apr 2017 19:56:48 -0300</lastBuildDate>
-<pubDate>Sun, 30 Apr 2017 19:56:48 -0300</pubDate>
+<lastBuildDate>Sun, 30 Apr 2017 19:58:20 -0300</lastBuildDate>
+<pubDate>Sun, 30 Apr 2017 19:58:20 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
-Person-to-person private communications on freenode IRC with WeeChat
+Infrastructure Security Resources Directory
 </title><description><![CDATA[
 
-<h4>Head-to-toe guide for registering an account<br>+ SASL + cloaking + SSL + OTR</h4>
+<p>At the time of writing this entry I'm still unable to find a bookmark system for web resources that doesn't suck. Because inter-browser bookmark sharing is cumbersone (at best) I will keep this post updated with the neat stuff I cross paths in my search of information on the topic.</p>
 
-<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png" border="0"  align="left" style="margin-right: 17px">
-This guide shows you how to implement a private <em>person-to-person</em> communication channel in freenode <br>to safely avoid server logging of your chats.
-<br><br></p>
+<p>My goal for this post is that it can serve as a memory helper for myself as well a curated directory for anybody else looking for the same information.
+<br/>Since I already spent time looking for the information provided here I hope you won't have to :)</p>
 
-<p><strong>Introduction</strong></p>
+<p>As with any other directory, list or group of lists of any kind, wording and presentation of the data is hightly subjective and will vary from person to person -- let alone sorting criteria.
+<br/>Feel free to use the <code>Find...</code> function of your browser to quickly find want you're looking for.</p>
 
-<p>There are plenty of ways to securely chat online, however if you spend most of your time in freenode and indeed the people you chat with is there this method will help you establish a secure, private channel for a person-to-person communication. </p>
+<p>A quick note on how information is presented:</p>
 
-<p>While this guide is focused on freenode and WeeChat it should be trivial to adapt it to other networks and clients.
-<br><br></p>
+<ol>
+<li>I will try to add just the original URL/URI whenever it's possible simply because some resources are self-explanatory, like the ones from GitHub;</li>
+<li>With rather obscure endpoints I might present the linked information in an embellished form for the sake of readability. 
+<br/><br/><br/></li>
+</ol>
 
-<hr />
-<p id='twitter'><a href="https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html"
- data-via="_i90rr"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-]]></description><link>https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</link>
-<guid>https://i90rr.github.io/./Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</guid>
-<dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Sun, 30 Apr 2017 19:53:02 -0300</pubDate></item>
-<item><title>
-About
-</title><description><![CDATA[
+<h4>GNU+Linux Operating Systems</h4>
 
-<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/journey_to_tuonela_ii_by_tuomaskoivurinne.jpg"></img>
-<center><small><cite>Journey to Tuonela II - <a href="http://www.deviantart.com/art/Journey-to-Tuonela-II-222217046">Courtesy of Tuomas  Koivurinne</a> (many thanks!)</cite></small></center></p>
-
-<p><br/><br/>
-It certainly took me more than I'd wished to set up this blog but finally here I am =)</p>
-
-<p><strong>~# ls -l this\ blog/</strong></p>
-
-<ul>
-<li>Focuses on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention</li>
-<li>Is made using <a href="https://github.com/cfenollosa/bashblog" title="Meet the little giant">bashblog</a>, a beautifully crafted static site generator written in Bourne-Again SHell</li>
-<li>Is a <a href="https://www.staticgen.com">static blog</a>, meaning it doesn't rely on any database or dynamic stuff; check <a href="https://davidwalsh.name/introduction-static-site-generators">this neat article</a> to learn more about the difference with dynamic websites/webApps</li>
-<li>Is hosted at <a href="https://pages.github.com" title="GitHub Pages">GitHub Pages</a> (many thanks!)</li>
-<li>Is hence mostly invulnerable to the dangers of the interwebs</li>
-<li>Is devilish fast to load since it is made using <em>Markdown</em>, <em>HTML</em>, <em>CSS</em> and just a pinch of <em>JS</em></li>
-<li>Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM</li>
-<li>Is written using the quite versatile <a href="https://www.atom.io">Atom Editor</a> plus the useful package <em><a href="https://atom.io/packages/markdown-preview-plus">markdown-preview-plus</a></em></li>
-<li>Is named after my affinity to Finland, Finnish mythology, Finnish metal music and the fact that I live and breath IT infrastructure. <a href="https://en.wikipedia.org/wiki/Tuonela">Tuonela</a> is the Underworld in Finnish mythology. It is also the name of an <a href="http://www.metal-archives.com/reviews/Amorphis/Tuonela/1/">excellent album by the Finnish band Amorphis</a>. I like Finland, I like metal and I work on IT infrastructure: <code>~# cd tuonela</code></li>
-</ul>
-
-<p><br/></p>
-
-<p><strong>~# whoami</strong>
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="285" height="285" style="margin-left: 25px" vspace="40px"></p>
-
-<p>I'm a SysAdmin insanely passionate about automation, orchestration, optimization,  hardening and F/LOSS in general.</p>
-
-<p>I also like to code my own tools for which I mostly use Python although I'm more on the side of Go, Rust and lately Swift. Lisp and Haskell also draw my attention...</p>
-
-<p>On the not techy side I enjoy outdoor activities - surf above everything else. Love to read and learn from the classics; all praises to Master Lovecraft. I believe that thanks to Tex Avery the world is a better place. Some day I will learn to play music or draw - I heard that one <em>has</em> to develop at least one of such talents. Family, friends, my dogs are first to me. Oh and I'm on my way to stop eating animals (•̀ᴗ•́)و ̑̑</p>
-
-<p>I'm naturally avid about people's stories and creations as they fuel my interest to see the world from unseen - and sometimes quite unique - perspectives. In my book every work should be the labour of love and passion because only then you can give the best out of you.</p>
-
-<p><br/></p>
-
-<p><strong>Acknowledgments</strong></p>
-
-<p>I have to specially thank <a href="http://www.nicomanso.com/">@nicoman</a> for his invaluable help when putting together the scaffolding for this blog, most notably the <a href="index.html">landing page</a>.
-<br/>
-I also have to thank <a href="https://cardinali.org/">@ezq</a> for re-introducing me to bashblog at the awesome <a href="https://www.fedoraproject.org">Fedora's</a> <a href="https://www.youtube.com/watch?v=rPYX8o-m19s">FUDCon 2015</a> which was held in <a href="https://en.wikipedia.org/wiki/C%C3%B3rdoba_Province,_Argentina">Córdoba, Argentina</a>. The people I met there is simply incredible and those fond memories will stay with me forever.
+<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/debian-logo1.png" style="width: 180px; height: 87px">
 <br/></p>
 
-<p><br/></p>
+<ul>
+<li><a href="https://github.com/drduh/Debian-Privacy-Server-Guide">https://github.com/drduh/Debian-Privacy-Server-Guide</a>
+<br/><br/><br/></li>
+</ul>
 
-<p align="center">h4ppy h4ck1n9
-   <br/>
-        and
-   <br/><a href="http://bestcostaricantours.com/about/puravida.html">Pura vida!</a>
-</p>
+<h4>macOS &amp; Darwin (PureDarwin? GNU+Darwin?)</h4>
 
-<p>Tags: <a href='tag_about.html'>about</a></p>
+<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/Mac-OS-logo1.jpeg" style="width: 170px; height: 157px">
+<br/></p>
+
+<ul>
+<li><a href="https://github.com/drduh/macOS-Security-and-Privacy-Guide">https://github.com/drduh/macOS-Security-and-Privacy-Guide</a>
+<br/><br/><br/></li>
+</ul>
+
+<h4>Miscellaneous</h4>
+
+<ul>
+<li><a href="https://github.com/drduh/config">https://github.com/drduh/config</a>: ssh, openvpn</li>
+</ul>
+
+<p>Tags: <a href='tag_infrastructure.html'>infrastructure</a>, <a href='tag_infosec.html'>infosec</a>, <a href='tag_links.html'>links</a>, <a href='tag_ssh.html'>ssh</a>, <a href='tag_openvpn.html'>openvpn</a>, <a href='tag_macos.html'>macos</a>, <a href='tag_debian.html'>debian</a></p>
+
 
 <!-- text end -->
-<p id='twitter'><a href="https://i90rr.github.io/about.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/about.html"
+<p id='twitter'><a href="https://i90rr.github.io/infrastructure-security-resource-directory.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/infrastructure-security-resource-directory.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>https://i90rr.github.io/about.html</link>
-<guid>https://i90rr.github.io/./about.html</guid>
+]]></description><link>https://i90rr.github.io/infrastructure-security-resource-directory.html</link>
+<guid>https://i90rr.github.io/./infrastructure-security-resource-directory.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
 <pubDate>Sun, 30 Apr 2017 19:53:02 -0300</pubDate></item>
 <item><title>
-Coding in Go with Atom editor on GNU+Linux
+Papertrail: log management right from your browser
 </title><description><![CDATA[
 
-<p>I started to flirt with <a href="https://atom.io" title="A hackable text editor for the 21st Century">Atom</a> after my boss suggested me to give it a try for working with our Puppet infrastructure implementation - thanks for the tip Adam!</p>
+<p><a href="https://papertrailapp.com">Papertrail</a> is a neat tool that let you access and handle your system logs right from the browser (provided you don't mind sending your logs to a third-party operator).</p>
 
-<p>Truth is that I have tried Atom in the past when it was at its early stages and while I saw at the time the project had a lot of potential there were too many issues, mainly related to performance, that pushed me away of it thus missing the opportunity to give it a fair try - for the record, I'm an avid Emacs user and lately a <a href="http://spacemacs.org" title="A community-driven Emacs distribution - The best editor is neither Emacs nor Vim, it's Emacs *and* Vim!">Spacemacs</a> fan, more on it on an upcoming post. </p>
+<p>Aside from the many features provided by the application for this task (via rsyslog/syslog-ng facilities), it also let you add logs from other applications or tools as well.</p>
 
-<p>Time went on and now Atom is a quite mature and feature-complete text editor. While it's difficult for me to digest the idea that it is in fact a Chromium-based web browser tweaked to work as a text editor, and nontheless how bloated it "has" to be given its foundations and regardless all the work being done to optimize its performance, I can understand why the developers went this way: given its roots I suppose that most of them if not the vast majority are web-oriented developers, so to them this is a natural direction. Now, to be truthful, Atom 1.3.2 on my Fedora 23 system <em>runs incredible snappy</em>.</p>
-
-<p>Atom has a big community that continuously adds new features in the form of plugins. As with other programming languages there are some Go packages that can (and will) make a difference at the moment of diving into the editor to start hammering the keyboard. </p>
-
-<p>So far I found these two third-party packages very useful:</p>
-
-<ul>
-<li><strong>go-config</strong>: detects installed Go runtime(s), tools and configurations making them available for use by other packages</li>
-<li><strong>go-plus</strong>: adds 'gocode', 'gofmt', 'goimports', 'go vet', 'golint', 'go build' and 'go test' functionality for the Go language</li>
-</ul>
-
-<p>They both install well, but making them work is a different story.
-</br></br></br></p>
+<p>Let's say I want to reach my <code>fail2ban</code> log too, I can easily send it over a secure TLS connection using the provided <a href="http://help.papertrailapp.com/kb/configuration/configuring-centralized-logging-from-text-log-files-in-unix/#remote_syslog">remote_syslog2</a> script like this:
+<br/><br/></p>
 
 <div style="display: flex; justify-content: center;">
-  <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/gopher-new_transparent_600.png" style="width: 400px; height: 252px;" />
+     <a href="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpeg">
+        <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpeg" style="width: 700px; height: 75px;">
+     </a> 
 </div>
 
-<p></br></p>
+<p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top; font-size: small;">Click to enlarge</span></p>
 
-<hr />
-<p id='twitter'><a href="https://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html"
+<p>Note: I forgot to edit the default configuration file to comment out or remove the nonexistent example file locallog.txt</p>
+
+<p>Tags: <a href='tag_logs.html'>logs</a></p>
+
+
+<!-- text end -->
+<p id='twitter'><a href="https://i90rr.github.io/papertrail-log-management-right-from-your-browser.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/papertrail-log-management-right-from-your-browser.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>https://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html</link>
-<guid>https://i90rr.github.io/./coding-in-go-with-atom-in-gnulinux.html</guid>
+]]></description><link>https://i90rr.github.io/papertrail-log-management-right-from-your-browser.html</link>
+<guid>https://i90rr.github.io/./papertrail-log-management-right-from-your-browser.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Sun, 30 Apr 2017 19:53:02 -0300</pubDate></item>
+<pubDate>Sun, 30 Apr 2017 00:17:28 -0300</pubDate></item>
 <item><title>
 Command-line tools for IP-related stuff
 </title><description><![CDATA[
@@ -187,6 +149,7 @@ Command-line tools for IP-related stuff
 
 <p>Tags: <a href='tag_ip.html'>ip</a>, <a href='tag_geoip.html'>geoip</a>, <a href='tag_cli.html'>cli</a></p>
 
+
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/command-line-tools-for-ip-related-stuff.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/command-line-tools-for-ip-related-stuff.html"
@@ -196,84 +159,7 @@ Command-line tools for IP-related stuff
 ]]></description><link>https://i90rr.github.io/command-line-tools-for-ip-related-stuff.html</link>
 <guid>https://i90rr.github.io/./command-line-tools-for-ip-related-stuff.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Sun, 30 Apr 2017 19:53:02 -0300</pubDate></item>
-<item><title>
-Git: keeping a GitHub fork updated
-</title><description><![CDATA[
-
-<p>I keep returning to this life-saving post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
-
-<p>CC of <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a> below
-<br><br></p>
-
-<hr />
-<p id='twitter'><a href="https://i90rr.github.io/git-keeping-a-github-fork-updated.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/git-keeping-a-github-fork-updated.html"
- data-via="_i90rr"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-]]></description><link>https://i90rr.github.io/git-keeping-a-github-fork-updated.html</link>
-<guid>https://i90rr.github.io/./git-keeping-a-github-fork-updated.html</guid>
-<dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Sun, 30 Apr 2017 19:53:02 -0300</pubDate></item>
-<item><title>
-Infrastructure Security Resources Directory
-</title><description><![CDATA[
-
-<p>At the time of writing this entry I'm still unable to find a bookmark system for web resources that doesn't suck. Because inter-browser bookmark sharing is cumbersone (at best) I will keep this post updated with the neat stuff I cross paths in my search of information on the topic.</p>
-
-<p>My goal for this post is that it can serve as a memory helper for myself as well a curated directory for anybody else looking for the same information.
-<br/>Since I already spent time looking for the information provided here I hope you won't have to :)</p>
-
-<p>As with any other directory, list or group of lists of any kind, wording and presentation of the data is hightly subjective and will vary from person to person -- let alone sorting criteria.
-<br/>Feel free to use the <code>Find...</code> function of your browser to quickly find want you're looking for.</p>
-
-<p>A quick note on how information is presented:</p>
-
-<ol>
-<li>I will try to add just the original URL/URI whenever it's possible simply because some resources are self-explanatory, like the ones from GitHub;</li>
-<li>With rather obscure endpoints I might present the linked information in an embellished form for the sake of readability. 
-<br/><br/><br/></li>
-</ol>
-
-<h4>GNU+Linux Operating Systems</h4>
-
-<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/debian-logo1.png" style="width: 180px; height: 87px">
-<br/></p>
-
-<ul>
-<li><a href="https://github.com/drduh/Debian-Privacy-Server-Guide">https://github.com/drduh/Debian-Privacy-Server-Guide</a>
-<br/><br/><br/></li>
-</ul>
-
-<h4>macOS &amp; Darwin (PureDarwin? GNU+Darwin?)</h4>
-
-<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/Mac-OS-logo1.jpeg" style="width: 170px; height: 157px">
-<br/></p>
-
-<ul>
-<li><a href="https://github.com/drduh/macOS-Security-and-Privacy-Guide">https://github.com/drduh/macOS-Security-and-Privacy-Guide</a>
-<br/><br/><br/></li>
-</ul>
-
-<h4>Miscellaneous</h4>
-
-<ul>
-<li><a href="https://github.com/drduh/config">https://github.com/drduh/config</a>: ssh, openvpn</li>
-</ul>
-
-<p>Tags: <a href='tag_infrastructure.html'>infrastructure</a>, <a href='tag_infosec.html'>infosec</a>, <a href='tag_links.html'>links</a>, <a href='tag_ssh.html'>ssh</a>, <a href='tag_openvpn.html'>openvpn</a>, <a href='tag_macos.html'>macos</a>, <a href='tag_debian.html'>debian</a></p>
-
-<!-- text end -->
-<p id='twitter'><a href="https://i90rr.github.io/infrastructure-security-resource-directory.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/infrastructure-security-resource-directory.html"
- data-via="_i90rr"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-]]></description><link>https://i90rr.github.io/infrastructure-security-resource-directory.html</link>
-<guid>https://i90rr.github.io/./infrastructure-security-resource-directory.html</guid>
-<dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Sun, 30 Apr 2017 19:53:02 -0300</pubDate></item>
+<pubDate>Sat, 29 Apr 2017 23:05:18 -0300</pubDate></item>
 <item><title>
 No.
 </title><description><![CDATA[
@@ -288,6 +174,7 @@ No.
 
 <p>Tags: <a href='tag_about.html'>about</a></p>
 
+
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/me.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/me.html"
@@ -297,30 +184,7 @@ No.
 ]]></description><link>https://i90rr.github.io/me.html</link>
 <guid>https://i90rr.github.io/./me.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Sun, 30 Apr 2017 19:53:02 -0300</pubDate></item>
-<item><title>
-Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mongoDB 3.0.8 wiredTiger
-</title><description><![CDATA[
-
-<p><a href="http://www.mongodb.org">
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/mongodb.png" width="200" height="200" align="right" style="margin-left: 24px" vspace="1px">
-</a></p>
-
-<p>Last month I was tasked to upgrade our mongoDB infrastructure so first thing I did was to try to import a random dump to the new database - and it wasn't a straightforward process of couse, why should it be? :)</p>
-
-<p>Luckily after some debugging and the help of the fellow sysadmins at the company I used to work we could finally resolve all the issues we were facing; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.
-<br><br></p>
-
-<hr />
-<p id='twitter'><a href="https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html"
- data-via="_i90rr"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-]]></description><link>https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</link>
-<guid>https://i90rr.github.io/./migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</guid>
-<dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Sun, 30 Apr 2017 19:53:02 -0300</pubDate></item>
+<pubDate>Sat, 15 Oct 2016 21:46:35 -0300</pubDate></item>
 <item><title>
 Newly installed applications not showing up in Ubuntu 15.10 &amp; 16.04 LTS Unity Dash 
 </title><description><![CDATA[
@@ -395,6 +259,7 @@ There's an annoying bug that prevents applications installed via a DEB file, be 
 
 
 
+
 <!-- text end -->
 <p id='twitter'><a href="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html#disqus_thread">Comments?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html"
@@ -404,38 +269,244 @@ There's an annoying bug that prevents applications installed via a DEB file, be 
 ]]></description><link>https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html</link>
 <guid>https://i90rr.github.io/./newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Sun, 30 Apr 2017 19:53:02 -0300</pubDate></item>
+<pubDate>Fri, 18 Mar 2016 00:01:00 -0300</pubDate></item>
 <item><title>
-Papertrail: log management right from your browser
+Spacemacs: a quick guide for creating and managing layers
 </title><description><![CDATA[
 
-<p><a href="https://papertrailapp.com">Papertrail</a> is a neat tool that let you access and handle your system logs right from the browser (provided you don't mind sending your logs to a third-party operator).</p>
+<p><br></p>
 
-<p>Aside from the many features provided by the application for this task (via rsyslog/syslog-ng facilities), it also let you add logs from other applications or tools as well.</p>
-
-<p>Let's say I want to reach my <code>fail2ban</code> log too, I can easily send it over a secure TLS connection using the provided <a href="http://help.papertrailapp.com/kb/configuration/configuring-centralized-logging-from-text-log-files-in-unix/#remote_syslog">remote_syslog2</a> script like this:
-<br/><br/></p>
-
-<div style="display: flex; justify-content: center;">
-     <a href="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpeg">
-        <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpeg" style="width: 700px; height: 75px;">
-     </a> 
+<div style="margin: 0px auto; display: flex; justify-content: center;">
+     <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/spacemacs.png" border="0">
 </div>
 
-<p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top; font-size: small;">Click to enlarge</span></p>
+<p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top;">Spacemacs welcome screen</span>
+<br>
+<em>Coming soon</em></p>
 
-<p>Note: I forgot to edit the default configuration file to comment out or remove the nonexistent example file locallog.txt</p>
+<p>Tags: <a href='tag_spacemacs.html'>spacemacs</a>, <a href='tag_emacs.html'>emacs</a>, <a href='tag_editors.html'>editors</a></p>
 
-<p>Tags: <a href='tag_logs.html'>logs</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- text end -->
-<p id='twitter'><a href="https://i90rr.github.io/papertrail-log-management-right-from-your-browser.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/papertrail-log-management-right-from-your-browser.html"
+<p id='twitter'><a href="https://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>https://i90rr.github.io/papertrail-log-management-right-from-your-browser.html</link>
-<guid>https://i90rr.github.io/./papertrail-log-management-right-from-your-browser.html</guid>
+]]></description><link>https://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html</link>
+<guid>https://i90rr.github.io/./spacemacs-a-quick-guide-for-creating-and-managing-layers.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Sun, 30 Apr 2017 19:53:02 -0300</pubDate></item>
+<pubDate>Thu, 03 Mar 2016 00:01:00 -0300</pubDate></item>
+<item><title>
+Fish shell: finally, a command line shell for the 90's
+</title><description><![CDATA[
+
+<p style="text-align: center; font-size: small;">This is an old post I'm reproducing here as part of my old blog migration. Since I wrote this post<br>I changed my habits quite a bit but the article is still valid as last time I checked using Fish as the default shell<br>in my Fedora 23 system I couldn't log into the X session</p>
+
+<p style="font-size: x-large; text-align: center;">Why you shouldn't set <a href="https://www.fishshell.com">Fish</a> as the default shell
+<br><span style="font-size: large;">Tip: it's ok though to set it as your <b>primary</b> shell</span>
+</p>
+
+<p>When I decided barely a month ago to finally move from Bash to Zsh I did remember about Fish, a shell I had tried in the past but ultimately left to test later as I didn't had the time at that opportunity to dive into it the way I pretended.</p>
+
+<p>When I finally got a whole weekend for a n3rd sprint I deeply, desperately, passionately and unconditionally fell in love with Fish.</p>
+
+<p>Right straight after reading Fish's website I could sense this would be the beginning of something special, as reading about it's design argument I felt the same way as when I read about <a href="">The Arch Way</a> some years ago and fell in love with the distro.</p>
+
+<p>I believe the best way I can present this Friendly Interactive Shell is by describing it as <strong>an intelligent shell that works as an extension of the user in an organic and natural way</strong>:</p>
+
+<div class="center">
+    <img class="center" src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/11-fish-shell1.png" align="center"/>
+    <span>Screenshot taken from: http://lwn.net/images/2013/11-fish-shell.png</span>
+</div>
+
+<p><br></p>
+
+<hr />
+<p id='twitter'><a href="https://i90rr.github.io/something-fishy-happening-here.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/something-fishy-happening-here.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/something-fishy-happening-here.html</link>
+<guid>https://i90rr.github.io/./something-fishy-happening-here.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Wed, 17 Feb 2016 00:01:00 -0300</pubDate></item>
+<item><title>
+Person-to-person private communications on freenode IRC with WeeChat
+</title><description><![CDATA[
+
+<h4>Head-to-toe guide for registering an account<br>+ SASL + cloaking + SSL + OTR</h4>
+
+<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png" border="0"  align="left" style="margin-right: 17px">
+This guide shows you how to implement a private <em>person-to-person</em> communication channel in freenode <br>to safely avoid server logging of your chats.
+<br><br></p>
+
+<p><strong>Introduction</strong></p>
+
+<p>There are plenty of ways to securely chat online, however if you spend most of your time in freenode and indeed the people you chat with is there this method will help you establish a secure, private channel for a person-to-person communication. </p>
+
+<p>While this guide is focused on freenode and WeeChat it should be trivial to adapt it to other networks and clients.
+<br><br></p>
+
+<hr />
+<p id='twitter'><a href="https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</link>
+<guid>https://i90rr.github.io/./Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Fri, 12 Feb 2016 00:01:00 -0300</pubDate></item>
+<item><title>
+Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mongoDB 3.0.8 wiredTiger
+</title><description><![CDATA[
+
+<p><a href="http://www.mongodb.org">
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/mongodb.png" width="200" height="200" align="right" style="margin-left: 24px" vspace="1px">
+</a></p>
+
+<p>Last month I was tasked to upgrade our mongoDB infrastructure so first thing I did was to try to import a random dump to the new database - and it wasn't a straightforward process of couse, why should it be? :)</p>
+
+<p>Luckily after some debugging and the help of the fellow sysadmins at the company I used to work we could finally resolve all the issues we were facing; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.
+<br><br></p>
+
+<hr />
+<p id='twitter'><a href="https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</link>
+<guid>https://i90rr.github.io/./migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Wed, 10 Feb 2016 00:01:00 -0300</pubDate></item>
+<item><title>
+Git: keeping a GitHub fork updated
+</title><description><![CDATA[
+
+<p>I keep returning to this life-saving post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
+
+<p>CC of <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a> below
+<br><br></p>
+
+<hr />
+<p id='twitter'><a href="https://i90rr.github.io/git-keeping-a-github-fork-updated.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/git-keeping-a-github-fork-updated.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/git-keeping-a-github-fork-updated.html</link>
+<guid>https://i90rr.github.io/./git-keeping-a-github-fork-updated.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Fri, 05 Feb 2016 00:01:00 -0300</pubDate></item>
 </channel></rss>
