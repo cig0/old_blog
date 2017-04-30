@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# cd tuonela</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
-<lastBuildDate>Sun, 30 Apr 2017 01:06:28 -0300</lastBuildDate>
-<pubDate>Sun, 30 Apr 2017 01:06:28 -0300</pubDate>
+<lastBuildDate>Sun, 30 Apr 2017 01:20:22 -0300</lastBuildDate>
+<pubDate>Sun, 30 Apr 2017 01:20:22 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Papertrail: log management right from your browser
@@ -15,7 +15,7 @@ Papertrail: log management right from your browser
 
 <p>Let's say I want to reach my <code>fail2ban</code> log too, I can easily send it over a secure TLS connection using the provided <a href="http://help.papertrailapp.com/kb/configuration/configuring-centralized-logging-from-text-log-files-in-unix/#remote_syslog">remote_syslog2</a> script like this:</p>
 
-<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpg"></p>
+<p><href a="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpeg" img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpeg style="width: 400px; height: 43px;"></p>
 
 <p>Tags: <a href='tag_logs.html'>logs</a></p>
 
