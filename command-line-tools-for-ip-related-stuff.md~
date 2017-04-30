@@ -1,12 +1,13 @@
 Command-line tools for IP-related stuff
 
-`Note: this post will be populated over time with related content.`
+Note: this post will be populated over time with related content.
 <br/><br/>
 
 #### GeoIP lookup
 1. [ipinfo.io](http://ipinfo.io)
     * curl ipinfo.io/_ip___address_ 
 2. geoiplookup _ip___address_
+    * Packages needed on Debian: **geoip-bin geoip-database geoip-contrib geoip-extra**
 <br/><br/>
 
 #### Get external IP
