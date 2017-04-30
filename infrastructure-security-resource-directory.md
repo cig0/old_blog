@@ -17,13 +17,12 @@ One last thing about how information is presented:
 <br/>
 
 * [https://github.com/drduh/Debian-Privacy-Server-Guide](https://github.com/drduh/Debian-Privacy-Server-Guide)
-<br/><br/>
+<br/><br/><br/>
 
 #### macOS & Darwin (PureDarwin? GNU+Darwin?)
 
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/Mac-OS-logo1.jpeg" style="width: 180px; height: 166px">
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/Mac-OS-logo1.jpeg" style="width: 170px; height: 157px">
 <br/>
-
 
 * [https://github.com/drduh/macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
 
