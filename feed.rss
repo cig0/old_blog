@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# cd tuonela</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
-<lastBuildDate>Sun, 30 Apr 2017 18:43:59 -0300</lastBuildDate>
-<pubDate>Sun, 30 Apr 2017 18:43:59 -0300</pubDate>
+<lastBuildDate>Sun, 30 Apr 2017 18:47:25 -0300</lastBuildDate>
+<pubDate>Sun, 30 Apr 2017 18:47:25 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Infrastructure security resource directory
@@ -22,7 +22,8 @@ Infrastructure security resource directory
 
 <h3>GNU+Linux Operating Systems</h3>
 
-<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/debian-logo1.png" style="width: 240px; height: 116px" vspace="-3px">
+<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/debian-logo1.png" style="width: 180px; height: 87px" vspace="-3px" "text-align: center; margin: auto;">
+<br/>
 * <a href="https://github.com/drduh/Debian-Privacy-Server-Guide">https://github.com/drduh/Debian-Privacy-Server-Guide</a></p>
 
 <p>Tags: <a href='tag_infrastructure.html'>infrastructure</a>, <a href='tag_infosec.html'>infosec</a>, <a href='tag_links.html'>links</a></p>

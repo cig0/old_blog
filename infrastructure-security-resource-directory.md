@@ -12,7 +12,9 @@ One last thing about how information is presented:
 <br/>With rather obscure endpoints I might present the linked information in an embellished form for the sake of readability. 
 
 ### GNU+Linux Operating Systems
-<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/debian-logo1.png" style="width: 240px; height: 116px" vspace="-3px">
+
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/debian-logo1.png" style="width: 180px; height: 87px" vspace="-3px" "text-align: center; margin: auto;">
+<br/>
 * [https://github.com/drduh/Debian-Privacy-Server-Guide](https://github.com/drduh/Debian-Privacy-Server-Guide)
 
 Tags: infrastructure, infosec, links
