@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# cd tuonela</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
-<lastBuildDate>Sun, 30 Apr 2017 01:25:34 -0300</lastBuildDate>
-<pubDate>Sun, 30 Apr 2017 01:25:34 -0300</pubDate>
+<lastBuildDate>Sun, 30 Apr 2017 01:47:39 -0300</lastBuildDate>
+<pubDate>Sun, 30 Apr 2017 01:47:39 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Papertrail: log management right from your browser
@@ -13,11 +13,19 @@ Papertrail: log management right from your browser
 
 <p>Aside from the many features provided by the application for the task (via rsyslog/syslog-ng facilities), it also let you add logs from other applications or tools as well.</p>
 
-<p>Let's say I want to reach my <code>fail2ban</code> log too, I can easily send it over a secure TLS connection using the provided <a href="http://help.papertrailapp.com/kb/configuration/configuring-centralized-logging-from-text-log-files-in-unix/#remote_syslog">remote_syslog2</a> script like this:</p>
+<p>Let's say I want to reach my <code>fail2ban</code> log too, I can easily send it over a secure TLS connection using the provided <a href="http://help.papertrailapp.com/kb/configuration/configuring-centralized-logging-from-text-log-files-in-unix/#remote_syslog">remote_syslog2</a> script like this:
+<br/><br/></p>
 
-<p><a href="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpeg">
-   img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpeg style="width: 400px; height: 43px;">
-</a></p>
+<div style="display: flex; justify-content: center;">
+     <a href="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpeg">
+        <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpeg" style="width: 700px; height: 75px;">
+     </a> 
+</div>
+
+<p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top; font-size: small;">Click to enlarge</span>
+<br/><br/></p>
+
+<p style="font-size: small;">Note: I forgot to edit the default configuration file to comment out or remove the nonexistent example file locallog.txt</p>  
 
 <p>Tags: <a href='tag_logs.html'>logs</a></p>
 
