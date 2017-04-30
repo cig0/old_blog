@@ -7,7 +7,7 @@ Note: this post will be populated over time with related content.
 1. [ipinfo.io](http://ipinfo.io)
     * curl ipinfo.io/_ip___address_ 
 2. geoiplookup _ip___address_
-    * <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/debian-logo.jpeg" style="width: 71px; height: 20px" vspace="30px">: **geoip-bin geoip-database geoip-contrib geoip-extra**
+    * <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/debian-logo.jpeg" style="width: 71px; height: 20px" vspace="-3px">: **geoip-bin geoip-database geoip-contrib geoip-extra**
 <br/><br/>
 
 #### Get external IP
