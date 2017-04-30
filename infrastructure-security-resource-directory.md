@@ -1,4 +1,4 @@
-Infrastructure security resource directory
+Infrastructure Security Resources Directory
 
 At the time of writing this entry I'm still unable to find a bookmark system for web resources that doesn't suck. Because inter-browser bookmark sharing is cumbersone (at best) I will keep this post updated with the neat stuff I cross paths in my search of information on the topic.
 
