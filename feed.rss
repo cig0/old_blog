@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# cd tuonela</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
-<lastBuildDate>Sun, 30 Apr 2017 01:55:34 -0300</lastBuildDate>
-<pubDate>Sun, 30 Apr 2017 01:55:34 -0300</pubDate>
+<lastBuildDate>Sun, 30 Apr 2017 02:13:28 -0300</lastBuildDate>
+<pubDate>Sun, 30 Apr 2017 02:13:28 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Papertrail: log management right from your browser
@@ -53,7 +53,10 @@ Command-line tools for IP-related stuff
 <li>curl ipinfo.io/<em>ip</em><em>_address</em> </li>
 </ul></li>
 <li>geoiplookup <em>ip</em><em>_address</em>
+<ul>
+<li>Packages needed on Debian: <strong>geoip-bin geoip-database geoip-contrib geoip-extra</strong>
 <br/><br/></li>
+</ul></li>
 </ol>
 
 <h4>Get external IP</h4>
