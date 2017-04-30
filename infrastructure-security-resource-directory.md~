@@ -8,9 +8,9 @@ My goal for this post is that it can serve as a memory helper for myself as well
 As with any other directory, list or group of lists of any kind, wording and presentation of the data is hightly subjective and will vary from person to person -- let alone sorting criteria.
 <br/>Feel free to use the ```Find...``` function of your browser to quickly find want you're looking for.
 
-A note on how information is presented:
+A quick note on how information is presented:
 
-1. I will try to add just the original URL/URI whenever it's possible simply because some resources are self-explanatory, like the ones from GitHub.
+1. I will try to add just the original URL/URI whenever it's possible simply because some resources are self-explanatory, like the ones from GitHub;
 2. With rather obscure endpoints I might present the linked information in an embellished form for the sake of readability. 
 
 #### GNU+Linux Operating Systems
