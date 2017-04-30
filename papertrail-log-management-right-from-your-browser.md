@@ -6,8 +6,11 @@ Aside from the many features provided by the application for the task (via rsysl
 
 Let's say I want to reach my `fail2ban` log too, I can easily send it over a secure TLS connection using the provided [remote\_syslog2](http://help.papertrailapp.com/kb/configuration/configuring-centralized-logging-from-text-log-files-in-unix/#remote_syslog) script like this:
 
-<a href="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpeg">
-   <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpeg" style="width: 400px; height: 43px;";>
-</a>
+<div style="display: flex; justify-content: center;">
+     <a href="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpeg">
+     	<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpeg" style="width: 600px; height: 64px;">
+     </a> 
+</div>
+<span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top; font-size: small;">Click to enlarge</span>
 
 Tags: logs
