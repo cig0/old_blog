@@ -10,7 +10,7 @@
 <meta name='twitter:card' content='summary' />
 <meta name='twitter:site' content='@_i90rr' />
 <meta name='twitter:title' content='~# cd tuonela' />
-<meta name='twitter:description' content=" Infrastructure Security Resources Directory   April 30, 2017 &mdash;  Martín Cigorraga    At the time of writing this entry I'm still unable to find a bookmark system for web resources that doesn't suck. Because inter-browser bookmark sharing is cu" />
+<meta name='twitter:description' content=" Infrastructure Security Resources Directory   May 02, 2017 &mdash;  Martín Cigorraga    At the time of writing this entry I'm still unable to find a bookmark system for web resources that doesn't suck. Because inter-browser bookmark sharing is cumb" />
 <meta name='twitter:image' content='https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/debian-logo1.png' />
 </head><body>
 <div id="divbodyholder">
@@ -20,16 +20,16 @@
 <div id="description">computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</div>
 </div></div></div>
 <div id="divbody"><div class="content">
-<h3><a class="ablack" href="infrastructure-security-resource-directory.html">
+<h3><a class="ablack" href="infosec-security-resource-directory.html">
 Infrastructure Security Resources Directory
 </a></h3>
-<!-- bashblog_timestamp: #201704301953.02# -->
-<div class="subtitle">April 30, 2017 &mdash; 
+<!-- bashblog_timestamp: #201705020501.30# -->
+<div class="subtitle">May 02, 2017 &mdash; 
 Martín Cigorraga
 </div>
 <!-- text begin -->
 
-<p>At the time of writing this entry I'm still unable to find a bookmark system for web resources that doesn't suck. Because inter-browser bookmark sharing is cumbersone (at best) I will keep this post updated with the neat stuff I cross paths in my search of information on the topic.</p>
+<p>At the time of writing this entry I'm still unable to find a bookmark system for web resources that doesn't suck. Because inter-browser bookmark sharing is cumbersome (at best) I will keep this post updated with the neat stuff I cross paths in my search of information on the topic.</p>
 
 <p>My goal for this post is that it can serve as a memory helper for myself as well a curated directory for anybody else looking for the same information.
 <br/>Since I already spent time looking for the information provided here I hope you won't have to :)</p>
@@ -71,118 +71,126 @@ Martín Cigorraga
 <li><a href="https://github.com/drduh/config">https://github.com/drduh/config</a>: ssh, openvpn</li>
 </ul>
 
-<p>Tags: <a href='tag_infrastructure.html'>infrastructure</a>, <a href='tag_infosec.html'>infosec</a>, <a href='tag_links.html'>links</a>, <a href='tag_ssh.html'>ssh</a>, <a href='tag_openvpn.html'>openvpn</a>, <a href='tag_macos.html'>macos</a>, <a href='tag_debian.html'>debian</a></p>
-
-
+<p>Tags: <a href='tag_infrastructure.html'>infrastructure</a>, <a href='tag_infosec.html'>infosec</a>, <a href='tag_links.html'>links</a>, <a href='tag_ssh.html'>ssh</a>, <a href='tag_vpn.html'>vpn</a>, <a href='tag_macos.html'>macos</a>, <a href='tag_debian.html'>debian</a>, <a href='tag_privacy.html'>privacy</a></p>
 
 <!-- text end -->
-<p id='twitter'><a href="https://i90rr.github.io/infrastructure-security-resource-directory.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/infrastructure-security-resource-directory.html"
+<p id='twitter'><a href="https://i90rr.github.io/infosec-security-resource-directory.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/infosec-security-resource-directory.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-<h3><a class="ablack" href="papertrail-log-management-right-from-your-browser.html">
-Papertrail: log management right from your browser
+<h3><a class="ablack" href="about.html">
+About
 </a></h3>
-<!-- bashblog_timestamp: #201704300017.28# -->
-<div class="subtitle">April 30, 2017 &mdash; 
+<!-- bashblog_timestamp: #201601010001.00# -->
+<div class="subtitle">January 01, 2016 &mdash; 
 Martín Cigorraga
 </div>
 <!-- text begin -->
 
-<p><a href="https://papertrailapp.com">Papertrail</a> is a neat tool that let you access and handle your system logs right from the browser (provided you don't mind sending your logs to a third-party operator).</p>
+<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/journey_to_tuonela_ii_by_tuomaskoivurinne.jpg"></img>
+<center><small><cite>Journey to Tuonela II - <a href="http://www.deviantart.com/art/Journey-to-Tuonela-II-222217046">Courtesy of Tuomas  Koivurinne</a> (many thanks!)</cite></small></center></p>
 
-<p>Aside from the many features provided by the application for this task (via rsyslog/syslog-ng facilities), it also let you add logs from other applications or tools as well.</p>
+<p><br/><br/>
+It certainly took me more than I'd wished to set up this blog but finally here I am =)</p>
 
-<p>Let's say I want to reach my <code>fail2ban</code> log too, I can easily send it over a secure TLS connection using the provided <a href="http://help.papertrailapp.com/kb/configuration/configuring-centralized-logging-from-text-log-files-in-unix/#remote_syslog">remote_syslog2</a> script like this:
-<br/><br/></p>
-
-<div style="display: flex; justify-content: center;">
-     <a href="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpeg">
-        <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpeg" style="width: 700px; height: 75px;">
-     </a> 
-</div>
-
-<p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top; font-size: small;">Click to enlarge</span></p>
-
-<p>Note: I forgot to edit the default configuration file to comment out or remove the nonexistent example file locallog.txt</p>
-
-<p>Tags: <a href='tag_logs.html'>logs</a></p>
-
-
-
-<!-- text end -->
-<p id='twitter'><a href="https://i90rr.github.io/papertrail-log-management-right-from-your-browser.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/papertrail-log-management-right-from-your-browser.html"
- data-via="_i90rr"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-<h3><a class="ablack" href="command-line-tools-for-ip-related-stuff.html">
-Command-line tools for IP-related stuff
-</a></h3>
-<!-- bashblog_timestamp: #201704292305.18# -->
-<div class="subtitle">April 29, 2017 &mdash; 
-Martín Cigorraga
-</div>
-<!-- text begin -->
-
-<p>Note: this post will be populated over time with related content.
-<br/><br/></p>
-
-<h4>GeoIP lookup</h4>
-
-<ol>
-<li><a href="http://ipinfo.io">ipinfo.io</a>
-<ul>
-<li>curl ipinfo.io/<em>ip</em><em>_address</em> </li>
-</ul></li>
-<li>geoiplookup <em>ip</em><em>_address</em>
-<ul>
-<li><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/debian-logo.jpeg" style="width: 71px; height: 20px" vspace="-3px">: geoip-bin geoip-database geoip-contrib geoip-extra
-<br/><br/></li>
-</ul></li>
-</ol>
-
-<h4>Get external IP</h4>
-
-<ol>
-<li><a href="ifconfig.me">ifconfig.me</a>
-<ul>
-<li>curl ifconfig.me</li>
-</ul></li>
-<li><a href="https://major.io/icanhazip-com-faq/">major.io/icanhazip-com-faq</a>
-<ul>
-<li>curl icanhazip.com
-<br/><br/></li>
-</ul></li>
-</ol>
-
-<h4>Test D/L speed</h4>
-
-<ol>
-<li><a href="https://pypi.python.org/pypi/speedtest-cli">speedtest-cli</a>
-<br/><br/></li>
-</ol>
-
-<h4>Get IP for a domain</h4>
+<p><strong>~# ls -l this\ blog/</strong></p>
 
 <ul>
-<li>dig +short <em>ip</em><em>_address</em>
-<br/><br/></li>
+<li>Focuses on IT, yet don't be surprised to find entries about pretty much everything else that catches my attention</li>
+<li>Is made using <a href="https://github.com/cfenollosa/bashblog" title="Meet the little giant">bashblog</a>, a beautifully crafted static site generator written in Bourne-Again SHell</li>
+<li>Is a <a href="https://www.staticgen.com">static blog</a>, meaning it doesn't rely on any database or dynamic stuff; check <a href="https://davidwalsh.name/introduction-static-site-generators">this neat article</a> to learn more about the difference with dynamic websites/webApps</li>
+<li>Is hosted at <a href="https://pages.github.com" title="GitHub Pages">GitHub Pages</a> (many thanks!)</li>
+<li>Is hence mostly invulnerable to the dangers of the interwebs</li>
+<li>Is devilish fast to load since it is made using <em>Markdown</em>, <em>HTML</em>, <em>CSS</em> and just a pinch of <em>JS</em></li>
+<li>Is hence light on resources so it won't suck your computer dry avid for {c,g}PU cycles and RAM</li>
+<li>Is written using the quite versatile <a href="https://www.atom.io">Atom Editor</a> plus the useful package <em><a href="https://atom.io/packages/markdown-preview-plus">markdown-preview-plus</a></em></li>
+<li>Is named after my affinity to Finland, Finnish mythology, Finnish metal music and the fact that I live and breath IT infrastructure. <a href="https://en.wikipedia.org/wiki/Tuonela">Tuonela</a> is the Underworld in Finnish mythology. It is also the name of an <a href="http://www.metal-archives.com/reviews/Amorphis/Tuonela/1/">excellent album by the Finnish band Amorphis</a>. I like Finland, I like metal and I work on IT infrastructure: <code>~# cd tuonela</code></li>
 </ul>
 
-<p>Tags: <a href='tag_ip.html'>ip</a>, <a href='tag_geoip.html'>geoip</a>, <a href='tag_cli.html'>cli</a></p>
+<p><br/></p>
+
+<p><strong>~# whoami</strong>
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/394089_ds.png" alt="A cold but sunny Saturday morning at the oceanside" title="A cold but sunny Saturday morning at the oceanside" align="right" width="285" height="285" style="margin-left: 25px" vspace="40px"></p>
+
+<p>I'm a SysAdmin insanely passionate about automation, orchestration, optimization,  hardening and F/LOSS in general.</p>
+
+<p>I also like to code my own tools for which I mostly use Python although I'm more on the side of Go, Rust and lately Swift. Lisp and Haskell also draw my attention...</p>
+
+<p>On the not techy side I enjoy outdoor activities - surf above everything else. Love to read and learn from the classics; all praises to Master Lovecraft. I believe that thanks to Tex Avery the world is a better place. Some day I will learn to play music or draw - I heard that one <em>has</em> to develop at least one of such talents. Family, friends, my dogs are first to me. Oh and I'm on my way to stop eating animals (•̀ᴗ•́)و ̑̑</p>
+
+<p>I'm naturally avid about people's stories and creations as they fuel my interest to see the world from unseen - and sometimes quite unique - perspectives. In my book every work should be the labour of love and passion because only then you can give the best out of you.</p>
+
+<p><br/></p>
+
+<p><strong>Acknowledgments</strong></p>
+
+<p>I have to specially thank <a href="http://www.nicomanso.com/">@nicoman</a> for his invaluable help when putting together the scaffolding for this blog, most notably the <a href="index.html">landing page</a>.
+<br/>
+I also have to thank <a href="https://cardinali.org/">@ezq</a> for re-introducing me to bashblog at the awesome <a href="https://www.fedoraproject.org">Fedora's</a> <a href="https://www.youtube.com/watch?v=rPYX8o-m19s">FUDCon 2015</a> which was held in <a href="https://en.wikipedia.org/wiki/C%C3%B3rdoba_Province,_Argentina">Córdoba, Argentina</a>. The people I met there is simply incredible and those fond memories will stay with me forever.
+<br/></p>
+
+<p><br/></p>
+
+<p align="center">h4ppy h4ck1n9
+   <br/>
+        and
+   <br/><a href="http://bestcostaricantours.com/about/puravida.html">Pura vida!</a>
+</p>
+
+<p>Tags: <a href='tag_about.html'>about</a></p>
 
 
 
 <!-- text end -->
-<p id='twitter'><a href="https://i90rr.github.io/command-line-tools-for-ip-related-stuff.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/command-line-tools-for-ip-related-stuff.html"
+<p id='twitter'><a href="https://i90rr.github.io/about.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/about.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+<h3><a class="ablack" href="coding-in-go-with-atom-in-gnulinux.html">
+Coding in Go with Atom editor on GNU+Linux
+</a></h3>
+<!-- bashblog_timestamp: #201601030001.00# -->
+<div class="subtitle">January 03, 2016 &mdash; 
+Martín Cigorraga
+</div>
+<!-- text begin -->
+
+<p>I started to flirt with <a href="https://atom.io" title="A hackable text editor for the 21st Century">Atom</a> after my boss suggested me to give it a try for working with our Puppet infrastructure implementation - thanks for the tip Adam!</p>
+
+<p>Truth is that I have tried Atom in the past when it was at its early stages and while I saw at the time the project had a lot of potential there were too many issues, mainly related to performance, that pushed me away of it thus missing the opportunity to give it a fair try - for the record, I'm an avid Emacs user and lately a <a href="http://spacemacs.org" title="A community-driven Emacs distribution - The best editor is neither Emacs nor Vim, it's Emacs *and* Vim!">Spacemacs</a> fan, more on it on an upcoming post. </p>
+
+<p>Time went on and now Atom is a quite mature and feature-complete text editor. While it's difficult for me to digest the idea that it is in fact a Chromium-based web browser tweaked to work as a text editor, and nontheless how bloated it "has" to be given its foundations and regardless all the work being done to optimize its performance, I can understand why the developers went this way: given its roots I suppose that most of them if not the vast majority are web-oriented developers, so to them this is a natural direction. Now, to be truthful, Atom 1.3.2 on my Fedora 23 system <em>runs incredible snappy</em>.</p>
+
+<p>Atom has a big community that continuously adds new features in the form of plugins. As with other programming languages there are some Go packages that can (and will) make a difference at the moment of diving into the editor to start hammering the keyboard. </p>
+
+<p>So far I found these two third-party packages very useful:</p>
+
+<ul>
+<li><strong>go-config</strong>: detects installed Go runtime(s), tools and configurations making them available for use by other packages</li>
+<li><strong>go-plus</strong>: adds 'gocode', 'gofmt', 'goimports', 'go vet', 'golint', 'go build' and 'go test' functionality for the Go language</li>
+</ul>
+
+<p>They both install well, but making them work is a different story.
+</br></br></br></p>
+
+<div style="display: flex; justify-content: center;">
+  <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/gopher-new_transparent_600.png" style="width: 400px; height: 252px;" />
+</div>
+
+<p></br></p>
+
+<p class="readmore"><a href="./coding-in-go-with-atom-in-gnulinux.html">Read more...</a></p>
+<p id='twitter'><a href="https://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/coding-in-go-with-atom-in-gnulinux.html"
  data-via="_i90rr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
 <div id="all_posts"><a href="all_posts.html">View more posts</a> &mdash; <a href="all_tags.html">All tags</a> &mdash; <a href="feed.rss">Subscribe</a></div>
 </div>
+<div id="footer">CC by-sa / AGPL v3+ <a href="http://www.github.com/i90rr">Martín Cigorraga</a> &mdash; <a href="mailto:gmail: i90rr&#46;i90rr">gmail: i90rr&#46;i90rr</a><br/>
+Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</div>
 <div id="footer">CC by-sa / AGPL v3+ <a href="http://www.github.com/i90rr">Martín Cigorraga</a> &mdash; <a href="mailto:gmail: i90rr&#46;i90rr">gmail: i90rr&#46;i90rr</a><br/>
 Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</div>
 </div></div>

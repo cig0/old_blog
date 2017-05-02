@@ -1,6 +1,6 @@
 Infrastructure Security Resources Directory
 
-At the time of writing this entry I'm still unable to find a bookmark system for web resources that doesn't suck. Because inter-browser bookmark sharing is cumbersone (at best) I will keep this post updated with the neat stuff I cross paths in my search of information on the topic.
+At the time of writing this entry I'm still unable to find a bookmark system for web resources that doesn't suck. Because inter-browser bookmark sharing is cumbersome (at best) I will keep this post updated with the neat stuff I cross paths in my search of information on the topic.
 
 My goal for this post is that it can serve as a memory helper for myself as well a curated directory for anybody else looking for the same information.
 <br/>Since I already spent time looking for the information provided here I hope you won't have to :)
@@ -35,4 +35,4 @@ A quick note on how information is presented:
 * [https://github.com/drduh/config](https://github.com/drduh/config): ssh, openvpn
 
 
-Tags: infrastructure, infosec, links, ssh, openvpn, macos, debian
+Tags: infrastructure, infosec, links, ssh, vpn, macos, debian, privacy
