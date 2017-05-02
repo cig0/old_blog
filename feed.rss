@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~# cd tuonela</title><link>https://i90rr.github.io/frontpage.html</link>
 <description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
-<lastBuildDate>Tue, 02 May 2017 05:01:54 -0300</lastBuildDate>
-<pubDate>Tue, 02 May 2017 05:01:54 -0300</pubDate>
+<lastBuildDate>Tue, 02 May 2017 05:04:04 -0300</lastBuildDate>
+<pubDate>Tue, 02 May 2017 05:04:04 -0300</pubDate>
 <atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
-Infrastructure Security Resources Directory
+Information Security Resources Directory
 </title><description><![CDATA[
 
 <p>At the time of writing this entry I'm still unable to find a bookmark system for web resources that doesn't suck. Because inter-browser bookmark sharing is cumbersome (at best) I will keep this post updated with the neat stuff I cross paths in my search of information on the topic.</p>
@@ -62,7 +62,7 @@ Infrastructure Security Resources Directory
 ]]></description><link>https://i90rr.github.io/infosec-security-resource-directory.html</link>
 <guid>https://i90rr.github.io/./infosec-security-resource-directory.html</guid>
 <dc:creator>Martín Cigorraga</dc:creator>
-<pubDate>Tue, 02 May 2017 05:01:30 -0300</pubDate></item>
+<pubDate>Tue, 02 May 2017 05:03:39 -0300</pubDate></item>
 <item><title>
 About
 </title><description><![CDATA[
