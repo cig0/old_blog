@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="blog.css" type="text/css" />
+<link rel="stylesheet" href="resources/css/styles.css" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss" />
+<title>Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mongoDB 3.0.8 wiredTiger</title>
+<meta name='twitter:card' content='summary' />
+<meta name='twitter:site' content='@_i90rr' />
+<meta name='twitter:title' content='Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mongoDB 3.0.8 wiredTiger' />
+<meta name='twitter:description' content="     Last month I was tasked to upgrade our mongoDB infrastructure so first thing I did was to try to import a random dump to the new database - and it wasn't a straightforward process of couse, why should it be? :)  Luckily after some debugging and " />
+<meta name='twitter:image' content='https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/mongodb.png' />
+</head><body>
+<div id="divbodyholder">
+<div class="headerholder"><div class="header">
+<div id="title">
+<h1 class="nomargin"><a class="ablack" href="https://i90rr.github.io/frontpage.html">~# cd tuonela</a></h1>
+<div id="description">computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</div>
+</div></div></div>
+<div id="divbody"><div class="content">
+<!-- entry begin -->
+<h3><a class="ablack" href="migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html">
+Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mongoDB 3.0.8 wiredTiger
+</a></h3>
+<!-- bashblog_timestamp: #201602100001.00# -->
+<div class="subtitle">February 10, 2016 &mdash; 
+Martín Cigorraga
+</div>
+<!-- text begin -->
+
+<p><a href="http://www.mongodb.org">
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/mongodb.png" width="200" height="200" align="right" style="margin-left: 24px" vspace="1px">
+</a></p>
+
+<p>Last month I was tasked to upgrade our mongoDB infrastructure so first thing I did was to try to import a random dump to the new database - and it wasn't a straightforward process of couse, why should it be? :)</p>
+
+<p>Luckily after some debugging and the help of fellow sysadmins we could finally resolve all the issues we were facing; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.
+<br><br></p>
+
+<hr />
+
+<p><br>
+We hit three blockers on our way to restore the aforementioned dump made with MongoDB 2.6
+<br>Our host was a <strong>CentOS 7 VM</strong> (<strong>KVM</strong>) updated to Jan 11th, 2016:</p>
+
+<p><Ul>
+<li>
+The first blocker was an issue with the format of a JSON metadata file:</p>
+
+<p><code>Failed: restore error: listDB.lists: error creating collection listDB.lists: error running create command: exception: specify size:<n> when capped is true</code></p>
+
+<p>The solution was to simply <strong>remove all references</strong> to <strong>capped</strong> and <strong>size</strong>.</p>
+
+<p><a href="https://goo.gl/9eCBS0">Ioan Mircea</a> deserves the credits as he was the one who pointed me in the right direction to start understanding what was happening there.</p>
+
+<p>Juan Pablo Nogueira was kind enough to also share a one-liner to edit the files in place and fix the issue, which I reproduce below for your comfort:</p>
+
+<script src="https://gist.github.com/i90rr/647ea36211977d00a534.js"></script>
+
+<p></li></p>
+
+<p><li>
+The second one has to be with a bug in mongoDB and the way it handles memory allocation:</p>
+
+<blockquote>"There's another issue that seems to be related with the cache of wiredTiger trying to use more memory than the available one (seems a common problem when running Mongo in containers of any kind like LXC/Docker/cgroups-kvm, etc.); it fails to accurately measure the free memory.</blockquote>
+
+The solution to this issue was to manually allocate the minimum necessary memory for the cache using the __storage.wiredTiger.engineConfig.cacheSizeGB__ flag like this:
+<script src="https://gist.github.com/i90rr/60d87d19fb29768548c2.js"></script>
+Which leads us directly into the third issue :)
+</li>
+
+<li>
+The final issue we faced was related to the _mongod daemon_ hanging indefinitely at random stages when restoring a collection: sometimes it hanged in an early stage of the restore process, some other times it froze well beyond half of it - [here is an screenshot](https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/mongodb_hung.png).
+<br>While I couldn't find anything in the logs that lead me to think that this was a cache size issue I finally could get along with the restore process by setting __cacheSizeGB__ to a bigger value.
+<blockquote>
+In our tests I found that 2gb of RAM was enough for the cache size, however YMMV so you might need to play with this value until you find the correct one that works for you.
+</blockquote>
+
+<p></li>
+</ul></p>
+
+<p><br>
+<strong>Closure</strong>
+<br>
+In the end we were able to successfully restore the needed dump by issuing:</p>
+
+<ul><code># mongorestore -v --maintainInsertionOrder --drop --stopOnError <i>DIRECTORY_WITH_THE_DUMP_TO_IMPORT</i></code></ul>
+
+<p><br>
+You might also find this related article useful:
+<br><a href="https://ubuntuincident.wordpress.com/2016/02/07/mongodb-upgrade-to-the-wiredtiger-storage-engine/">The Ubuntu Incident - MongoDB: upgrade to the WiredTiger storage engine</a></p>
+
+<p>Tags: <a href='tag_mongodb.html'>mongodb</a>, <a href='tag_percona.html'>percona</a>, <a href='tag_database.html'>database</a>, <a href='tag_nosql.html'>nosql</a>, <a href='tag_bigdata.html'>bigdata</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- text end -->
+<p id='twitter'><a href="https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+<!-- entry end -->
+</div>
+<div id="disqus_thread"></div>
+            <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+               var disqus_shortname = 'i90rr'; // required: replace example with your forum shortname
+
+            /* * * DONT EDIT BELOW THIS LINE * * */
+            (function() {
+            var dsq = document.createElement("script"); dsq.type = "text/javascript"; dsq.async = true;
+            dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+            (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(dsq);
+            })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<div id="footer">CC by-sa / AGPL v3+ <a href="http://www.github.com/i90rr">Martín Cigorraga</a> &mdash; <a href="mailto:gmail: i90rr&#46;i90rr">gmail: i90rr&#46;i90rr</a><br/>
+Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</div>
+</div></div>
+<script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'i90rr'; // required: replace example with your forum shortname
+
+        /* * * DONT EDIT BELOW THIS LINE * * */
+        (function () {
+        var s = document.createElement("script"); s.async = true;
+        s.type = "text/javascript";
+        s.src = "//" + disqus_shortname + ".disqus.com/count.js";
+        (document.getElementsByTagName("HEAD")[0] || document.getElementsByTagName("BODY")[0]).appendChild(s);
+    }());
+    </script>
+</body></html>

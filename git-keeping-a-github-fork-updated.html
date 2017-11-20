@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="blog.css" type="text/css" />
+<link rel="stylesheet" href="resources/css/styles.css" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss" />
+<title>Git: keeping a GitHub fork updated</title>
+<meta name='twitter:card' content='summary' />
+<meta name='twitter:site' content='@_i90rr' />
+<meta name='twitter:title' content='Git: keeping a GitHub fork updated' />
+<meta name='twitter:description' content=" I keep returning to this life-saving post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a hard copy of it, just in case.  CC of Keeping A GitHub Fork Updated by Dan Croak below      I forked a G" />
+<meta name='twitter:image' content='https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/pull-rebase-vs-pull.png' />
+</head><body>
+<div id="divbodyholder">
+<div class="headerholder"><div class="header">
+<div id="title">
+<h1 class="nomargin"><a class="ablack" href="https://i90rr.github.io/frontpage.html">~# cd tuonela</a></h1>
+<div id="description">computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</div>
+</div></div></div>
+<div id="divbody"><div class="content">
+<!-- entry begin -->
+<h3><a class="ablack" href="git-keeping-a-github-fork-updated.html">
+Git: keeping a GitHub fork updated
+</a></h3>
+<!-- bashblog_timestamp: #201602050001.00# -->
+<div class="subtitle">February 05, 2016 &mdash; 
+Martín Cigorraga
+</div>
+<!-- text begin -->
+
+<p>I keep returning to this life-saving post - a must when forking a project and creating pull requests - so I decided it is worth enough to have a <em>hard copy</em> of it, just in case.</p>
+
+<p>CC of <a href="https://robots.thoughtbot.com/keeping-a-github-fork-updated">Keeping A GitHub Fork Updated by Dan Croak</a> below
+<br><br></p>
+
+<hr />
+
+<p><br>
+I forked a GitHub repo <em>thoughtbot/dotfiles</em> to <em>croaky/dotfiles</em> and want to keep it updated.</p>
+
+<p><strong>Track</strong></p>
+
+<p>After I forked the repo to my GitHub account, I did this one time:</p>
+
+<ul>
+git clone git@github.com:croaky/dotfiles.git
+<br>cd dotfiles
+<br>git remote add upstream git@github.com:thoughtbot/dotfiles.git
+</ul>
+
+<p><br>
+<strong>Update</strong></p>
+
+<p>Each time I want to update, from my local master branch:</p>
+
+<ul>
+git fetch upstream
+<br>git rebase upstream/master
+</ul>
+
+<p>The goal of the rebase is to have a cleaner history if I have local changes or commits on the repo. It’s the difference between the the left and the right in the image below:</p>
+
+<div style="margin: 0px auto; display: flex; justify-content: center;">
+     <a href="http://gitready.com/advanced/2009/02/11/pull-with-rebase.html">
+        <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/pull-rebase-vs-pull.png" border="0" />
+     </a>
+</div>
+
+<p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top; font-size: small;">Pull with rebase - click to open the full article</span></p>
+
+<p><strong>Commit rights upstream</strong></p>
+
+<p>If I also have commit rights to the upstream repo, I can create a local upstream branch and do work that will go upstream there.</p>
+
+<ul>
+git checkout -b upstream upstream/master
+</ul>
+
+<p>Tags: <a href='tag_git.html'>git</a>, <a href='tag_cvs.html'>cvs</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- text end -->
+<p id='twitter'><a href="https://i90rr.github.io/git-keeping-a-github-fork-updated.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/git-keeping-a-github-fork-updated.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+<!-- entry end -->
+</div>
+<div id="disqus_thread"></div>
+            <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+               var disqus_shortname = 'i90rr'; // required: replace example with your forum shortname
+
+            /* * * DONT EDIT BELOW THIS LINE * * */
+            (function() {
+            var dsq = document.createElement("script"); dsq.type = "text/javascript"; dsq.async = true;
+            dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+            (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(dsq);
+            })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<div id="footer">CC by-sa / AGPL v3+ <a href="http://www.github.com/i90rr">Martín Cigorraga</a> &mdash; <a href="mailto:gmail: i90rr&#46;i90rr">gmail: i90rr&#46;i90rr</a><br/>
+Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</div>
+</div></div>
+<script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'i90rr'; // required: replace example with your forum shortname
+
+        /* * * DONT EDIT BELOW THIS LINE * * */
+        (function () {
+        var s = document.createElement("script"); s.async = true;
+        s.type = "text/javascript";
+        s.src = "//" + disqus_shortname + ".disqus.com/count.js";
+        (document.getElementsByTagName("HEAD")[0] || document.getElementsByTagName("BODY")[0]).appendChild(s);
+    }());
+    </script>
+</body></html>

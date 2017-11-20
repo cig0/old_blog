@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="blog.css" type="text/css" />
+<link rel="stylesheet" href="resources/css/styles.css" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss" />
+<title>Person-to-person private communications on freenode IRC with WeeChat</title>
+<meta name='twitter:card' content='summary' />
+<meta name='twitter:site' content='@_i90rr' />
+<meta name='twitter:title' content='Person-to-person private communications on freenode IRC with WeeChat' />
+<meta name='twitter:description' content=" Head-to-toe guide for registering an account+ SASL + cloaking + SSL + OTR   This guide shows you how to implement a private person-to-person communication channel in freenode to safely avoid server logging of your chats.   Introduction  There are pl" />
+<meta name='twitter:image' content='https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png' />
+</head><body>
+<div id="divbodyholder">
+<div class="headerholder"><div class="header">
+<div id="title">
+<h1 class="nomargin"><a class="ablack" href="https://i90rr.github.io/frontpage.html">~# cd tuonela</a></h1>
+<div id="description">computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</div>
+</div></div></div>
+<div id="divbody"><div class="content">
+<!-- entry begin -->
+<h3><a class="ablack" href="Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html">
+Person-to-person private communications on freenode IRC with WeeChat
+</a></h3>
+<!-- bashblog_timestamp: #201602120001.00# -->
+<div class="subtitle">February 12, 2016 &mdash; 
+Martín Cigorraga
+</div>
+<!-- text begin -->
+
+<h4>Head-to-toe guide for registering an account<br>+ SASL + cloaking + SSL + OTR</h4>
+
+<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png" border="0"  align="left" style="margin-right: 17px">
+This guide shows you how to implement a private <em>person-to-person</em> communication channel in freenode <br>to safely avoid server logging of your chats.
+<br><br></p>
+
+<p><strong>Introduction</strong></p>
+
+<p>There are plenty of ways to securely chat online, however if you spend most of your time in freenode and indeed the people you chat with is there this method will help you establish a secure, private channel for a person-to-person communication. </p>
+
+<p>While this guide is focused on freenode and WeeChat it should be trivial to adapt it to other networks and clients.
+<br><br></p>
+
+<hr />
+
+<p><br>
+<strong>Hands-on</strong></p>
+
+<ol>
+<li>Start by <a href="https://freenode.net/faq.shtml#nicksetup">registering a new freenode account</a></li>
+<li>Proceed to <a href="https://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication">configure WeeChat to log via SASL</a> (SASL on <a href="https://en.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer">Wikipedia</a>, <a href="https://freenode.net/sasl/">freenode</a>)
+<br>This is a convenient method to authenticate yourself and indeed a better one than using a password mostly because:
+<ul>
+<li>You don't need to type your password every time you log in to the network</li>
+<li>In case you configure your client to automatically log in using a password be aware that some clients still store credentials in plain text, which is a potential security risk</li>
+<li>Sometimes depending on the quality of your connection authenticating by a password may fail, with SASL it will not</li>
+<li>Depending on the load of the server you connect to and the way your client works <a href="https://freenode.net/faq.shtml#nocloakonjoin">you might experience a delay until the cloak is applied</a> when aythenticating via password method, this is why sometimes you see that a user enters a channel with his/her public IP address to moments later switch to the cloaked mode
+</ul></li>
+<li>Welcome to freenode! You can start working on your privacy now. Your first step should be to head to #freenode and <a href="https://freenode.net/faq.shtml#cloaks">ask for a cloak</a>. A cloak hides your connection details from the rest of the freenode users but it doesn't work with web IRC clients</li>
+<li>Next stop will be to <a href="https://weechat.org/files/doc/weechat_faq.en.html#irc_ssl_freenode">enforce the use of an TLS SSL layer</a> to secure (encrypt) the communication between your WeeChat client and the server</li>
+<li>Fifth step: <a href="https://github.com/mmb/weechat-otr">implement the Off-the-Record protocol</a></li>
+</ol>
+
+<p>I don't foresee you have any issues following these steps - I myself did configure OTR this way a few days ago - but should you happen to find a blocker just leave a comment below.</p>
+
+<p><strong>Final note</strong></p>
+
+<p>I recommend you to check this neat directory of privacy-oriented applications and services: <a href="https://prism-break.org/en/all">Prism Break</a></p>
+
+<p>Last but no least I want to thank the guys at #freenode that helped me correct some inaccurate stuff and misbelieves about how freenode works.</p>
+
+<p>Tags: <a href='tag_irc.html'>irc</a>, <a href='tag_weechat.html'>weechat</a>, <a href='tag_privacy.html'>privacy</a>, <a href='tag_security.html'>security</a>, <a href='tag_ssl.html'>ssl</a>, <a href='tag_sasl.html'>sasl</a>, <a href='tag_otr.html'>otr</a>, <a href='tag_comms.html'>comms</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- text end -->
+<p id='twitter'><a href="https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+<!-- entry end -->
+</div>
+<div id="disqus_thread"></div>
+            <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+               var disqus_shortname = 'i90rr'; // required: replace example with your forum shortname
+
+            /* * * DONT EDIT BELOW THIS LINE * * */
+            (function() {
+            var dsq = document.createElement("script"); dsq.type = "text/javascript"; dsq.async = true;
+            dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+            (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(dsq);
+            })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<div id="footer">CC by-sa / AGPL v3+ <a href="http://www.github.com/i90rr">Martín Cigorraga</a> &mdash; <a href="mailto:gmail: i90rr&#46;i90rr">gmail: i90rr&#46;i90rr</a><br/>
+Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</div>
+</div></div>
+<script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'i90rr'; // required: replace example with your forum shortname
+
+        /* * * DONT EDIT BELOW THIS LINE * * */
+        (function () {
+        var s = document.createElement("script"); s.async = true;
+        s.type = "text/javascript";
+        s.src = "//" + disqus_shortname + ".disqus.com/count.js";
+        (document.getElementsByTagName("HEAD")[0] || document.getElementsByTagName("BODY")[0]).appendChild(s);
+    }());
+    </script>
+</body></html>

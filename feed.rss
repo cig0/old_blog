@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel><title>~# cd tuonela</title><link>https://i90rr.github.io/frontpage.html</link>
+<description>computing has ceased to be a subject of logic to become a matter of faith (@maw dixit)</description><language>en</language>
+<lastBuildDate>Mon, 03 Jul 2017 11:44:40 -0300</lastBuildDate>
+<pubDate>Mon, 03 Jul 2017 11:44:40 -0300</pubDate>
+<atom:link href="https://i90rr.github.io/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+macOS - CLI SSH key management
+</title><description><![CDATA[
+
+<p>Permanently add a key to the Keyring: <code>$ ssh-add -K _key_</code></p>
+
+<p>Save passwords into the Keyring (so the ssh client stops asking for them every time some key is used):</p>
+
+<script src="https://gist.github.com/i90rr/c36115c39c75e1351bed33d1f3d3a3b6.js"></script>
+
+<p>Tags: <a href='tag_macos.html'>macos</a>, <a href='tag_ssh.html'>ssh</a></p>
+
+
+
+
+
+<!-- text end -->
+<p id='twitter'><a href="https://i90rr.github.io/macos---cli-ssh-key-management.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/macos---cli-ssh-key-management.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/macos---cli-ssh-key-management.html</link>
+<guid>https://i90rr.github.io/./macos---cli-ssh-key-management.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Mon, 29 May 2017 06:45:19 -0300</pubDate></item>
+<item><title>
+Information Security Resources Directory
+</title><description><![CDATA[
+
+<p>At the time of writing this entry I'm still unable to find a bookmark system for web resources that doesn't suck. Because inter-browser bookmark sharing is cumbersome (at best) I will keep this post updated with the neat stuff I cross paths in my search of information on the topic.</p>
+
+<p>My goal for this post is that it can serve as a memory helper for myself as well a curated directory for anybody else looking for the same information.
+<br/>Since I already spent time looking for the information provided here I hope you won't have to :)</p>
+
+<p>As with any other directory, list or group of lists of any kind, wording and presentation of the data is hightly subjective and will vary from person to person -- let alone sorting criteria.
+<br/>Feel free to use the <code>Find...</code> function of your browser to quickly find want you're looking for.</p>
+
+<p>A quick note on how information is presented:</p>
+
+<ol>
+<li>I will try to add just the original URL/URI whenever it's possible simply because some resources are self-explanatory, like the ones from GitHub;</li>
+<li>With rather obscure endpoints I might present the linked information in an embellished form for the sake of readability. 
+<br/><br/><br/></li>
+</ol>
+
+<h4>GNU+Linux Operating Systems</h4>
+
+<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/debian-logo1.png" style="width: 180px; height: 87px">
+<br/></p>
+
+<ul>
+<li><a href="https://github.com/drduh/Debian-Privacy-Server-Guide">https://github.com/drduh/Debian-Privacy-Server-Guide</a>
+<br/><br/><br/></li>
+</ul>
+
+<h4>macOS &amp; Darwin (PureDarwin? GNU+Darwin?)</h4>
+
+<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/Mac-OS-logo1.jpeg" style="width: 170px; height: 157px">
+<br/></p>
+
+<ul>
+<li><a href="https://github.com/drduh/macOS-Security-and-Privacy-Guide">https://github.com/drduh/macOS-Security-and-Privacy-Guide</a>
+<br/><br/><br/></li>
+</ul>
+
+<h4>Miscellaneous</h4>
+
+<ul>
+<li><a href="https://github.com/drduh/config">https://github.com/drduh/config</a>: ssh, openvpn</li>
+</ul>
+
+<p>Tags: <a href='tag_infrastructure.html'>infrastructure</a>, <a href='tag_infosec.html'>infosec</a>, <a href='tag_links.html'>links</a>, <a href='tag_ssh.html'>ssh</a>, <a href='tag_vpn.html'>vpn</a>, <a href='tag_macos.html'>macos</a>, <a href='tag_debian.html'>debian</a>, <a href='tag_privacy.html'>privacy</a></p>
+
+
+
+
+
+
+
+<!-- text end -->
+<p id='twitter'><a href="https://i90rr.github.io/infosec-security-resource-directory.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/infosec-security-resource-directory.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/infosec-security-resource-directory.html</link>
+<guid>https://i90rr.github.io/./infosec-security-resource-directory.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Tue, 02 May 2017 05:03:39 -0300</pubDate></item>
+<item><title>
+Papertrail: log management right from your browser
+</title><description><![CDATA[
+
+<p><a href="https://papertrailapp.com">Papertrail</a> is a neat tool that let you access and handle your system logs right from the browser (provided you don't mind sending your logs to a third-party operator).</p>
+
+<p>Aside from the many features provided by the application for this task (via rsyslog/syslog-ng facilities), it also let you add logs from other applications or tools as well.</p>
+
+<p>Let's say I want to reach my <code>fail2ban</code> log too, I can easily send it over a secure TLS connection using the provided <a href="http://help.papertrailapp.com/kb/configuration/configuring-centralized-logging-from-text-log-files-in-unix/#remote_syslog">remote_syslog2</a> script like this:
+<br/><br/></p>
+
+<div style="display: flex; justify-content: center;">
+     <a href="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpeg">
+        <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/papertrail_ds.jpeg" style="width: 700px; height: 75px;">
+     </a> 
+</div>
+
+<p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top; font-size: small;">Click to enlarge</span></p>
+
+<p>Note: I forgot to edit the default configuration file to comment out or remove the nonexistent example file locallog.txt</p>
+
+<p>Tags: <a href='tag_logs.html'>logs</a></p>
+
+
+
+
+
+
+
+
+
+<!-- text end -->
+<p id='twitter'><a href="https://i90rr.github.io/papertrail-log-management-right-from-your-browser.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/papertrail-log-management-right-from-your-browser.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/papertrail-log-management-right-from-your-browser.html</link>
+<guid>https://i90rr.github.io/./papertrail-log-management-right-from-your-browser.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Sun, 30 Apr 2017 00:17:28 -0300</pubDate></item>
+<item><title>
+Command-line tools for IP-related stuff
+</title><description><![CDATA[
+
+<p>Note: this post will be populated over time with related content.
+<br/><br/></p>
+
+<h4>GeoIP lookup</h4>
+
+<ol>
+<li><a href="http://ipinfo.io">ipinfo.io</a>
+<ul>
+<li>curl ipinfo.io/<em>ip</em><em>_address</em> </li>
+</ul></li>
+<li>geoiplookup <em>ip</em><em>_address</em>
+<ul>
+<li><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/debian-logo.jpeg" style="width: 71px; height: 20px" vspace="-3px">: geoip-bin geoip-database geoip-contrib geoip-extra
+<br/><br/></li>
+</ul></li>
+</ol>
+
+<h4>Get external IP</h4>
+
+<ol>
+<li><a href="ifconfig.me">ifconfig.me</a>
+<ul>
+<li>curl ifconfig.me</li>
+</ul></li>
+<li><a href="https://major.io/icanhazip-com-faq/">major.io/icanhazip-com-faq</a>
+<ul>
+<li>curl icanhazip.com
+<br/><br/></li>
+</ul></li>
+</ol>
+
+<h4>Test D/L speed</h4>
+
+<ol>
+<li><a href="https://pypi.python.org/pypi/speedtest-cli">speedtest-cli</a>
+<br/><br/></li>
+</ol>
+
+<h4>Get IP for a domain</h4>
+
+<ul>
+<li>dig +short <em>ip</em><em>_address</em>
+<br/><br/></li>
+</ul>
+
+<p>Tags: <a href='tag_ip.html'>ip</a>, <a href='tag_geoip.html'>geoip</a>, <a href='tag_cli.html'>cli</a></p>
+
+
+
+
+
+
+
+
+
+<!-- text end -->
+<p id='twitter'><a href="https://i90rr.github.io/command-line-tools-for-ip-related-stuff.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/command-line-tools-for-ip-related-stuff.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/command-line-tools-for-ip-related-stuff.html</link>
+<guid>https://i90rr.github.io/./command-line-tools-for-ip-related-stuff.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Sat, 29 Apr 2017 23:05:18 -0300</pubDate></item>
+<item><title>
+No.
+</title><description><![CDATA[
+
+<p><br/></p>
+
+<p><center><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/me.jpg" ></center></p>
+
+<p><br/></p>
+
+<p>The company I work for rocks.</p>
+
+<p>Tags: <a href='tag_about.html'>about</a></p>
+
+
+
+
+
+
+
+
+
+<!-- text end -->
+<p id='twitter'><a href="https://i90rr.github.io/me.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/me.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/me.html</link>
+<guid>https://i90rr.github.io/./me.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Sat, 15 Oct 2016 21:46:35 -0300</pubDate></item>
+<item><title>
+Newly installed applications not showing up in Ubuntu 15.10 &amp; 16.04 LTS Unity Dash 
+</title><description><![CDATA[
+
+<p style="text-align: right; margin: auto;" ><small><em>Still valid as of 2016-03-18</em></small></p>
+
+<p><br>
+<a href="http://www.ubuntu.com/download">
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/logo-ubuntu_-black_orange-hex.png" style="text-align: center; margin: auto;">
+</a></p>
+
+<p><br><br>
+There's an annoying bug that prevents applications installed via a DEB file, be it either via CLI or the Ubuntu Software Center from showing up in dash after being installed.</p>
+
+<p>A bug report under the name of <strong>Newly installed applications do not show in the dash</strong> was initially filled on October 16th, 2015 (!) and despite this being a highly annoying usability breakage it has been classified since then as of 'low importance' (!!)</p>
+
+<p>The bug report can be found here: <a href="https://bugs.launchpad.net/ubuntu/+source/unity/+bug/1506744">Bug #1506744</a></p>
+
+<p>Anyhow, <a href="https://bugs.launchpad.net/ubuntu/+source/unity/+bug/1506744/comments/12">Dan Jared shares a useful workaround</a> on that ticket that solves the issue:</p>
+
+<blockquote>Kill the process /usr/bin/unity-scope-loader</blockquote>
+
+<p>HTH
+<br></p>
+
+<p>Tags: <a href='tag_ubuntu.html'>ubuntu</a>, <a href='tag_unity.html'>unity</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- text end -->
+<p id='twitter'><a href="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html</link>
+<guid>https://i90rr.github.io/./newly-installed-applications-not-showing-up-in-ubuntu-unity-dash.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Fri, 18 Mar 2016 00:01:00 -0300</pubDate></item>
+<item><title>
+Spacemacs: a quick guide for creating and managing layers
+</title><description><![CDATA[
+
+<p><br></p>
+
+<div style="margin: 0px auto; display: flex; justify-content: center;">
+     <img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/spacemacs.png" border="0">
+</div>
+
+<p><span style="margin: 0px auto; display: flex; justify-content: center; text-align: center; vertical-align: top;">Spacemacs welcome screen</span>
+<br>
+<em>Coming soon</em></p>
+
+<p>Tags: <a href='tag_spacemacs.html'>spacemacs</a>, <a href='tag_emacs.html'>emacs</a>, <a href='tag_editors.html'>editors</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- text end -->
+<p id='twitter'><a href="https://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/spacemacs-a-quick-guide-for-creating-and-managing-layers.html</link>
+<guid>https://i90rr.github.io/./spacemacs-a-quick-guide-for-creating-and-managing-layers.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Thu, 03 Mar 2016 00:01:00 -0300</pubDate></item>
+<item><title>
+Fish shell: finally, a command line shell for the 90's
+</title><description><![CDATA[
+
+<p style="text-align: center; font-size: small;">This is an old post I'm reproducing here as part of my old blog migration. Since I wrote this post<br>I changed my habits quite a bit but the article is still valid as last time I checked using Fish as the default shell<br>in my Fedora 23 system I couldn't log into the X session</p>
+
+<p style="font-size: x-large; text-align: center;">Why you shouldn't set <a href="https://www.fishshell.com">Fish</a> as the default shell
+<br><span style="font-size: large;">Tip: it's ok though to set it as your <b>primary</b> shell</span>
+</p>
+
+<p>When I decided barely a month ago to finally move from Bash to Zsh I did remember about Fish, a shell I had tried in the past but ultimately left to test later as I didn't had the time at that opportunity to dive into it the way I pretended.</p>
+
+<p>When I finally got a whole weekend for a n3rd sprint I deeply, desperately, passionately and unconditionally fell in love with Fish.</p>
+
+<p>Right straight after reading Fish's website I could sense this would be the beginning of something special, as reading about it's design argument I felt the same way as when I read about <a href="">The Arch Way</a> some years ago and fell in love with the distro.</p>
+
+<p>I believe the best way I can present this Friendly Interactive Shell is by describing it as <strong>an intelligent shell that works as an extension of the user in an organic and natural way</strong>:</p>
+
+<div class="center">
+    <img class="center" src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/11-fish-shell1.png" align="center"/>
+    <span>Screenshot taken from: http://lwn.net/images/2013/11-fish-shell.png</span>
+</div>
+
+<p><br></p>
+
+<hr />
+<p id='twitter'><a href="https://i90rr.github.io/something-fishy-happening-here.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/something-fishy-happening-here.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/something-fishy-happening-here.html</link>
+<guid>https://i90rr.github.io/./something-fishy-happening-here.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Wed, 17 Feb 2016 00:01:00 -0300</pubDate></item>
+<item><title>
+Person-to-person private communications on freenode IRC with WeeChat
+</title><description><![CDATA[
+
+<h4>Head-to-toe guide for registering an account<br>+ SASL + cloaking + SSL + OTR</h4>
+
+<p><img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/weechat.png" border="0"  align="left" style="margin-right: 17px">
+This guide shows you how to implement a private <em>person-to-person</em> communication channel in freenode <br>to safely avoid server logging of your chats.
+<br><br></p>
+
+<p><strong>Introduction</strong></p>
+
+<p>There are plenty of ways to securely chat online, however if you spend most of your time in freenode and indeed the people you chat with is there this method will help you establish a secure, private channel for a person-to-person communication. </p>
+
+<p>While this guide is focused on freenode and WeeChat it should be trivial to adapt it to other networks and clients.
+<br><br></p>
+
+<hr />
+<p id='twitter'><a href="https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</link>
+<guid>https://i90rr.github.io/./Person-to-person-private-communications-on-freenode-IRC-with-WeeChat.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Fri, 12 Feb 2016 00:01:00 -0300</pubDate></item>
+<item><title>
+Migrating collections from a mongoDB 2.6 mmap database to Percona Server for mongoDB 3.0.8 wiredTiger
+</title><description><![CDATA[
+
+<p><a href="http://www.mongodb.org">
+<img src="https://raw.githubusercontent.com/i90rr/i90rr.github.io/master/resources/img/mongodb.png" width="200" height="200" align="right" style="margin-left: 24px" vspace="1px">
+</a></p>
+
+<p>Last month I was tasked to upgrade our mongoDB infrastructure so first thing I did was to try to import a random dump to the new database - and it wasn't a straightforward process of couse, why should it be? :)</p>
+
+<p>Luckily after some debugging and the help of fellow sysadmins we could finally resolve all the issues we were facing; thereby I'm putting together this brief guide that hopefully will help you make the transition should you encounter any of the issues we had to deal with.
+<br><br></p>
+
+<hr />
+<p id='twitter'><a href="https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html"
+ data-via="_i90rr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://i90rr.github.io/migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</link>
+<guid>https://i90rr.github.io/./migrating-mongodb-26-mmap-databases-to-percona-server-mongodb-308-wiredtiger.html</guid>
+<dc:creator>Martín Cigorraga</dc:creator>
+<pubDate>Wed, 10 Feb 2016 00:01:00 -0300</pubDate></item>
+</channel></rss>

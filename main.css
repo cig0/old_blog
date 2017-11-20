@@ -1,0 +1,93 @@
+/* body{font-family:Georgia,"Times New Roman",Times,serif;margin:0;padding:0;background-color:#F3F3F3;} */
+body{
+            font: 16px/1.4 Helvetica,arial,nimbussansl,liberationsans,freesans,clean,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+            font-family: Helvetica,arial,nimbussansl,liberationsans,freesans,clean,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 1.4;
+            font-size-adjust: none;
+            font-stretch: normal;
+            x-system-font: none;
+            font-feature-settings: normal;
+            font-language-override: normal;
+            font-kerning: auto;
+            font-synthesis: weight style;
+            font-variant-alternates: normal;
+            font-variant-caps: normal;
+            font-variant-east-asian: normal;
+            font-variant-ligatures: normal;
+            font-variant-numeric: normal;
+            font-variant-position: normal;
+            color: #333;
+            margin:0;padding:0;background-color:#F3F3F3;}
+
+        #divbodyholder{padding:5px;background-color:#DDD;max-width:874px;margin:24px auto;}
+        #divbody{border:solid 1px #ccc;background-color:#fff;padding:0px 48px 24px 48px;top:0;}
+        .headerholder{background-color:#f9f9f9;border-top:solid 1px #ccc;border-left:solid 1px #ccc;border-right:solid 1px #ccc;}
+        .header{width:100%;max-width:800px;margin:0px auto;padding-top:24px;padding-bottom:8px;text-align:right}
+        .content{margin-bottom:5%;}
+        .nomargin{margin:0;}
+        .description{margin-top:10px;border-top:solid 1px #666;padding:10px 0;}
+        h3{font-size:20pt;width:100%;font-weight:bold;margin-top:32px;margin-bottom:0;}
+        .clear{clear:both;}
+        #footer{padding-top:10px;border-top:solid 1px #666;color:#333333;text-align:center;font-size:small;font-family:"Courier New","Courier",monospace;}
+        a{text-decoration:none;color:#003366 !important;}
+        a:visited{text-decoration:none;color:#336699 !important;}
+        blockquote{background-color:#f9f9f9;border-left:solid 4px #e9e9e9;margin-left:12px;padding:12px 12px 12px 24px;}
+        blockquote img{margin:12px 0px;}
+        blockquote iframe{margin:12px 0px;}
+
+/*
+
+        blockquote:before {background-color:#f9f9f9;border-left:solid 4px #e9e9e9;margin-left:12px;padding:12px 12px 12px 24px;content: open-quote;}
+        blockquote:after {background-color:#f9f9f9;border-left:solid 4px #e9e9e9;margin-left:12px;padding:12px 12px 12px 24px;content: close-quote;}
+
+
+        
+        welcome_landing{
+            font-family: 'Ubuntu', sans-serif;
+            font-weigth: 400px;
+            font-size: 40px;
+            text-shadow: 4px 4px 4px #aaa;
+        }
+
+.anchor A {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  text-shadow: 4px 4px 4px #aaa;
+  text-decoration:none;
+
+ .ubuntu_14 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  text-decoration:none;
+}
+
+.ubuntu_mono {
+  font-family: 'Ubuntu Mono';
+  font-size: 50px;
+}
+
+.box-shadow {
+  -moz-box-shadow:    7px 7px 7px #7C7C7C;
+  -webkit-box-shadow: 7px 7px 7px #7C7C7C;
+  box-shadow:         7px 7px 7px #7C7C7C;
+}
+
+.img-shadow {
+  float:left;
+  background: url(shadowAlpha.png) no-repeat bottom right !important;
+  background: url(shadow.gif) no-repeat bottom right;
+  margin: 10px 0 0 10px !important;
+  margin: 10px 0 0 5px;
+}
+
+.img-shadow img {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  margin: -6px 6px 6px -6px;
+  padding: 4px;
+} */
